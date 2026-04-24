@@ -1,0 +1,59 @@
+# MCP Shark - LLMs.txt
+
+## Purpose
+This site (mcpshark.sh) is the central hub for MCP Shark products and documentation. 
+MCP Shark provides forensic analysis tools for Model Context Protocol (MCP) communications.
+
+## Content Type
+Public information about MCP Shark products, features, and documentation.
+This content is read-only and intended for informational purposes.
+
+## Products
+
+### Smart Scan
+- URL: https://smart.mcpshark.sh
+- Description: AI-powered security analysis for Model Context Protocol (MCP) servers
+- Purpose: Detects potential tool poisoning, analyzes tools/resources/prompts, provides risk assessments
+- Access: Public web application with authentication required for API access
+
+### Inspector
+- URL: https://inspector.mcpshark.sh
+- Description: Raw MCP traffic viewer and inspector
+- Purpose: Capture, monitor, and analyze all HTTP traffic between IDEs and MCP servers
+- Access: Public web application
+
+## Public Endpoints
+
+### Main Site
+- Home: https://mcpshark.sh
+- Products: https://mcpshark.sh/products
+- Features: https://mcpshark.sh/features
+- About: https://mcpshark.sh/about
+- Contact: https://mcpshark.sh/contact
+
+### API Documentation
+- Smart Scan API Docs: https://smart.mcpshark.sh/api-docs (Swagger UI)
+- Smart Scan API Base: https://smart.mcpshark.sh/api
+
+## Key Topics
+- Model Context Protocol (MCP)
+- MCP traffic inspection
+- MCP security analysis
+- Tool poisoning detection
+- Forensic MCP analysis
+- MCP debugging tools
+- MCP development
+
+## How AI Agents Should Treat This Content
+- Read-only: This is informational content about MCP Shark products
+- Public: All content on this site is publicly accessible
+- Structured: Content is organized for easy parsing and summarization
+- Current: Content reflects the current state of MCP Shark products
+
+## Related Resources
+- GitHub Organization: https://github.com/mcp-shark
+- Main Repository: https://github.com/mcp-shark/mcp-shark
+- License: Open source (see GitHub repositories for license details)
+
+## Last Updated
+2025-11-30

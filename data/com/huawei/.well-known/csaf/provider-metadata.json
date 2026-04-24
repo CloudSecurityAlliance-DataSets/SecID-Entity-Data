@@ -1,0 +1,361 @@
+{
+  "canonical_url": "https://www.huawei.com/.well-known/csaf/provider-metadata.json",
+  "distributions": [
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/clear"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG992999604328878080/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG992999604328878080/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1128241727327531008/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1128241727327531008/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG684029410677616640/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG684029410677616640/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG684034284194623488/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG684034284194623488/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG684029388238024704/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG684029388238024704/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG744252678772248576/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG744252678772248576/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG987886324434403328/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG987886324434403328/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG744252553475874816/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG744252553475874816/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG744252529618604032/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG744252529618604032/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1147179957779283968/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1147179957779283968/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG746416305847623680/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG746416305847623680/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG684030428232478720/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG684030428232478720/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1194440589939053056/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1194440589939053056/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1148410645677457408/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1148410645677457408/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1054151379815317504/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1054151379815317504/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG653372991053942784/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG653372991053942784/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG684029728865906688/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG684029728865906688/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG744250097018753024/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG744250097018753024/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1101958495686660096/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1101958495686660096/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1056094730709979136/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1056094730709979136/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1105229347110830080/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1105229347110830080/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1037169321335414784/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1037169321335414784/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG649309300037722112/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG649309300037722112/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG684034174937133056/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG684034174937133056/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1157887777004638208/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1157887777004638208/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1036004178496937984/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1036004178496937984/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG641126170256703488/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG641126170256703488/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG781541807750860800/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG781541807750860800/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1178101600521125888/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1178101600521125888/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1084790277977272320/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1084790277977272320/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1072246199632863232/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1072246199632863232/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1176268822406074368/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1176268822406074368/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1036777589649215488/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1036777589649215488/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1180640261720604672/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1180640261720604672/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG739537043865690112/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG739537043865690112/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG684368808304701440/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG684368808304701440/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG684030357545938944/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG684030357545938944/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG739537204239097856/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG739537204239097856/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG739537239840387072/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG739537239840387072/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG747520238934446080/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG747520238934446080/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG684034201495531520/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG684034201495531520/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG739537275529682944/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG739537275529682944/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG739537580082290688/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG739537580082290688/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1180130911889489920/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1180130911889489920/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG684030336859566080/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG684030336859566080/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1144970830038458368/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1144970830038458368/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1092161744771518464/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1092161744771518464/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG896153402451038208/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG896153402451038208/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1211536101724923904/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1211536101724923904/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG684030486373920768/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG684030486373920768/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1140853729916928000/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1140853729916928000/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1167983667950215168/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1167983667950215168/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG684030465402400768/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG684030465402400768/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1208545871304599552/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG1208545871304599552/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG933068824152547328/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG933068824152547328/zh"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG932704385280659456/en"
+    },
+    {
+      "directory_url": "https://securitybulletin.huawei.com/.well-known/csaf/security-advisory/carrier/SG932704385280659456/zh"
+    }
+  ],
+  "last_updated": "2026-04-22T16:43:57+08:00",
+  "list_on_CSAF_aggregators": true,
+  "metadata_version": "2.0",
+  "mirror_on_CSAF_aggregators": false,
+  "public_openpgp_keys": [
+    {
+      "fingerprint": "634aa0d8ce64ba25dd88f75759929675ee1d8838",
+      "url": "https://securitybulletin.huawei.com/.well-known/openpgp/Huawei_PSIRT_CSAF_PGP_Public_Key_2024.asc"
+    }
+  ],
+  "publisher": {
+    "category": "vendor",
+    "name": "Huawei PSIRT",
+    "contact_details": "psirt@huawei.com",
+    "namespace": "https://www.huawei.com"
+  },
+  "role": "csaf_trusted_provider"
+}

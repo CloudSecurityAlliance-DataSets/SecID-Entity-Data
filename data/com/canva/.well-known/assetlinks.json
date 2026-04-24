@@ -1,0 +1,56 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.canva.editor",
+      "sha256_cert_fingerprints": [
+        "F3:64:EB:F2:D1:08:CE:72:FE:C2:0A:4D:B7:A5:B0:BC:EF:4D:00:22:20:07:5D:07:45:02:85:B7:C7:E6:FB:4D"
+      ]
+    }
+  },
+    {
+      "relation": [
+        "delegate_permission/common.handle_all_urls",
+        "delegate_permission/common.get_login_creds"
+      ],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.canva.editor.samsung",
+        "sha256_cert_fingerprints": [
+          "F3:64:EB:F2:D1:08:CE:72:FE:C2:0A:4D:B7:A5:B0:BC:EF:4D:00:22:20:07:5D:07:45:02:85:B7:C7:E6:FB:4D"
+        ]
+      }
+    },
+    {
+      "relation": [
+        "delegate_permission/common.handle_all_urls",
+        "delegate_permission/common.get_login_creds"
+      ],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.canva.editor.dev",
+        "sha256_cert_fingerprints": [
+          "5C:A1:DD:AC:05:27:40:80:80:A2:69:F8:C7:F1:7E:AD:32:A8:07:9E:6C:7F:56:6B:22:92:43:2B:7B:C8:9A:7E"
+        ]
+      }
+    },
+    {
+      "relation": [
+        "delegate_permission/common.handle_all_urls",
+        "delegate_permission/common.get_login_creds"
+      ],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.canva.editor.debug",
+        "sha256_cert_fingerprints": [
+          "FF:3C:5F:2E:BF:2E:17:43:2E:2E:90:D7:87:74:A9:A2:F4:6C:59:EF:65:25:92:A5:D3:11:72:E0:07:94:AC:AC",
+          "87:9B:85:6F:91:AC:95:69:29:4F:A0:2E:A0:CC:42:27:7F:C9:B7:BB:97:69:B3:BC:52:61:AA:85:48:C2:5B:D8",
+          "87:A2:EF:AC:24:5F:F5:2B:0C:6A:E5:7C:82:E7:6D:26:15:9A:85:43:C8:8D:43:E7:E7:17:98:91:F1:CB:E8:99"
+        ]
+      }
+    }
+  ]

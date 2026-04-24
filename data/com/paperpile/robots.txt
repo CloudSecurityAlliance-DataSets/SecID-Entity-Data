@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /login
+Disallow: /logout
+Disallow: /reauthorize
+Disallow: /auth/oauth
+Disallow: /app
+Disallow: /app/
+Disallow: /ajax/
+Disallow: /scratch
+Disallow: /shared/
+Disallow: /view/
+
+Sitemap: https://paperpile.com/sitemap.xml

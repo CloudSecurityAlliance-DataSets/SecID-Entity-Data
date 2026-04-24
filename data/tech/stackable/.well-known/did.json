@@ -1,0 +1,38 @@
+{
+    "assertionMethod": [
+        "did:web:stackable.tech#f220deed3cfb477a8e41d3f38033229c",
+        "did:web:stackable.tech#stackable-tsa-signer"
+    ],
+    "authentication": [
+        "did:web:stackable.tech#f220deed3cfb477a8e41d3f38033229c",
+        "did:web:stackable.tech#stackable-tsa-signer"
+    ],
+    "@context": "https://www.w3.org/ns/did/v1",
+    "id": "did:web:stackable.tech",
+    "verificationMethod": [
+        {
+            "controller": "did:web:stackable.tech",
+            "id": "did:web:stackable.tech#f220deed3cfb477a8e41d3f38033229c",
+            "publicKeyJwk": {
+                "alg": "EdDSA",
+                "crv": "Ed25519",
+                "kid": "f220deed3cfb477a8e41d3f38033229c",
+                "kty": "OKP",
+                "use": "sig",
+                "x": "qPKPGBchjXqyJTJj0myi5uGskXflCt-bE5yKuzPyOeA"
+            },
+            "type": "Ed25519VerificationKey2019"
+        },
+        {
+            "id": "did:web:stackable.tech#stackable-tsa-signer",
+            "type": "JsonWebKey2020",
+            "controller": "did:web:stackable.tech",
+            "publicKeyJwk": {
+                "kty": "OKP",
+                "kid": "stackable-tsa-signer",
+                "crv": "Ed25519",
+                "x": "JfMM-qlZCrhYAWhJZofmbnXVU-ngLh1CMDTEMpcBNKw"
+            }
+        }
+    ]
+}

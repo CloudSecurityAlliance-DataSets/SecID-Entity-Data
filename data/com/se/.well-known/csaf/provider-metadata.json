@@ -1,0 +1,29 @@
+{
+  "canonical_url": "https://www.se.com/.well-known/csaf/provider-metadata.json",
+  "distributions": [
+    {
+      "directory_url": "https://www.se.com/.well-known/csaf/"
+    }
+  ],
+  "last_updated": "2025-11-20T05:00:00Z",
+  "list_on_CSAF_aggregators": true,
+  "metadata_version": "2.0",
+  "mirror_on_CSAF_aggregators": false,
+  "public_openpgp_keys": [
+    {
+      "fingerprint": "1917BD57E2B2C97E5257DACB804AD6385567E958",
+      "url": "https://www.se.com/files?p_enDocType=Security+and+Safety+Notice&p_Doc_Ref=PGPCPCERTV2&p_FileName=PGPCPCERTv2.asc"
+    },
+    {
+      "fingerprint": "E38F0E4A85418B5320A7D84F82332C33CF9F652C",
+      "url": "https://www.se.com/files?p_enDocType=Security+and+Safety+Notice&p_Doc_Ref=PGPCPCERTV1&p_FileName=PGPCPCERTv1.asc"
+    }
+  ],
+  "publisher": {
+    "category": "vendor",
+    "name": "Schneider Electric CPCERT",
+    "contact_details": "cpcert@se.com",
+    "namespace": "https://www.se.com/ww/en"
+  },
+  "role": "csaf_trusted_provider"
+}

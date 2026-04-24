@@ -3788,7 +3788,7 @@
  </url>
  <url>
   <loc>https://www.knime.com/blog/is-your-data-real-or-really-good-fiction</loc>
-  <lastmod>2025-11-05T15:04:58+00:00</lastmod>
+  <lastmod>2026-04-23T13:41:37+00:00</lastmod>
   <priority>0.5</priority>
  </url>
  <url>
@@ -3812,8 +3812,8 @@
   <priority>0.5</priority>
  </url>
  <url>
-  <loc>https://www.knime.com/blog/4-data-quality-real-power-behind-ai</loc>
-  <lastmod>2025-12-03T12:09:43+00:00</lastmod>
+  <loc>https://www.knime.com/blog/data-quality-real-power-behind-ai</loc>
+  <lastmod>2026-04-23T13:40:40+00:00</lastmod>
   <priority>0.5</priority>
  </url>
  <url>
@@ -3837,8 +3837,8 @@
   <priority>0.5</priority>
  </url>
  <url>
-  <loc>https://www.knime.com/blog/5-lets-talk-ai-bias</loc>
-  <lastmod>2025-12-01T13:51:30+00:00</lastmod>
+  <loc>https://www.knime.com/blog/lets-talk-ai-bias</loc>
+  <lastmod>2026-04-23T13:41:06+00:00</lastmod>
   <priority>0.5</priority>
  </url>
  <url>
@@ -3852,8 +3852,8 @@
   <priority>0.5</priority>
  </url>
  <url>
-  <loc>https://www.knime.com/blog/6-when-numbers-dont-speak-themselves</loc>
-  <lastmod>2026-01-26T10:20:46+00:00</lastmod>
+  <loc>https://www.knime.com/blog/when-numbers-dont-speak-themselves</loc>
+  <lastmod>2026-04-23T13:40:13+00:00</lastmod>
   <priority>0.5</priority>
  </url>
  <url>
@@ -3862,8 +3862,8 @@
   <priority>0.5</priority>
  </url>
  <url>
-  <loc>https://www.knime.com/blog/7-data-science-delicious-baking-edition</loc>
-  <lastmod>2026-02-06T17:23:09+00:00</lastmod>
+  <loc>https://www.knime.com/blog/data-science-delicious-baking-edition</loc>
+  <lastmod>2026-04-23T13:38:11+00:00</lastmod>
   <priority>0.5</priority>
  </url>
  <url>
@@ -3877,8 +3877,8 @@
   <priority>0.5</priority>
  </url>
  <url>
-  <loc>https://www.knime.com/blog/8-probability-vs-likelihood-whats-difference</loc>
-  <lastmod>2026-02-06T17:13:09+00:00</lastmod>
+  <loc>https://www.knime.com/blog/probability-vs-likelihood-whats-difference</loc>
+  <lastmod>2026-04-23T13:38:43+00:00</lastmod>
   <priority>0.5</priority>
  </url>
  <url>
@@ -3887,8 +3887,8 @@
   <priority>0.5</priority>
  </url>
  <url>
-  <loc>https://www.knime.com/blog/9-logistic-regression-explained-1-minute</loc>
-  <lastmod>2026-01-29T14:37:21+00:00</lastmod>
+  <loc>https://www.knime.com/blog/logistic-regression-explained-1-minute</loc>
+  <lastmod>2026-04-23T13:39:42+00:00</lastmod>
   <priority>0.5</priority>
  </url>
  <url>
@@ -3897,13 +3897,13 @@
   <priority>0.5</priority>
  </url>
  <url>
-  <loc>https://www.knime.com/blog/10-how-k-means-clustering-works</loc>
-  <lastmod>2026-02-06T17:01:30+00:00</lastmod>
+  <loc>https://www.knime.com/blog/how-k-means-clustering-works</loc>
+  <lastmod>2026-04-23T13:39:12+00:00</lastmod>
   <priority>0.5</priority>
  </url>
  <url>
   <loc>https://www.knime.com/blog/correlation-vs-causation</loc>
-  <lastmod>2026-03-11T10:18:59+00:00</lastmod>
+  <lastmod>2026-04-23T13:37:46+00:00</lastmod>
   <priority>0.5</priority>
  </url>
  <url>
@@ -3927,8 +3927,8 @@
   <priority>0.5</priority>
  </url>
  <url>
-  <loc>https://www.knime.com/blog/12-what-does-inference-mean-why-it-matters</loc>
-  <lastmod>2026-03-13T12:35:57+00:00</lastmod>
+  <loc>https://www.knime.com/blog/what-does-inference-mean-why-it-matters</loc>
+  <lastmod>2026-04-23T13:37:02+00:00</lastmod>
   <priority>0.5</priority>
  </url>
  <url>
@@ -3943,7 +3943,7 @@
  </url>
  <url>
   <loc>https://www.knime.com/blog/understanding-overfitting</loc>
-  <lastmod>2026-03-31T11:34:51+00:00</lastmod>
+  <lastmod>2026-04-23T13:36:20+00:00</lastmod>
   <priority>0.5</priority>
  </url>
  <url>
@@ -3958,12 +3958,17 @@
  </url>
  <url>
   <loc>https://www.knime.com/blog/time-series-analysis-reading-story-hidden-sequential-data</loc>
-  <lastmod>2026-04-08T17:39:09+00:00</lastmod>
+  <lastmod>2026-04-23T12:16:48+00:00</lastmod>
   <priority>0.5</priority>
  </url>
  <url>
   <loc>https://www.knime.com/blog/predictive-analytics-supply-chain-practical-guide</loc>
   <lastmod>2026-04-22T14:36:15+00:00</lastmod>
+  <priority>0.5</priority>
+ </url>
+ <url>
+  <loc>https://www.knime.com/blog/what-is-explainable-ai</loc>
+  <lastmod>2026-04-23T12:18:00+00:00</lastmod>
   <priority>0.5</priority>
  </url>
  <url>
@@ -7164,7 +7169,7 @@
  </url>
  <url>
   <loc>https://www.knime.com/success-story/how-tofas-automated-quality-control-and-predictive-maintenance-with-knime</loc>
-  <lastmod>2025-07-22T09:52:44+00:00</lastmod>
+  <lastmod>2026-04-23T13:36:57+00:00</lastmod>
   <priority>0.5</priority>
  </url>
  <url>
@@ -7670,6 +7675,21 @@
  <url>
   <loc>https://www.knime.com/templates/supply-chain-views-different-professionals</loc>
   <lastmod>2026-04-07T09:23:51+00:00</lastmod>
+  <priority>0.5</priority>
+ </url>
+ <url>
+  <loc>https://www.knime.com/templates/inventory-optimization-and-scenario-simulation</loc>
+  <lastmod>2026-04-23T14:00:27+00:00</lastmod>
+  <priority>0.5</priority>
+ </url>
+ <url>
+  <loc>https://www.knime.com/templates/how-load-combine-and-explore-data</loc>
+  <lastmod>2026-04-23T14:06:55+00:00</lastmod>
+  <priority>0.5</priority>
+ </url>
+ <url>
+  <loc>https://www.knime.com/templates/how-build-component-composite-view</loc>
+  <lastmod>2026-04-23T14:12:35+00:00</lastmod>
   <priority>0.5</priority>
  </url>
 </urlset>

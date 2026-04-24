@@ -37,6 +37,7 @@
 - [Calico Ingress Gateway](https://www.tigera.io/tigera-products/ingress-gateway/)
 
 ## Guides
+- [AI Agent Security Providers](https://www.tigera.io/learn/guides/llm-security/ai-agent-security-providers/): AI agent security providers specialize in securing, monitoring, and governing autonomous AI agents to prevent risks like data leakage, prompt injection, and unauthorized API usage. As these agents become more prevalent, they create new, complex attack surfaces requiring specialized protection.
 - [Kubernetes 101](https://www.tigera.io/learn/guides/kubernetes-101/): Kubernetes is an open source platform for managing containers at large scale, commonly used to manage workloads in cloud environments. It is managed by the CNCF.
 - [eBPF Kubernetes](https://www.tigera.io/learn/guides/ebpf/ebpf-kubernetes/): eBPF is a Linux kernel tech that runs bytecode in-kernel for low-level tracing, monitoring, and security, improving performance and flexibility.
 - [Kubernetes Costs](https://www.tigera.io/learn/guides/kubernetes-monitoring/kubernetes-costs/): Kubernetes cost management is the practice of monitoring, controlling, and optimizing expenses incurred by running workloads on Kubernetes clusters.

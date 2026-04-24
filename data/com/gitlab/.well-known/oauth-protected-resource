@@ -1,0 +1,1 @@
+{"resource":["https://gitlab.com/api/v4/mcp","https://gitlab.com/api/v4/orbit/mcp"],"authorization_servers":["https://gitlab.com"],"scopes_supported":["mcp","mcp_orbit"]}

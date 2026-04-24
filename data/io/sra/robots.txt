@@ -1,0 +1,13 @@
+Sitemap: https://sra.io/sitemap.xml
+Sitemap: https://sra.io/news-sitemap.xml
+User-agent: *
+Disallow: /wp-content/uploads/wpo/wpo-plugins-tables-list.json
+
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow:
+
+Sitemap: https://sra.io/sitemap_index.xml
+# ---------------------------
+# END YOAST BLOCK

@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.adobe.creativeapps.gather",
+    "sha256_cert_fingerprints":
+    ["1F:6F:C3:88:67:AC:B7:C7:06:92:5C:6D:23:33:30:77:26:4A:58:3B:D9:2B:03:53:39:64:31:DC:A8:37:BB:96"]
+  }
+}]

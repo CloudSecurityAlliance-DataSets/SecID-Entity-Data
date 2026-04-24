@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/x-icon" />
+		<!-- matomo -->
+		<script>
+			var _paq = (window._paq = window._paq || []);
+			_paq.push(['disableCookies']);
+			_paq.push(['enableLinkTracking']);
+			(function () {
+				var u = 'https://internetcomputer.matomo.cloud/';
+				_paq.push(['setTrackerUrl', u + 'matomo.php']);
+				_paq.push(['setSiteId', '2']);
+				var d = document,
+					g = d.createElement('script'),
+					s = d.getElementsByTagName('script')[0];
+				g.async = true;
+				g.src = '//cdn.matomo.cloud/internetcomputer.matomo.cloud/matomo.js';
+				s.parentNode.insertBefore(g, s);
+			})();
+		</script>
+		
+		<link href="./_app/immutable/assets/0.daa2aafb.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/10.571767bd.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/Spinner.e58fffe6.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.46e3e148.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.807d4c7d.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.2afc3ab2.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/control.f5b05b5f.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.5f1b311a.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.5c377b46.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/IconExternalLink.85e54e48.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.0ce3d48e.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/10.c326d373.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Job.942d68fa.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/MetaTags.6dae6569.js"><title>The DFINITY Foundation</title><!-- HEAD_svelte-fbhf1c_START --><meta name="description" content="The DFINITY Foundation develops the Internet Computer, a tamperproof frontier cloud for applications and AI agents. Founded 2016, Switzerland. 1,600+ research publications."><meta property="og:url" content="https://dfinity.org/"><meta property="og:type" content="website"><meta property="og:title" content="The DFINITY Foundation"><meta property="og:description" content="The DFINITY Foundation develops the Internet Computer, a tamperproof frontier cloud for applications and AI agents. Founded 2016, Switzerland. 1,600+ research publications."><meta property="og:image" content="https://dfinity.org/img/share-home.jpg"><meta name="twitter:card" content="summary_large_image"><meta property="twitter:domain" content="dfinity.org"><meta property="twitter:url" content="https://dfinity.org/"><meta name="twitter:title" content="The DFINITY Foundation"><meta name="twitter:description" content="The DFINITY Foundation develops the Internet Computer, a tamperproof frontier cloud for applications and AI agents. Founded 2016, Switzerland. 1,600+ research publications."><meta name="twitter:image" content="https://dfinity.org/img/share-home.jpg"><!-- HEAD_svelte-fbhf1c_END -->
+	</head>
+	<body>
+		
+
+
+<div data-theme="light" class=""><div class="max-w-page-10/12 px-8 mx-auto xl:px-0 py-6 md:py-0 flex flex-row justify-between items-center md:h-16 lg:h-30 bg-white"><a href="/"><svg viewBox="0 0 201 28" fill="none" class="h-7 lg:w-auto mb-0 block" xmlns="http://www.w3.org/2000/svg"><path d="M41.7054 0.5C38.6285 0.5 35.2721 2.13912 31.7293 5.37053C30.0511 6.89259 28.5827 8.53171 27.5105 9.84301C27.5105 9.84301 29.2353 11.7865 31.1233 13.8706C32.1489 12.6061 33.6173 10.8967 35.3187 9.35127C38.4653 6.47109 40.5163 5.8857 41.7054 5.8857C46.1337 5.8857 49.7232 9.51515 49.7232 14.0111C49.7232 18.4602 46.1337 22.0895 41.7054 22.1364C41.4952 22.1364 41.2388 22.113 40.9359 22.0428C42.2177 22.6282 43.6163 23.0497 44.9217 23.0497C53.0327 23.0497 54.6174 17.5703 54.7107 17.1721C54.9437 16.1653 55.0839 15.1116 55.0839 14.0345C55.0605 6.56473 49.0705 0.5 41.7054 0.5Z" fill="url(#paint0_linear_31_8726)"></path><path d="M13.3788 27.5001C16.4555 27.5001 19.8117 25.8609 23.3545 22.6296C25.0327 21.1074 26.5011 19.4684 27.5733 18.157C27.5733 18.157 25.8485 16.2135 23.9606 14.1295C22.935 15.394 21.4666 17.1033 19.7651 18.6488C16.6186 21.5056 14.5441 22.1144 13.3788 22.1144C8.95023 22.1144 5.3608 18.4849 5.3608 13.989C5.3608 9.53995 8.95023 5.91051 13.3788 5.86366C13.5885 5.86366 13.8448 5.88706 14.1479 5.9573C12.866 5.37192 11.4675 4.95044 10.1623 4.95044C2.05109 4.95044 0.466125 10.4298 0.372924 10.8279C0.13986 11.8348 0 12.8885 0 13.9656C0 21.4354 5.99014 27.5001 13.3788 27.5001Z" fill="url(#paint1_linear_31_8726)"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M19.5459 9.46836C18.6603 8.62535 14.325 5.1832 10.1762 5.06612C2.78267 4.88441 0.609276 10.1453 0.42189 10.8238C1.83809 4.92444 7.11701 0.523351 13.3927 0.5C18.5088 0.5 23.6788 5.40995 27.4987 9.84115C27.505 9.8337 27.5109 9.82645 27.5169 9.81947C27.5169 9.81947 29.2415 11.763 31.1295 13.847C31.1295 13.847 33.2738 16.3292 35.558 18.5068C36.4438 19.3498 40.7556 22.7451 44.9044 22.8623C52.503 23.073 54.6008 17.5234 54.717 17.1018C53.319 23.0262 48.0279 27.4517 41.7345 27.4751C36.6169 27.4751 31.445 22.5619 27.609 18.1296C27.6014 18.1386 27.5941 18.1474 27.5872 18.1558C27.5872 18.1558 25.8625 16.2122 23.9745 14.1282C23.9745 14.1282 21.8301 11.646 19.5459 9.46836Z" fill="#29ABE2"></path><g fill="#0e031f"><path d="M199.595 7.29012C199.992 7.29012 200.268 7.44923 200.428 7.72789C200.507 7.88699 200.624 8.20537 200.309 8.64313L195.714 15.6477V20.4234C195.714 21.0601 195.318 21.458 194.683 21.458H194.05C193.416 21.458 193.019 21.0601 193.019 20.4234V15.6477L188.384 8.64313C188.108 8.16565 188.185 7.84727 188.265 7.68801C188.384 7.40951 188.702 7.25024 189.099 7.25024H189.93C190.445 7.25024 190.8 7.44923 191.038 7.88699L194.326 13.1802L197.655 7.88699C197.892 7.48911 198.248 7.29012 198.763 7.29012H199.595Z"></path><path d="M106.551 7.29126H99.3408C98.7071 7.29126 98.3113 7.68923 98.3113 8.32596V20.4643C98.3113 21.1011 98.7071 21.4991 99.3408 21.4991H99.9745C100.609 21.4991 101.005 21.1011 101.005 20.4643V15.6884H105.719C106.353 15.6884 106.749 15.2508 106.749 14.6538V14.3752C106.749 13.7384 106.353 13.3404 105.719 13.3404H101.005V9.59946H106.551C107.184 9.59946 107.581 9.2015 107.581 8.56476V8.28617C107.581 7.68921 107.184 7.29126 106.551 7.29126Z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M81.0289 7.29272H77.345C76.7105 7.29272 76.3146 7.69068 76.3146 8.32743V20.4658C76.3146 21.1025 76.7105 21.5006 77.345 21.5006H81.068C85.3466 21.5006 88.3179 18.5954 88.3179 14.4166C88.278 10.2378 85.3067 7.29272 81.0289 7.29272ZM85.5445 14.3767C85.5445 17.1625 83.6825 19.1127 80.9891 19.1127H79.0082V9.60092H80.9891C83.6825 9.6408 85.5445 11.5909 85.5445 14.3767Z"></path><path d="M120.183 7.29126H120.818C121.451 7.29126 121.847 7.68923 121.847 8.32596V20.4643C121.847 21.1011 121.451 21.4991 120.818 21.4991H120.183C119.549 21.4991 119.154 21.1011 119.154 20.4643V8.32596C119.154 7.68923 119.549 7.29126 120.183 7.29126Z"></path><path d="M143.648 7.29272H143.015C142.381 7.29272 141.984 7.6907 141.984 8.32743V16.4063L135.686 7.8498C135.409 7.45183 135.052 7.29272 134.576 7.29272H134.3C133.666 7.29272 133.269 7.6907 133.269 8.32743V20.4658C133.269 21.1025 133.666 21.5006 134.3 21.5006H134.933C135.567 21.5006 135.964 21.1025 135.964 20.4658V12.347L142.262 20.9435C142.539 21.3412 142.896 21.5006 143.371 21.5006H143.648C144.282 21.5006 144.679 21.1025 144.679 20.4658V8.32743C144.679 7.6907 144.282 7.29272 143.648 7.29272Z"></path><path d="M157.116 7.29126H157.75C158.345 7.29126 158.781 7.68923 158.781 8.32596V20.4643C158.781 21.1011 158.384 21.4991 157.75 21.4991H157.116C156.484 21.4991 156.086 21.1011 156.086 20.4643V8.32596C156.086 7.68923 156.484 7.29126 157.116 7.29126Z"></path><path d="M179.702 7.29126H170.194C169.601 7.29126 169.165 7.68923 169.165 8.32596V8.60455C169.165 9.2015 169.56 9.63927 170.194 9.63927H173.602V20.4643C173.602 21.1011 173.997 21.4991 174.631 21.4991H175.265C175.899 21.4991 176.295 21.1011 176.295 20.4643V9.63927H179.702C180.336 9.63927 180.731 9.24129 180.731 8.60455V8.32596C180.731 7.68923 180.336 7.29126 179.702 7.29126Z"></path></g><defs><linearGradient id="paint0_linear_31_8726" x1="34.6882" y1="5.54181" x2="50.0467" y2="21.3569" gradientUnits="userSpaceOnUse"><stop offset="0.21" stop-color="#F15A24"></stop><stop offset="0.6841" stop-color="#FBB03B"></stop></linearGradient><linearGradient id="paint1_linear_31_8726" x1="20.3806" y1="22.4515" x2="5.02205" y2="6.6364" gradientUnits="userSpaceOnUse"><stop offset="0.21" stop-color="#ED1E79"></stop><stop offset="0.8929" stop-color="#522785"></stop></linearGradient></defs></svg></a>
+		<button class="flex md:hidden flex-col h-8 w-8 gap-2 justify-center items-stretch outline-2 outline-offset-2"><span class="block h-[2px] bg-black/100 "></span>
+			<span class="block h-[2px] bg-black/100 "></span>
+			<span class="block h-[2px] bg-black/100 "></span></button>
+		<nav class="hidden md:flex gap-5 md:gap-12 h-11 items-center"><a href="/alliance" class="caption lg:heading-6 hover:text-orange transition-colors ">ICP Alliance</a><a href="/grants-overview" class="caption lg:heading-6 hover:text-orange transition-colors ">Grants</a><a href="/hackathons" class="caption lg:heading-6 hover:text-orange transition-colors ">Hackathons</a><a href="https://internetcomputer.org/events" class="caption lg:heading-6 hover:text-orange transition-colors ">Events &amp; News</a><a href="/about" class="caption lg:heading-6 hover:text-orange transition-colors ">Jobs</a></nav>
+		
+		</div>
+
+	<main>
+
+<section class="max-w-page-8/12 px-8 mx-auto mt-16 mb-24 lg:mt-30 lg:mb-60"><h1 class="heading-4 lg:heading-2 mb-12">The DFINITY Foundation builds the Internet Computer: a tamperproof frontier cloud where AI agents
+		write, deploy, and run applications.
+	</h1>
+
+	<div class="flex flex-col lg:flex-row gap-8 lg:gap-16 items-start lg:items-center"><a href="https://internetcomputer.org" class="button" target="_blank" rel="noopener noreferrer">Learn about the Internet Computer
+			<svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg" class=""><path d="M14 3.5V12.0661H11.8585V7.1545L3.51405 15.5L2 13.9859L10.3434 5.64152H5.43393V3.5H14Z" fill="currentColor"></path></svg></a>
+		<a href="/#team" class="link">Get to know our team</a></div></section>
+
+<section class="max-w-page mx-auto px-8 flex flex-col gap-14 md:gap-0 md:flex-row justify-between mb-20 md:mb-40"><div class="md:ml-2/12 flex flex-col gap-10 md:gap-12"><dl><dt class="heading-7 lg:heading-6">Employee Publications</dt><dd class="heading-4 lg:heading-3">1600+</dd></dl>
+		<dl><dt class="heading-6">Citations</dt><dd class="heading-4 lg:heading-3">100,000+</dd></dl>
+		<dl><dt class="heading-6">Employee Patents</dt><dd class="heading-4 lg:heading-3">250+</dd></dl></div>
+	<div class="md:w-6/12 heading-5 lg:heading-3 md:mr-1/12">We are a Swiss-based not-for-profit organization with the world&#39;s largest R&amp;D team dedicated to advanced cryptography and distributed systems research.
+		<div class=""><a href="/scientific-publications" class="link">See publications &amp; presentations</a></div></div></section>
+
+<section class="relative team flex items-start lg:gap-30 2xl:ml-[calc((100vw-1440px)/2)] mb-30 lg:mb-80" id="team"><h2 class="vertical top-6 sticky heading-4 lg:heading-2 inline-block leading-[16.6vw] w-2/12 lg:w-30 whitespace-nowrap">180+ team members
+	</h2>
+	<div class="flex-1"><div class="grid grid-cols-5 lg:grid-cols-10 relative team-grid svelte-19yis1g"><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/2dOEwaQqHuuWKUK6WOCuka/0756d509aa3e122bbc63b8d5db9d4025/dom-pic.jpg?w=200" alt="Dominic Williams"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/6CndqztZ4R3JtDofqevjw8/dcd861de91f3936cd4ae0123eb053332/Josh_Drake_2_square.png?w=200" alt="Josh Drake"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/456H2evesr36t3vTLCMp7r/1bd9c765ccca75665c2789a37961b8f8/Pierre.jpg?w=200" alt="Pierre Samaties"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/7jltpaWiUXyJyUbeI4XccN/953976b78790abd0670a500a17bd715b/Riccardo_.jpeg?w=200" alt="Riccardo Coli"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/2Wmsd9pbc4JTC0yB37l9Mw/5cbb0e7cf17f0701ac2f0b1fae98f3bf/Juliana_Che_Square.jpeg?w=200" alt="Juliana Che"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/4vJ5dkh0CsbkNrY04nXrY6/e83be242a99818b285ff8d25e7a056c6/BjornT.jpg?w=200" alt="Björn Tackmann"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/35Pkg90tctuZnGZ2mVow3a/b55033a3fc49f1ab9265046c29039b0b/kepler.jpg?w=200" alt="Kepler Vital"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/6YCTSBWi9ptcDhoMM3NG8K/9526395f3e22241f9790d8460f53cb63/StephanieInderbitzin.jpeg?w=200" alt="Stephanie Inderbitzin"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/227qKh4y0brelday3f0J1X/4e1f3b61e4ba0dc320d89245d145fb07/Lomesh.jpg?w=200" alt="Lomesh Dutta"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/66lPkx13DUvkAmkpFYkSCk/ab39ad5ca493493c22b36168f22b940a/Mamiko.jpegSquare.jpeg?w=200" alt="Mamiko Inoue"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/3sp4IYhRaEUUSKSA0YyWGg/b382c45d9afd4893dc470ace69c242c5/manu.jpg?w=200" alt="Manu Drijvers"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/5rhWrL9QKAQeK2Wa2yo0Q4/04d5356cde51f7afe087facd452a1615/maria.jpg?w=200" alt="Maria Dubovitskaya"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/6QgwpG0UQvpv0uTzDM09vV/631cb062ab06d8d602ac0f16f94636b6/tracy-trachsler.jpg?w=200" alt="Tracy Trachsler"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/5nkypeI6Hu8WSccAq4mceY/ef43d6734b2774a8c1ea5a708e7ecab7/paul.jpg?w=200" alt="Paul Liu"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/527ExEDAckhq0HY0AhEHbW/32dccfee0566593395bcb4db7761dc69/bjorn_assmann.jpeg?w=200" alt="Björn Assmann"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/7CboNfMF6wgsiDuinuGwXN/e650d063b7a8f68fe1e2f57754e8694b/Ryan_Newman_1_square.png?w=200" alt="Ryan Newman"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/7G6f8BkHtZi6DTOmgIE7la/ac5953486668ca939f74c37160fba8ed/ianblenke.jpeg?w=200" alt="Ian Blenke"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/72wtqE38iVdRu5RFC1QdTf/692d5c50b896865bffec4decd72eb28b/maurice-messinger.jpg?w=200" alt="Maurice Messinger"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/1gFyJWFxAWcNZLsfRWNdOe/6375ca1b8e00fec448570c3f8e2d8933/Angelo_Adam.jpeg?w=200" alt="Angelo Adam"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/2mIkiZRSuHkqSOiDTWZH2y/ac704d84582982595e0c0e5ef244dc54/vero.jpg?w=200" alt="Veronica Aliaga"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/6DORZTUANPS4eZff2jNlRp/ea7fbc5905d3f19cf7c4513921efa309/sev.jpg?w=200" alt="Severin Amrein"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/7bpp8acax7MfxmnD3dVw7c/182abab086df73c14fb7342c36912e17/jeff.jpg?w=200" alt="Jeff Anderson"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/1uVeYH2YY87FSAczmmw4Vl/d8f16c55a9d5361582b09d3675d9dd1b/Maksym_Arutyunyan.jpeg?w=200" alt="Maksym Arutyunyan"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/4zsQVz1LI53Pae3eu2Ds7o/42c27907a12d9d5dce6539cec7ac86e3/Screenshot_2023-08-30_at_14.13.19.png?w=200" alt="Dominik Ayyildiz"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/7elwNwm6dphMwpxPkzV400/ece3b0eff64e3dc82f9eb9c317d0d582/slawomir.jpg?w=200" alt="Slawomir	Babicz"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/3LWpdyieF70b30DhcbqY4l/50378a3f280c7de027e84219b24e44df/Andrew_Battat.jpeg?w=200" alt="Andrew Battat"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/79zqBx7l60cvCfnsKiVzVK/3480f0cf7eff3f2d601375ce175ca064/Stefan.jpg?w=200" alt="Stefan Berger"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/4tzVsRpBS3mfhC4u3ZPfgk/2b31d72c38f64b6dae31e00daaf77277/rudiger.jpeg?w=200" alt="Rüdiger Birkner"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/6ijFSIhFdy1ZY9wE0rsk5v/6b07a123bd1967dcb027e2a628752021/mathias_b.jpeg?w=200" alt="Mathias Björkqvist"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/1ZF5ZaSdiHDzUNLvegVLdr/4c5d624ca336b2065c910ec2126d7420/adam2.jpeg?w=200" alt="Adam Bratschi-Kaye"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/1nY6qldYq8ObVxeFvSwG2M/6ec8c6b4c6c4edb14f194b3e3cd9812c/Adrian_Brun.jpeg?w=200" alt="Adrian Brun"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/6EFDH8xB1hvogdDEn6xuJ/d44b080dea4edaada4fe48527758f0c8/Dana.jpeg?w=200" alt="Dana Cabau"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/2CtRmivWR477NZj2FMyBME/b937e4776745ecee3b22f72e060c8032/Mike_Cachopo.jpg?w=200" alt="Mike Cachopo"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/3fYw6aBJQdWHFTKxq21W7H/929bab637e79e09d97236f6b60b8d452/Edna.jpg?w=200" alt="Edna Cardoso"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/2vA5R1OQ1m4Co4IO4EQAUe/960f3893d5ef914ec2021f327d79baef/andrea.jpg?w=200" alt="Andrea Cerulli"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/7L8bMxOaC4UWEIye6q8S4o/37c7cafe784246a3b3e43da42d5e0ca9/sharon.jpg?w=200" alt="Sharon Choe"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/5cRraETamrCgVenSOnDrWc/d2c16dd029429941d7105735fe2386a5/ryan_croote.jpg?w=200" alt="Ryan Croote"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/6JvaPNiq0oPHqagMaYvPzL/34b2ece4ca298b067da7141fcc2d1c12/shadia.jpeg?w=200" alt="Shadia Damra"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/2mtbZqNmButqonPEXnqze3/68f96c0920bf46686d3f2750a8268302/elias.jpg?w=200" alt="Elias Datler"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/7AjQhGScWwcUauUBAWZQTE/a45fafdf6b1dff4b9e04afccfe7e6b01/greg.jpg?w=200" alt="Grégory Demay"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/4sS3jmUsDu0mIYeGA4yU6C/2ce34e1a5fa6ce82d1e08cd4d3e3c0f9/david-derler.jpg?w=200" alt="David Derler"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/1pg8N1eufxeqXz5Upbc4j2/f1ae0b2852e5c5901d6f694a6dfec2ef/radu.jpg?w=200" alt="Radu Diaconescu"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/4lzBX2bFZI66OjymHL1iLM/bb5614097c9a7bace28d935334e4ccb7/Bas_van_Dijk_square.png?w=200" alt="Bas van Dijk"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/298NQBALL1l9LHP4FEQSlO/9762ee1a8e3df12841a1019d2d65a518/mathieu.jpg?w=200" alt="Mathieu Ducroux"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/W0WD5cXBLkpOJnA6GahgK/df77ae8d5083b8a3c71a93d41fc51087/leo.jpeg?w=200" alt="Leo Eichhorn"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/3TUb6Hck0667ElhrrGL3CO/34be0408caef605b58ece2024eb2b3ba/Islam.jpg?w=200" alt="Islam El-Ashi"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/1s6xAtHlcAOthz5Bfe77au/74daf661e4feb13427f06191b175f86a/yusef.jpg?w=200" alt="Yusef Fernández"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/6hiEA36omH0pJp7MSLrWmz/689e6e315f2edcc1ac554fa009d63429/jean.jpeg?w=200" alt="Jean-Armand Figeac"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/7auIWmfCiXAx56PbNaqoUJ/f25216522b03336c1d4ca811970f6be8/David_Frank.jpg?w=200" alt="David Frank"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/1CvuMNT6g71uNgUVhQSZfJ/d4d8c30389e770a8a555f5ed366b20ac/Eduard_Galindo.jpeg?w=200" alt="Eduard Galindo"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/1niflStjHRTf54jEFt3Vzz/690584b177c53db125948621f989d7c9/Jason_Gao.jpg?w=200" alt="Jason Gao"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/5ZmNWNBz5GLLIMGApTehp5/87aa5c09bb4166bf5530d3aaf627b887/jorge.jpeg?w=200" alt="Jorge Gongora"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/33sdrXgrOb2SVnbR1ZJlAw/edcb27fc243b5155856712067c7abb39/Gabor_Greif_square.png?w=200" alt="Gabor Greif"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/R3vqoQKjvsBcWlQiycFOK/f28e5dba026258e9a41aec981ddf71ad/david_gu.jpg?w=200" alt="David Gu"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/2TbUTyiCg6Y4PxdMJzv2ZS/e8964522c16b3273483a9f9d1568e9ff/carly.jpg?w=200" alt="Carly Gundy"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/1u7c97izIZZEuNo5Jycwan/e782afd2590f6c0b8d8df4cb1d248598/TatjanaH.jpeg?w=200" alt="Tatjana Hanschu"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/31hO4h0DDe3UP3jHTTtf90/bf7b5b0084e11ed79b250143c4adba1d/georgi.jpg?w=200" alt="Georgi Harizanov"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/12uSgtTS8HbTNPdghPSh4h/2f556986dff75a8a5914f8e7abd67486/chris.jpeg?w=200" alt="Chris Harrison"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/7LeXLdijtS1EEhYWXkzRVp/92554e44f23110c6881e8f927ae6d293/Christoph_Hegemann.jpg?w=200" alt="Christoph Hegemann"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/7ieuYHZNQOYaMfkbEMpN58/d68c11b98f47a013765e3aaa108da3cf/tomas.jpeg?w=200" alt="Tomas Hlavacek"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/5L3pOMVafT7h0NWPYsQ4Mk/caa17114bc311d77012e60f449b006f8/sion.jpg?w=200" alt="Sion	Hoang"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/1dxBsGYQi00IDXn0OVdARP/5d8f28ca79ec0029db8b436ac8109b4c/SamH.jpeg?w=200" alt="Samuel Howard"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/41Jinof3NKgDdsNgeHfAe1/e4d793d074e669e75c32bc4e68913cb9/janh.jpg?w=200" alt="Jan Hrubes"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/4soUSAEB9GJgUCH1bPSuxi/3bfce760814d6f6be8999c88ad24365b/tomasz.jpg?w=200" alt="Tomasz Jurkiewicz"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/4u0rkvdKcjgA8SON7mRvtS/1a93a91408438135cc6e46ffb329830c/eero.jpeg?w=200" alt="Eero Kelly"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/2tSXu9NE3f3wicrX4ovGHr/e9ce9eabf20256c29732abe47ae8d991/raykhalife.jpeg?w=200" alt="Raymond Khalife"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/2VrT2WYUrXttZZti68ABat/158e1a4823810b7c0ac6068df2489e7a/marko.jpeg?w=200" alt="Marko Kosmerl"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/12Pvk2qGavI0FjJaDY0NEp/1a72104c4fd3036c8049d2f41eafdb0b/Robin.png?w=200" alt="Robin Künzler"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/7qyc9kJINRjpkZrK4rblmL/22a72ea67428072f0fe9966e72288c6a/Kyle_Langham.jpeg?w=200" alt="Kyle Langham"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/3SMJeePcjUvv5CJAAyb9hJ/40a20059184cf32d330f0a1684302988/Dat__Dat__Le_.jpg?w=200" alt="Dat Le"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/2ZKTvCxO1s4WghBZLnrncx/af0dcefd069f044cb6c4772b49c1943c/Kamil.jpg?w=200" alt="Kamil Listopad"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/29Kdzk5N27DTsU0zMtpmOj/5df42d5fbc911dd0f6032d8384d07765/jacklloyd.jpeg?w=200" alt="Jack Lloyd"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/Vrk5Ryt1yOf5vnGgmzhnV/432ae2e07764a87a9eff878a8cf2190d/thomas.jpg?w=200" alt="Thomas Locher"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/7tdNShfwZLVHX4aiRBr9RB/b7f37e2046be70410b3898b0fc79c44b/Nicolas_Mattia_.jpeg?w=200" alt="Nicolas Mattia"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/3hBFu6BANfkfTQ95v3zuIX/29bcf1b76d96cb17a0c4402331824a61/pietro.jpg?w=200" alt="Pietro Marco"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/4RFuVb5TRjyx16JgueuppM/766b0abf036dc910a9931b831a94556f/nikola.jpeg?w=200" alt="Nikola Milosavljevic"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/7sEUE4jT23NBv1dJ7HqxBk/57fa2589f574764cfc66f3e8972525f7/Max_Murphy_square.png?w=200" alt="Max Murphy"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/1yNlsRWYEVv11Xg7Oj8nte/f6b6e578dd357a408954c1905cc4d50f/Anton.jpg?w=200" alt="Anton Kornishuk"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/78Zt7AnotR2bTed1KvgOfV/77396692f9f64fb25f9aca4d8422a158/Artem.jpeg?w=200" alt="Artem Korotkikh"></span>
+					
+				</div><div class="relative group"><span class="overflow-hidden aspect-square block member transition-opacity  svelte-19yis1g"><img class="object-cover object-center w-full h-full group-hover:scale-110 transition-transform ease-linear" src="//images.ctfassets.net/ywqk17d3hsnp/6MUnxooOFRCcZGsmTrZXyl/f984f0754c95d3e25af89d656cf35535/LL.jpg?w=200" alt="Lou Latinov"></span>
+					
+				</div>
+
+			<div class="h-[16.333vw] from-white bg-gradient-to-t absolute bottom-0 left-0 right-0 flex items-end justify-center z-10"><button class="button-sm">See full team</button></div></div></div></section>
+
+<section class="max-w-page mx-auto relative team flex items-start lg:gap-30" id="jobs"><h2 class="vertical top-6 sticky heading-4 lg:heading-2 inline-block leading-[16.6vw] w-2/12 lg:w-30">Open positions
+	</h2>
+	<div class="flex-1 flex flex-col items-stretch pr-8 md:pr-0">
+			<div class="flex flex-col gap-12 lg:w-7/10 mb-20"><h3 class="lead md:lead-lg mb-4">Latest</h3>
+				<div class="spinner  svelte-s9ck23"><span class="bounce1 svelte-s9ck23"></span>
+	<span class="bounce2 svelte-s9ck23"></span>
+	<span class="bounce3 svelte-s9ck23"></span></div>
+
+</div>
+		
+		<div class="lg:w-7/10 mb-20 mt-20"><p class="paragraph-sm"><b>Security Alert:</b> Recently, we&#39;ve seen a marked increase in phishing scams on
+				third-party job boards — where an individual impersonating a DFINITY team member persuades
+				job-seekers to send confidential information and/or payment. As good practice, please
+				continue to be vigilant regarding fraudulent messages or fake accounts impersonating DFINITY
+				employees. If you need to confirm the legitimacy of a position, please reach out to
+				<a class="body-link" href="/cdn-cgi/l/email-protection#8cfee9effef9e5f8e5e2ebcce8eae5e2e5f8f5a2e3feeb"><span class="__cf_email__" data-cfemail="bdcfd8decfc8d4c9d4d3dafdd9dbd4d3d4c9c493d2cfda">[email&#160;protected]</span></a>.
+			</p></div></div>
+</section></main>
+
+	<footer class="px-8 xl:px-0 pb-16 mt-16 md:max-w-page-10/12 mx-auto md:mt-40 "><div class="md:flex pt-8 border-t border-solid border-black-12"><div class="flex flex-col items-start gap-3 md:w-3/10"><a href="https://internetcomputer.org" class="heading-7 flex items-center gap-2 hover:text-orange" target="_blank" rel="noopener noreferrer">Internet Computer <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg" class=""><path d="M14 3.5V12.0661H11.8585V7.1545L3.51405 15.5L2 13.9859L10.3434 5.64152H5.43393V3.5H14Z" fill="currentColor"></path></svg></a>
+				<a href="/scientific-publications" class="heading-7 flex items-center gap-2 hover:text-orange">Publications &amp; Presentations
+				</a>
+				<a href="/icplab" class="heading-7 flex items-center gap-2 hover:text-orange">ICP.Lab </a>
+
+				<a href="/hackathons" class="heading-7 flex items-center gap-2 hover:text-orange">Hackathons
+				</a>
+				<a href="https://dfinity.org/bug-bounty/" class="heading-7 flex items-center gap-2 hover:text-orange">Bug Bounty Program
+				</a>
+				<a href="https://dfinity.org/third-party-security-audits/" class="heading-7 flex items-center gap-2 hover:text-orange">Third-party Security Audits
+				</a></div>
+			<div class="flex flex-col items-start gap-3 md:w-3/10 mt-6 md:mt-0"><a href="/cdn-cgi/l/email-protection#97f4f8fafae4d7f3f1fef9fee3eeb9f8e5f0" class="heading-7 flex items-center gap-2 hover:text-orange">Media Requests
+				</a>
+				<a href="https://dfinity.frontify.com/d/XzkdhhDptijE" class="heading-7 flex items-center gap-2 hover:text-orange" target="_blank" rel="noopener noreferrer">Brand guidelines <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg" class=""><path d="M14 3.5V12.0661H11.8585V7.1545L3.51405 15.5L2 13.9859L10.3434 5.64152H5.43393V3.5H14Z" fill="currentColor"></path></svg></a>
+				<a href="https://dfinity.frontify.com/d/pD7yZhsmpqos/press-kit" class="heading-7 flex items-center gap-2 hover:text-orange" target="_blank" rel="noopener noreferrer">Press Kit <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg" class=""><path d="M14 3.5V12.0661H11.8585V7.1545L3.51405 15.5L2 13.9859L10.3434 5.64152H5.43393V3.5H14Z" fill="currentColor"></path></svg></a>
+				<a href="https://support.dfinity.org" class="heading-7 flex items-center gap-2 hover:text-orange" target="_blank" rel="noopener noreferrer">Support <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg" class=""><path d="M14 3.5V12.0661H11.8585V7.1545L3.51405 15.5L2 13.9859L10.3434 5.64152H5.43393V3.5H14Z" fill="currentColor"></path></svg></a>
+
+				<a href="https://shop.dfinity.org/" class="heading-7 flex items-center gap-2 hover:text-orange" target="_blank" rel="noopener noreferrer">Merch &amp; Swag Store <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg" class=""><path d="M14 3.5V12.0661H11.8585V7.1545L3.51405 15.5L2 13.9859L10.3434 5.64152H5.43393V3.5H14Z" fill="currentColor"></path></svg></a></div>
+			<div class="md:flex-1 flex flex-col gap-12 md:gap-20 mt-16 md:mt-0" id="subscribe"><div class="flex-1"><p class="mb-3 text-paragraph md:text-lead">Sign up for email updates to keep up to date with advancements on the Internet Computer
+					</p>
+					<form action="https://dfinity.us16.list-manage.com/subscribe/post?u=33c727489e01ff5b6e1fb6cc6&id=7e9469a315&f_id=00bac2e1f0" method="post" class="flex gap-2 flex-col md:flex-row"><input name="EMAIL" type="email" class="rounded-full border border-black-40 border-solid text-paragraph py-3 px-6 text-black placeholder:text-black-40 w-full" placeholder="Email" required>
+						<button type="submit" class="button-sm whitespace-nowrap ">Get updates!</button></form></div></div></div>
+		<div class="flex flex-col md:flex-row md:justify-between mt-16 md:mt-30"><div class="flex flex-wrap justify-between gap-y-6 md:gap-6 items-start order-2 md:order-1 mt-10 md:mt-0 md:self-center whitespace-nowrap"><div class="paragraph-sm hidden md:block">©2026 DFINITY</div>
+				<a href="/terms-of-use" class="caption hover:text-orange">Terms of Use</a>
+				<a href="/cookie-policy" class="caption hover:text-orange">Cookie Policy </a>
+				<a href="/privacy-policy" class="caption hover:text-orange">Privacy Policy </a></div>
+			<div class="flex justify-between flex-wrap md:flex-nowrap md:justify-end gap-4 md:gap-6 order-1 md:order-2"><a href="https://www.youtube.com/dfinity" target="_blank" rel="noopener noreferrer" class="hover:text-orange"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22.7359 5.81025C23.25 7.815 23.25 12 23.25 12C23.25 12 23.25 16.185 22.7359 18.1898C22.4501 19.2979 21.6143 20.1698 20.5556 20.4645C18.633 21 12 21 12 21C12 21 5.37038 21 3.44438 20.4645C2.38125 20.1653 1.5465 19.2945 1.26412 18.1898C0.75 16.185 0.75 12 0.75 12C0.75 12 0.75 7.815 1.26412 5.81025C1.54988 4.70213 2.38575 3.83025 3.44438 3.5355C5.37038 3 12 3 12 3C12 3 18.633 3 20.5556 3.5355C21.6187 3.83475 22.4535 4.7055 22.7359 5.81025ZM9.75 15.9375L16.5 12L9.75 8.0625V15.9375Z" fill="currentColor"></path></svg></a>
+				<a href="https://medium.com/dfinity-network-blog" target="_blank" rel="noopener noreferrer" class="hover:text-orange"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.42223 1H21.9778C22.3019 1 22.6128 1.12877 22.842 1.35798C23.0712 1.58719 23.2 1.89807 23.2 2.22222V21.7778C23.2 22.1019 23.0712 22.4128 22.842 22.642C22.6128 22.8712 22.3019 23 21.9778 23H2.42223C2.09808 23 1.7872 22.8712 1.55799 22.642C1.32878 22.4128 1.20001 22.1019 1.20001 21.7778V2.22222C1.20001 1.89807 1.32878 1.58719 1.55799 1.35798C1.7872 1.12877 2.09808 1 2.42223 1ZM18.6778 16.8156C18.5556 16.7544 18.4945 16.5711 18.4945 16.4477V7.11844C18.4945 6.99622 18.5556 6.81289 18.6778 6.68944L19.845 5.33889V5.27778H15.6711L12.5422 13.1953L8.98068 5.27778H4.68579V5.33889L5.78946 6.874C6.03512 7.11844 6.09623 7.48756 6.09623 7.79433V14.5447C6.15735 14.9138 6.09623 15.3428 5.9129 15.7107L4.25557 17.9816V18.0427H8.67512V17.9816L7.01779 15.773C6.83446 15.4039 6.77212 15.036 6.83446 14.607V8.46778C6.89557 8.59 6.95668 8.59 7.01779 8.83567L11.1905 18.1649H11.2516L15.3045 8.04C15.2433 8.40667 15.2433 8.83689 15.2433 9.14489V16.3866C15.2433 16.5699 15.1822 16.6921 15.06 16.8156L13.8317 17.9816V18.0427H19.8462V17.9816L18.6802 16.8156H18.6778Z" fill="currentColor"></path></svg></a>
+				<a href="https://github.com/dfinity" target="_blank" rel="noopener noreferrer" class="hover:text-orange"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_80_232)"><path d="M12.4 0C5.77402 0 0.400024 5.373 0.400024 12C0.400024 17.302 3.83802 21.8 8.60702 23.387C9.20602 23.498 9.40002 23.126 9.40002 22.81V20.576C6.06202 21.302 5.36702 19.16 5.36702 19.16C4.82102 17.773 4.03402 17.404 4.03402 17.404C2.94502 16.659 4.11702 16.675 4.11702 16.675C5.32202 16.759 5.95602 17.912 5.95602 17.912C7.02602 19.746 8.76302 19.216 9.44802 18.909C9.55503 18.134 9.86602 17.604 10.21 17.305C7.54502 17 4.74302 15.971 4.74302 11.374C4.74302 10.063 5.21202 8.993 5.97902 8.153C5.85502 7.85 5.44402 6.629 6.09602 4.977C6.09602 4.977 7.10402 4.655 9.39702 6.207C10.354 5.941 11.38 5.808 12.4 5.803C13.42 5.808 14.447 5.941 15.406 6.207C17.697 4.655 18.703 4.977 18.703 4.977C19.356 6.63 18.945 7.851 18.821 8.153C19.591 8.993 20.056 10.064 20.056 11.374C20.056 15.983 17.249 16.998 14.577 17.295C15.007 17.667 15.4 18.397 15.4 19.517V22.81C15.4 23.129 15.592 23.504 16.201 23.386C20.966 21.797 24.4 17.3 24.4 12C24.4 5.373 19.027 0 12.4 0Z" fill="currentColor"></path></g><defs><clipPath id="clip0_80_232"><rect width="24" height="24" fill="white" transform="translate(0.400024)"></rect></clipPath></defs></svg></a>
+				<a href="https://twitter.com/dfinity" target="_blank" rel="noopener noreferrer" class="hover:text-orange"><svg version="1.1" width="25" height="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300.3"><path d="M171.4,132.9L255,37.7h-19.8l-72.7,82.7l-58-82.7H37.7l87.7,125l-87.7,99.8h19.8l76.7-87.3l61.3,87.3h66.9 M64.6,52.3h30.4
+l140.1,196.3h-30.5" fill="currentColor"></path></svg></a>
+				<a href="https://forum.dfinity.org/" target="_blank" rel="noopener noreferrer" class="hover:text-orange"><svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M2.88862 21.3024L8.17962 20.1264C9.62824 20.9008 11.246 21.3048 12.8886 21.3024C18.4116 21.3024 22.8886 16.8254 22.8886 11.3024C22.8886 5.77937 18.4116 1.30237 12.8886 1.30237C7.36562 1.30237 2.88862 5.77937 2.88862 11.3024C2.88615 12.945 3.29015 14.5628 4.06462 16.0114L2.88862 21.3024ZM13.9036 8.76534C14.7981 7.9495 15.6455 7.53567 16.4223 7.53567C18.2818 7.53567 19.7941 9.06685 19.8 10.9527C19.8 11.2247 19.7646 11.4907 19.7058 11.7449C19.7035 11.7546 19.6977 11.7763 19.6873 11.8075C19.3062 13.2627 17.9899 14.3403 16.4295 14.3461C15.1375 14.3461 13.8317 13.1057 12.8633 11.9866L12.8578 11.9933C12.8578 11.9933 12.4223 11.5026 11.9456 10.9764C11.9456 10.9764 11.4042 10.3497 10.8275 9.79993C10.6705 9.6504 10.0835 9.17699 9.385 8.89833C9.34212 8.89211 9.30395 8.88975 9.27048 8.88975C8.1524 8.90158 7.24617 9.81791 7.24617 10.9412C7.24617 12.0763 8.1524 12.9926 9.27048 12.9926C9.5647 12.9926 10.0884 12.8389 10.8829 12.1176C11.3124 11.7275 11.6831 11.2959 11.9421 10.9767C12.4188 11.5028 12.8542 11.9935 12.8542 11.9935C12.5835 12.3246 12.2128 12.7384 11.7891 13.1227C10.8946 13.9385 10.0473 14.3524 9.27048 14.3524C7.40506 14.3524 5.89271 12.8212 5.89271 10.9353C5.89271 10.6633 5.92803 10.3973 5.98687 10.1431C5.99097 10.1256 6.0065 10.0691 6.04017 9.98785C6.45002 8.57662 7.74482 7.54136 9.27403 7.53567C10.5657 7.53567 11.871 8.7753 12.8354 9.89405L12.84 9.88858L12.8417 9.89052C13.1122 9.56013 13.4816 9.14808 13.9036 8.76534ZM16.4223 12.9983C16.4044 12.9983 16.3852 12.9976 16.3647 12.996C15.6431 12.7245 15.0315 12.2355 14.8702 12.0819C14.3124 11.5501 13.7877 10.9465 13.7538 10.9074C14.0126 10.5886 14.382 10.1589 14.8098 9.77037C15.6042 9.04321 16.1221 8.89541 16.4223 8.89541C17.5403 8.89541 18.4466 9.81174 18.4466 10.9469C18.4466 12.0701 17.5403 12.9864 16.4223 12.9983Z" fill="currentColor"></path></svg></a>
+				<a href="https://www.linkedin.com/company/dfinity" target="_blank" rel="noopener noreferrer" class="hover:text-orange"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.735 4.84783C6.735 5.86857 5.9025 6.69565 4.875 6.69565C3.8475 6.69565 3.015 5.86857 3.015 4.84783C3.015 3.82783 3.8475 3 4.875 3C5.9025 3 6.735 3.82783 6.735 4.84783ZM6.75 8.17391H3V20H6.75V8.17391ZM12.7365 8.17391H9.0105V20H12.7372V13.792C12.7372 10.3403 17.259 10.058 17.259 13.792V20H21V12.5119C21 6.68752 14.3085 6.89965 12.7365 9.76674V8.17391Z" fill="currentColor"></path></svg></a></div>
+			<div class="paragraph-sm md:hidden order-3 mt-6">©2026 DFINITY</div></div></footer></div>
+
+
+			
+			<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+				{
+					__sveltekit_8pqm7o = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,{"type":"data","data":null,"uses":{},"slash":"always"}];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.46e3e148.js"),
+						import("./_app/immutable/entry/app.5f1b311a.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 10],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		
+	</body>
+</html>

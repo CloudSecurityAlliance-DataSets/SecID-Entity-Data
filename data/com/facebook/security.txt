@@ -8,4 +8,4 @@ Policy: https://bugbounty.meta.com/
 # What we do when we find a bug in another product:
 Policy: https://about.meta.com/security/vulnerability-disclosure-policy
 
-Expires: 2026-05-23T21:50:16-07:00
+Expires: 2026-05-24T13:24:00-07:00

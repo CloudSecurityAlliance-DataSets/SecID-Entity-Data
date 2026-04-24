@@ -1,0 +1,27 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.kms.free",
+      "sha256_cert_fingerprints":
+      ["A9:D6:F5:34:F2:81:9A:B7:B6:2D:ED:3F:68:47:EB:49:05:D6:EF:4F:0A:39:81:0D:C8:1E:E7:FE:C6:74:33:86"]
+    }
+},
+{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+        "namespace": "android_app",
+        "package_name": "com.kaspersky.secure.connection",
+        "sha256_cert_fingerprints":
+        ["D3:E2:CA:55:B5:F8:B2:1A:07:B5:FA:BF:9D:84:17:57:1F:B0:E3:ED:30:F5:7F:F2:51:65:08:7D:8A:D8:4A:DF"]
+    }
+},
+{
+    "relation":["delegate_permission/common.handle_all_urls"],
+    "target":{
+      "namespace":"android_app",
+      "package_name":"com.kaspersky.who_calls",
+      "sha256_cert_fingerprints":
+      ["15:54:84:4F:BD:F2:C8:3A:A5:EB:66:BD:1F:7A:07:A9:5D:E5:6E:5A:21:4C:C0:10:33:52:13:15:BC:B1:B1:56"]
+    }
+}]

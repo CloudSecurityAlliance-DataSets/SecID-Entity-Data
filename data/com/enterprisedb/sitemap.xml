@@ -15188,7 +15188,7 @@
  <url>
   <loc>https://www.enterprisedb.com/event/pgconf-de-2026</loc>
   <xhtml:link rel="alternate" hreflang="en" href="https://www.enterprisedb.com/event/pgconf-de-2026"/>
-  <lastmod>2026-04-23T06:57:58-04:00</lastmod>
+  <lastmod>2026-04-24T04:19:46-04:00</lastmod>
   <priority>0.5</priority>
  </url>
  <url>
@@ -15254,13 +15254,13 @@
  <url>
   <loc>https://www.enterprisedb.com/event/kubecon-cloudnativecon-eu</loc>
   <xhtml:link rel="alternate" hreflang="en" href="https://www.enterprisedb.com/event/kubecon-cloudnativecon-eu"/>
-  <lastmod>2026-03-24T15:41:55-04:00</lastmod>
+  <lastmod>2026-04-24T07:56:22-04:00</lastmod>
   <priority>0.5</priority>
  </url>
  <url>
   <loc>https://www.enterprisedb.com/event/cloud-native-rejekts</loc>
   <xhtml:link rel="alternate" hreflang="en" href="https://www.enterprisedb.com/event/cloud-native-rejekts"/>
-  <lastmod>2026-02-12T05:13:08-05:00</lastmod>
+  <lastmod>2026-04-24T04:26:04-04:00</lastmod>
   <priority>0.5</priority>
  </url>
  <url>
@@ -15278,7 +15278,7 @@
  <url>
   <loc>https://www.enterprisedb.com/event/postgres-conference-san-jose-2026</loc>
   <xhtml:link rel="alternate" hreflang="en" href="https://www.enterprisedb.com/event/postgres-conference-san-jose-2026"/>
-  <lastmod>2026-04-23T13:14:21-04:00</lastmod>
+  <lastmod>2026-04-24T03:38:54-04:00</lastmod>
   <priority>0.5</priority>
  </url>
  <url>
@@ -15741,12 +15741,6 @@
   <loc>https://www.enterprisedb.com/resources/webinar/5-tenets-your-2022-database-management-plan</loc>
   <xhtml:link rel="alternate" hreflang="en" href="https://www.enterprisedb.com/resources/webinar/5-tenets-your-2022-database-management-plan"/>
   <lastmod>2023-01-23T14:55:06-05:00</lastmod>
-  <priority>0.5</priority>
- </url>
- <url>
-  <loc>https://www.enterprisedb.com/partners/ibm</loc>
-  <xhtml:link rel="alternate" hreflang="en" href="https://www.enterprisedb.com/partners/ibm"/>
-  <lastmod>2026-01-26T05:40:56-05:00</lastmod>
   <priority>0.5</priority>
  </url>
  <url>
@@ -18173,6 +18167,12 @@
   <loc>https://www.enterprisedb.com/legal/statement-against-modern-slavery-archive</loc>
   <xhtml:link rel="alternate" hreflang="en" href="https://www.enterprisedb.com/legal/statement-against-modern-slavery-archive"/>
   <lastmod>2026-04-02T07:00:32-04:00</lastmod>
+  <priority>0.5</priority>
+ </url>
+ <url>
+  <loc>https://www.enterprisedb.com/partners/ibm</loc>
+  <xhtml:link rel="alternate" hreflang="en" href="https://www.enterprisedb.com/partners/ibm"/>
+  <lastmod>2026-04-24T00:16:13-04:00</lastmod>
   <priority>0.5</priority>
  </url>
  <url>

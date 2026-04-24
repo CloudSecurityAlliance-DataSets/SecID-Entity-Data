@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html class="gl-system ui-neutral with-top-bar with-header application-chrome page-with-panels with-gl-container-queries  user-logged-out" lang="en">
+<head prefix="og: http://ogp.me/ns#">
+<meta charset="utf-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<title>EdOverflow · GitLab</title>
+<script nonce="BkOrZvLl9jjUr7XW+Zo5wA==">
+//<![CDATA[
+window.gon={};gon.features={"profileTabsVue":false};
+//]]>
+</script>
+
+<script nonce="BkOrZvLl9jjUr7XW+Zo5wA==">
+//<![CDATA[
+const root = document.documentElement;
+if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+  root.classList.add('gl-dark');
+}
+
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+  if (e.matches) {
+    root.classList.add('gl-dark');
+  } else {
+    root.classList.remove('gl-dark');
+  }
+});
+
+//]]>
+</script>
+
+
+
+
+<meta content="light dark" name="color-scheme">
+<link rel="stylesheet" href="/assets/application-b03989e712c1a1017e62dad6a54c9b8a395e100c20600f4c2f83a43f36fb03b2.css" media="(prefers-color-scheme: light)" />
+<link rel="stylesheet" href="/assets/application_dark-173fd22e7e10249cf1d1f38b78ba2408c2724582a88a43badcfe561dc6ae12fb.css" media="(prefers-color-scheme: dark)" />
+<link rel="stylesheet" href="/assets/page_bundles/profile-54ea37b55c60d12d908cfd97cdf40e64c3e51f068fdef010ea7c80247bbce007.css" /><link rel="stylesheet" href="/assets/page_bundles/projects-365ff1b33157f5fdc4eac71cca9eb9b1fb34af692de04897e033384ee1e70e19.css" /><link rel="stylesheet" href="/assets/page_bundles/commit_description-9e7efe20f0cef17d0606edabfad0418e9eb224aaeaa2dae32c817060fa60abcc.css" /><link rel="stylesheet" href="/assets/page_bundles/work_items-f9d1a890ba48e7f7782f8b56a021f064ac183910fb066d910d03673daf2ae3b0.css" /><link rel="stylesheet" href="/assets/page_bundles/notes_shared-a194998fc7c1d41bb05ecc92ee92d62f8348ddedf142d7292f5ff1d29f5dabe5.css" />
+<link rel="stylesheet" href="/assets/tailwind_cqs-7b4bfe7d1352554d53672ec5d810d0a391cb9133f8735f493bfbd65d2b58369d.css" />
+
+
+<link rel="stylesheet" href="/assets/fonts-deb7ad1d55ca77c0172d8538d53442af63604ff490c74acc2859db295c125bdb.css" />
+<link rel="stylesheet" href="/assets/highlight/themes/white-3221952fb6afab3cbfe5eb40c09b5796882149048923d48410452b9ba2d1a834.css" media="(prefers-color-scheme: light)" />
+<link rel="stylesheet" href="/assets/highlight/themes/dark-cd94784aa5447284a3279b11ef5d368845d958d41277cd9162d9356637ef237a.css" media="(prefers-color-scheme: dark)" />
+
+<script src="/assets/webpack/runtime.266c8601.bundle.js" defer="defer" nonce="BkOrZvLl9jjUr7XW+Zo5wA=="></script>
+<script src="/assets/webpack/main.98da1059.chunk.js" defer="defer" nonce="BkOrZvLl9jjUr7XW+Zo5wA=="></script>
+<script src="/assets/webpack/tracker.1eb446cb.chunk.js" defer="defer" nonce="BkOrZvLl9jjUr7XW+Zo5wA=="></script>
+<script nonce="BkOrZvLl9jjUr7XW+Zo5wA==">
+//<![CDATA[
+window.snowplowOptions = {"namespace":"gl","hostname":"snowplowprd.trx.gitlab.net","cookieDomain":".gitlab.com","appId":"gitlab","formTracking":true,"linkClickTracking":true};
+gl = window.gl || {};
+gl.snowplowStandardContext = {"schema":"iglu:com.gitlab/gitlab_standard/jsonschema/1-1-8","data":{"environment":"production","source":"gitlab-rails","correlation_id":"9f17d70b6dcea14f-YVR","extra":{},"user_id":null,"global_user_id":null,"user_type":null,"is_gitlab_team_member":null,"namespace_id":null,"ultimate_parent_namespace_id":null,"project_id":null,"feature_enabled_by_namespace_ids":null,"realm":"saas","deployment_type":".com","context_generated_at":"2026-04-24T20:25:55.860Z","organization_id":1}};
+gl.snowplowPseudonymizedPageUrl = "https://gitlab.com/username";
+gl.maskedDefaultReferrerUrl = null;
+gl.ga4MeasurementId = 'G-ENFH3X7M5Y';
+gl.duoEvents = ["ai_question_category","perform_completion_worker","process_gitlab_duo_question","agent_platform_session_created","agent_platform_session_dropped","agent_platform_session_finished","agent_platform_session_resumed","agent_platform_session_started","agent_platform_session_stopped","ai_response_time","approve_tool_duo_chat","ci_repository_xray_artifact_created","cleanup_stuck_agent_platform_session","click_ai_catalog_button_duo_rail","click_dap_trial_or_paid_empty_state_agent","click_dap_trial_or_paid_empty_state_explore_agents_link","click_dap_trial_or_paid_empty_state_prompt","click_delete_ai_catalog_item_button","click_disable_ai_catalog_item_button","click_duo_agentic_not_available_empty_state_learn_more","click_duo_agentic_not_available_empty_state_start_trial","click_duo_agentic_trial_expired_learn_more","click_duo_agentic_trial_expired_upgrade","click_duo_quick_action","click_duplicate_ai_catalog_item_button","click_enable_ai_catalog_item_button","click_purchase_seats_button_group_duo_pro_home_page","click_through_flow_widget","close_vulnerability_resolution_merge_request","code_suggestion_accepted_in_ide","code_suggestion_rejected_in_ide","code_suggestion_shown_in_ide","code_suggestions_connection_details_rate_limit_exceeded","code_suggestions_direct_access_rate_limit_exceeded","code_suggestions_rate_limit_exceeded","create_ai_catalog_item","create_ai_catalog_item_consumer","create_ai_self_hosted_model","create_vulnerability_resolution_merge_request","default_answer","delete_ai_catalog_item","delete_ai_catalog_item_consumer","delete_ai_self_hosted_model","deny_tool_duo_chat","detected_high_comment_temperature","detected_repeated_high_comment_temperature","dismiss_sast_vulnerability_false_positive_analysis","dismiss_secret_detection_vulnerability_false_positive_analysis","encounter_duo_code_review_error_during_review","error_answer","excluded_files_from_duo_code_review","execute_llm_method","filter_ai_fp","find_no_issues_duo_code_review_after_review","find_nothing_to_review_duo_code_review_on_mr","finish_duo_workflow_execution","finish_mcp_tool_call","forced_high_temperature_commenting","i_quickactions_q","include_repository_xray_data_into_code_generation_prompt","mention_gitlabduo_in_mr_comment","merge_vulnerability_resolution_merge_request","post_comment_duo_code_review_on_diff","process_gitlab_duo_slash_command","react_thumbs_down_on_duo_code_review_comment","react_thumbs_up_on_duo_code_review_comment","recommend_tool_duo_chat","reported_sast_vulnerability_false_positive_analysis","reported_secret_detection_vulnerability_false_positive_analysis","request_ask_help","request_duo_chat_response","request_review_duo_code_review_on_mr_by_author","request_review_duo_code_review_on_mr_by_non_author","requested_comment_temperature","retry_duo_workflow_execution","start_duo_workflow_execution","start_mcp_tool_call","submit_dap_trial_or_paid_empty_state_message","submit_gitlab_duo_question","tokens_per_embedding","tokens_per_user_request_prompt","tokens_per_user_request_response","tool_failed_duo_chat","tool_succeeded_duo_chat","trigger_ai_catalog_item","trigger_sast_vulnerability_fp_detection_workflow","trigger_sast_vulnerability_resolution_workflow","trigger_secret_detection_vulnerability_fp_detection_workflow","troubleshoot_job","update_ai_catalog_item","update_ai_catalog_item_consumer","update_ai_self_hosted_model","update_model_selection_feature","update_self_hosted_ai_feature_to_vendored_model","view_ai_catalog_item","view_ai_catalog_item_index","view_ai_catalog_project_catalog","view_ai_catalog_project_managed","view_dap_trial_or_paid_empty_state","view_duo_agentic_not_available_empty_state","view_duo_agentic_trial_expired_empty_state"];
+gl.onlySendDuoEvents = false;
+
+
+//]]>
+</script>
+<link rel="preload" href="/assets/application-b03989e712c1a1017e62dad6a54c9b8a395e100c20600f4c2f83a43f36fb03b2.css" as="style" type="text/css" nonce="Op6T6584MSxjT8Z8Rdfoug==">
+<link rel="preload" href="/assets/highlight/themes/white-3221952fb6afab3cbfe5eb40c09b5796882149048923d48410452b9ba2d1a834.css" as="style" type="text/css" nonce="Op6T6584MSxjT8Z8Rdfoug==">
+<link crossorigin="" href="https://snowplowprd.trx.gitlab.net" rel="preconnect">
+<link as="font" crossorigin="" href="/assets/gitlab-sans/GitLabSans-9892dc17af892e03de41625c0ee325117a3b8ee4ba6005f3a3eac68510030aed.woff2" rel="preload">
+<link as="font" crossorigin="" href="/assets/gitlab-sans/GitLabSans-Italic-f96f17332d67b21ada2dfba5f0c0e1d5801eab99330472057bf18edd93d4ccf7.woff2" rel="preload">
+<link as="font" crossorigin="" href="/assets/gitlab-mono/GitLabMono-29c2152dac8739499dd0fe5cd37a486ebcc7d4798c9b6d3aeab65b3172375b05.woff2" rel="preload">
+<link as="font" crossorigin="" href="/assets/gitlab-mono/GitLabMono-Italic-af36701a2188df32a9dcea12e0424c380019698d4f76da9ad8ea2fd59432cf83.woff2" rel="preload">
+<link rel="preload" href="/assets/fonts-deb7ad1d55ca77c0172d8538d53442af63604ff490c74acc2859db295c125bdb.css" as="style" type="text/css" nonce="Op6T6584MSxjT8Z8Rdfoug==">
+
+
+
+<script src="/assets/webpack/sentry.c846824b.chunk.js" defer="defer" nonce="BkOrZvLl9jjUr7XW+Zo5wA=="></script>
+
+<script src="/assets/webpack/super_sidebar.cddd3848.chunk.js" defer="defer" nonce="BkOrZvLl9jjUr7XW+Zo5wA=="></script>
+<script src="/assets/webpack/8632254b.3ca32992.chunk.js" defer="defer" nonce="BkOrZvLl9jjUr7XW+Zo5wA=="></script>
+<script src="/assets/webpack/5d21c569.33902198.chunk.js" defer="defer" nonce="BkOrZvLl9jjUr7XW+Zo5wA=="></script>
+<script src="/assets/webpack/9a6169b1.e1f369d5.chunk.js" defer="defer" nonce="BkOrZvLl9jjUr7XW+Zo5wA=="></script>
+<script src="/assets/webpack/65ba380f.db7c6838.chunk.js" defer="defer" nonce="BkOrZvLl9jjUr7XW+Zo5wA=="></script>
+<script src="/assets/webpack/commons-pages.organizations.organizations.activity-pages.users-pages.users.identity_verification.sho-a7523741.24364e3c.chunk.js" defer="defer" nonce="BkOrZvLl9jjUr7XW+Zo5wA=="></script>
+<script src="/assets/webpack/commons-pages.users-pages.users.identity_verification.show-pages.users.registrations_identity_verifi-9aed8905.8f3aa6b9.chunk.js" defer="defer" nonce="BkOrZvLl9jjUr7XW+Zo5wA=="></script>
+<script src="/assets/webpack/pages.users.show.6a272bce.chunk.js" defer="defer" nonce="BkOrZvLl9jjUr7XW+Zo5wA=="></script>
+
+<meta content="object" property="og:type">
+<meta content="GitLab" property="og:site_name">
+<meta content="EdOverflow · GitLab" property="og:title">
+<meta content="Contact: https://hackerone.com/ed # Content injecion. Bounty plz. 100k" property="og:description">
+<meta content="https://gitlab.com/uploads/-/system/user/avatar/3277654/avatar.png" property="og:image">
+<meta content="64" property="og:image:width">
+<meta content="64" property="og:image:height">
+<meta content="https://gitlab.com/security.txt" property="og:url">
+<meta content="summary" property="twitter:card">
+<meta content="EdOverflow · GitLab" property="twitter:title">
+<meta content="Contact: https://hackerone.com/ed # Content injecion. Bounty plz. 100k" property="twitter:description">
+<meta content="https://gitlab.com/uploads/-/system/user/avatar/3277654/avatar.png" property="twitter:image">
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="oqVJrz38yNWmFU_Upnnc1Th4wXfSGXa_KACeqHBg1_we6MigmQGJ994U2YorujNcrEw0kSvpf76y-nm5C1F9zw" />
+<meta name="csp-nonce" content="BkOrZvLl9jjUr7XW+Zo5wA==" />
+<meta name="action-cable-url" content="/-/cable" />
+<link href="/-/manifest.json" rel="manifest">
+<link rel="icon" type="image/png" href="/assets/favicon-72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef.png" id="favicon" data-original-href="/assets/favicon-72a2cad5025aa931d6ea56c3201d1f18e68a8cd39788c7c80d5b2b82aa5143ef.png" />
+<link rel="apple-touch-icon" type="image/x-icon" href="/assets/apple-touch-icon-b049d4bc0dd9626f31db825d61880737befc7835982586d015bded10b4435460.png" />
+<link href="/search/opensearch.xml" rel="search" title="Search GitLab" type="application/opensearchdescription+xml">
+<link rel="alternate" type="application/atom+xml" title="EdOverflow activity" href="https://gitlab.com/security.txt.atom" />
+
+
+
+
+<meta content="Contact: https://hackerone.com/ed # Content injecion. Bounty plz. 100k" name="description">
+<meta content="#F1F0F6" media="(prefers-color-scheme: light)" name="theme-color">
+<meta content="#232128" media="(prefers-color-scheme: dark)" name="theme-color">
+</head>
+
+<body class="tab-width-8 gl-browser-generic gl-platform-other" data-page="users:show">
+<div id="js-tooltips-container"></div>
+
+<script nonce="BkOrZvLl9jjUr7XW+Zo5wA==">
+//<![CDATA[
+gl = window.gl || {};
+gl.client = {"isGeneric":true,"isOther":true};
+
+
+//]]>
+</script>
+
+
+<header class="super-topbar js-super-topbar"></header>
+<div class="layout-page js-page-layout page-with-super-sidebar">
+<script nonce="BkOrZvLl9jjUr7XW+Zo5wA==">
+//<![CDATA[
+const outer = document.createElement('div');
+outer.style.visibility = 'hidden';
+outer.style.overflow = 'scroll';
+document.body.appendChild(outer);
+const inner = document.createElement('div');
+outer.appendChild(inner);
+const scrollbarWidth = outer.offsetWidth - inner.offsetWidth;
+outer.parentNode.removeChild(outer);
+document.documentElement.style.setProperty('--scrollbar-width', `${scrollbarWidth}px`);
+
+//]]>
+</script><aside class="js-super-sidebar super-sidebar super-sidebar-loading" data-command-palette="{}" data-is-saas="true" data-root-path="/" data-sidebar="{&quot;whats_new_most_recent_release_items_count&quot;:9,&quot;whats_new_version_digest&quot;:&quot;d2b280b3172571b47a5ab481d3f974d68173880bc9771016d4810ff5dc7d5687&quot;,&quot;whats_new_read_articles&quot;:[],&quot;whats_new_mark_as_read_path&quot;:&quot;/-/whats_new/mark_as_read&quot;,&quot;is_logged_in&quot;:false,&quot;compare_plans_url&quot;:&quot;https://about.gitlab.com/pricing&quot;,&quot;context_switcher_links&quot;:[{&quot;title&quot;:&quot;Explore&quot;,&quot;link&quot;:&quot;/explore&quot;,&quot;icon&quot;:&quot;compass&quot;}],&quot;current_menu_items&quot;:[{&quot;id&quot;:&quot;projects_menu&quot;,&quot;title&quot;:&quot;Projects&quot;,&quot;icon&quot;:&quot;project&quot;,&quot;avatar_shape&quot;:&quot;rect&quot;,&quot;link&quot;:&quot;/explore/projects&quot;,&quot;is_active&quot;:false,&quot;items&quot;:[],&quot;separated&quot;:false},{&quot;id&quot;:&quot;groups_menu&quot;,&quot;title&quot;:&quot;Groups&quot;,&quot;icon&quot;:&quot;group&quot;,&quot;avatar_shape&quot;:&quot;rect&quot;,&quot;link&quot;:&quot;/explore/groups&quot;,&quot;is_active&quot;:false,&quot;items&quot;:[],&quot;separated&quot;:false},{&quot;id&quot;:&quot;catalog_menu&quot;,&quot;title&quot;:&quot;CI/CD Catalog&quot;,&quot;icon&quot;:&quot;catalog-checkmark&quot;,&quot;avatar_shape&quot;:&quot;rect&quot;,&quot;link&quot;:&quot;/explore/catalog&quot;,&quot;is_active&quot;:false,&quot;items&quot;:[],&quot;separated&quot;:false},{&quot;id&quot;:&quot;ai_catalog_menu&quot;,&quot;title&quot;:&quot;AI Catalog&quot;,&quot;icon&quot;:&quot;tanuki-ai&quot;,&quot;avatar_shape&quot;:&quot;rect&quot;,&quot;link&quot;:&quot;/explore/ai-catalog&quot;,&quot;is_active&quot;:false,&quot;items&quot;:[],&quot;separated&quot;:false},{&quot;id&quot;:&quot;topics_menu&quot;,&quot;title&quot;:&quot;Topics&quot;,&quot;icon&quot;:&quot;labels&quot;,&quot;avatar_shape&quot;:&quot;rect&quot;,&quot;link&quot;:&quot;/explore/projects/topics&quot;,&quot;is_active&quot;:false,&quot;items&quot;:[],&quot;separated&quot;:false},{&quot;id&quot;:&quot;snippets_menu&quot;,&quot;title&quot;:&quot;Snippets&quot;,&quot;icon&quot;:&quot;snippet&quot;,&quot;avatar_shape&quot;:&quot;rect&quot;,&quot;link&quot;:&quot;/explore/snippets&quot;,&quot;is_active&quot;:false,&quot;items&quot;:[],&quot;separated&quot;:false}],&quot;current_context_header&quot;:&quot;Explore&quot;,&quot;university_path&quot;:&quot;https://university.gitlab.com&quot;,&quot;support_path&quot;:&quot;https://support.gitlab.com&quot;,&quot;docs_path&quot;:&quot;/help/docs&quot;,&quot;display_whats_new&quot;:true,&quot;show_version_check&quot;:null,&quot;search&quot;:{&quot;search_path&quot;:&quot;/search&quot;,&quot;issues_path&quot;:&quot;/dashboard/issues&quot;,&quot;mr_path&quot;:&quot;/dashboard/merge_requests&quot;,&quot;autocomplete_path&quot;:&quot;/search/autocomplete&quot;,&quot;settings_path&quot;:&quot;/search/settings&quot;,&quot;search_context&quot;:{&quot;for_snippets&quot;:null}},&quot;panel_type&quot;:&quot;user_profile&quot;,&quot;shortcut_links&quot;:[{&quot;title&quot;:&quot;Snippets&quot;,&quot;href&quot;:&quot;/explore/snippets&quot;,&quot;css_class&quot;:&quot;dashboard-shortcuts-snippets&quot;},{&quot;title&quot;:&quot;Groups&quot;,&quot;href&quot;:&quot;/explore/groups&quot;,&quot;css_class&quot;:&quot;dashboard-shortcuts-groups&quot;},{&quot;title&quot;:&quot;Projects&quot;,&quot;href&quot;:&quot;/explore/projects&quot;,&quot;css_class&quot;:&quot;dashboard-shortcuts-projects&quot;}],&quot;terms&quot;:&quot;/-/users/terms&quot;,&quot;sign_in_visible&quot;:&quot;true&quot;,&quot;allow_signup&quot;:&quot;true&quot;,&quot;new_user_registration_path&quot;:&quot;/users/sign_up&quot;,&quot;sign_in_path&quot;:&quot;/users/sign_in?redirect_to_referer=yes&quot;,&quot;trial_registration_path&quot;:&quot;/-/trial_registrations/new&quot;}"></aside>
+
+<div class="panels-container gl-flex gl-gap-3">
+<div class="content-panels gl-flex-1 gl-w-full gl-flex gl-gap-3 gl-relative js-content-panels gl-@container/content-panels">
+<div class="js-static-panel static-panel content-wrapper gl-relative paneled-view gl-flex-1 gl-overflow-y-auto gl-bg-default">
+<div class="panel-header">
+<div class="broadcast-wrapper">
+
+
+
+
+</div>
+<div class="top-bar-fixed container-fluid gl-rounded-t-lg gl-sticky gl-top-0 gl-left-0 gl-mx-0 gl-w-full">
+<div class="top-bar-container gl-flex gl-items-center gl-gap-2">
+<div class="gl-grow gl-basis-0 gl-flex gl-items-center gl-justify-start gl-gap-3">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"EdOverflow","item":"https://gitlab.com/security.txt"}]}
+
+
+</script>
+<div data-testid="breadcrumb-links" id="js-vue-page-breadcrumbs-wrapper">
+<div data-breadcrumbs-json="[{&quot;text&quot;:&quot;EdOverflow&quot;,&quot;href&quot;:&quot;/security.txt&quot;,&quot;avatarPath&quot;:null}]" id="js-vue-page-breadcrumbs"></div>
+<div id="js-injected-page-breadcrumbs"></div>
+</div>
+<div id="js-page-breadcrumbs-extra"></div>
+
+
+<div id="js-work-item-feedback"></div>
+
+
+
+</div>
+</div>
+</div>
+</div>
+<div class="panel-content">
+<div class="panel-content-inner js-static-panel-inner">
+<div class="alert-wrapper alert-wrapper-top-space gl-flex gl-flex-col gl-gap-3 container-fluid container-limited">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class=" ">
+<main class="content gl-pb-3 gl-@container/panel" id="content-body" itemscope itemtype="http://schema.org/Person">
+<div id="js-drawer-container"></div>
+<div class="flash-container flash-container-page sticky" data-testid="flash-container">
+<div id="js-global-alerts"></div>
+</div>
+
+
+
+<div class="container-fluid container-limited">
+<div class="user-profile-header gl-flex gl-justify-between gl-flex-col gl-my-5 @md/panel:gl-flex-row-reverse" data-testid="user-profile-header">
+<div>
+<div class="cover-controls gl-flex gl-gap-3 gl-mb-4 @md/panel:gl-justify-end @md/panel:gl-flex-row-reverse">
+<div class="js-user-profile-actions" data-user-id="3277654"></div>
+
+
+
+</div>
+</div>
+<div class="gl-flex gl-flex-row gl-items-center gl-gap-x-5 gl-mt-2 @sm/panel:gl-mt-0">
+<div class="user-image gl-relative gl-md-py-3">
+<a target="_blank" rel="noopener noreferrer" title="View large avatar" href="/uploads/-/system/user/avatar/3277654/avatar.png?width=800"><img srcset="/uploads/-/system/user/avatar/3277654/avatar.png?width=192 1x, /uploads/-/system/user/avatar/3277654/avatar.png?width=192 2x" class="gl-avatar gl-avatar-s96  gl-avatar-circle" height="96" width="96" loading="lazy" itemprop="image" alt="User profile picture" src="/uploads/-/system/user/avatar/3277654/avatar.png?width=192" />
+
+</a></div>
+<div>
+<h1 class="gl-heading-1 gl-leading-1 gl-mr-2 !gl-my-0" itemprop="name">
+EdOverflow
+</h1>
+<div class="gl-text-size-h2 gl-text-subtle gl-font-normal gl-my-0">
+@security.txt
+</div>
+<div class="gl-my-2 cover-status gl-text-sm gl-pt-2 gl-flex gl-flex-col">
+<div class="gl-inline-flex gl-gap-3 gl-items-baseline">
+<gl-emoji title="speech balloon" data-name="speech_balloon" data-unicode-version="6.0">💬</gl-emoji>
+haxx3d
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="user-profile user-profile-with-sidebar">
+<div class="user-profile-content">
+<section class="gl-flex gl-empty-state gl-text-center gl-flex-col">
+<div class="gl-max-w-full">
+<img alt="" class="gl-dark-invert-keep-hue" src="/assets/illustrations/empty-state/empty-private-md-0626c6b1369c6699496f076a93ffdf53a741bb31632951a7d16996565c218c43.svg" />
+</div>
+<div class="gl-empty-state-content gl-mx-auto gl-my-0 gl-m-auto gl-p-5">
+<h1 class="gl-text-size-h-display gl-leading-36 gl-mt-0 gl-mb-0 h4">
+This user has a private profile
+</h1>
+</div>
+</section>
+
+</div>
+<div class="user-profile-sidebar">
+<div class="profile-header gl-pb-5 gl-pt-3 gl-overflow-y-auto @sm/panel:gl-pr-4">
+<div class="gl-align-top gl-text-left gl-max-w-80 gl-wrap-anywhere">
+<div class="user-info">
+<div class="gl-flex gl-gap-4 gl-flex-col">
+<div>
+<h2 class="gl-text-base gl-mb-2 gl-mt-4">About</h2>
+<div class="gl-flex gl-gap-2 gl-flex-col">
+<p class="profile-user-bio gl-mb-0">
+Contact: https://hackerone.com/ed
+
+# Content injecion. Bounty plz. 100k
+</p>
+</div>
+</div>
+<div>
+</div>
+<div class="gl-text-default">
+<h2 class="gl-text-base gl-mb-2 gl-mt-4">Contact</h2>
+<div class="gl-flex gl-gap-2 gl-mb-2">
+<svg class="s16 gl-fill-icon-subtle gl-mt-1 flex-shrink-0" data-testid="earth-icon"><use href="/assets/icons-a4809fd5c42ba3671cd5d852f4700b93fc7406c54b18c2d26c8065c8ec052f75.svg#earth"></use></svg>
+<a class="gl-text-default" target="_blank" rel="me noopener noreferrer nofollow" itemprop="url" href="https://google.com">google.com</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+</main>
+</div>
+
+
+</div>
+
+
+</div>
+</div>
+<div class="paneled-view contextual-panel gl-@container/panel !gl-absolute gl-shadow-lg @xl/content-panels:gl-w-1/2 @xl/content-panels:gl-shadow-none @xl/content-panels:!gl-relative" id="contextual-panel-portal"></div>
+</div>
+</div>
+
+
+</div>
+
+
+<script nonce="BkOrZvLl9jjUr7XW+Zo5wA==">
+//<![CDATA[
+if ('loading' in HTMLImageElement.prototype) {
+  document.querySelectorAll('img.lazy').forEach(img => {
+    img.loading = 'lazy';
+    let imgUrl = img.dataset.src;
+    // Only adding width + height for avatars for now
+    if (imgUrl.indexOf('/avatar/') > -1 && imgUrl.indexOf('?') === -1) {
+      const targetWidth = img.getAttribute('width') || img.width;
+      imgUrl += `?width=${targetWidth}`;
+    }
+    img.src = imgUrl;
+    img.removeAttribute('data-src');
+    img.classList.remove('lazy');
+    img.classList.add('js-lazy-loaded');
+    img.dataset.testid = 'js-lazy-loaded-content';
+  });
+}
+
+//]]>
+</script>
+<script nonce="BkOrZvLl9jjUr7XW+Zo5wA==">
+//<![CDATA[
+gl = window.gl || {};
+gl.experiments = {};
+
+
+//]]>
+</script>
+
+</body>
+</html>

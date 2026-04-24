@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.halborn.com
+
+# Sitemaps
+Sitemap: https://www.halborn.com/sitemap.xml
+Sitemap: https://www.halborn.com/server-sitemap.xml

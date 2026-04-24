@@ -336,6 +336,14 @@
 		<priority>0.80</priority>
 	</url>
 	<url>
+		<loc>https://www.hanwha.com/newsroom/news/feature-stories/how-hanwha-is-supporting-canadas-industrial-future.do</loc>
+		<priority>0.80</priority>
+	</url>
+	<url>
+		<loc>https://www.hanwha.com/newsroom/news/feature-stories/canadas-submarine-renewal-what-will-it-take-to-deliver.do</loc>
+		<priority>0.80</priority>
+	</url>
+	<url>
 		<loc>https://www.hanwha.com/newsroom/news/feature-stories/how-ai-infrastructure-is-becoming-more-distributed-and-more-energy-aware.do</loc>
 		<priority>0.80</priority>
 	</url>
@@ -1000,11 +1008,11 @@
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://www.hanwha.com/newsroom/news/feature-stories/pinpoint-precision-hanwha-aerospace-flies-high-through-automation.do</loc>
+		<loc>https://www.hanwha.com/newsroom/news/feature-stories/hanwha-aerospace-spreads-its-wings-in-the-us.do</loc>
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://www.hanwha.com/newsroom/news/feature-stories/hanwha-aerospace-spreads-its-wings-in-the-us.do</loc>
+		<loc>https://www.hanwha.com/newsroom/news/feature-stories/pinpoint-precision-hanwha-aerospace-flies-high-through-automation.do</loc>
 		<priority>0.80</priority>
 	</url>
 	<url>
@@ -1096,11 +1104,11 @@
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://www.hanwha.com/newsroom/news/feature-stories/hanwha-q-cells-powers-world-economic-forum-towards-iso-20121-2012-certification.do</loc>
+		<loc>https://www.hanwha.com/newsroom/news/feature-stories/ai-is-transforming-the-insurance-industry.do</loc>
 		<priority>0.80</priority>
 	</url>
 	<url>
-		<loc>https://www.hanwha.com/newsroom/news/feature-stories/ai-is-transforming-the-insurance-industry.do</loc>
+		<loc>https://www.hanwha.com/newsroom/news/feature-stories/hanwha-q-cells-powers-world-economic-forum-towards-iso-20121-2012-certification.do</loc>
 		<priority>0.80</priority>
 	</url>
 	<url>

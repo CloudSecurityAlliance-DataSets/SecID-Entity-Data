@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.tplink.tether",
+    "sha256_cert_fingerprints":
+     ["86:76:2D:F4:F8:F2:71:9D:1C:24:E3:89:7F:C2:ED:FC:B5:B2:D7:F7:52:19:81:93:AA:67:8F:13:B2:DF:B1:29","58:A5:07:41:C1:3A:7D:71:5C:80:42:95:6C:21:FD:FE:3B:8C:B6:42:9B:97:0B:D9:6C:F0:F8:7C:7B:11:57:50","6C:E7:EF:A0:44:42:FC:35:D7:38:E0:D7:E0:8A:EE:22:EA:75:AB:3E:8D:5E:0F:60:59:2E:22:1D:56:3A:5A:7A","27:82:BE:ED:36:9F:05:64:2F:C2:96:86:10:53:C0:FA:5B:0D:CD:50:12:8C:06:BF:2B:85:28:75:17:34:A8:72"]
+  }
+}]

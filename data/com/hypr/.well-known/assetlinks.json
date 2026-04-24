@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.hypr.one",
+      "sha256_cert_fingerprints": [
+        "1D:85:ED:66:A3:19:03:92:C3:83:14:90:CB:49:95:8A:5D:67:34:07:82:65:97:E1:9F:9D:79:70:2E:EC:00:7B",
+        "8B:56:5D:F3:59:C6:72:41:99:5D:85:5E:47:F5:2B:03:22:8E:1A:8B:1B:C2:5C:3F:B4:70:93:37:A8:B7:1D:01"
+      ]
+    }
+  }
+]

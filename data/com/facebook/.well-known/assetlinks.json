@@ -1,0 +1,285 @@
+[
+       {
+          "relation": [
+             "delegate_permission/common.handle_all_urls"
+          ],
+          "target": {
+             "namespace": "web",
+             "site": "https://www.facebook.com"
+          }
+       },
+       {
+          "relation": [
+             "delegate_permission/common.handle_all_urls"
+          ],
+          "target": {
+             "namespace": "web",
+             "site": "https://m.facebook.com"
+          }
+       },
+       {
+          "relation": [
+             "delegate_permission/common.get_login_creds"
+          ],
+          "target": {
+             "namespace": "web",
+             "site": "https://www.facebook.com"
+          }
+       },
+       {
+          "relation": [
+             "delegate_permission/common.get_login_creds"
+          ],
+          "target": {
+             "namespace": "web",
+             "site": "https://m.facebook.com"
+          }
+       },
+       {
+          "relation": [
+             "delegate_permission/common.get_login_creds"
+          ],
+          "target": {
+             "namespace": "web",
+             "site": "https://free.facebook.com"
+          }
+       },
+       {
+          "relation": [
+             "delegate_permission/common.get_login_creds"
+          ],
+          "target": {
+             "namespace": "web",
+             "site": "https://mobile.facebook.com"
+          }
+       },
+       {
+          "relation": [
+             "delegate_permission/common.get_login_creds"
+          ],
+          "target": {
+             "namespace": "web",
+             "site": "https://mbasic.facebook.com"
+          }
+       },
+       {
+          "relation": [
+             "delegate_permission/common.handle_all_urls"
+          ],
+          "target": {
+             "namespace": "android_app",
+             "package_name": "com.facebook.appmanager",
+             "sha256_cert_fingerprints": [
+                "E3:F9:E1:E0:CF:99:D0:E5:6A:05:5B:A6:5E:24:1B:33:99:F7:CE:A5:24:32:6B:0C:DD:6E:C1:32:7E:D0:FD:C1",
+                "CC:56:51:EB:6A:FE:52:BE:E7:2E:0F:F2:38:16:C6:99:2E:0E:F7:FA:9E:24:46:E7:11:F2:99:AF:B1:3A:35:9F",
+                "B9:21:09:B5:90:95:95:5C:CA:AF:5E:CB:CF:0F:15:3E:C9:64:0A:46:58:C1:01:66:7A:D9:6B:7E:49:9A:40:92"
+             ]
+          }
+       },
+       {
+          "relation": [
+             "delegate_permission/common.handle_all_urls"
+          ],
+          "target": {
+             "namespace": "android_app",
+             "package_name": "com.facebook.appmanager.dev",
+             "sha256_cert_fingerprints": [
+
+             ]
+          }
+       },
+       {
+          "relation": [
+             "delegate_permission/common.handle_all_urls"
+          ],
+          "target": {
+             "namespace": "android_app",
+             "package_name": "com.facebook.analytics",
+             "sha256_cert_fingerprints": [
+
+             ]
+          }
+       },
+       {
+          "relation": [
+             "delegate_permission/common.handle_all_urls"
+          ],
+          "target": {
+             "namespace": "android_app",
+             "package_name": "com.facebook.lite",
+             "sha256_cert_fingerprints": [
+                "E3:F9:E1:E0:CF:99:D0:E5:6A:05:5B:A6:5E:24:1B:33:99:F7:CE:A5:24:32:6B:0C:DD:6E:C1:32:7E:D0:FD:C1",
+                "8C:D3:9C:EE:60:F3:60:E9:89:9C:3C:CF:B9:F7:AC:17:13:4F:B2:35:78:21:E5:C7:E2:D8:E7:8C:E0:87:91:40",
+                "48:07:2A:2C:25:E6:EB:5C:F1:96:27:1D:26:F5:BF:49:4A:26:FF:EE:CB:77:9A:5C:70:C1:3D:EB:E3:31:D3:21"
+             ]
+          }
+       },
+       {
+          "relation": [
+             "delegate_permission/common.handle_all_urls"
+          ],
+          "target": {
+             "namespace": "android_app",
+             "package_name": "com.oculus.facebook",
+             "sha256_cert_fingerprints": [
+                "86:C8:C7:09:96:43:43:F9:D8:03:BA:45:75:98:0B:96:EE:C2:8F:9B:0F:FE:57:9D:BB:EB:82:A0:1C:46:B1:10"
+             ]
+          }
+       },
+       {
+          "relation": [
+             "delegate_permission/common.handle_all_urls"
+          ],
+          "target": {
+             "namespace": "android_app",
+             "package_name": "com.facebook.stella",
+             "sha256_cert_fingerprints": [
+                "8C:D3:9C:EE:60:F3:60:E9:89:9C:3C:CF:B9:F7:AC:17:13:4F:B2:35:78:21:E5:C7:E2:D8:E7:8C:E0:87:91:40",
+                "48:07:2A:2C:25:E6:EB:5C:F1:96:27:1D:26:F5:BF:49:4A:26:FF:EE:CB:77:9A:5C:70:C1:3D:EB:E3:31:D3:21",
+                "81:B0:48:87:E8:EB:8A:20:9F:2E:5E:40:42:AD:CF:69:6B:F7:51:E9:9A:BD:BD:A1:32:B6:61:67:FD:CA:94:31",
+                "C5:6F:50:A8:26:02:9D:BD:89:3A:52:71:03:A2:24:CA:1C:A2:07:4E:D7:9D:EE:E7:6F:AE:18:E1:D6:E6:C7:68"
+             ]
+          }
+       },
+       {
+          "relation": [
+             "delegate_permission/common.handle_all_urls"
+          ],
+          "target": {
+             "namespace": "android_app",
+             "package_name": "com.facebook.stella_debug",
+             "sha256_cert_fingerprints": [
+
+             ]
+          }
+       },
+       {
+          "relation": [
+             "delegate_permission/common.handle_all_urls"
+          ],
+          "target": {
+             "namespace": "android_app",
+             "package_name": "com.facebook.vibes",
+             "sha256_cert_fingerprints": [
+                "8C:D3:9C:EE:60:F3:60:E9:89:9C:3C:CF:B9:F7:AC:17:13:4F:B2:35:78:21:E5:C7:E2:D8:E7:8C:E0:87:91:40",
+                "F1:4F:A6:84:20:60:BF:86:2C:63:90:EF:27:B3:D9:AF:5A:18:A5:C1:6B:A2:79:56:11:4B:0C:92:47:EC:23:EA",
+                "98:DC:A1:81:CD:7D:E0:13:89:FF:40:6E:BC:1B:CB:5D:4F:49:93:76:3A:9B:B0:FE:17:EF:D6:C8:57:F4:C3:49"
+             ]
+          }
+       },
+       {
+          "relation": [
+             "delegate_permission/common.handle_all_urls"
+          ],
+          "target": {
+             "namespace": "android_app",
+             "package_name": "com.facebook.vibes_debug",
+             "sha256_cert_fingerprints": [
+
+             ]
+          }
+       },
+       {
+          "relation": [
+             "delegate_permission/common.handle_all_urls"
+          ],
+          "target": {
+             "namespace": "android_app",
+             "package_name": "com.facebook.aura",
+             "sha256_cert_fingerprints": [
+                "8C:D3:9C:EE:60:F3:60:E9:89:9C:3C:CF:B9:F7:AC:17:13:4F:B2:35:78:21:E5:C7:E2:D8:E7:8C:E0:87:91:40",
+                "A1:6B:BE:02:47:A7:38:BC:8F:09:FE:F5:0D:89:0D:C1:77:EC:87:5A:83:A1:21:F8:77:32:9B:1B:89:66:7E:99"
+             ]
+          }
+       },
+       {
+          "relation": [
+             "delegate_permission/common.get_login_creds"
+          ],
+          "target": {
+             "namespace": "android_app",
+             "package_name": "com.facebook.lite",
+             "sha256_cert_fingerprints": [
+                "E3:F9:E1:E0:CF:99:D0:E5:6A:05:5B:A6:5E:24:1B:33:99:F7:CE:A5:24:32:6B:0C:DD:6E:C1:32:7E:D0:FD:C1",
+                "8C:D3:9C:EE:60:F3:60:E9:89:9C:3C:CF:B9:F7:AC:17:13:4F:B2:35:78:21:E5:C7:E2:D8:E7:8C:E0:87:91:40",
+                "48:07:2A:2C:25:E6:EB:5C:F1:96:27:1D:26:F5:BF:49:4A:26:FF:EE:CB:77:9A:5C:70:C1:3D:EB:E3:31:D3:21"
+             ]
+          }
+       },
+       {
+          "relation": [
+             "delegate_permission/common.get_login_creds"
+          ],
+          "target": {
+             "namespace": "android_app",
+             "package_name": "com.whatsapp.w4b",
+             "sha256_cert_fingerprints": [
+                "39:87:D0:43:D1:0A:EF:AF:5A:87:10:B3:67:14:18:FE:57:E0:E1:9B:65:3C:9D:F8:25:58:FE:B5:FF:CE:5D:44",
+                "CC:E5:84:32:83:F0:A5:60:6B:0F:AC:F6:F7:3E:F7:98:91:C4:8A:82:0E:84:F8:11:E0:04:44:35:B3:97:9E:A2",
+                "FB:92:0D:38:1B:EE:1B:20:93:F2:7D:C8:F1:3D:99:4D:A6:29:DC:91:88:7D:05:29:B3:5C:9A:2D:C4:F4:A6:C2"
+             ]
+          }
+       },
+       {
+          "relation": [
+             "delegate_permission/common.handle_all_urls",
+             "delegate_permission/common.get_login_creds"
+          ],
+          "target": {
+             "namespace": "android_app",
+             "package_name": "com.facebook.orca",
+             "sha256_cert_fingerprints": [
+                "12:9D:C5:34:80:E2:BF:1B:55:CF:6E:EC:20:5F:E0:F5:9D:2B:9F:81:E7:EE:4F:B6:7C:EC:BB:EE:25:A0:B0:80",
+                "E3:F9:E1:E0:CF:99:D0:E5:6A:05:5B:A6:5E:24:1B:33:99:F7:CE:A5:24:32:6B:0C:DD:6E:C1:32:7E:D0:FD:C1",
+                "8C:D3:9C:EE:60:F3:60:E9:89:9C:3C:CF:B9:F7:AC:17:13:4F:B2:35:78:21:E5:C7:E2:D8:E7:8C:E0:87:91:40",
+                "48:07:2A:2C:25:E6:EB:5C:F1:96:27:1D:26:F5:BF:49:4A:26:FF:EE:CB:77:9A:5C:70:C1:3D:EB:E3:31:D3:21"
+             ]
+          }
+       },
+       {
+          "relation": [
+             "delegate_permission/common.handle_all_urls",
+             "delegate_permission/common.get_login_creds"
+          ],
+          "target": {
+             "namespace": "android_app",
+             "package_name": "com.facebook.katana",
+             "sha256_cert_fingerprints": [
+                "12:9D:C5:34:80:E2:BF:1B:55:CF:6E:EC:20:5F:E0:F5:9D:2B:9F:81:E7:EE:4F:B6:7C:EC:BB:EE:25:A0:B0:80",
+                "E3:F9:E1:E0:CF:99:D0:E5:6A:05:5B:A6:5E:24:1B:33:99:F7:CE:A5:24:32:6B:0C:DD:6E:C1:32:7E:D0:FD:C1",
+                "7E:ED:BF:2C:7B:FD:98:FF:BA:5B:C2:6F:F9:4A:07:3F:FF:27:32:52:6C:0F:92:00:68:DE:F8:41:53:CE:AB:23",
+                "8C:D3:9C:EE:60:F3:60:E9:89:9C:3C:CF:B9:F7:AC:17:13:4F:B2:35:78:21:E5:C7:E2:D8:E7:8C:E0:87:91:40",
+                "48:07:2A:2C:25:E6:EB:5C:F1:96:27:1D:26:F5:BF:49:4A:26:FF:EE:CB:77:9A:5C:70:C1:3D:EB:E3:31:D3:21"
+             ]
+          }
+       },
+       {
+          "relation": [
+             "delegate_permission/common.handle_all_urls",
+             "delegate_permission/common.get_login_creds"
+          ],
+          "target": {
+             "namespace": "android_app",
+             "package_name": "com.instagram.android",
+             "sha256_cert_fingerprints": [
+                "93:CC:E3:EC:B1:3D:47:D8:89:F5:BB:EF:3B:62:CB:6A:84:54:1A:4B:CC:69:D5:C2:E4:45:FC:44:15:4A:13:CC",
+                "5F:3E:50:F4:35:58:3C:9A:E6:26:30:2A:71:F7:34:00:44:08:7A:7E:2C:60:AD:AC:FC:25:42:05:A9:93:E3:05",
+                "48:07:2A:2C:25:E6:EB:5C:F1:96:27:1D:26:F5:BF:49:4A:26:FF:EE:CB:77:9A:5C:70:C1:3D:EB:E3:31:D3:21"
+             ]
+          }
+       },
+       {
+          "relation": [
+             "delegate_permission/common.get_login_creds",
+             "delegate_permission/common.handle_all_urls",
+             "delegate_permission/common.use_as_origin"
+          ],
+          "target": {
+             "namespace": "android_app",
+             "package_name": "com.facebook.wakizashi",
+             "sha256_cert_fingerprints": [
+                "12:9D:C5:34:80:E2:BF:1B:55:CF:6E:EC:20:5F:E0:F5:9D:2B:9F:81:E7:EE:4F:B6:7C:EC:BB:EE:25:A0:B0:80"
+             ]
+          }
+       }
+    ]

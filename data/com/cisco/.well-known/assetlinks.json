@@ -1,0 +1,13 @@
+[
+{
+  "relation": [
+  "delegate_permission/common.handle_all_urls"
+  ],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.cisco.udn",
+    "sha256_cert_fingerprints": [ "B0:F3:90:3A:3E:9E:F5:F5:3B:98:97:36:80:92:7A:97:78:BC:6C:8F:F2:B8:95:F6:22:43:83:0C:37:3B:07:01"
+    ]
+  }
+}
+]

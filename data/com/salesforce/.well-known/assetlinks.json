@@ -1,0 +1,35 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.salesforce.chatter",
+    "sha256_cert_fingerprints":
+    ["B3:F9:41:31:70:75:F1:23:BD:F4:B4:1E:F7:06:9A:36:16:53:20:78:46:18:7A:3E:98:ED:F9:D6:7C:86:22:65",
+     "73:51:AF:5E:A7:E2:01:45:6C:04:44:0D:B7:AE:4F:27:B2:C9:FD:24:28:E3:BE:5B:D3:04:10:D9:C2:C3:2F:81",
+     "60:F9:E2:88:D8:96:87:4D:15:5F:FD:5B:2D:EC:6A:D8:98:3A:87:86:47:DB:3F:B3:D5:14:2F:28:54:60:13:AE"]
+  }
+},{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.salesforce.wave",
+    "sha256_cert_fingerprints":
+    ["9D:F3:CE:CF:A7:3C:A0:7B:B6:72:EF:D6:A6:A2:CE:E6:07:BB:F0:C8:67:88:EC:0B:AB:B4:CF:1E:D7:01:C9:BA",
+     "30:82:37:4B:80:0E:43:49:D3:D2:9D:E2:2A:EF:FF:1C:39:81:31:68:F2:BD:C4:CF:42:CA:D5:A7:A5:36:E5:FB"]
+  }
+},{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.mysalesforce.salesforce1.itauunibancosa.app1",
+    "sha256_cert_fingerprints":
+    ["B3:F9:41:31:70:75:F1:23:BD:F4:B4:1E:F7:06:9A:36:16:53:20:78:46:18:7A:3E:98:ED:F9:D6:7C:86:22:65"]
+  }
+},{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+        "namespace": "android_app",
+        "package_name": "com.mysalesforce.salesforce1.C00D700000008Sf3EAE.A0OT5Y000000kAP1WAM",
+        "sha256_cert_fingerprints": ["BB:CD:F7:27:20:14:E3:D5:13:9A:BF:51:CB:70:07:58:23:7C:F6:79:DA:1F:72:90:4E:96:30:7B:F4:CE:24:F0"]
+    }
+}]

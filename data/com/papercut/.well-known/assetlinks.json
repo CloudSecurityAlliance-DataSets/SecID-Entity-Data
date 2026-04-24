@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.papercut.projectbanksia",
+    "sha256_cert_fingerprints":
+    ["FA:F7:4D:FC:63:E5:75:78:16:EF:0A:7C:3B:C9:4E:2E:20:62:18:7F:18:58:09:AB:41:35:52:C5:BB:40:9B:72"]
+  }
+}]

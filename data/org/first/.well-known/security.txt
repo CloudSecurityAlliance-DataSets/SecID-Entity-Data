@@ -1,0 +1,27 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: https://support.first.org
+Expires: 2028-01-26T23:59:59.999Z
+Encryption: https://www.first.org/tech.asc
+Preferred-Languages: en
+Acknowledgments: https://www.first.org/about/bugs#Hall-of-fame
+Policy: https://www.first.org/about/policies
+Canonical: https://www.first.org/.well-known/security.txt
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEdzURSTcimjwhKYkDf4xlZRP2rVcFAml3ezEACgkQf4xlZRP2
+rVdLEw/6AnSubTHJ51MmGi3MOH3Pj52TDrFFd5UCuSjiYIDXSfhtX2zNALy/BLuG
+FM8mRB4rbN6zuw5+qn+eed56wfcLls0dK8Wt7c5yGOXSEa+V6oqYkVlf7qo1zj3u
+qOmQNnRzEF8iMHAkC+3TYGXYKOHEHCX2ZBVxuhd8Jj6Bujv0C81WFN02K5Hr+tyK
+kVkzU2lAYBj0LxLWSK1rc2DPa8ggpgBG4aQCPCnO1q3MVhI01Yv9OTKyqNb1qTZt
+JYaQUEr/HqXPpcGDvMnuBc35x+c9HR2aJQt7VPFpXyNTsuNUSmHgJXHq/lMYvKwg
+PbngS74Ob+PMtpWSCfj87Og0SCaTQZ6HVSqhyA5Gxyop4WspP4NpToGDppnrlJGd
+eB69ZuE9qlvefCb01yXeMOfqVY+ETSQuOqt8usAL+QwhQzjdDgn33ooXTFuagjNl
+1AoS67BVnRC07WvM8oTqbwPw6cCH7wNFXWuS6s9LxLUb6DhiR/Sah11DN2W4jgFk
+aq/dh3xG3CDWtpQSv6A1l7klBUdO3vD063eYZidGLr8LBXDpDsW1LHWira1hzst0
+etf6kKj5fHyOQsTbV37Q3IyGeJwJJKiV9imLhcND6b7Qkr8XCjyyIRok4vBUvQJT
+FnyaqGZrERzKi74pPyae3+rVZ8WOA3FmCW8opmYdAFDiz7bPbVE=
+=Q4Nd
+-----END PGP SIGNATURE-----

@@ -1,0 +1,28 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.nintendo.deepen.qa",
+      "sha256_cert_fingerprints": [
+        "88:A6:68:10:52:1C:A6:15:80:69:0B:2D:8F:7C:06:F8:66:B6:47:59:B4:A5:FE:C9:D9:D1:4E:CB:E0:01:CD:CF"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.nintendo.znsa",
+      "sha256_cert_fingerprints": [
+        "F1:3F:F1:89:BC:D1:D5:9F:AD:16:54:E0:E4:F7:26:8D:D2:51:F3:23:49:54:CB:53:B8:79:05:D5:4A:F3:C8:8E",
+        "16:D7:8B:C9:30:F2:2A:64:C9:75:E0:D6:4E:80:39:94:C0:3E:9E:9D:B4:92:56:34:57:C8:18:92:B1:6B:AB:14",
+        "24:CF:58:E2:D8:98:48:22:33:DF:13:66:A4:BE:93:26:A8:B9:82:90:B6:AE:C9:45:A3:60:25:20:E8:13:9D:AE"
+      ]
+    }
+  }
+]

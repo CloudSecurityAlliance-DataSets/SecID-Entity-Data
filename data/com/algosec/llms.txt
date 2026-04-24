@@ -1,5 +1,5 @@
 # algosecs
-> AlgoSec provides a platform focused on securing application connectivity and managing network security policies across complex hybrid environments. The site highlights an application-centric approach that leverages automation for policy changes, enhanced visibility, and compliance. AlgoSec aims to help organizations accelerate application delivery while reducing risk and maintaining agility. The platform integrates with various technologies and supports modern security frameworks like Zero Trust.
+> AlgoSec offers a platform designed to secure application connectivity and manage network security policies across complex hybrid and multi-cloud environments. The site emphasizes how their solutions automate security processes, provide comprehensive visibility, and ensure compliance to address challenges like increasing network complexity and rapid application deployment. Key features include an application-centric approach, integration with various technologies, and support for Zero Trust architectures. AlgoSec aims to help organizations reduce risk, enhance agility, and maintain continuous security and compliance.
 
 ## AI Agent Access
 

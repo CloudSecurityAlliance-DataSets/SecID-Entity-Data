@@ -1,0 +1,57 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.callpod.android_apps.keeper.debug",
+      "sha256_cert_fingerprints": [
+        "1D:76:B2:74:EF:FB:4C:AF:44:25:F4:37:AD:02:7E:67:30:C4:8C:F1:E1:39:59:D5:68:4D:01:79:6B:EA:D9:3D"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.callpod.android_apps.keeper",
+      "sha256_cert_fingerprints": [
+        "88:C4:89:0A:B3:74:72:1A:71:18:77:37:D3:30:55:3E:41:19:E2:2F:F8:45:F3:E8:C0:9F:01:83:3B:EC:38:4F",
+        "A1:22:9A:39:C2:36:83:89:70:9E:05:64:1D:36:8F:BE:1A:7C:D7:98:A0:84:1D:A2:09:4F:F6:35:62:6A:B9:41"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "lookalikes/allowlist"
+    ],
+    "target": {
+      "namespace": "web",
+      "site": "https://keepersecurity.com"
+    }
+  },
+  {
+    "relation": [
+      "lookalikes/allowlist"
+    ],
+    "target": {
+      "namespace": "web",
+      "site": "https://keeper.io"
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.keepersecurity.schwarz",
+      "sha256_cert_fingerprints": [
+        "36:C6:08:6D:92:74:6B:0A:A1:06:0B:BC:F9:29:DB:10:A9:3F:72:F2:43:35:D5:69:71:C2:6B:41:F8:F9:19:62"
+      ]
+    }
+  }
+]

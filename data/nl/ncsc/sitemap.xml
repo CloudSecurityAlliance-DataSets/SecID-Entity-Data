@@ -5,7 +5,7 @@
  <url>
   <loc>https://www.ncsc.nl/multifactor-authenticatie/wat-zijn-passkeys</loc>
   <xhtml:link rel="alternate" hreflang="nl" href="https://www.ncsc.nl/multifactor-authenticatie/wat-zijn-passkeys"/>
-  <lastmod>2025-12-23T11:21:27+01:00</lastmod>
+  <lastmod>2026-04-24T14:29:42+02:00</lastmod>
   <priority>0.6</priority>
  </url>
  <url>
@@ -427,7 +427,7 @@
  <url>
   <loc>https://www.ncsc.nl/risicomanagement/hoe-stuur-je-op-effectieve-informatiebeveiliging</loc>
   <xhtml:link rel="alternate" hreflang="nl" href="https://www.ncsc.nl/risicomanagement/hoe-stuur-je-op-effectieve-informatiebeveiliging"/>
-  <lastmod>2026-04-20T10:38:32+02:00</lastmod>
+  <lastmod>2026-04-24T15:28:49+02:00</lastmod>
   <priority>0.6</priority>
  </url>
  <url>
@@ -879,7 +879,7 @@
  <url>
   <loc>https://www.ncsc.nl/routekaart-risicomanagement/doorlopende-monitoring</loc>
   <xhtml:link rel="alternate" hreflang="nl" href="https://www.ncsc.nl/routekaart-risicomanagement/doorlopende-monitoring"/>
-  <lastmod>2026-04-20T10:38:32+02:00</lastmod>
+  <lastmod>2026-04-24T10:21:22+02:00</lastmod>
   <priority>0.6</priority>
  </url>
  <url>
@@ -1001,15 +1001,15 @@
   <priority>0.6</priority>
  </url>
  <url>
-  <loc>https://www.ncsc.nl/malware/wat-is-malware</loc>
-  <xhtml:link rel="alternate" hreflang="nl" href="https://www.ncsc.nl/malware/wat-is-malware"/>
-  <lastmod>2026-04-20T10:38:32+02:00</lastmod>
+  <loc>https://www.ncsc.nl/malware/aan-de-slag-tegen-malware</loc>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://www.ncsc.nl/malware/aan-de-slag-tegen-malware"/>
+  <lastmod>2026-04-24T15:38:33+02:00</lastmod>
   <priority>0.6</priority>
  </url>
  <url>
-  <loc>https://www.ncsc.nl/phishing/wat-is-phishing</loc>
-  <xhtml:link rel="alternate" hreflang="nl" href="https://www.ncsc.nl/phishing/wat-is-phishing"/>
-  <lastmod>2026-04-20T10:38:32+02:00</lastmod>
+  <loc>https://www.ncsc.nl/phishing/aan-de-slag-tegen-phishing</loc>
+  <xhtml:link rel="alternate" hreflang="nl" href="https://www.ncsc.nl/phishing/aan-de-slag-tegen-phishing"/>
+  <lastmod>2026-04-24T15:36:53+02:00</lastmod>
   <priority>0.6</priority>
  </url>
  <url>
@@ -3199,7 +3199,7 @@
  <url>
   <loc>https://www.ncsc.nl/producten-en-diensten/enter</loc>
   <xhtml:link rel="alternate" hreflang="nl" href="https://www.ncsc.nl/producten-en-diensten/enter"/>
-  <lastmod>2026-04-20T10:38:32+02:00</lastmod>
+  <lastmod>2026-04-24T14:31:19+02:00</lastmod>
   <priority>0.6</priority>
  </url>
  <url>

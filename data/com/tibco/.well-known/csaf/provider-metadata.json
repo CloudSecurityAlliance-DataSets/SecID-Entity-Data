@@ -1,0 +1,19 @@
+{
+  "canonical_url": "https://www.tibco.com/.well-known/csaf/provider-metadata.json",
+  "distributions": [
+    {
+      "directory_url": "https://www.tibco.com/.well-known/csaf"
+    }
+  ],
+  "last_updated": "2022-07-08T20:00:18Z",
+  "list_on_CSAF_aggregators": true,
+  "metadata_version": "2.0",
+  "mirror_on_CSAF_aggregators": false,
+  "publisher": {
+    "category": "vendor",
+    "contact_details": "TIBCO Software Inc. can be reached at mailto:security@tibco.com, or via our website at https://www.tibco.com/security",
+    "name": "TIBCO PSIRT",
+    "namespace": "https://tibco.com"
+  },
+  "role": "csaf_provider"
+}

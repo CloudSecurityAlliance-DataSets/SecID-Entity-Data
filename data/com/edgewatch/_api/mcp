@@ -1,0 +1,1851 @@
+<!doctype html>
+<html lang="en-GB" prefix="og: https://ogp.me/ns#">
+<head>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	
+<!-- Search Engine Optimization by Rank Math PRO - https://rankmath.com/ -->
+<title>Edgewatch MCP Server - Edgewatch</title>
+<meta name="description" content="The Edgewatch MCP Server provides developers with programmatic access to two IP intelligence tools: getInsight, which delivers contextual analysis of an IP, and getExplorer, which lists observed hostnames and open ports. Access is authenticated via client credentials (client-id, client-secret), and the service supports both Streamable HTTP and SSE transports. SDK integration with schema validation (Zod) is recommended for safe request/response handling, while simple curl queries are also supported."/>
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"/>
+<link rel="canonical" href="https://edgewatch.com/kb/mcp/" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Edgewatch MCP Server - Edgewatch" />
+<meta property="og:description" content="The Edgewatch MCP Server provides developers with programmatic access to two IP intelligence tools: getInsight, which delivers contextual analysis of an IP, and getExplorer, which lists observed hostnames and open ports. Access is authenticated via client credentials (client-id, client-secret), and the service supports both Streamable HTTP and SSE transports. SDK integration with schema validation (Zod) is recommended for safe request/response handling, while simple curl queries are also supported." />
+<meta property="og:url" content="https://edgewatch.com/kb/mcp/" />
+<meta property="og:site_name" content="Edgewatch" />
+<meta property="og:updated_time" content="2025-10-20T02:53:18+00:00" />
+<meta property="og:image" content="https://edgewatch.com/wp-content/uploads/2023/05/edgewatch-attack-surface-managem.jpg" />
+<meta property="og:image:secure_url" content="https://edgewatch.com/wp-content/uploads/2023/05/edgewatch-attack-surface-managem.jpg" />
+<meta property="og:image:width" content="1280" />
+<meta property="og:image:height" content="720" />
+<meta property="og:image:alt" content="Edgewatch MCP Server" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Edgewatch MCP Server - Edgewatch" />
+<meta name="twitter:description" content="The Edgewatch MCP Server provides developers with programmatic access to two IP intelligence tools: getInsight, which delivers contextual analysis of an IP, and getExplorer, which lists observed hostnames and open ports. Access is authenticated via client credentials (client-id, client-secret), and the service supports both Streamable HTTP and SSE transports. SDK integration with schema validation (Zod) is recommended for safe request/response handling, while simple curl queries are also supported." />
+<meta name="twitter:image" content="https://edgewatch.com/wp-content/uploads/2023/05/edgewatch-attack-surface-managem.jpg" />
+<script type="application/ld+json" class="rank-math-schema-pro">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https://edgewatch.com/kb/mcp/#breadcrumb","itemListElement":[{"@type":"ListItem","position":"1","item":{"@id":"https://edgewatch.com","name":"Home"}},{"@type":"ListItem","position":"2","item":{"@id":"https://edgewatch.com/kb/mcp/","name":"Edgewatch MCP Server"}}]}]}</script>
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel='dns-prefetch' href='//js-eu1.hs-scripts.com' />
+
+<link rel="alternate" type="application/rss+xml" title="Edgewatch &raquo; Feed" href="https://edgewatch.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Edgewatch &raquo; Comments Feed" href="https://edgewatch.com/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://edgewatch.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fedgewatch.com%2Fkb%2Fmcp%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://edgewatch.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fedgewatch.com%2Fkb%2Fmcp%2F&#038;format=xml" />
+<style id='wp-img-auto-sizes-contain-inline-css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link data-minify="1" rel='stylesheet' id='blocksy-dynamic-global-css' href='https://edgewatch.com/wp-content/cache/min/1/wp-content/uploads/blocksy/css/global.css?ver=1775796268' media='all' />
+<style id='wp-block-library-inline-css'>
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=wp-block-library-inline-css */
+</style>
+<style id='wp-block-gallery-inline-css'>
+.blocks-gallery-grid:not(.has-nested-images),.wp-block-gallery:not(.has-nested-images){display:flex;flex-wrap:wrap;list-style-type:none;margin:0;padding:0}.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-image,.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-item,.wp-block-gallery:not(.has-nested-images) .blocks-gallery-image,.wp-block-gallery:not(.has-nested-images) .blocks-gallery-item{display:flex;flex-direction:column;flex-grow:1;justify-content:center;margin:0 1em 1em 0;position:relative;width:calc(50% - 1em)}.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-image:nth-of-type(2n),.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-item:nth-of-type(2n),.wp-block-gallery:not(.has-nested-images) .blocks-gallery-image:nth-of-type(2n),.wp-block-gallery:not(.has-nested-images) .blocks-gallery-item:nth-of-type(2n){margin-right:0}.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-image figure,.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-item figure,.wp-block-gallery:not(.has-nested-images) .blocks-gallery-image figure,.wp-block-gallery:not(.has-nested-images) .blocks-gallery-item figure{align-items:flex-end;display:flex;height:100%;justify-content:flex-start;margin:0}.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-image img,.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-item img,.wp-block-gallery:not(.has-nested-images) .blocks-gallery-image img,.wp-block-gallery:not(.has-nested-images) .blocks-gallery-item img{display:block;height:auto;max-width:100%;width:auto}.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-image figcaption,.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-item figcaption,.wp-block-gallery:not(.has-nested-images) .blocks-gallery-image figcaption,.wp-block-gallery:not(.has-nested-images) .blocks-gallery-item figcaption{background:linear-gradient(0deg,#000000b3,#0000004d 70%,#0000);bottom:0;box-sizing:border-box;color:#fff;font-size:.8em;margin:0;max-height:100%;overflow:auto;padding:3em .77em .7em;position:absolute;text-align:center;width:100%;z-index:2}.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-image figcaption img,.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-item figcaption img,.wp-block-gallery:not(.has-nested-images) .blocks-gallery-image figcaption img,.wp-block-gallery:not(.has-nested-images) .blocks-gallery-item figcaption img{display:inline}.blocks-gallery-grid:not(.has-nested-images) figcaption,.wp-block-gallery:not(.has-nested-images) figcaption{flex-grow:1}.blocks-gallery-grid:not(.has-nested-images).is-cropped .blocks-gallery-image a,.blocks-gallery-grid:not(.has-nested-images).is-cropped .blocks-gallery-image img,.blocks-gallery-grid:not(.has-nested-images).is-cropped .blocks-gallery-item a,.blocks-gallery-grid:not(.has-nested-images).is-cropped .blocks-gallery-item img,.wp-block-gallery:not(.has-nested-images).is-cropped .blocks-gallery-image a,.wp-block-gallery:not(.has-nested-images).is-cropped .blocks-gallery-image img,.wp-block-gallery:not(.has-nested-images).is-cropped .blocks-gallery-item a,.wp-block-gallery:not(.has-nested-images).is-cropped .blocks-gallery-item img{flex:1;height:100%;object-fit:cover;width:100%}.blocks-gallery-grid:not(.has-nested-images).columns-1 .blocks-gallery-image,.blocks-gallery-grid:not(.has-nested-images).columns-1 .blocks-gallery-item,.wp-block-gallery:not(.has-nested-images).columns-1 .blocks-gallery-image,.wp-block-gallery:not(.has-nested-images).columns-1 .blocks-gallery-item{margin-right:0;width:100%}@media (min-width:600px){.blocks-gallery-grid:not(.has-nested-images).columns-3 .blocks-gallery-image,.blocks-gallery-grid:not(.has-nested-images).columns-3 .blocks-gallery-item,.wp-block-gallery:not(.has-nested-images).columns-3 .blocks-gallery-image,.wp-block-gallery:not(.has-nested-images).columns-3 .blocks-gallery-item{margin-right:1em;width:calc(33.33333% - .66667em)}.blocks-gallery-grid:not(.has-nested-images).columns-4 .blocks-gallery-image,.blocks-gallery-grid:not(.has-nested-images).columns-4 .blocks-gallery-item,.wp-block-gallery:not(.has-nested-images).columns-4 .blocks-gallery-image,.wp-block-gallery:not(.has-nested-images).columns-4 .blocks-gallery-item{margin-right:1em;width:calc(25% - .75em)}.blocks-gallery-grid:not(.has-nested-images).columns-5 .blocks-gallery-image,.blocks-gallery-grid:not(.has-nested-images).columns-5 .blocks-gallery-item,.wp-block-gallery:not(.has-nested-images).columns-5 .blocks-gallery-image,.wp-block-gallery:not(.has-nested-images).columns-5 .blocks-gallery-item{margin-right:1em;width:calc(20% - .8em)}.blocks-gallery-grid:not(.has-nested-images).columns-6 .blocks-gallery-image,.blocks-gallery-grid:not(.has-nested-images).columns-6 .blocks-gallery-item,.wp-block-gallery:not(.has-nested-images).columns-6 .blocks-gallery-image,.wp-block-gallery:not(.has-nested-images).columns-6 .blocks-gallery-item{margin-right:1em;width:calc(16.66667% - .83333em)}.blocks-gallery-grid:not(.has-nested-images).columns-7 .blocks-gallery-image,.blocks-gallery-grid:not(.has-nested-images).columns-7 .blocks-gallery-item,.wp-block-gallery:not(.has-nested-images).columns-7 .blocks-gallery-image,.wp-block-gallery:not(.has-nested-images).columns-7 .blocks-gallery-item{margin-right:1em;width:calc(14.28571% - .85714em)}.blocks-gallery-grid:not(.has-nested-images).columns-8 .blocks-gallery-image,.blocks-gallery-grid:not(.has-nested-images).columns-8 .blocks-gallery-item,.wp-block-gallery:not(.has-nested-images).columns-8 .blocks-gallery-image,.wp-block-gallery:not(.has-nested-images).columns-8 .blocks-gallery-item{margin-right:1em;width:calc(12.5% - .875em)}.blocks-gallery-grid:not(.has-nested-images).columns-1 .blocks-gallery-image:nth-of-type(1n),.blocks-gallery-grid:not(.has-nested-images).columns-1 .blocks-gallery-item:nth-of-type(1n),.blocks-gallery-grid:not(.has-nested-images).columns-2 .blocks-gallery-image:nth-of-type(2n),.blocks-gallery-grid:not(.has-nested-images).columns-2 .blocks-gallery-item:nth-of-type(2n),.blocks-gallery-grid:not(.has-nested-images).columns-3 .blocks-gallery-image:nth-of-type(3n),.blocks-gallery-grid:not(.has-nested-images).columns-3 .blocks-gallery-item:nth-of-type(3n),.blocks-gallery-grid:not(.has-nested-images).columns-4 .blocks-gallery-image:nth-of-type(4n),.blocks-gallery-grid:not(.has-nested-images).columns-4 .blocks-gallery-item:nth-of-type(4n),.blocks-gallery-grid:not(.has-nested-images).columns-5 .blocks-gallery-image:nth-of-type(5n),.blocks-gallery-grid:not(.has-nested-images).columns-5 .blocks-gallery-item:nth-of-type(5n),.blocks-gallery-grid:not(.has-nested-images).columns-6 .blocks-gallery-image:nth-of-type(6n),.blocks-gallery-grid:not(.has-nested-images).columns-6 .blocks-gallery-item:nth-of-type(6n),.blocks-gallery-grid:not(.has-nested-images).columns-7 .blocks-gallery-image:nth-of-type(7n),.blocks-gallery-grid:not(.has-nested-images).columns-7 .blocks-gallery-item:nth-of-type(7n),.blocks-gallery-grid:not(.has-nested-images).columns-8 .blocks-gallery-image:nth-of-type(8n),.blocks-gallery-grid:not(.has-nested-images).columns-8 .blocks-gallery-item:nth-of-type(8n),.wp-block-gallery:not(.has-nested-images).columns-1 .blocks-gallery-image:nth-of-type(1n),.wp-block-gallery:not(.has-nested-images).columns-1 .blocks-gallery-item:nth-of-type(1n),.wp-block-gallery:not(.has-nested-images).columns-2 .blocks-gallery-image:nth-of-type(2n),.wp-block-gallery:not(.has-nested-images).columns-2 .blocks-gallery-item:nth-of-type(2n),.wp-block-gallery:not(.has-nested-images).columns-3 .blocks-gallery-image:nth-of-type(3n),.wp-block-gallery:not(.has-nested-images).columns-3 .blocks-gallery-item:nth-of-type(3n),.wp-block-gallery:not(.has-nested-images).columns-4 .blocks-gallery-image:nth-of-type(4n),.wp-block-gallery:not(.has-nested-images).columns-4 .blocks-gallery-item:nth-of-type(4n),.wp-block-gallery:not(.has-nested-images).columns-5 .blocks-gallery-image:nth-of-type(5n),.wp-block-gallery:not(.has-nested-images).columns-5 .blocks-gallery-item:nth-of-type(5n),.wp-block-gallery:not(.has-nested-images).columns-6 .blocks-gallery-image:nth-of-type(6n),.wp-block-gallery:not(.has-nested-images).columns-6 .blocks-gallery-item:nth-of-type(6n),.wp-block-gallery:not(.has-nested-images).columns-7 .blocks-gallery-image:nth-of-type(7n),.wp-block-gallery:not(.has-nested-images).columns-7 .blocks-gallery-item:nth-of-type(7n),.wp-block-gallery:not(.has-nested-images).columns-8 .blocks-gallery-image:nth-of-type(8n),.wp-block-gallery:not(.has-nested-images).columns-8 .blocks-gallery-item:nth-of-type(8n){margin-right:0}}.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-image:last-child,.blocks-gallery-grid:not(.has-nested-images) .blocks-gallery-item:last-child,.wp-block-gallery:not(.has-nested-images) .blocks-gallery-image:last-child,.wp-block-gallery:not(.has-nested-images) .blocks-gallery-item:last-child{margin-right:0}.blocks-gallery-grid:not(.has-nested-images).alignleft,.blocks-gallery-grid:not(.has-nested-images).alignright,.wp-block-gallery:not(.has-nested-images).alignleft,.wp-block-gallery:not(.has-nested-images).alignright{max-width:420px;width:100%}.blocks-gallery-grid:not(.has-nested-images).aligncenter .blocks-gallery-item figure,.wp-block-gallery:not(.has-nested-images).aligncenter .blocks-gallery-item figure{justify-content:center}.wp-block-gallery:not(.is-cropped) .blocks-gallery-item{align-self:flex-start}figure.wp-block-gallery.has-nested-images{align-items:normal}.wp-block-gallery.has-nested-images figure.wp-block-image:not(#individual-image){margin:0;width:calc(50% - var(--wp--style--unstable-gallery-gap, 16px)/2)}.wp-block-gallery.has-nested-images figure.wp-block-image{box-sizing:border-box;display:flex;flex-direction:column;flex-grow:1;justify-content:center;max-width:100%;position:relative}.wp-block-gallery.has-nested-images figure.wp-block-image>a,.wp-block-gallery.has-nested-images figure.wp-block-image>div{flex-direction:column;flex-grow:1;margin:0}.wp-block-gallery.has-nested-images figure.wp-block-image img{display:block;height:auto;max-width:100%!important;width:auto}.wp-block-gallery.has-nested-images figure.wp-block-image figcaption,.wp-block-gallery.has-nested-images figure.wp-block-image:has(figcaption):before{bottom:0;left:0;max-height:100%;position:absolute;right:0}.wp-block-gallery.has-nested-images figure.wp-block-image:has(figcaption):before{backdrop-filter:blur(3px);content:"";height:100%;-webkit-mask-image:linear-gradient(0deg,#000 20%,#0000);mask-image:linear-gradient(0deg,#000 20%,#0000);max-height:40%;pointer-events:none}.wp-block-gallery.has-nested-images figure.wp-block-image figcaption{box-sizing:border-box;color:#fff;font-size:13px;margin:0;overflow:auto;padding:1em;text-align:center;text-shadow:0 0 1.5px #000}.wp-block-gallery.has-nested-images figure.wp-block-image figcaption::-webkit-scrollbar{height:12px;width:12px}.wp-block-gallery.has-nested-images figure.wp-block-image figcaption::-webkit-scrollbar-track{background-color:initial}.wp-block-gallery.has-nested-images figure.wp-block-image figcaption::-webkit-scrollbar-thumb{background-clip:padding-box;background-color:initial;border:3px solid #0000;border-radius:8px}.wp-block-gallery.has-nested-images figure.wp-block-image figcaption:focus-within::-webkit-scrollbar-thumb,.wp-block-gallery.has-nested-images figure.wp-block-image figcaption:focus::-webkit-scrollbar-thumb,.wp-block-gallery.has-nested-images figure.wp-block-image figcaption:hover::-webkit-scrollbar-thumb{background-color:#fffc}.wp-block-gallery.has-nested-images figure.wp-block-image figcaption{scrollbar-color:#0000 #0000;scrollbar-gutter:stable both-edges;scrollbar-width:thin}.wp-block-gallery.has-nested-images figure.wp-block-image figcaption:focus,.wp-block-gallery.has-nested-images figure.wp-block-image figcaption:focus-within,.wp-block-gallery.has-nested-images figure.wp-block-image figcaption:hover{scrollbar-color:#fffc #0000}.wp-block-gallery.has-nested-images figure.wp-block-image figcaption{will-change:transform}@media (hover:none){.wp-block-gallery.has-nested-images figure.wp-block-image figcaption{scrollbar-color:#fffc #0000}}.wp-block-gallery.has-nested-images figure.wp-block-image figcaption{background:linear-gradient(0deg,#0006,#0000)}.wp-block-gallery.has-nested-images figure.wp-block-image figcaption img{display:inline}.wp-block-gallery.has-nested-images figure.wp-block-image figcaption a{color:inherit}.wp-block-gallery.has-nested-images figure.wp-block-image.has-custom-border img{box-sizing:border-box}.wp-block-gallery.has-nested-images figure.wp-block-image.has-custom-border>a,.wp-block-gallery.has-nested-images figure.wp-block-image.has-custom-border>div,.wp-block-gallery.has-nested-images figure.wp-block-image.is-style-rounded>a,.wp-block-gallery.has-nested-images figure.wp-block-image.is-style-rounded>div{flex:1 1 auto}.wp-block-gallery.has-nested-images figure.wp-block-image.has-custom-border figcaption,.wp-block-gallery.has-nested-images figure.wp-block-image.is-style-rounded figcaption{background:none;color:inherit;flex:initial;margin:0;padding:10px 10px 9px;position:relative;text-shadow:none}.wp-block-gallery.has-nested-images figure.wp-block-image.has-custom-border:before,.wp-block-gallery.has-nested-images figure.wp-block-image.is-style-rounded:before{content:none}.wp-block-gallery.has-nested-images figcaption{flex-basis:100%;flex-grow:1;text-align:center}.wp-block-gallery.has-nested-images:not(.is-cropped) figure.wp-block-image:not(#individual-image){margin-bottom:auto;margin-top:0}.wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image){align-self:inherit}.wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image)>a,.wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image)>div:not(.components-drop-zone){display:flex}.wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) a,.wp-block-gallery.has-nested-images.is-cropped figure.wp-block-image:not(#individual-image) img{flex:1 0 0%;height:100%;object-fit:cover;width:100%}.wp-block-gallery.has-nested-images.columns-1 figure.wp-block-image:not(#individual-image){width:100%}@media (min-width:600px){.wp-block-gallery.has-nested-images.columns-3 figure.wp-block-image:not(#individual-image){width:calc(33.33333% - var(--wp--style--unstable-gallery-gap, 16px)*.66667)}.wp-block-gallery.has-nested-images.columns-4 figure.wp-block-image:not(#individual-image){width:calc(25% - var(--wp--style--unstable-gallery-gap, 16px)*.75)}.wp-block-gallery.has-nested-images.columns-5 figure.wp-block-image:not(#individual-image){width:calc(20% - var(--wp--style--unstable-gallery-gap, 16px)*.8)}.wp-block-gallery.has-nested-images.columns-6 figure.wp-block-image:not(#individual-image){width:calc(16.66667% - var(--wp--style--unstable-gallery-gap, 16px)*.83333)}.wp-block-gallery.has-nested-images.columns-7 figure.wp-block-image:not(#individual-image){width:calc(14.28571% - var(--wp--style--unstable-gallery-gap, 16px)*.85714)}.wp-block-gallery.has-nested-images.columns-8 figure.wp-block-image:not(#individual-image){width:calc(12.5% - var(--wp--style--unstable-gallery-gap, 16px)*.875)}.wp-block-gallery.has-nested-images.columns-default figure.wp-block-image:not(#individual-image){width:calc(33.33% - var(--wp--style--unstable-gallery-gap, 16px)*.66667)}.wp-block-gallery.has-nested-images.columns-default figure.wp-block-image:not(#individual-image):first-child:nth-last-child(2),.wp-block-gallery.has-nested-images.columns-default figure.wp-block-image:not(#individual-image):first-child:nth-last-child(2)~figure.wp-block-image:not(#individual-image){width:calc(50% - var(--wp--style--unstable-gallery-gap, 16px)*.5)}.wp-block-gallery.has-nested-images.columns-default figure.wp-block-image:not(#individual-image):first-child:last-child{width:100%}}.wp-block-gallery.has-nested-images.alignleft,.wp-block-gallery.has-nested-images.alignright{max-width:420px;width:100%}.wp-block-gallery.has-nested-images.aligncenter{justify-content:center}
+/*# sourceURL=https://edgewatch.com/wp-includes/blocks/gallery/style.min.css */
+</style>
+<style id='wp-block-heading-inline-css'>
+h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+/*# sourceURL=https://edgewatch.com/wp-includes/blocks/heading/style.min.css */
+</style>
+<style id='wp-block-image-inline-css'>
+.wp-block-image>a,.wp-block-image>figure>a{display:inline-block}.wp-block-image img{box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom}@media not (prefers-reduced-motion){.wp-block-image img.hide{visibility:hidden}.wp-block-image img.show{animation:show-content-image .4s}}.wp-block-image[style*=border-radius] img,.wp-block-image[style*=border-radius]>a{border-radius:inherit}.wp-block-image.has-custom-border img{box-sizing:border-box}.wp-block-image.aligncenter{text-align:center}.wp-block-image.alignfull>a,.wp-block-image.alignwide>a{width:100%}.wp-block-image.alignfull img,.wp-block-image.alignwide img{height:auto;width:100%}.wp-block-image .aligncenter,.wp-block-image .alignleft,.wp-block-image .alignright,.wp-block-image.aligncenter,.wp-block-image.alignleft,.wp-block-image.alignright{display:table}.wp-block-image .aligncenter>figcaption,.wp-block-image .alignleft>figcaption,.wp-block-image .alignright>figcaption,.wp-block-image.aligncenter>figcaption,.wp-block-image.alignleft>figcaption,.wp-block-image.alignright>figcaption{caption-side:bottom;display:table-caption}.wp-block-image .alignleft{float:left;margin:.5em 1em .5em 0}.wp-block-image .alignright{float:right;margin:.5em 0 .5em 1em}.wp-block-image .aligncenter{margin-left:auto;margin-right:auto}.wp-block-image :where(figcaption){margin-bottom:1em;margin-top:.5em}.wp-block-image.is-style-circle-mask img{border-radius:9999px}@supports ((-webkit-mask-image:none) or (mask-image:none)) or (-webkit-mask-image:none){.wp-block-image.is-style-circle-mask img{border-radius:0;-webkit-mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-mode:alpha;-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain}}:root :where(.wp-block-image.is-style-rounded img,.wp-block-image .is-style-rounded img){border-radius:9999px}.wp-block-image figure{margin:0}.wp-lightbox-container{display:flex;flex-direction:column;position:relative}.wp-lightbox-container img{cursor:zoom-in}.wp-lightbox-container img:hover+button{opacity:1}.wp-lightbox-container button{align-items:center;backdrop-filter:blur(16px) saturate(180%);background-color:#5a5a5a40;border:none;border-radius:4px;cursor:zoom-in;display:flex;height:20px;justify-content:center;opacity:0;padding:0;position:absolute;right:16px;text-align:center;top:16px;width:20px;z-index:100}@media not (prefers-reduced-motion){.wp-lightbox-container button{transition:opacity .2s ease}}.wp-lightbox-container button:focus-visible{outline:3px auto #5a5a5a40;outline:3px auto -webkit-focus-ring-color;outline-offset:3px}.wp-lightbox-container button:hover{cursor:pointer;opacity:1}.wp-lightbox-container button:focus{opacity:1}.wp-lightbox-container button:focus,.wp-lightbox-container button:hover,.wp-lightbox-container button:not(:hover):not(:active):not(.has-background){background-color:#5a5a5a40;border:none}.wp-lightbox-overlay{box-sizing:border-box;cursor:zoom-out;height:100vh;left:0;overflow:hidden;position:fixed;top:0;visibility:hidden;width:100%;z-index:100000}.wp-lightbox-overlay .close-button{align-items:center;cursor:pointer;display:flex;justify-content:center;min-height:40px;min-width:40px;padding:0;position:absolute;right:calc(env(safe-area-inset-right) + 16px);top:calc(env(safe-area-inset-top) + 16px);z-index:5000000}.wp-lightbox-overlay .close-button:focus,.wp-lightbox-overlay .close-button:hover,.wp-lightbox-overlay .close-button:not(:hover):not(:active):not(.has-background){background:none;border:none}.wp-lightbox-overlay .lightbox-image-container{height:var(--wp--lightbox-container-height);left:50%;overflow:hidden;position:absolute;top:50%;transform:translate(-50%,-50%);transform-origin:top left;width:var(--wp--lightbox-container-width);z-index:9999999999}.wp-lightbox-overlay .wp-block-image{align-items:center;box-sizing:border-box;display:flex;height:100%;justify-content:center;margin:0;position:relative;transform-origin:0 0;width:100%;z-index:3000000}.wp-lightbox-overlay .wp-block-image img{height:var(--wp--lightbox-image-height);min-height:var(--wp--lightbox-image-height);min-width:var(--wp--lightbox-image-width);width:var(--wp--lightbox-image-width)}.wp-lightbox-overlay .wp-block-image figcaption{display:none}.wp-lightbox-overlay button{background:none;border:none}.wp-lightbox-overlay .scrim{background-color:#fff;height:100%;opacity:.9;position:absolute;width:100%;z-index:2000000}.wp-lightbox-overlay.active{visibility:visible}@media not (prefers-reduced-motion){.wp-lightbox-overlay.active{animation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn-off-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active) img{animation:turn-off-visibility .25s both}.wp-lightbox-overlay.zoom.active{animation:none;opacity:1;visibility:visible}.wp-lightbox-overlay.zoom.active .lightbox-image-container{animation:lightbox-zoom-in .4s}.wp-lightbox-overlay.zoom.active .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.active .scrim{animation:turn-on-visibility .4s forwards}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active){animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container{animation:lightbox-zoom-out .4s}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .scrim{animation:turn-off-visibility .4s forwards}}@keyframes show-content-image{0%{visibility:hidden}99%{visibility:hidden}to{visibility:visible}}@keyframes turn-on-visibility{0%{opacity:0}to{opacity:1}}@keyframes turn-off-visibility{0%{opacity:1;visibility:visible}99%{opacity:0;visibility:visible}to{opacity:0;visibility:hidden}}@keyframes lightbox-zoom-in{0%{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale))}to{transform:translate(-50%,-50%) scale(1)}}@keyframes lightbox-zoom-out{0%{transform:translate(-50%,-50%) scale(1);visibility:visible}99%{visibility:visible}to{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale));visibility:hidden}}
+/*# sourceURL=https://edgewatch.com/wp-includes/blocks/image/style.min.css */
+</style>
+<style id='wp-block-latest-posts-inline-css'>
+.wp-block-latest-posts{box-sizing:border-box}.wp-block-latest-posts.alignleft{margin-right:2em}.wp-block-latest-posts.alignright{margin-left:2em}.wp-block-latest-posts.wp-block-latest-posts__list{list-style:none}.wp-block-latest-posts.wp-block-latest-posts__list li{clear:both;overflow-wrap:break-word}.wp-block-latest-posts.is-grid{display:flex;flex-wrap:wrap}.wp-block-latest-posts.is-grid li{margin:0 1.25em 1.25em 0;width:100%}@media (min-width:600px){.wp-block-latest-posts.columns-2 li{width:calc(50% - .625em)}.wp-block-latest-posts.columns-2 li:nth-child(2n){margin-right:0}.wp-block-latest-posts.columns-3 li{width:calc(33.33333% - .83333em)}.wp-block-latest-posts.columns-3 li:nth-child(3n){margin-right:0}.wp-block-latest-posts.columns-4 li{width:calc(25% - .9375em)}.wp-block-latest-posts.columns-4 li:nth-child(4n){margin-right:0}.wp-block-latest-posts.columns-5 li{width:calc(20% - 1em)}.wp-block-latest-posts.columns-5 li:nth-child(5n){margin-right:0}.wp-block-latest-posts.columns-6 li{width:calc(16.66667% - 1.04167em)}.wp-block-latest-posts.columns-6 li:nth-child(6n){margin-right:0}}:root :where(.wp-block-latest-posts.is-grid){padding:0}:root :where(.wp-block-latest-posts.wp-block-latest-posts__list){padding-left:0}.wp-block-latest-posts__post-author,.wp-block-latest-posts__post-date{display:block;font-size:.8125em}.wp-block-latest-posts__post-excerpt,.wp-block-latest-posts__post-full-content{margin-bottom:1em;margin-top:.5em}.wp-block-latest-posts__featured-image a{display:inline-block}.wp-block-latest-posts__featured-image img{height:auto;max-width:100%;width:auto}.wp-block-latest-posts__featured-image.alignleft{float:left;margin-right:1em}.wp-block-latest-posts__featured-image.alignright{float:right;margin-left:1em}.wp-block-latest-posts__featured-image.aligncenter{margin-bottom:1em;text-align:center}
+/*# sourceURL=https://edgewatch.com/wp-includes/blocks/latest-posts/style.min.css */
+</style>
+<style id='wp-block-list-inline-css'>
+ol,ul{box-sizing:border-box}:root :where(.wp-block-list.has-background){padding:1.25em 2.375em}
+/*# sourceURL=https://edgewatch.com/wp-includes/blocks/list/style.min.css */
+</style>
+<style id='wp-block-paragraph-inline-css'>
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+/*# sourceURL=https://edgewatch.com/wp-includes/blocks/paragraph/style.min.css */
+</style>
+<style id='wp-block-separator-inline-css'>
+@charset "UTF-8";.wp-block-separator{border:none;border-top:2px solid}:root :where(.wp-block-separator.is-style-dots){height:auto;line-height:1;text-align:center}:root :where(.wp-block-separator.is-style-dots):before{color:currentColor;content:"···";font-family:serif;font-size:1.5em;letter-spacing:2em;padding-left:2em}.wp-block-separator.is-style-dots{background:none!important;border:none!important}
+/*# sourceURL=https://edgewatch.com/wp-includes/blocks/separator/style.min.css */
+</style>
+<style id='wp-block-table-inline-css'>
+.wp-block-table{overflow-x:auto}.wp-block-table table{border-collapse:collapse;width:100%}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{border:1px solid;padding:.5em}.wp-block-table .has-fixed-layout{table-layout:fixed;width:100%}.wp-block-table .has-fixed-layout td,.wp-block-table .has-fixed-layout th{word-break:break-word}.wp-block-table.aligncenter,.wp-block-table.alignleft,.wp-block-table.alignright{display:table;width:auto}.wp-block-table.aligncenter td,.wp-block-table.aligncenter th,.wp-block-table.alignleft td,.wp-block-table.alignleft th,.wp-block-table.alignright td,.wp-block-table.alignright th{word-break:break-word}.wp-block-table .has-subtle-light-gray-background-color{background-color:#f3f4f5}.wp-block-table .has-subtle-pale-green-background-color{background-color:#e9fbe5}.wp-block-table .has-subtle-pale-blue-background-color{background-color:#e7f5fe}.wp-block-table .has-subtle-pale-pink-background-color{background-color:#fcf0ef}.wp-block-table.is-style-stripes{background-color:initial;border-collapse:inherit;border-spacing:0}.wp-block-table.is-style-stripes tbody tr:nth-child(odd){background-color:#f0f0f0}.wp-block-table.is-style-stripes.has-subtle-light-gray-background-color tbody tr:nth-child(odd){background-color:#f3f4f5}.wp-block-table.is-style-stripes.has-subtle-pale-green-background-color tbody tr:nth-child(odd){background-color:#e9fbe5}.wp-block-table.is-style-stripes.has-subtle-pale-blue-background-color tbody tr:nth-child(odd){background-color:#e7f5fe}.wp-block-table.is-style-stripes.has-subtle-pale-pink-background-color tbody tr:nth-child(odd){background-color:#fcf0ef}.wp-block-table.is-style-stripes td,.wp-block-table.is-style-stripes th{border-color:#0000}.wp-block-table.is-style-stripes{border-bottom:1px solid #f0f0f0}.wp-block-table .has-border-color td,.wp-block-table .has-border-color th,.wp-block-table .has-border-color tr,.wp-block-table .has-border-color>*{border-color:inherit}.wp-block-table table[style*=border-top-color] tr:first-child,.wp-block-table table[style*=border-top-color] tr:first-child td,.wp-block-table table[style*=border-top-color] tr:first-child th,.wp-block-table table[style*=border-top-color]>*,.wp-block-table table[style*=border-top-color]>* td,.wp-block-table table[style*=border-top-color]>* th{border-top-color:inherit}.wp-block-table table[style*=border-top-color] tr:not(:first-child){border-top-color:initial}.wp-block-table table[style*=border-right-color] td:last-child,.wp-block-table table[style*=border-right-color] th,.wp-block-table table[style*=border-right-color] tr,.wp-block-table table[style*=border-right-color]>*{border-right-color:inherit}.wp-block-table table[style*=border-bottom-color] tr:last-child,.wp-block-table table[style*=border-bottom-color] tr:last-child td,.wp-block-table table[style*=border-bottom-color] tr:last-child th,.wp-block-table table[style*=border-bottom-color]>*,.wp-block-table table[style*=border-bottom-color]>* td,.wp-block-table table[style*=border-bottom-color]>* th{border-bottom-color:inherit}.wp-block-table table[style*=border-bottom-color] tr:not(:last-child){border-bottom-color:initial}.wp-block-table table[style*=border-left-color] td:first-child,.wp-block-table table[style*=border-left-color] th,.wp-block-table table[style*=border-left-color] tr,.wp-block-table table[style*=border-left-color]>*{border-left-color:inherit}.wp-block-table table[style*=border-style] td,.wp-block-table table[style*=border-style] th,.wp-block-table table[style*=border-style] tr,.wp-block-table table[style*=border-style]>*{border-style:inherit}.wp-block-table table[style*=border-width] td,.wp-block-table table[style*=border-width] th,.wp-block-table table[style*=border-width] tr,.wp-block-table table[style*=border-width]>*{border-style:inherit;border-width:inherit}
+/*# sourceURL=https://edgewatch.com/wp-includes/blocks/table/style.min.css */
+</style>
+
+<link rel='stylesheet' id='wp-components-css' href='https://edgewatch.com/wp-includes/css/dist/components/style.min.css?ver=6.9.4' media='all' />
+<link rel='stylesheet' id='wp-preferences-css' href='https://edgewatch.com/wp-includes/css/dist/preferences/style.min.css?ver=6.9.4' media='all' />
+<link rel='stylesheet' id='wp-block-editor-css' href='https://edgewatch.com/wp-includes/css/dist/block-editor/style.min.css?ver=6.9.4' media='all' />
+<link rel='stylesheet' id='wp-reusable-blocks-css' href='https://edgewatch.com/wp-includes/css/dist/reusable-blocks/style.min.css?ver=6.9.4' media='all' />
+<link rel='stylesheet' id='wp-patterns-css' href='https://edgewatch.com/wp-includes/css/dist/patterns/style.min.css?ver=6.9.4' media='all' />
+<link rel='stylesheet' id='wp-editor-css' href='https://edgewatch.com/wp-includes/css/dist/editor/style.min.css?ver=6.9.4' media='all' />
+<link data-minify="1" rel='stylesheet' id='ht-blocks-modules-styles-css' href='https://edgewatch.com/wp-content/cache/min/1/wp-content/plugins/heroic-blocks/dist/css/ht-blocks-modules-styles.css?ver=1775796268' media='all' />
+<link data-minify="1" rel='stylesheet' id='ht_toc-style-css-css' href='https://edgewatch.com/wp-content/cache/min/1/wp-content/plugins/heroic-table-of-contents/dist/blocks.style.build.css?ver=1775796268' media='all' />
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--palette-color-1: var(--theme-palette-color-1, #006ec7);--wp--preset--color--palette-color-2: var(--theme-palette-color-2, #00a3e3);--wp--preset--color--palette-color-3: var(--theme-palette-color-3, #414756);--wp--preset--color--palette-color-4: var(--theme-palette-color-4, #2a2d36);--wp--preset--color--palette-color-5: var(--theme-palette-color-5, #E7EBEE);--wp--preset--color--palette-color-6: var(--theme-palette-color-6, #F3F5F9);--wp--preset--color--palette-color-7: var(--theme-palette-color-7, #FBFBFC);--wp--preset--color--palette-color-8: var(--theme-palette-color-8, #ffffff);--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--gradient--juicy-peach: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);--wp--preset--gradient--young-passion: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);--wp--preset--gradient--true-sunset: linear-gradient(to right, #fa709a 0%, #fee140 100%);--wp--preset--gradient--morpheus-den: linear-gradient(to top, #30cfd0 0%, #330867 100%);--wp--preset--gradient--plum-plate: linear-gradient(135deg, #667eea 0%, #764ba2 100%);--wp--preset--gradient--aqua-splash: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);--wp--preset--gradient--love-kiss: linear-gradient(to top, #ff0844 0%, #ffb199 100%);--wp--preset--gradient--new-retrowave: linear-gradient(to top, #3b41c5 0%, #a981bb 49%, #ffc8a9 100%);--wp--preset--gradient--plum-bath: linear-gradient(to top, #cc208e 0%, #6713d2 100%);--wp--preset--gradient--high-flight: linear-gradient(to right, #0acffe 0%, #495aff 100%);--wp--preset--gradient--teen-party: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);--wp--preset--gradient--fabled-sunset: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);--wp--preset--gradient--arielle-smile: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);--wp--preset--gradient--itmeo-branding: linear-gradient(180deg, #2af598 0%, #009efd 100%);--wp--preset--gradient--deep-blue: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);--wp--preset--gradient--strong-bliss: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);--wp--preset--gradient--sweet-period: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);--wp--preset--gradient--purple-division: linear-gradient(to top, #7028e4 0%, #e5b2ca 100%);--wp--preset--gradient--cold-evening: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);--wp--preset--gradient--mountain-rock: linear-gradient(to right, #868f96 0%, #596164 100%);--wp--preset--gradient--desert-hump: linear-gradient(to top, #c79081 0%, #dfa579 100%);--wp--preset--gradient--ethernal-constance: linear-gradient(to top, #09203f 0%, #537895 100%);--wp--preset--gradient--happy-memories: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);--wp--preset--gradient--grown-early: linear-gradient(to top, #0ba360 0%, #3cba92 100%);--wp--preset--gradient--morning-salad: linear-gradient(-225deg, #B7F8DB 0%, #50A7C2 100%);--wp--preset--gradient--night-call: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);--wp--preset--gradient--mind-crawl: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);--wp--preset--gradient--angel-care: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);--wp--preset--gradient--juicy-cake: linear-gradient(to top, #e14fad 0%, #f9d423 100%);--wp--preset--gradient--rich-metal: linear-gradient(to right, #d7d2cc 0%, #304352 100%);--wp--preset--gradient--mole-hall: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);--wp--preset--gradient--cloudy-knoxville: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);--wp--preset--gradient--soft-grass: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);--wp--preset--gradient--saint-petersburg: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);--wp--preset--gradient--everlasting-sky: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);--wp--preset--gradient--kind-steel: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);--wp--preset--gradient--over-sun: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);--wp--preset--gradient--premium-white: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);--wp--preset--gradient--clean-mirror: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);--wp--preset--gradient--wild-apple: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);--wp--preset--gradient--snow-again: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);--wp--preset--gradient--confident-cloud: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);--wp--preset--gradient--glass-water: linear-gradient(to top, #dfe9f3 0%, white 100%);--wp--preset--gradient--perfect-white: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: clamp(22px, 1.375rem + ((1vw - 3.2px) * 0.625), 30px);--wp--preset--font-size--x-large: clamp(30px, 1.875rem + ((1vw - 3.2px) * 1.563), 50px);--wp--preset--font-size--xx-large: clamp(45px, 2.813rem + ((1vw - 3.2px) * 2.734), 80px);--wp--preset--font-family--space-grotesk: Space Grotesk;--wp--preset--font-family--roboto: Roboto;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:root { --wp--style--global--content-size: var(--theme-block-max-width);--wp--style--global--wide-size: var(--theme-block-wide-max-width); }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: var(--theme-content-spacing); margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: var(--theme-content-spacing); }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: var(--theme-content-spacing);margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: var(--theme-content-spacing);margin-block-end: 0;}:root :where(.is-layout-flex){gap: var(--theme-content-spacing);}:root :where(.is-layout-grid){gap: var(--theme-content-spacing);}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){font-style: inherit;font-weight: inherit;letter-spacing: inherit;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-palette-color-1-color{color: var(--wp--preset--color--palette-color-1) !important;}.has-palette-color-2-color{color: var(--wp--preset--color--palette-color-2) !important;}.has-palette-color-3-color{color: var(--wp--preset--color--palette-color-3) !important;}.has-palette-color-4-color{color: var(--wp--preset--color--palette-color-4) !important;}.has-palette-color-5-color{color: var(--wp--preset--color--palette-color-5) !important;}.has-palette-color-6-color{color: var(--wp--preset--color--palette-color-6) !important;}.has-palette-color-7-color{color: var(--wp--preset--color--palette-color-7) !important;}.has-palette-color-8-color{color: var(--wp--preset--color--palette-color-8) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-palette-color-1-background-color{background-color: var(--wp--preset--color--palette-color-1) !important;}.has-palette-color-2-background-color{background-color: var(--wp--preset--color--palette-color-2) !important;}.has-palette-color-3-background-color{background-color: var(--wp--preset--color--palette-color-3) !important;}.has-palette-color-4-background-color{background-color: var(--wp--preset--color--palette-color-4) !important;}.has-palette-color-5-background-color{background-color: var(--wp--preset--color--palette-color-5) !important;}.has-palette-color-6-background-color{background-color: var(--wp--preset--color--palette-color-6) !important;}.has-palette-color-7-background-color{background-color: var(--wp--preset--color--palette-color-7) !important;}.has-palette-color-8-background-color{background-color: var(--wp--preset--color--palette-color-8) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-palette-color-1-border-color{border-color: var(--wp--preset--color--palette-color-1) !important;}.has-palette-color-2-border-color{border-color: var(--wp--preset--color--palette-color-2) !important;}.has-palette-color-3-border-color{border-color: var(--wp--preset--color--palette-color-3) !important;}.has-palette-color-4-border-color{border-color: var(--wp--preset--color--palette-color-4) !important;}.has-palette-color-5-border-color{border-color: var(--wp--preset--color--palette-color-5) !important;}.has-palette-color-6-border-color{border-color: var(--wp--preset--color--palette-color-6) !important;}.has-palette-color-7-border-color{border-color: var(--wp--preset--color--palette-color-7) !important;}.has-palette-color-8-border-color{border-color: var(--wp--preset--color--palette-color-8) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-juicy-peach-gradient-background{background: var(--wp--preset--gradient--juicy-peach) !important;}.has-young-passion-gradient-background{background: var(--wp--preset--gradient--young-passion) !important;}.has-true-sunset-gradient-background{background: var(--wp--preset--gradient--true-sunset) !important;}.has-morpheus-den-gradient-background{background: var(--wp--preset--gradient--morpheus-den) !important;}.has-plum-plate-gradient-background{background: var(--wp--preset--gradient--plum-plate) !important;}.has-aqua-splash-gradient-background{background: var(--wp--preset--gradient--aqua-splash) !important;}.has-love-kiss-gradient-background{background: var(--wp--preset--gradient--love-kiss) !important;}.has-new-retrowave-gradient-background{background: var(--wp--preset--gradient--new-retrowave) !important;}.has-plum-bath-gradient-background{background: var(--wp--preset--gradient--plum-bath) !important;}.has-high-flight-gradient-background{background: var(--wp--preset--gradient--high-flight) !important;}.has-teen-party-gradient-background{background: var(--wp--preset--gradient--teen-party) !important;}.has-fabled-sunset-gradient-background{background: var(--wp--preset--gradient--fabled-sunset) !important;}.has-arielle-smile-gradient-background{background: var(--wp--preset--gradient--arielle-smile) !important;}.has-itmeo-branding-gradient-background{background: var(--wp--preset--gradient--itmeo-branding) !important;}.has-deep-blue-gradient-background{background: var(--wp--preset--gradient--deep-blue) !important;}.has-strong-bliss-gradient-background{background: var(--wp--preset--gradient--strong-bliss) !important;}.has-sweet-period-gradient-background{background: var(--wp--preset--gradient--sweet-period) !important;}.has-purple-division-gradient-background{background: var(--wp--preset--gradient--purple-division) !important;}.has-cold-evening-gradient-background{background: var(--wp--preset--gradient--cold-evening) !important;}.has-mountain-rock-gradient-background{background: var(--wp--preset--gradient--mountain-rock) !important;}.has-desert-hump-gradient-background{background: var(--wp--preset--gradient--desert-hump) !important;}.has-ethernal-constance-gradient-background{background: var(--wp--preset--gradient--ethernal-constance) !important;}.has-happy-memories-gradient-background{background: var(--wp--preset--gradient--happy-memories) !important;}.has-grown-early-gradient-background{background: var(--wp--preset--gradient--grown-early) !important;}.has-morning-salad-gradient-background{background: var(--wp--preset--gradient--morning-salad) !important;}.has-night-call-gradient-background{background: var(--wp--preset--gradient--night-call) !important;}.has-mind-crawl-gradient-background{background: var(--wp--preset--gradient--mind-crawl) !important;}.has-angel-care-gradient-background{background: var(--wp--preset--gradient--angel-care) !important;}.has-juicy-cake-gradient-background{background: var(--wp--preset--gradient--juicy-cake) !important;}.has-rich-metal-gradient-background{background: var(--wp--preset--gradient--rich-metal) !important;}.has-mole-hall-gradient-background{background: var(--wp--preset--gradient--mole-hall) !important;}.has-cloudy-knoxville-gradient-background{background: var(--wp--preset--gradient--cloudy-knoxville) !important;}.has-soft-grass-gradient-background{background: var(--wp--preset--gradient--soft-grass) !important;}.has-saint-petersburg-gradient-background{background: var(--wp--preset--gradient--saint-petersburg) !important;}.has-everlasting-sky-gradient-background{background: var(--wp--preset--gradient--everlasting-sky) !important;}.has-kind-steel-gradient-background{background: var(--wp--preset--gradient--kind-steel) !important;}.has-over-sun-gradient-background{background: var(--wp--preset--gradient--over-sun) !important;}.has-premium-white-gradient-background{background: var(--wp--preset--gradient--premium-white) !important;}.has-clean-mirror-gradient-background{background: var(--wp--preset--gradient--clean-mirror) !important;}.has-wild-apple-gradient-background{background: var(--wp--preset--gradient--wild-apple) !important;}.has-snow-again-gradient-background{background: var(--wp--preset--gradient--snow-again) !important;}.has-confident-cloud-gradient-background{background: var(--wp--preset--gradient--confident-cloud) !important;}.has-glass-water-gradient-background{background: var(--wp--preset--gradient--glass-water) !important;}.has-perfect-white-gradient-background{background: var(--wp--preset--gradient--perfect-white) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-xx-large-font-size{font-size: var(--wp--preset--font-size--xx-large) !important;}.has-space-grotesk-font-family{font-family: var(--wp--preset--font-family--space-grotesk) !important;}.has-roboto-font-family{font-family: var(--wp--preset--font-family--roboto) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link data-minify="1" rel='stylesheet' id='parent-style-css' href='https://edgewatch.com/wp-content/cache/min/1/wp-content/themes/blocksy/style.css?ver=1775796268' media='all' />
+<link data-minify="1" rel='stylesheet' id='ct-main-styles-css' href='https://edgewatch.com/wp-content/cache/min/1/wp-content/themes/blocksy/static/bundle/main.min.css?ver=1775796268' media='all' />
+<link rel='stylesheet' id='ct-page-title-styles-css' href='https://edgewatch.com/wp-content/themes/blocksy/static/bundle/page-title.min.css?ver=2.1.38' media='all' />
+<link rel='stylesheet' id='ct-cf-7-styles-css' href='https://edgewatch.com/wp-content/themes/blocksy/static/bundle/cf-7.min.css?ver=2.1.38' media='all' />
+<link rel='stylesheet' id='ct-stackable-styles-css' href='https://edgewatch.com/wp-content/themes/blocksy/static/bundle/stackable.min.css?ver=2.1.38' media='all' />
+<link data-minify="1" rel='stylesheet' id='hcb-style-css' href='https://edgewatch.com/wp-content/cache/min/1/wp-content/plugins/highlighting-code-block/build/css/hcb--light.css?ver=1775796268' media='all' />
+<style id='hcb-style-inline-css'>
+:root{--hcb--fz--base: 14px}:root{--hcb--fz--mobile: 13px}:root{--hcb--ff:Menlo, Consolas, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;}
+/*# sourceURL=hcb-style-inline-css */
+</style>
+<link rel='stylesheet' id='blocksy-ext-mega-menu-styles-css' href='https://edgewatch.com/wp-content/plugins/blocksy-companion-pro/framework/premium/extensions/mega-menu/static/bundle/main.min.css?ver=2.1.38' media='all' />
+<link data-minify="1" rel='stylesheet' id='hkb-style-css' href='https://edgewatch.com/wp-content/cache/min/1/wp-content/plugins/ht-knowledge-base/css/hkb-style.css?ver=1775796268' media='all' />
+<style id='rocket-lazyload-inline-css'>
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(https://edgewatch.com/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}.wp-embed-responsive .wp-has-aspect-ratio .rll-youtube-player{position:absolute;padding-bottom:0;width:100%;height:100%;top:0;bottom:0;left:0;right:0}
+/*# sourceURL=rocket-lazyload-inline-css */
+</style>
+
+
+<link rel="https://api.w.org/" href="https://edgewatch.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://edgewatch.com/wp-json/wp/v2/ht-kb/2990" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://edgewatch.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.9.4" />
+<link rel='shortlink' href='https://edgewatch.com/?p=2990' />
+<!-- HKB CSS Variables --><style>:root {--hkb-main-container-width: 1200px;--hkb-link-color: #006ec7;--hkb-link-color-hover: #1b79c6;--hkb-header-style-bg: #006ec7;--hkb-header-style-graddir: 90deg;--hkb-header-style-grad1: #2358a1;--hkb-header-style-grad2: #2358a1;--hkb-header-text-color: #ffffff;}</style><meta name="generator" content="Heroic Knowledge Base v4.5.0" />
+			<!-- DO NOT COPY THIS SNIPPET! Start of Page Analytics Tracking for HubSpot WordPress plugin v11.3.45-->
+			
+			<!-- DO NOT COPY THIS SNIPPET! End of Page Analytics Tracking for HubSpot WordPress plugin -->
+			<noscript><link rel='stylesheet' href='https://edgewatch.com/wp-content/themes/blocksy/static/bundle/no-scripts.min.css' type='text/css'></noscript>
+<style id="ct-main-styles-inline-css">[data-header*="type-1"] {--has-transparent-header:1;}</style>
+        <script type="061edf2202a44b4e9bf09a13-text/javascript">
+        var gdpr_compliant_recaptcha_stamp = 'eba8be857180bb5b2acc94ecccbfd8673993a1e42c965f7e7e100620267d4984';
+        var gdpr_compliant_recaptcha_ip = '145.223.131.227,145.223.131.227, 162.158.120.133, 127.0.0.1';
+        var gdpr_compliant_recaptcha_nonce = null;
+        var gdpr_compliant_recaptcha = {
+            stampLoaded : false,
+            // Create an array to store override functions
+            originalFetches : [],
+            originalXhrOpens : [],
+            originalXhrSends : [],
+            originalFetch : window.fetch,
+            abortController : new AbortController(),
+            originalXhrOpen : XMLHttpRequest.prototype.open,
+            originalXhrSend : XMLHttpRequest.prototype.send,
+
+            // Function to check if a string is a valid JSON
+            isValidJson : function( str ) {
+                try {
+                    JSON.parse( str );
+                    return true;
+                } catch ( error ) {
+                    return false;
+                }
+            },
+
+            // Function to handle fetch response
+            handleFetchResponse: function (input, init) {
+                // Store method and URL
+                var method = (init && init.method) ? init.method.toUpperCase() : 'GET';
+                var url = input;
+                gdpr_compliant_recaptcha.originalFetches.forEach(overrideFunction => {
+                            overrideFunction.apply(this, arguments);
+                });
+                // Bind the original fetch function to the window object
+                var originalFetchBound = gdpr_compliant_recaptcha.originalFetch.bind(window);
+                try{
+                    // Call the original fetch method
+                    //return gdpr_compliant_recaptcha.originalFetch.apply(this, arguments).then(function (response) {
+                    return originalFetchBound(input, init).then(function (response) {
+                        var clonedResponse = response.clone();
+                        // Check for an error response
+                        if (response.ok && method === 'POST') {
+                            // Parse the response JSON
+                            return response.text().then(function (responseData) {
+                                var data = responseData;
+                                if (gdpr_compliant_recaptcha.isValidJson(responseData)) {
+                                    data = JSON.parse(responseData);
+                                }
+                                // Check if the gdpr_error_message parameter is present
+                                if (data.data && data.data.gdpr_error_message) {
+                                    gdpr_compliant_recaptcha.displayErrorMessage(data.data.gdpr_error_message);
+                                    gdpr_compliant_recaptcha.abortController.abort();
+                                    return Promise.reject(new Error('Request aborted'));
+                                }
+                                // Return the original response for non-error cases
+                                return clonedResponse;
+                            });
+                        }
+                        return clonedResponse;
+                    });
+                } catch (error) {
+                    // Return a resolved promise in case of an error
+                    return Promise.resolve();
+                }
+            },
+
+            // Full implementation of SHA265 hashing algorithm.
+            sha256 : function( ascii ) {
+                function rightRotate( value, amount ) {
+                    return ( value>>>amount ) | ( value<<(32 - amount ) );
+                }
+
+                var mathPow = Math.pow;
+                var maxWord = mathPow( 2, 32 );
+                var lengthProperty = 'length';
+
+                // Used as a counter across the whole file
+                var i, j;
+                var result = '';
+
+                var words = [];
+                var asciiBitLength = ascii[ lengthProperty ] * 8;
+
+                // Caching results is optional - remove/add slash from front of this line to toggle.
+                // Initial hash value: first 32 bits of the fractional parts of the square roots of the first 8 primes
+                // (we actually calculate the first 64, but extra values are just ignored).
+                var hash = this.sha256.h = this.sha256.h || [];
+
+                // Round constants: First 32 bits of the fractional parts of the cube roots of the first 64 primes.
+                var k = this.sha256.k = this.sha256.k || [];
+                var primeCounter = k[ lengthProperty ];
+
+                var isComposite = {};
+                for ( var candidate = 2; primeCounter < 64; candidate++ ) {
+                    if ( ! isComposite[ candidate ] ) {
+                        for ( i = 0; i < 313; i += candidate ) {
+                            isComposite[ i ] = candidate;
+                        }
+                        hash[ primeCounter ] = ( mathPow( candidate, 0.5 ) * maxWord ) | 0;
+                        k[ primeCounter++ ] = ( mathPow( candidate, 1 / 3 ) * maxWord ) | 0;
+                    }
+                }
+
+                // Append Ƈ' bit (plus zero padding).
+                ascii += '\x80';
+
+                // More zero padding
+                while ( ascii[ lengthProperty ] % 64 - 56 ){
+                ascii += '\x00';
+                }
+
+                for ( i = 0, max = ascii[ lengthProperty ]; i < max; i++ ) {
+                    j = ascii.charCodeAt( i );
+
+                    // ASCII check: only accept characters in range 0-255
+                    if ( j >> 8 ) {
+                    return;
+                    }
+                    words[ i >> 2 ] |= j << ( ( 3 - i ) % 4 ) * 8;
+                }
+                words[ words[ lengthProperty ] ] = ( ( asciiBitLength / maxWord ) | 0 );
+                words[ words[ lengthProperty ] ] = ( asciiBitLength );
+
+                // process each chunk
+                for ( j = 0, max = words[ lengthProperty ]; j < max; ) {
+
+                    // The message is expanded into 64 words as part of the iteration
+                    var w = words.slice( j, j += 16 );
+                    var oldHash = hash;
+
+                    // This is now the undefinedworking hash, often labelled as variables a...g
+                    // (we have to truncate as well, otherwise extra entries at the end accumulate.
+                    hash = hash.slice( 0, 8 );
+
+                    for ( i = 0; i < 64; i++ ) {
+                        var i2 = i + j;
+
+                        // Expand the message into 64 words
+                        var w15 = w[ i - 15 ], w2 = w[ i - 2 ];
+
+                        // Iterate
+                        var a = hash[ 0 ], e = hash[ 4 ];
+                        var temp1 = hash[ 7 ]
+                            + ( rightRotate( e, 6 ) ^ rightRotate( e, 11 ) ^ rightRotate( e, 25 ) ) // S1
+                            + ( ( e&hash[ 5 ] ) ^ ( ( ~e ) &hash[ 6 ] ) ) // ch
+                            + k[i]
+                            // Expand the message schedule if needed
+                            + ( w[ i ] = ( i < 16 ) ? w[ i ] : (
+                                    w[ i - 16 ]
+                                    + ( rightRotate( w15, 7 ) ^ rightRotate( w15, 18 ) ^ ( w15 >>> 3 ) ) // s0
+                                    + w[ i - 7 ]
+                                    + ( rightRotate( w2, 17 ) ^ rightRotate( w2, 19 ) ^ ( w2 >>> 10 ) ) // s1
+                                ) | 0
+                            );
+
+                        // This is only used once, so *could* be moved below, but it only saves 4 bytes and makes things unreadble:
+                        var temp2 = ( rightRotate( a, 2 ) ^ rightRotate( a, 13 ) ^ rightRotate( a, 22 ) ) // S0
+                            + ( ( a&hash[ 1 ] )^( a&hash[ 2 ] )^( hash[ 1 ]&hash[ 2 ] ) ); // maj
+
+                            // We don't bother trimming off the extra ones,
+                            // they're harmless as long as we're truncating when we do the slice().
+                        hash = [ ( temp1 + temp2 )|0 ].concat( hash );
+                        hash[ 4 ] = ( hash[ 4 ] + temp1 ) | 0;
+                    }
+
+                    for ( i = 0; i < 8; i++ ) {
+                        hash[ i ] = ( hash[ i ] + oldHash[ i ] ) | 0;
+                    }
+                }
+
+                for ( i = 0; i < 8; i++ ) {
+                    for ( j = 3; j + 1; j-- ) {
+                        var b = ( hash[ i ]>>( j * 8 ) ) & 255;
+                        result += ( ( b < 16 ) ? 0 : '' ) + b.toString( 16 );
+                    }
+                }
+                return result;
+            },
+
+            // Replace with your desired hash function.
+            hashFunc : function( x ) {
+                return this.sha256( x );
+            },
+
+            // Convert hex char to binary string.
+            hexInBin : function( x ) {
+                var ret = '';
+                switch( x.toUpperCase() ) {
+                    case '0':
+                    return '0000';
+                    break;
+                    case '1':
+                    return '0001';
+                    break;
+                    case '2':
+                    return '0010';
+                    break;
+                    case '3':
+                    return '0011';
+                    break;
+                    case '4':
+                    return '0100';
+                    break;
+                    case '5':
+                    return '0101';
+                    break;
+                    case '6':
+                    return '0110';
+                    break;
+                    case '7':
+                    return '0111';
+                    break;
+                    case '8':
+                    return '1000';
+                    break;
+                    case '9':
+                    return '1001';
+                    break;
+                    case 'A':
+                    return '1010';
+                    break;
+                    case 'B':
+                    return '1011';
+                    break;
+                    case 'C':
+                    return '1100';
+                    break;
+                    case 'D':
+                    return '1101';
+                    break;
+                    case 'E':
+                    return '1110';
+                    break;
+                    case 'F':
+                    return '1111';
+                    break;
+                    default :
+                    return '0000';
+                }
+            },
+
+            // Gets the leading number of bits from the string.
+            extractBits : function( hexString, numBits ) {
+                var bitString = '';
+                var numChars = Math.ceil( numBits / 4 );
+                for ( var i = 0; i < numChars; i++ ){
+                    bitString = bitString + '' + this.hexInBin( hexString.charAt( i ) );
+                }
+
+                bitString = bitString.substr( 0, numBits );
+                return bitString;
+            },
+
+            // Check if a given nonce is a solution for this stamp and difficulty
+            // the $difficulty number of leading bits must all be 0 to have a valid solution.
+            checkNonce : function( difficulty, stamp, nonce ) {
+                var colHash = this.hashFunc( stamp + nonce );
+                var checkBits = this.extractBits( colHash, difficulty );
+                return ( checkBits == 0 );
+            },
+
+            sleep : function( ms ) {
+                return new Promise( resolve => setTimeout( resolve, ms ) );
+            },
+
+            // Iterate through as many nonces as it takes to find one that gives us a solution hash at the target difficulty.
+            findHash : async function() {
+                var hashStamp = gdpr_compliant_recaptcha_stamp;
+                var clientIP = gdpr_compliant_recaptcha_ip;
+                var hashDifficulty = '13';
+
+                var nonce = 1;
+
+                while( ! this.checkNonce( hashDifficulty, hashStamp, nonce ) ) {
+                    nonce++;
+                    if ( nonce % 10000 == 0 ) {
+                        let remaining = Math.round( ( Math.pow( 2, hashDifficulty ) - nonce ) / 10000 );
+                        // Don't peg the CPU and prevent the browser from rendering these updates
+                        //await this.sleep( 100 );
+                    }
+                }
+                gdpr_compliant_recaptcha_nonce = nonce;
+                
+                fetch('https://edgewatch.com/wp-admin/admin-ajax.php', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    },
+                    body: 'action=check_stamp' +
+                          '&hashStamp=' + encodeURIComponent(hashStamp) +
+                          '&hashDifficulty=' + encodeURIComponent(hashDifficulty) +
+                          '&clientIP=' + encodeURIComponent(clientIP) +
+                          '&hashNonce=' + encodeURIComponent(nonce)
+                })
+                .then(function (response) {
+                });
+                return true;
+            },
+            
+            initCaptcha : function(){
+                fetch('https://edgewatch.com/wp-admin/admin-ajax.php?action=get_stamp', {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    },
+                })
+                .then(function (response) {
+                    return response.json();
+                })
+                .then(function (response) {
+                    gdpr_compliant_recaptcha_stamp = response.stamp;
+                    gdpr_compliant_recaptcha_ip = response.client_ip;
+                    gdpr_compliant_recaptcha.findHash();
+                });
+
+            },
+
+            // Function to display a nice-looking error message
+            displayErrorMessage : function(message) {
+                // Create a div for the error message
+                var errorMessageElement = document.createElement('div');
+                errorMessageElement.className = 'error-message';
+                errorMessageElement.textContent = message;
+
+                // Style the error message
+                errorMessageElement.style.position = 'fixed';
+                errorMessageElement.style.top = '50%';
+                errorMessageElement.style.left = '50%';
+                errorMessageElement.style.transform = 'translate(-50%, -50%)';
+                errorMessageElement.style.background = '#ff3333';
+                errorMessageElement.style.color = '#ffffff';
+                errorMessageElement.style.padding = '15px';
+                errorMessageElement.style.borderRadius = '10px';
+                errorMessageElement.style.zIndex = '1000';
+
+                // Append the error message to the body
+                document.body.appendChild(errorMessageElement);
+
+                // Remove the error message after a delay (e.g., 5 seconds)
+                setTimeout(function () {
+                    errorMessageElement.remove();
+                }, 5000);
+            },
+
+            addFirstStamp : function(e){
+                if( ! gdpr_compliant_recaptcha.stampLoaded){
+                    gdpr_compliant_recaptcha.stampLoaded = true;
+                    gdpr_compliant_recaptcha.initCaptcha();
+                    let forms = document.querySelectorAll('form');
+                    //This is important to mark password fields. They shall not be posted to the inbox
+                    function convertStringToNestedObject(str) {
+                        var keys = str.match(/[^\[\]]+|\[[^\[\]]+\]/g); // Extrahiere Wörter und eckige Klammern
+                        var obj = {};
+                        var tempObj = obj;
+
+                        for (var i = 0; i < keys.length; i++) {
+                            var key = keys[i];
+
+                            // Wenn die eckigen Klammern vorhanden sind
+                            if (key.startsWith('[') && key.endsWith(']')) {
+                                key = key.substring(1, key.length - 1); // Entferne eckige Klammern
+                            }
+
+                            tempObj[key] = (i === keys.length - 1) ? null : {};
+                            tempObj = tempObj[key];
+                        }
+
+                        return obj;
+                    }
+                    forms.forEach(form => {
+                        let passwordInputs = form.querySelectorAll("input[type='password']");
+                        let hashPWFields = [];
+                        passwordInputs.forEach(input => {
+                            hashPWFields.push(convertStringToNestedObject(input.getAttribute('name')));
+                        });
+                        
+                        if (hashPWFields.length !== 0) {
+                            let hashPWFieldsInput = document.createElement('input');
+                            hashPWFieldsInput.type = 'hidden';
+                            hashPWFieldsInput.classList.add('hashPWFields');
+                            hashPWFieldsInput.name = 'hashPWFields';
+                            hashPWFieldsInput.value = btoa(JSON.stringify(hashPWFields));//btoa(hashPWFields);
+                            form.prepend(hashPWFieldsInput);
+                        }
+                    });
+
+                    // Override open method to store method and URL
+                    XMLHttpRequest.prototype.open = function (method, url) {
+                        this._method = method;
+                        this._url = url;
+                        return gdpr_compliant_recaptcha.originalXhrOpen.apply(this, arguments);
+                    };
+
+                    // Override send method to set up onreadystatechange dynamically
+                    XMLHttpRequest.prototype.send = function (data) {
+                        var self = this;
+
+                        function handleReadyStateChange() {
+                            if (self.readyState === 4 && self._method === 'POST') {
+                                // Check for an error response
+                                if (self.status >= 200 && self.status < 300) {
+                                    var responseData = self.responseType === 'json' ? self.response : self.responseText;
+                                    if(gdpr_compliant_recaptcha.isValidJson(responseData)){
+                                        // Parse the response JSON
+                                        responseData = JSON.parse(responseData);
+                                    }
+                                    // Check if the gdpr_error_message parameter is present
+                                    if (!responseData.success && responseData.data && responseData.data.gdpr_error_message) {
+                                        // Show an error message
+                                        gdpr_compliant_recaptcha.displayErrorMessage(responseData.data.gdpr_error_message);
+                                        gdpr_compliant_recaptcha.abortController.abort();
+                                        return null;
+                                    }
+                                }
+                            }
+                            // Call the original onreadystatechange function
+                            if (self._originalOnReadyStateChange) {
+                                self._originalOnReadyStateChange.apply(self, arguments);
+                            }
+                        }
+
+                        // Set up onreadystatechange dynamically
+                        if (!this._originalOnReadyStateChange) {
+                            this._originalOnReadyStateChange = this.onreadystatechange;
+                            this.onreadystatechange = handleReadyStateChange;
+                        }
+
+                        // Call each override function in order
+                        gdpr_compliant_recaptcha.originalXhrSends.forEach(overrideFunction => {
+                            overrideFunction.apply(this, arguments);
+                        });
+
+                        result = gdpr_compliant_recaptcha.originalXhrSend.apply(this, arguments);
+                        if (result instanceof Promise){
+                            return result.then(function() {});
+                        }else{
+                            return result;
+                        }
+                    };
+
+                    // Override window.fetch globally
+                    window.fetch = gdpr_compliant_recaptcha.handleFetchResponse;
+
+                    setInterval( gdpr_compliant_recaptcha.initCaptcha, 10 * 60000 );
+                }
+            }
+        }
+        window.addEventListener( 'load', function gdpr_compliant_recaptcha_load () {
+            document.addEventListener( 'keydown', gdpr_compliant_recaptcha.addFirstStamp, { once : true } );
+            document.addEventListener( 'mousemove', gdpr_compliant_recaptcha.addFirstStamp, { once : true } );
+            document.addEventListener( 'scroll', gdpr_compliant_recaptcha.addFirstStamp, { once : true } );
+            document.addEventListener( 'click', gdpr_compliant_recaptcha.addFirstStamp, { once : true } );
+        } );
+        </script>
+        <link rel="icon" href="https://edgewatch.com/wp-content/uploads/2023/10/cropped-edgewatch-logo-512-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://edgewatch.com/wp-content/uploads/2023/10/cropped-edgewatch-logo-512-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://edgewatch.com/wp-content/uploads/2023/10/cropped-edgewatch-logo-512-180x180.png" />
+<meta name="msapplication-TileImage" content="https://edgewatch.com/wp-content/uploads/2023/10/cropped-edgewatch-logo-512-270x270.png" />
+		<style id="wp-custom-css">
+			/* video button heart beat */
+.ct-pulse 
+{ border-radius: 50%; -webkit-animation:pulse 2s ease-out infinite; animation:pulse 2s  ease-out infinite }
+@keyframes pulse { 
+0% { box-shadow: 0 0 0 0 rgba(255, 255, 255, .8); }
+80% { box-shadow: 0 0 0 30px rgba(255, 255, 255, 0); }
+}
+.style-img-home {
+  margin: 0 -200px 0 0;
+  padding: 10px;
+}
+#hkb .hkb-searchbox-wrapper {
+  padding: 8em 0 4em 0;!important}
+#hkb .hkb-subheader {
+  padding: 8em 0 2em 0!important;
+}
+#hkb .hkb-sticky {
+  top: 10em !important;
+}
+article > .hero-section, article > .post-edit-link, article > .post-navigation, article > .ct-related-posts, article > .ct-newsletter-subscribe-block, article > .product .wc-tabs, article > .post-password-form, article > .product .product-entry-wrapper {
+  padding-top: 4em;
+}
+
+nav > ul > [class*="ct-mega-menu"] > .sub-menu > li {
+ padding: var(--columns-padding, 0px 5px 0px 10px)!important;
+}
+
+.textwidget a {
+  color: var(--linkInitialColor)!important;
+
+}
+.ct-footer-copyright a {
+  color: var(--linkInitialColor)!important;
+--color: #5e7086;
+  --linkInitialColor: #5e7086;
+  --linkHoverColor: var(--theme-palette-color-1);
+}
+
+.wp-image-1431
+{padding-top: 25px}
+[data-footer*="type-1"] .ct-footer [data-row*="middle"] > div {
+  --grid-template-columns: 2fr 1fr 1fr 2fr!important;
+}
+#bluebg
+{
+    color: #5e7086;
+    border: 1px solid #fff;
+	background-color: #fff;
+	height: var(--form-field-height, 45px);
+font-size: var(--form-font-size, 20px);
+}
+.separate {
+    float: none;
+    text-align: center;
+}
+[type="submit"], a.showlogin, a.restore-item, button.regform-button, button[class*="ajax"], .submit:where(:not(div.submit)), .forminator-ui[data-design="none"] .forminator-button {
+    min-height: 45px!important;
+    font-size: 20px!important; 
+    border: 1px solid      #fff!important;
+    margin-left: 5px!important;
+}
+.bluecheckbox .wpcf7-list-item-label
+{
+	color: #fff;
+  font-size: 16px!important;
+  font-weight: 400!important;
+	margin-right: 150px;	
+	}
+
+.bluecheckbox input[type="checkbox"] {
+    transform: scale(1.4);
+	  margin-left: 10px;
+	border: 1px solid      #fff!important
+ }
+
+.bluecheckbox a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.regularcheckbox
+input[type="checkbox"] {
+    transform: scale(1.4);
+	  margin-left: 10px;
+ margin-bottom: 25px;
+ }
+
+.wpcf7 form.sent .wpcf7-response-output {
+  color: #fff;
+  border: 1px solid #46b450 !important;
+  background-color: rgba(0, 110, 199, 0.4);
+}
+
+.formgroup {
+    display: flex;
+    justify-content: center;
+
+}
+.wpcf7 p:last-of-type {
+  --content-spacing: 5px !important;
+}
+.wpcf7-not-valid-tip {
+    color: #c7ac00!important;
+    font-weight: bold!important;
+}
+.wpcf7-spinner {
+    display: none;
+}
+
+.has-white-color {
+  margin-block-end: 0px !important;
+}		</style>
+		<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript>	<style id='core-block-supports-inline-css'>
+.wp-block-gallery.wp-block-gallery-1{--wp--style--unstable-gallery-gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );gap:var( --wp--style--gallery-gap-default, var( --gallery-block--gutter-size, var( --wp--style--block-gap, 0.5em ) ) );}
+/*# sourceURL=core-block-supports-inline-css */
+</style>
+
+<meta name="generator" content="WP Rocket 3.21.1" data-wpr-features="wpr_minify_concatenate_js wpr_lazyload_images wpr_lazyload_iframes wpr_image_dimensions wpr_minify_css wpr_preload_links wpr_desktop" /></head>
+
+
+<body class="wp-singular ht_kb-template-default single single-ht_kb postid-2990 single-format-standard wp-custom-logo wp-embed-responsive wp-theme-blocksy wp-child-theme-blocksy-child ht-kb stk--is-blocksy-theme" data-link="type-2" data-prefix="ht_kb_single" data-header="type-1:sticky" data-footer="type-1" itemscope="itemscope" itemtype="https://schema.org/Blog">
+
+<a class="skip-link screen-reader-text" href="#main">Skip to content</a><div data-rocket-location-hash="6ca16749434ffeb6798230cf77b3e4ff" class="ct-drawer-canvas" data-location="start">
+		<div data-rocket-location-hash="7ec9b3270311cfa0a9f27c628e40bff0" id="search-modal" class="ct-panel" data-behaviour="modal" role="dialog" aria-label="Search modal" inert>
+			<div data-rocket-location-hash="79dc0a17d75ed337f37e2b08b92b5134" class="ct-panel-actions">
+				<button class="ct-toggle-close" data-type="type-1" aria-label="Close search modal">
+					<svg class="ct-icon" width="12" height="12" viewBox="0 0 15 15"><path d="M1 15a1 1 0 01-.71-.29 1 1 0 010-1.41l5.8-5.8-5.8-5.8A1 1 0 011.7.29l5.8 5.8 5.8-5.8a1 1 0 011.41 1.41l-5.8 5.8 5.8 5.8a1 1 0 01-1.41 1.41l-5.8-5.8-5.8 5.8A1 1 0 011 15z"/></svg>				</button>
+			</div>
+
+			<div data-rocket-location-hash="67e172f11be28e150e9d6c11b878e72e" class="ct-panel-content">
+				
+
+<form role="search" method="get" class="ct-search-form"  action="https://edgewatch.com/" aria-haspopup="listbox" data-live-results="">
+
+	<input
+		type="search" class="modal-field"		placeholder="Search"
+		value=""
+		name="s"
+		autocomplete="off"
+		title="Search for..."
+		aria-label="Search for..."
+			>
+
+	<div class="ct-search-form-controls">
+		
+		<button type="submit" class="wp-element-button" data-button="icon" aria-label="Search button">
+			<svg class="ct-icon ct-search-button-content" aria-hidden="true" width="15" height="15" viewBox="0 0 15 15"><path d="M14.8,13.7L12,11c0.9-1.2,1.5-2.6,1.5-4.2c0-3.7-3-6.8-6.8-6.8S0,3,0,6.8s3,6.8,6.8,6.8c1.6,0,3.1-0.6,4.2-1.5l2.8,2.8c0.1,0.1,0.3,0.2,0.5,0.2s0.4-0.1,0.5-0.2C15.1,14.5,15.1,14,14.8,13.7z M1.5,6.8c0-2.9,2.4-5.2,5.2-5.2S12,3.9,12,6.8S9.6,12,6.8,12S1.5,9.6,1.5,6.8z"/></svg>
+			<span class="ct-ajax-loader">
+				<svg viewBox="0 0 24 24">
+					<circle cx="12" cy="12" r="10" opacity="0.2" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2"/>
+
+					<path d="m12,2c5.52,0,10,4.48,10,10" fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2">
+						<animateTransform
+							attributeName="transform"
+							attributeType="XML"
+							type="rotate"
+							dur="0.6s"
+							from="0 12 12"
+							to="360 12 12"
+							repeatCount="indefinite"
+						/>
+					</path>
+				</svg>
+			</span>
+		</button>
+
+		
+					<input type="hidden" name="ct_post_type" value="post:page">
+		
+		
+
+			</div>
+
+			<div class="screen-reader-text" aria-live="polite" role="status">
+			No results		</div>
+	
+</form>
+
+
+			</div>
+		</div>
+
+		<div data-rocket-location-hash="93ecadc62b11e97ff55b8710bfc364ef" id="offcanvas" class="ct-panel ct-header" data-behaviour="right-side" role="dialog" aria-label="Offcanvas modal" inert=""><div data-rocket-location-hash="577abc5bcfc4732bfded65932d6f2184" class="ct-panel-inner">
+				<div class="ct-panel-actions">
+					
+					
+				<button class="ct-toggle-close" data-type="type-1" aria-label="Close drawer">
+					<svg class="ct-icon" width="12" height="12" viewBox="0 0 15 15"><path d="M1 15a1 1 0 01-.71-.29 1 1 0 010-1.41l5.8-5.8-5.8-5.8A1 1 0 011.7.29l5.8 5.8 5.8-5.8a1 1 0 011.41 1.41l-5.8 5.8 5.8 5.8a1 1 0 01-1.41 1.41l-5.8-5.8-5.8 5.8A1 1 0 011 15z"/></svg>
+				</button>
+			
+				</div>
+			<div class="ct-panel-content" data-device="desktop"><div class="ct-panel-content-inner"></div></div><div class="ct-panel-content" data-device="mobile"><div class="ct-panel-content-inner">
+<a href="https://edgewatch.com/" class="site-logo-container" data-id="offcanvas-logo" rel="home" itemprop="url">
+			<img width="82" height="10" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2082%2010'%3E%3C/svg%3E" class="default-logo" alt="Edgewatch" decoding="async" data-lazy-src="https://edgewatch.com/wp-content/uploads/2023/10/edgewatch-alone-w.svg" /><noscript><img width="82" height="10" src="https://edgewatch.com/wp-content/uploads/2023/10/edgewatch-alone-w.svg" class="default-logo" alt="Edgewatch" decoding="async" /></noscript>	</a>
+
+
+<nav
+	class="mobile-menu menu-container has-submenu"
+	data-id="mobile-menu" data-interaction="click" data-toggle-type="type-1" data-submenu-dots="yes"	aria-label="Main Menu">
+
+	<ul id="menu-main-menu-1" class=""><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1518"><span class="ct-sub-menu-parent"><a href="https://edgewatch.com/platform/" class="ct-menu-link">Platform</a><button class="ct-toggle-dropdown-mobile" aria-label="Expand dropdown menu" aria-haspopup="true" aria-expanded="false"><svg class="ct-icon toggle-icon-1" width="15" height="15" viewBox="0 0 15 15" aria-hidden="true"><path d="M3.9,5.1l3.6,3.6l3.6-3.6l1.4,0.7l-5,5l-5-5L3.9,5.1z"/></svg></button></span>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1549"><a href="https://edgewatch.com/platform/attack-surface-monitoring/" class="ct-menu-link">Attack surface monitoring</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1560"><a href="https://edgewatch.com/platform/vulnerability-management/" class="ct-menu-link">Vulnerability &amp; Disclosure Management</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1567"><a href="https://edgewatch.com/platform/threat-intelligence/" class="ct-menu-link">Threat intelligence</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1491"><span class="ct-sub-menu-parent"><a href="https://edgewatch.com/compliance/" class="ct-menu-link">Compliance</a><button class="ct-toggle-dropdown-mobile" aria-label="Expand dropdown menu" aria-haspopup="true" aria-expanded="false"><svg class="ct-icon toggle-icon-1" width="15" height="15" viewBox="0 0 15 15" aria-hidden="true"><path d="M3.9,5.1l3.6,3.6l3.6-3.6l1.4,0.7l-5,5l-5-5L3.9,5.1z"/></svg></button></span>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2115"><a href="https://edgewatch.com/compliance/iso-27001/" class="ct-menu-link">ISO 27001 Compliance &amp; Vulnerability Management</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2071"><a href="https://edgewatch.com/compliance/pci/" class="ct-menu-link">PCI Compliance &amp; Vulnerability Management</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2112"><a href="https://edgewatch.com/compliance/gdpr/" class="ct-menu-link">EU –  General Data Protection Regulation (GDPR)</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2113"><a href="https://edgewatch.com/compliance/germany-c5/" class="ct-menu-link">Germany – Computing Compliance Controls Catalog (C5)</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2114"><a href="https://edgewatch.com/compliance/germany-it-grundschutz/" class="ct-menu-link">Germany – IT-Grundschutz workbook</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2110"><a href="https://edgewatch.com/compliance/netherlands-bir-2012/" class="ct-menu-link">Netherland – Baseline Informatiebeveiliging Rijksdienst (BIR 2012)</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2137"><a href="https://edgewatch.com/compliance/ens/" class="ct-menu-link">Spain – Esquema Nacional de Seguridad (ENS)</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2117"><a href="https://edgewatch.com/compliance/soc-2-vulnerability-management/" class="ct-menu-link">USA – SOC 2 vulnerability management</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2078"><a href="https://edgewatch.com/compliance/hipaa/" class="ct-menu-link">USA- HIPAA Compliance</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2111"><a href="https://edgewatch.com/compliance/california-cpa-cpra/" class="ct-menu-link">California – Consumer Privacy Act</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3020"><a href="https://edgewatch.com/pricing/" class="ct-menu-link">Pricing</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1601"><span class="ct-sub-menu-parent"><a href="https://edgewatch.com/resources/" class="ct-menu-link">Resources</a><button class="ct-toggle-dropdown-mobile" aria-label="Expand dropdown menu" aria-haspopup="true" aria-expanded="false"><svg class="ct-icon toggle-icon-1" width="15" height="15" viewBox="0 0 15 15" aria-hidden="true"><path d="M3.9,5.1l3.6,3.6l3.6-3.6l1.4,0.7l-5,5l-5-5L3.9,5.1z"/></svg></button></span>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-553"><a href="https://edgewatch.com/blog/" class="ct-menu-link">Edgewatch Blog &#038; News</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1063"><a href="https://edgewatch.com/kb/" class="ct-menu-link">Knowledge Base</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1165"><a target="_blank" href="https://support.edgewatch.com" class="ct-menu-link">Support Portal</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"><a href="https://edgewatch.com/resources/integrations/" class="ct-menu-link">API &#038; Integrations</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2517"><a href="https://edgewatch.com/vulnerability-advisories/" class="ct-menu-link">Vulnerability Advisories</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1696"><span class="ct-sub-menu-parent"><a href="https://edgewatch.com/company/" class="ct-menu-link">Company</a><button class="ct-toggle-dropdown-mobile" aria-label="Expand dropdown menu" aria-haspopup="true" aria-expanded="false"><svg class="ct-icon toggle-icon-1" width="15" height="15" viewBox="0 0 15 15" aria-hidden="true"><path d="M3.9,5.1l3.6,3.6l3.6-3.6l1.4,0.7l-5,5l-5-5L3.9,5.1z"/></svg></button></span>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1053"><a href="https://edgewatch.com/contact/" class="ct-menu-link">Contact Us</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1489"><a href="https://edgewatch.com/partner/" class="ct-menu-link">Channel &#038; MSP&#8217;s Partner Program</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2438"><a href="https://edgewatch.com/company/careers/" class="ct-menu-link">Career Opportunities</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1692"><span class="ct-sub-menu-parent"><a href="https://edgewatch.com/legal/" class="ct-menu-link">Legal Policies</a><button class="ct-toggle-dropdown-mobile" aria-label="Expand dropdown menu" aria-haspopup="true" aria-expanded="false"><svg class="ct-icon toggle-icon-1" width="15" height="15" viewBox="0 0 15 15" aria-hidden="true"><path d="M3.9,5.1l3.6,3.6l3.6-3.6l1.4,0.7l-5,5l-5-5L3.9,5.1z"/></svg></button></span>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1754"><a href="https://edgewatch.com/legal/terms-of-use/" class="ct-menu-link">Terms of use</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1804"><a href="https://edgewatch.com/legal/privacy-policy/" class="ct-menu-link">Privacy Policy</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1076"><a href="https://edgewatch.com/legal/abuse-policy/" class="ct-menu-link">Abuse Policies &#038; Enforcement</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1812"><a href="https://edgewatch.com/legal/disclosure/" class="ct-menu-link">Disclosure Procedure</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1834"><a href="https://edgewatch.com/legal/trademark/" class="ct-menu-link">Trademark and Brand Usage</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+</ul></nav>
+
+
+<div
+	class="ct-header-socials "
+	data-id="socials">
+
+	
+		<div class="ct-social-box" data-color="custom" data-icon-size="custom" data-icons-type="simple" >
+			
+			
+							
+				<a href="https://twitter.com/EdgewatchHQ" data-network="twitter" aria-label="X (Twitter)">
+					<span class="ct-icon-container">
+					<svg
+					width="20px"
+					height="20px"
+					viewBox="0 0 20 20"
+					aria-hidden="true">
+						<path d="M2.9 0C1.3 0 0 1.3 0 2.9v14.3C0 18.7 1.3 20 2.9 20h14.3c1.6 0 2.9-1.3 2.9-2.9V2.9C20 1.3 18.7 0 17.1 0H2.9zm13.2 3.8L11.5 9l5.5 7.2h-4.3l-3.3-4.4-3.8 4.4H3.4l5-5.7-5.3-6.7h4.4l3 4 3.5-4h2.1zM14.4 15 6.8 5H5.6l7.7 10h1.1z"/>
+					</svg>
+				</span>				</a>
+							
+				<a href="https://www.linkedin.com/company/edgewatch" data-network="linkedin" aria-label="LinkedIn">
+					<span class="ct-icon-container">
+					<svg
+					width="20px"
+					height="20px"
+					viewBox="0 0 20 20"
+					aria-hidden="true">
+						<path d="M18.6,0H1.4C0.6,0,0,0.6,0,1.4v17.1C0,19.4,0.6,20,1.4,20h17.1c0.8,0,1.4-0.6,1.4-1.4V1.4C20,0.6,19.4,0,18.6,0z M6,17.1h-3V7.6h3L6,17.1L6,17.1zM4.6,6.3c-1,0-1.7-0.8-1.7-1.7s0.8-1.7,1.7-1.7c0.9,0,1.7,0.8,1.7,1.7C6.3,5.5,5.5,6.3,4.6,6.3z M17.2,17.1h-3v-4.6c0-1.1,0-2.5-1.5-2.5c-1.5,0-1.8,1.2-1.8,2.5v4.7h-3V7.6h2.8v1.3h0c0.4-0.8,1.4-1.5,2.8-1.5c3,0,3.6,2,3.6,4.5V17.1z"/>
+					</svg>
+				</span>				</a>
+							
+				<a href="https://github.com/edgewatch" data-network="github" aria-label="GitHub">
+					<span class="ct-icon-container">
+					<svg
+					width="20"
+					height="20"
+					viewBox="0 0 20 20"
+					aria-hidden="true">
+						<path d="M8.9,0.4C4.3,0.9,0.6,4.6,0.1,9.1c-0.5,4.7,2.2,8.9,6.3,10.5C6.7,19.7,7,19.5,7,19.1v-1.6c0,0-0.4,0.1-0.9,0.1c-1.4,0-2-1.2-2.1-1.9c-0.1-0.4-0.3-0.7-0.6-1C3.1,14.6,3,14.6,3,14.5c0-0.2,0.3-0.2,0.4-0.2c0.6,0,1.1,0.7,1.3,1c0.5,0.8,1.1,1,1.4,1c0.4,0,0.7-0.1,0.9-0.2c0.1-0.7,0.4-1.4,1-1.8c-2.3-0.5-4-1.8-4-4c0-1.1,0.5-2.2,1.2-3C5.1,7.1,5,6.6,5,5.9c0-0.4,0-1,0.3-1.6c0,0,1.4,0,2.8,1.3C8.6,5.4,9.3,5.3,10,5.3s1.4,0.1,2,0.3c1.3-1.3,2.8-1.3,2.8-1.3C15,4.9,15,5.5,15,5.9c0,0.8-0.1,1.2-0.2,1.4c0.7,0.8,1.2,1.8,1.2,3c0,2.2-1.7,3.5-4,4c0.6,0.5,1,1.4,1,2.3v2.6c0,0.3,0.3,0.6,0.7,0.5c3.7-1.5,6.3-5.1,6.3-9.3C20,4.4,14.9-0.3,8.9,0.4z"/>
+					</svg>
+				</span>				</a>
+			
+			
+					</div>
+
+	
+</div>
+</div></div></div></div><template id="ct-cookies-consent-template">
+	<div class="cookie-notification ct-fade-in-start" data-period="forever" data-type="type-1">
+
+		<div class="container">
+							<div class="ct-cookies-content"><p>We use cookies to ensure that we give you the best experience on our website. Get more detailed information at our <a href="https://edgewatch.com/legal/privacy-policy/" target="_blank" rel="nofollow noopener">Privacy Policy</a></p></div>
+			
+			<div class="ct-button-group">
+				<button type="button" class="ct-button ct-cookies-accept-button">Accept</button>
+
+				<button type="button" class="ct-button ct-cookies-decline-button">Decline</button>
+			</div>
+		</div>
+	</div>
+	</template></div>
+<div data-rocket-location-hash="0594767f2ec65a30cc7f8091d1afd4d6" id="main-container">
+	<header data-rocket-location-hash="6bf58e6b846c24d0205e63843aaf6abc" id="header" class="ct-header" data-id="type-1" itemscope="" itemtype="https://schema.org/WPHeader"><div data-rocket-location-hash="48b89e9d5c127a18dcb640374db0cdc7" data-device="desktop" data-transparent=""><div class="ct-sticky-container"><div data-sticky="shrink"><div data-row="middle" data-column-set="3" data-transparent-row="yes"><div class="ct-container"><div data-column="start" data-placements="1"><div data-items="primary">
+<div	class="site-branding"
+	data-id="logo"		itemscope="itemscope" itemtype="https://schema.org/Organization">
+
+			<a href="https://edgewatch.com/" class="site-logo-container" rel="home" itemprop="url" ><img width="95" height="18" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2095%2018'%3E%3C/svg%3E" class="sticky-logo" alt="Edgewatch" decoding="async" data-lazy-src="https://edgewatch.com/wp-content/uploads/2023/10/edgewatch-c.svg" /><noscript><img width="95" height="18" src="https://edgewatch.com/wp-content/uploads/2023/10/edgewatch-c.svg" class="sticky-logo" alt="Edgewatch" decoding="async" /></noscript><img width="95" height="18" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2095%2018'%3E%3C/svg%3E" class="default-logo" alt="Edgewatch" decoding="async" data-lazy-src="https://edgewatch.com/wp-content/uploads/2023/10/edgewatch-w.svg" /><noscript><img width="95" height="18" src="https://edgewatch.com/wp-content/uploads/2023/10/edgewatch-w.svg" class="default-logo" alt="Edgewatch" decoding="async" /></noscript></a>	
+	</div>
+
+</div></div><div data-column="middle"><div data-items="">
+<nav
+	id="header-menu-1"
+	class="header-menu-1 menu-container"
+	data-id="menu" data-interaction="hover"	data-menu="type-1"
+	data-dropdown="type-1:padded"		data-responsive="no"	itemscope="" itemtype="https://schema.org/SiteNavigationElement"	aria-label="Main Menu">
+
+	<ul id="menu-main-menu" class="menu"><li id="menu-item-1518" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1518 animated-submenu-block"><a href="https://edgewatch.com/platform/" class="ct-menu-link">Platform<span class="ct-toggle-dropdown-desktop"><svg class="ct-icon" width="8" height="8" viewBox="0 0 15 15" aria-hidden="true"><path d="M2.1,3.2l5.4,5.4l5.4-5.4L15,4.3l-7.5,7.5L0,4.3L2.1,3.2z"/></svg></span></a><button class="ct-toggle-dropdown-desktop-ghost" aria-label="Expand dropdown menu" aria-haspopup="true" aria-expanded="false"></button>
+<ul class="sub-menu">
+	<li id="menu-item-1549" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1549"><a href="https://edgewatch.com/platform/attack-surface-monitoring/" class="ct-menu-link">Attack surface monitoring</a></li>
+	<li id="menu-item-1560" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1560"><a href="https://edgewatch.com/platform/vulnerability-management/" class="ct-menu-link">Vulnerability &amp; Disclosure Management</a></li>
+	<li id="menu-item-1567" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1567"><a href="https://edgewatch.com/platform/threat-intelligence/" class="ct-menu-link">Threat intelligence</a></li>
+</ul>
+</li>
+<li id="menu-item-1491" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1491 ct-mega-menu-custom-width ct-mega-menu-centered ct-mega-menu-columns-1 animated-submenu-block"><a href="https://edgewatch.com/compliance/" class="ct-menu-link">Compliance<span class="ct-toggle-dropdown-desktop"><svg class="ct-icon" width="8" height="8" viewBox="0 0 15 15" aria-hidden="true"><path d="M2.1,3.2l5.4,5.4l5.4-5.4L15,4.3l-7.5,7.5L0,4.3L2.1,3.2z"/></svg></span></a><button class="ct-toggle-dropdown-desktop-ghost" aria-label="Expand dropdown menu" aria-haspopup="true" aria-expanded="false"></button>
+<ul class="sub-menu">
+	<li id="menu-item-2115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2115"><a href="https://edgewatch.com/compliance/iso-27001/" class="ct-menu-link">ISO 27001 Compliance &amp; Vulnerability Management</a></li>
+	<li id="menu-item-2071" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2071"><a href="https://edgewatch.com/compliance/pci/" class="ct-menu-link">PCI Compliance &amp; Vulnerability Management</a></li>
+	<li id="menu-item-2112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2112"><a href="https://edgewatch.com/compliance/gdpr/" class="ct-menu-link">EU –  General Data Protection Regulation (GDPR)</a></li>
+	<li id="menu-item-2113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2113"><a href="https://edgewatch.com/compliance/germany-c5/" class="ct-menu-link">Germany – Computing Compliance Controls Catalog (C5)</a></li>
+	<li id="menu-item-2114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2114"><a href="https://edgewatch.com/compliance/germany-it-grundschutz/" class="ct-menu-link">Germany – IT-Grundschutz workbook</a></li>
+	<li id="menu-item-2110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2110"><a href="https://edgewatch.com/compliance/netherlands-bir-2012/" class="ct-menu-link">Netherland – Baseline Informatiebeveiliging Rijksdienst (BIR 2012)</a></li>
+	<li id="menu-item-2137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2137"><a href="https://edgewatch.com/compliance/ens/" class="ct-menu-link">Spain – Esquema Nacional de Seguridad (ENS)</a></li>
+	<li id="menu-item-2117" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2117"><a href="https://edgewatch.com/compliance/soc-2-vulnerability-management/" class="ct-menu-link">USA – SOC 2 vulnerability management</a></li>
+	<li id="menu-item-2078" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2078"><a href="https://edgewatch.com/compliance/hipaa/" class="ct-menu-link">USA- HIPAA Compliance</a></li>
+	<li id="menu-item-2111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2111"><a href="https://edgewatch.com/compliance/california-cpa-cpra/" class="ct-menu-link">California – Consumer Privacy Act</a></li>
+</ul>
+</li>
+<li id="menu-item-3020" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3020"><a href="https://edgewatch.com/pricing/" class="ct-menu-link">Pricing</a></li>
+<li id="menu-item-1601" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1601 animated-submenu-block"><a href="https://edgewatch.com/resources/" class="ct-menu-link">Resources<span class="ct-toggle-dropdown-desktop"><svg class="ct-icon" width="8" height="8" viewBox="0 0 15 15" aria-hidden="true"><path d="M2.1,3.2l5.4,5.4l5.4-5.4L15,4.3l-7.5,7.5L0,4.3L2.1,3.2z"/></svg></span></a><button class="ct-toggle-dropdown-desktop-ghost" aria-label="Expand dropdown menu" aria-haspopup="true" aria-expanded="false"></button>
+<ul class="sub-menu">
+	<li id="menu-item-553" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-553"><a href="https://edgewatch.com/blog/" class="ct-menu-link">Edgewatch Blog &#038; News</a></li>
+	<li id="menu-item-1063" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1063"><a href="https://edgewatch.com/kb/" class="ct-menu-link">Knowledge Base</a></li>
+	<li id="menu-item-1165" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1165"><a target="_blank" href="https://support.edgewatch.com" class="ct-menu-link">Support Portal</a></li>
+	<li id="menu-item-1602" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1602"><a href="https://edgewatch.com/resources/integrations/" class="ct-menu-link">API &#038; Integrations</a></li>
+	<li id="menu-item-2517" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2517"><a href="https://edgewatch.com/vulnerability-advisories/" class="ct-menu-link">Vulnerability Advisories</a></li>
+</ul>
+</li>
+<li id="menu-item-1696" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1696 animated-submenu-block"><a href="https://edgewatch.com/company/" class="ct-menu-link">Company<span class="ct-toggle-dropdown-desktop"><svg class="ct-icon" width="8" height="8" viewBox="0 0 15 15" aria-hidden="true"><path d="M2.1,3.2l5.4,5.4l5.4-5.4L15,4.3l-7.5,7.5L0,4.3L2.1,3.2z"/></svg></span></a><button class="ct-toggle-dropdown-desktop-ghost" aria-label="Expand dropdown menu" aria-haspopup="true" aria-expanded="false"></button>
+<ul class="sub-menu">
+	<li id="menu-item-1053" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1053"><a href="https://edgewatch.com/contact/" class="ct-menu-link">Contact Us</a></li>
+	<li id="menu-item-1489" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1489"><a href="https://edgewatch.com/partner/" class="ct-menu-link">Channel &#038; MSP&#8217;s Partner Program</a></li>
+	<li id="menu-item-2438" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2438"><a href="https://edgewatch.com/company/careers/" class="ct-menu-link">Career Opportunities</a></li>
+	<li id="menu-item-1692" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1692 animated-submenu-inline"><a href="https://edgewatch.com/legal/" class="ct-menu-link">Legal Policies<span class="ct-toggle-dropdown-desktop"><svg class="ct-icon" width="8" height="8" viewBox="0 0 15 15" aria-hidden="true"><path d="M2.1,3.2l5.4,5.4l5.4-5.4L15,4.3l-7.5,7.5L0,4.3L2.1,3.2z"/></svg></span></a><button class="ct-toggle-dropdown-desktop-ghost" aria-label="Expand dropdown menu" aria-haspopup="true" aria-expanded="false"></button>
+	<ul class="sub-menu">
+		<li id="menu-item-1754" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1754"><a href="https://edgewatch.com/legal/terms-of-use/" class="ct-menu-link">Terms of use</a></li>
+		<li id="menu-item-1804" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1804"><a href="https://edgewatch.com/legal/privacy-policy/" class="ct-menu-link">Privacy Policy</a></li>
+		<li id="menu-item-1076" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1076"><a href="https://edgewatch.com/legal/abuse-policy/" class="ct-menu-link">Abuse Policies &#038; Enforcement</a></li>
+		<li id="menu-item-1812" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1812"><a href="https://edgewatch.com/legal/disclosure/" class="ct-menu-link">Disclosure Procedure</a></li>
+		<li id="menu-item-1834" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1834"><a href="https://edgewatch.com/legal/trademark/" class="ct-menu-link">Trademark and Brand Usage</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+</ul></nav>
+
+</div></div><div data-column="end" data-placements="1"><div data-items="primary">
+<button
+	class="ct-header-search ct-toggle "
+	data-toggle-panel="#search-modal"
+	aria-controls="search-modal"
+	aria-label="Search"
+	data-label="left"
+	data-id="search">
+
+	<span class="ct-label ct-hidden-sm ct-hidden-md ct-hidden-lg" aria-hidden="true">Search</span>
+
+	<svg class="ct-icon" aria-hidden="true" width="15" height="15" viewBox="0 0 15 15"><path d="M14.8,13.7L12,11c0.9-1.2,1.5-2.6,1.5-4.2c0-3.7-3-6.8-6.8-6.8S0,3,0,6.8s3,6.8,6.8,6.8c1.6,0,3.1-0.6,4.2-1.5l2.8,2.8c0.1,0.1,0.3,0.2,0.5,0.2s0.4-0.1,0.5-0.2C15.1,14.5,15.1,14,14.8,13.7z M1.5,6.8c0-2.9,2.4-5.2,5.2-5.2S12,3.9,12,6.8S9.6,12,6.8,12S1.5,9.6,1.5,6.8z"/></svg></button>
+
+<div
+	class="ct-header-cta"
+	data-id="QxPuQy">
+	<a
+		href="https://app.edgewatch.net/signup"
+		class="ct-button-ghost"
+		data-size="medium" aria-label="Sign Up" target="_blank" rel="noopener noreferrer nofollow">
+		Sign Up	</a>
+</div>
+
+<div
+	class="ct-header-cta"
+	data-id="button">
+	<a
+		href="https://app.edgewatch.net/login"
+		class="ct-button-ghost"
+		data-size="medium" aria-label="Log in" target="_blank" rel="noopener noreferrer nofollow">
+		Log in	</a>
+</div>
+</div></div></div></div></div></div></div><div data-rocket-location-hash="879814f7a26e9649fe001578d0706d08" data-device="mobile" data-transparent=""><div class="ct-sticky-container"><div data-sticky="shrink"><div data-row="middle" data-column-set="2" data-transparent-row="yes"><div class="ct-container"><div data-column="start" data-placements="1"><div data-items="primary">
+<div	class="site-branding"
+	data-id="logo"		>
+
+			<a href="https://edgewatch.com/" class="site-logo-container" rel="home" itemprop="url" ><img width="95" height="18" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2095%2018'%3E%3C/svg%3E" class="sticky-logo" alt="Edgewatch" decoding="async" data-lazy-src="https://edgewatch.com/wp-content/uploads/2023/10/edgewatch-c.svg" /><noscript><img width="95" height="18" src="https://edgewatch.com/wp-content/uploads/2023/10/edgewatch-c.svg" class="sticky-logo" alt="Edgewatch" decoding="async" /></noscript><img width="95" height="18" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2095%2018'%3E%3C/svg%3E" class="default-logo" alt="Edgewatch" decoding="async" data-lazy-src="https://edgewatch.com/wp-content/uploads/2023/10/edgewatch-w.svg" /><noscript><img width="95" height="18" src="https://edgewatch.com/wp-content/uploads/2023/10/edgewatch-w.svg" class="default-logo" alt="Edgewatch" decoding="async" /></noscript></a>	
+	</div>
+
+</div></div><div data-column="end" data-placements="1"><div data-items="primary">
+<button
+	class="ct-header-trigger ct-toggle "
+	data-toggle-panel="#offcanvas"
+	aria-controls="offcanvas"
+	data-design="simple"
+	data-label="right"
+	aria-label="Menu"
+	data-id="trigger">
+
+	<span class="ct-label ct-hidden-sm ct-hidden-md ct-hidden-lg" aria-hidden="true">Menu</span>
+
+	<svg class="ct-icon" width="18" height="14" viewBox="0 0 18 14" data-type="type-1" aria-hidden="true">
+		<rect y="0.00" width="18" height="1.7" rx="1"/>
+		<rect y="6.15" width="18" height="1.7" rx="1"/>
+		<rect y="12.3" width="18" height="1.7" rx="1"/>
+	</svg></button>
+</div></div></div></div></div></div></div></header>
+	<main data-rocket-location-hash="ce495427b657937163e03a7291784021" id="main" class="site-main hfeed" itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+
+		
+<!-- #ht-kb -->
+<div data-rocket-location-hash="a624ef7c305175ab109af57bb2308554" id="hkb" class="hkb-template-single">
+	<div class="hkb-fullwcontainer">
+
+		
+  
+
+	<div class="hkb-subheader" data-hkb-header-type="solid">
+
+ 
+
+	<div class="hkb-container">      
+
+	
+
+<form class="hkb-site-search" method="get" action="https://edgewatch.com/">
+	<label class="hkb-screen-reader-text" for="s">Search For</label>
+	<input class="hkb-site-search__field" type="text" value="" placeholder="Search the Knowledge Base..." name="s" autocomplete="off">
+	<input type="hidden" name="ht-kb-search" value="1" />
+	<input type="hidden" name="lang" value=""/>
+		<button class="hkb-site-search__button" type="submit"><span>Search</span></button>       
+	<svg class="hkb-site-search__icon" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1216 832q0-185-131.5-316.5t-316.5-131.5-316.5 131.5-131.5 316.5 131.5 316.5 316.5 131.5 316.5-131.5 131.5-316.5zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124-143 0-273.5-55.5t-225-150-150-225-55.5-273.5 55.5-273.5 150-225 225-150 273.5-55.5 273.5 55.5 225 150 150 225 55.5 273.5q0 220-124 399l343 343q37 37 37 90z"/></svg>
+</form>
+
+	
+<div class="hkb-breadcrumbs-wrap">
+<!-- .hkb-breadcrumbs -->
+				<ol class="hkb-breadcrumbs"  itemscope itemtype="https://schema.org/BreadcrumbList" >
+										<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+											<a itemprop="item"   href="https://edgewatch.com">
+							<span itemprop="name"   >Home</span>
+						</a>
+										<meta itemprop="position"   content="1" />
+				</li>               
+							<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+											<a itemprop="item"   href="https://edgewatch.com/kb/">
+							<span itemprop="name"   >Knowledge Base</span>
+						</a>
+										<meta itemprop="position"   content="2" />
+				</li>               
+							<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+											<a itemprop="item"   href="https://edgewatch.com/kb-categories/api/">
+							<span itemprop="name"   >Public REST API Services</span>
+						</a>
+										<meta itemprop="position"   content="3" />
+				</li>               
+							<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+											<span>
+							<span itemprop="name"   >Edgewatch MCP Server</span>
+							<link itemprop="item"   href="https://edgewatch.com/kb/mcp/" />
+						</span> 
+										<meta itemprop="position"   content="4" />
+				</li>               
+					</ol>
+			<ol class="hkb-breadcrumbs"  itemscope itemtype="https://schema.org/BreadcrumbList" >
+										<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+											<a itemprop="item"   href="https://edgewatch.com">
+							<span itemprop="name"   >Home</span>
+						</a>
+										<meta itemprop="position"   content="1" />
+				</li>               
+							<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+											<a itemprop="item"   href="https://edgewatch.com/kb/">
+							<span itemprop="name"   >Knowledge Base</span>
+						</a>
+										<meta itemprop="position"   content="2" />
+				</li>               
+							<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+											<a itemprop="item"   href="https://edgewatch.com/kb-categories/integrations/">
+							<span itemprop="name"   >Integrations</span>
+						</a>
+										<meta itemprop="position"   content="3" />
+				</li>               
+							<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+											<span>
+							<span itemprop="name"   >Edgewatch MCP Server</span>
+							<link itemprop="item"   href="https://edgewatch.com/kb/mcp/" />
+						</span> 
+										<meta itemprop="position"   content="4" />
+				</li>               
+					</ol>
+	<!-- /.hkb-breadcrumbs -->
+</div>
+
+	</div>
+
+</div>
+
+		<div class="hkb-mainpage-wrapper">
+
+			<div class="hkb-container">			
+
+				<div class="hkb-mainpage hkb-mainpage--sidebarright">
+
+					<div class="hkb-mainpage__main">
+						
+<div class="hkb-singletemp">
+
+	
+		<div class="hkb-article">
+
+			<h1 class="hkb-article__title">Edgewatch MCP Server</h1>
+
+			
+			
+<!-- .hkb-article__content -->
+<div class="hkb-article__content">
+	
+<p>The MCP Server (Model Context Protocol) provided by Edgewatch is a service for obtaining contextual insights about IP addresses. It supports two primary tools: <strong>IP Insights</strong> and <strong>IP Explorer</strong>. Users can query the server (via SDK or HTTP transports) using authenticated credentials to retrieve structured data and text about IP addresses.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading" id="features" >Features</h3>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>Feature</th><th>Description</th></tr></thead><tbody><tr><td><strong>Tools</strong></td><td>Two main tools are available:• <strong>getInsight</strong> — fetches detailed insights about a given IP address.• <strong>getExplorer</strong> — retrieves hostnames and open ports associated with a given IP. (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</td></tr><tr><td><strong>Authentication</strong></td><td>Clients must obtain a <code>client-id</code> and <code>client-secret</code> by contacting Edgewatch (<a href="/cdn-cgi/l/email-protection#a0d3d5d0d0cfd2d4e0c5c4c7c5d7c1d4c3c88ec3cfcd"><span class="__cf_email__" data-cfemail="55262025253a27211530313230223421363d7b363a38">[email&#160;protected]</span></a>). During the current testing phase access is free. Future access will likely be restricted to Edgewatch clients. (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</td></tr><tr><td><strong>Connection / Transport Methods</strong></td><td>Two transport methods are supported:• <em>Streamable HTTP</em> transport• <em>Server-Sent Events (SSE)</em> transport — used as fallback if HTTP fails. (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</td></tr><tr><td><strong>SDK Support &amp; Validation</strong></td><td>The official SDK is available (npm: <code>@modelcontextprotocol/sdk</code>) with schema validation (using Zod) for request/response handling. Responses include structured content (for example, arrays of objects containing text). (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</td></tr></tbody></table></figure>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading" id="specifications-usage" >Specifications &amp; Usage</h3>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Server URL:</strong> <code>mcp.edgewatch.net</code> or <code>https://mcp.edgewatch.net/mcp</code> for API usage. (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</li>
+
+
+
+<li><strong>Protocol:</strong> MCP (Model Context Protocol) (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</li>
+
+
+
+<li><strong>Authentication Methods:</strong> Credentials must be passed either via HTTP headers (<code>x-client-id</code>, <code>x-client-secret</code>) or query parameters (<code>?clientId=...&amp;clientSecret=...</code>). (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</li>
+
+
+
+<li><strong>Usage Flow:</strong>
+<ol class="wp-block-list">
+<li>Get credentials from Edgewatch.</li>
+
+
+
+<li>Install required SDK dependencies (e.g. <code>@modelcontextprotocol/sdk</code>, <code>zod</code>). (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</li>
+
+
+
+<li>Establish a transport (try Streamable HTTP, fallback to SSE). (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</li>
+
+
+
+<li>Use the tools (<code>getInsight</code> or <code>getExplorer</code>) via <code>client.request(...)</code>. (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</li>
+
+
+
+<li>Handle &amp; validate response content; manage errors, timeouts, retries. (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</li>
+</ol>
+</li>
+</ul>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading" id="best-practices" >Best Practices</h3>
+
+
+
+<ul class="wp-block-list">
+<li>Validate IP inputs before sending requests. (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</li>
+
+
+
+<li>Use schema validation (Zod) to ensure responses conform to expected shape. (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</li>
+
+
+
+<li>Implement error handling: capture connection errors, request failures, validation mismatches. (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</li>
+
+
+
+<li>Use retry logic and possibly caching where appropriate. (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</li>
+
+
+
+<li>Close transport when done to clean up resources. (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</li>
+
+
+
+<li>Rate-limit client-side requests to avoid overloading or hitting service limits. (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</li>
+</ul>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading" id="errors-troubleshooting" >Errors &amp; Troubleshooting</h3>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>Error Type</th><th>Possible Cause</th><th>Suggested Action</th></tr></thead><tbody><tr><td><strong>401 / 403 Authentication Error</strong></td><td>Invalid/missing <code>client-id</code> or <code>client-secret</code> or credentials not recognized.</td><td>Verify credentials; ensure correct header or query parameter usage; request valid credentials from support if needed. (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</td></tr><tr><td><strong>Connection Failures</strong></td><td>Issues with the primary transport (Streamable HTTP) or network problems.</td><td>Use fallback transport (SSE); check network/firewall settings; log any underlying error. (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</td></tr><tr><td><strong>Response Validation Errors</strong></td><td>The response data does not match expected schema (e.g. missing fields, wrong types).</td><td>Use Zod schemas to catch inconsistencies; handle invalid responses gracefully; contact support if data appears incorrect. (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</td></tr></tbody></table></figure>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading" id="getting-access" >Getting Access</h3>
+
+
+
+<ul class="wp-block-list">
+<li>To get access to the MCP server, send an email to <strong><a href="/cdn-cgi/l/email-protection#c2b1b7b2b2adb0b682a7a6a5a7b5a3b6a1aaeca1adaf"><span class="__cf_email__" data-cfemail="ee9d9b9e9e819c9aae8b8a898b998f9a8d86c08d8183">[email&#160;protected]</span></a></strong> with the subject <strong>“MCP-Access-Request”</strong>. (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</li>
+
+
+
+<li>Once credentials are issued, you can begin integrating using the SDK or via direct HTTP/SSE. (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</li>
+</ul>
+
+
+
+<p>Awesome — here’s a tight <strong>Quick Start + Cheatsheet</strong> you can drop into the Edgewatch KB. I kept it practical, copy-pasteable, and aligned to the docs.</p>
+
+
+
+<h1 class="wp-block-heading" id="edgewatch-mcp-server-quick-start-cheatsheet" >Edgewatch MCP Server — Quick Start &amp; Cheatsheet</h1>
+
+
+
+<h2 class="wp-block-heading" id="what-it-is" >What it is</h2>
+
+
+
+<p>Edgewatch’s MCP (Model Context Protocol) server exposes two tools for IP intelligence:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>getInsight</strong> → detailed, human-readable insight for an IP</li>
+
+
+
+<li><strong>getExplorer</strong> → hostnames and open ports seen for an IP (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</li>
+</ul>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 class="wp-block-heading" id="access-endpoint" >Access &amp; Endpoint</h2>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Credentials</strong>: request <code>client-id</code> and <code>client-secret</code> via <strong><a href="/cdn-cgi/l/email-protection#4c3f393c3c233e380c29282b293b2d382f24622f2321"><span class="__cf_email__" data-cfemail="b0c3c5c0c0dfc2c4f0d5d4d7d5c7d1c4d3d89ed3dfdd">[email&#160;protected]</span></a></strong> (testing access currently free). (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</li>
+
+
+
+<li><strong>Preferred endpoint</strong>: <code>https://mcp.edgewatch.net/mcp</code><br><em>(Docs also mention mcp.edgewatch.com; use the .NET endpoint as shown in examples/configs.)</em> (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</li>
+</ul>
+
+
+
+<p><strong>Auth methods</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li>Headers: <code>x-client-id</code>, <code>x-client-secret</code></li>
+
+
+
+<li>Query string: <code>?clientId=...&amp;clientSecret=...</code> (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</li>
+</ul>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 class="wp-block-heading" id="one-liners-curl" >One-liners (curl)</h2>
+
+
+
+<div class="hcb_wrap"><pre class="prism line-numbers lang-bash" data-lang="Bash"><code># Using headers
+curl -s -H &quot;x-client-id: $CLIENT_ID&quot; \
+     -H &quot;x-client-secret: $CLIENT_SECRET&quot; \
+     &quot;https://mcp.edgewatch.net/mcp&quot;
+
+# Using query params
+curl -s &quot;https://mcp.edgewatch.net/mcp?clientId=$CLIENT_ID&clientSecret=$CLIENT_SECRET&quot;</code></pre></div>
+
+
+
+<p>If auth fails, you’ll get <strong>401/403</strong> with details. (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 class="wp-block-heading" id="node-sdk-minimal-example" >Node SDK Minimal Example</h2>
+
+
+
+<div class="hcb_wrap"><pre class="prism line-numbers lang-json" data-lang="JSON"><code>import { Client } from &#39;@modelcontextprotocol/sdk/client/index.js&#39;;
+import { StreamableHTTPClientTransport } from &#39;@modelcontextprotocol/sdk/client/streamableHttp.js&#39;;
+import { SSEClientTransport } from &#39;@modelcontextprotocol/sdk/client/sse.js&#39;;
+import { z } from &#39;zod&#39;;
+
+const SERVER = &#39;https://mcp.edgewatch.net/mcp&#39;;
+
+async function connect() {
+  const client = new Client({ name: &#39;ewmcp-client&#39;, version: &#39;1.0.0&#39; });
+  client.onerror = (e) =&gt; console.error(&#39;Client error:&#39;, e);
+
+  // Prefer Streamable HTTP; fall back to SSE
+  try {
+    const t = new StreamableHTTPClientTransport(new URL(SERVER));
+    await client.connect(t);
+    return { client, transport: t };
+  } catch {
+    const t = new SSEClientTransport(new URL(SERVER));
+    await client.connect(t);
+    return { client, transport: t };
+  }
+}
+
+async function getInsight(client, ip) {
+  const schema = z.object({
+    content: z.array(z.object({ type: z.literal(&#39;text&#39;), text: z.string() }))
+  });
+  const res = await client.request({
+    method: &#39;tools/call&#39;,
+    params: { name: &#39;getInsight&#39;, arguments: { ip } }
+  }, schema);
+  return res.content.map(c =&gt; c.type === &#39;text&#39; ? c.text : &#39;&#39;).join(&#39;\n&#39;);
+}
+
+(async () =&gt; {
+  const { client, transport } = await connect();
+  console.log(await getInsight(client, &#39;8.8.8.8&#39;));
+  await transport.close();
+})();
+</code></pre></div>
+
+
+
+<p>Transport selection, Zod validation, and tool invocation follow the reference flow. (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 class="wp-block-heading" id="claude-desktop-or-other-mcp-client-config" >Claude Desktop (or other MCP client) config</h2>
+
+
+
+<div class="hcb_wrap"><pre class="prism line-numbers lang-json" data-lang="JSON"><code>{
+  &quot;mcpServers&quot;: {
+    &quot;ewmcp-server&quot;: {
+      &quot;url&quot;: &quot;https://mcp.edgewatch.net/mcp&quot;,
+      &quot;name&quot;: &quot;ewmcp-server&quot;,
+      &quot;version&quot;: &quot;1.0.0&quot;
+    }
+  }
+}</code></pre></div>
+
+
+
+<p>Add your credentials via the client’s secure settings or proxy. (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 class="wp-block-heading" id="tool-reference" >Tool Reference</h2>
+
+
+
+<h3 class="wp-block-heading" id="getinsight" >getInsight</h3>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Input</strong>: <code>{ ip: "string" }</code></li>
+
+
+
+<li><strong>Output</strong>: array of <code>{ type:"text", text:string }</code> entries (insight text) (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading" id="getexplorer" >getExplorer</h3>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Input</strong>: <code>{ ip: "string" }</code></li>
+
+
+
+<li><strong>Output</strong>: text entries describing related hostnames/ports for the IP (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</li>
+</ul>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 class="wp-block-heading" id="best-practices-prod-ready" >Best Practices (prod-ready)</h2>
+
+
+
+<ul class="wp-block-list">
+<li>Validate IPs before requests; reject private/reserved ranges if your use-case requires.</li>
+
+
+
+<li>Implement retry with backoff; cache stable results.</li>
+
+
+
+<li>Use Zod (or similar) to validate responses.</li>
+
+
+
+<li>Rate-limit clients and <strong>always close transports</strong>. (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</li>
+</ul>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 class="wp-block-heading" id="common-errors-fixes" >Common Errors &amp; Fixes</h2>
+
+
+
+<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>Symptom</th><th>Likely Cause</th><th>Fix</th></tr></thead><tbody><tr><td>401/403 auth error</td><td>Missing/invalid credentials</td><td>Send headers or query params; re-issue keys via support</td></tr><tr><td>Transport fails</td><td>Network/proxy blocks</td><td>Fall back to SSE; check firewall/proxy; retry</td></tr><tr><td>Validation error</td><td>Response shape mismatch</td><td>Tighten Zod schema; log payload; contact support if persistent (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</td></tr></tbody></table></figure>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 class="wp-block-heading" id="copy-block-for-internal-kb-metadata" >Copy block for internal KB (metadata)</h2>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Owner</strong>: Edgewatch Intelligence / Platform</li>
+
+
+
+<li><strong>Service</strong>: MCP Server (IP Insights &amp; Explorer)</li>
+
+
+
+<li><strong>Endpoint</strong>: <code>https://mcp.edgewatch.net/mcp</code></li>
+
+
+
+<li><strong>Auth</strong>: <code>x-client-id</code>, <code>x-client-secret</code> (or <code>clientId</code>, <code>clientSecret</code> query)</li>
+
+
+
+<li><strong>Contact</strong>: <a href="/cdn-cgi/l/email-protection#b3c0c6c3c3dcc1c7f3d6d7d4d6c4d2c7d0db9dd0dcde"><span class="__cf_email__" data-cfemail="01727471716e7375416465666476607562692f626e6c">[email&#160;protected]</span></a></li>
+
+
+
+<li><strong>Change note</strong>: Docs show <code>.com</code> in one spot; examples/config use <code>.net</code>. Prefer <code>.net</code>. (<a href="https://mcp.edgewatch.net/docs" target="_blank" rel="noopener">mcp.edgewatch.net</a>)</li>
+</ul>
+</div>
+<!-- /.hkb-article__content -->
+
+
+			
+
+
+			 
+
+			
+<div class="hkb-feedback">
+	<div class="hkb-feedback__title">Was this article helpful?</div>
+	            <div class="ht-voting" id="ht-voting-post-2990">
+                
+            
+
+
+<div class="ht-voting-links ht-voting-none">
+	<a class="ht-voting-upvote enabled " rel="nofollow" role="button" data-direction="up" data-type="post" data-nonce="661a84e977" data-id="2990" data-allow="1" data-display="standard" href="#">
+		<span class="ht-voting-upvote-icon">
+			<svg viewBox="0 0 16 16"><g fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round"><path d="M0.5 7.5H3.5V15.5H0.5z"/><path d="M5.5,15.5h6.9a2,2,0,0,0,1.952-1.566l1.111-5A2,2,0,0,0,13.507,6.5H9.5v-4a2,2,0,0,0-2-2l-2,6"/></g></svg>
+		</span>
+		<span class="ht-voting-upvote-label">Yes</span>
+	</a>
+	<a class="ht-voting-downvote enabled " rel="nofollow" role="button" data-direction="down" data-type="post" data-nonce="661a84e977" data-id="2990" data-allow="1" data-display="standard" href="#">
+		<span class="ht-voting-downvote-icon">
+			<svg viewBox="0 0 16 16"><g fill="none" stroke="#444" stroke-linecap="round" stroke-linejoin="round"><path d="M0.5 0.5H3.5V8.5H0.5z"/><path d="M5.5.5h6.9a2,2,0,0,1,1.952,1.566l1.111,5A2,2,0,0,1,13.507,9.5H9.5v4a2,2,0,0,1-2,2l-2-6"/></g></svg>
+		</span>
+		<span class="ht-voting-downvote-label">No</span>
+	</a>
+</div>
+
+	<!-- no new vote -->
+
+                    </div>
+        </div>
+						
+			
+
+			
+
+<!-- .hkb-article__related -->     
+	<div class="hkb-article-related">
+		<h3 class="hkb-article-related__title">Related Articles</h3>
+		<ul class="hkb-article-list">
+										
+			<li>
+				<a href="https://edgewatch.com/kb/whmcs-partner-api-integration/">WHMCS Partner API Integration</a>
+			</li>
+
+										
+			<li>
+				<a href="https://edgewatch.com/kb/breachspot-api/">BreachSpot API</a>
+			</li>
+
+										
+			<li>
+				<a href="https://edgewatch.com/kb/domain-intelligence-api/">Domain Intelligence API &#8211; Passive DNS</a>
+			</li>
+
+										
+			<li>
+				<a href="https://edgewatch.com/kb/partner-api/">Partner API &#8211; third-party platform integration</a>
+			</li>
+
+										
+			<li>
+				<a href="https://edgewatch.com/kb/certificate-transparency-log-api/">Certificate Transparency Log API</a>
+			</li>
+
+										
+			<li>
+				<a href="https://edgewatch.com/kb/insight-api/">Insight API</a>
+			</li>
+
+				</ul>
+	</div>
+<!-- /.hkb-article__related -->
+
+
+			
+		</div>	
+
+	
+</div>
+					</div>
+
+					<div class="hkb-mainpage__sidebar">
+													<div id="ht-kb-toc-widget-2" class="widget hkb_widget_toc"><h3 class="widget-title">Contents</h3>            <nav id="navtoc" role="navigation">
+
+                
+
+            <ol class="nav"><!-- adding li --><li class="active"><a href="#features">Features</a><!-- adding li --></li><li class=""><a href="#specifications-usage">Specifications &amp; Usage</a><!-- adding li --></li><li class=""><a href="#best-practices">Best Practices</a><!-- adding li --></li><li class=""><a href="#errors-troubleshooting">Errors &amp; Troubleshooting</a><!-- adding li --></li><li class=""><a href="#getting-access">Getting Access</a><!-- removing level --></li><li><a href="#edgewatch-mcp-server-quick-start-cheatsheet">Edgewatch MCP Server — Quick Start &amp; Cheatsheet</a><!-- adding level --><ol><li><a href="#what-it-is">What it is</a><!-- adding li --></li><li class=""><a href="#access-endpoint">Access &amp; Endpoint</a><!-- adding li --></li><li class=""><a href="#one-liners-curl">One-liners (curl)</a><!-- adding li --></li><li class=""><a href="#node-sdk-minimal-example">Node SDK Minimal Example</a><!-- adding li --></li><li class=""><a href="#claude-desktop-or-other-mcp-client-config">Claude Desktop (or other MCP client) config</a><!-- adding li --></li><li class=""><a href="#tool-reference">Tool Reference</a><!-- adding level --><ol><li><a href="#getinsight">getInsight</a><!-- adding li --></li><li class=""><a href="#getexplorer">getExplorer</a><!-- removing level --></li></ol></li><li><a href="#best-practices-prod-ready">Best Practices (prod-ready)</a><!-- adding li --></li><li class=""><a href="#common-errors-fixes">Common Errors &amp; Fixes</a><!-- adding li --></li><li class=""><a href="#copy-block-for-internal-kb-metadata">Copy block for internal KB (metadata)</a></li></ol></li></ol><!-- /ht-kb-toc-widget -->
+            </nav>
+
+            </div><div id="ht-kb-exit-widget-4" class="widget hkb_widget_exit"><h3 class="widget-title">Need Support?</h3><div class="hkb_widget_exit__content">Can&#039;t find the answer you&#039;re looking for?</div><a class="hkb_widget_exit__btn" data-ht-kb-exit-href="?hkb-redirect&nonce=3c5c6c11bb&check=5mj2b&redirect=https%3A%2F%2Fsupport.edgewatch.com&otype=ht_kb_article&oid=2990&source=widget" href="#" target="_blank" rel="nofollow">Contact Support</a></div>											</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+</div>
+<!-- /#ht-kb -->
+
+	</main>
+
+	<footer data-rocket-location-hash="55679ab6202482d3001fb624a31ea13f" id="footer" class="ct-footer" data-id="type-1" itemscope="" itemtype="https://schema.org/WPFooter"><div data-rocket-location-hash="dbf0970cdb255f3fa43091e0fc6756bc" data-row="top"><div class="ct-container"><div data-column="text">
+<div
+	class="ct-header-text "
+	data-id="text">
+	<div class="entry-content is-layout-flow">
+		<p>&nbsp<a href="/company/#certified"><img class="alignnone wp-image-793 size-full" title="ISO Certified Company" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20787%20128'%3E%3C/svg%3E" alt="ISO Certified Company" width="787" height="128" data-lazy-src="https://edgewatch.com/wp-content/uploads/2023/10/edgewatch-iso-certified.png" /><noscript><img class="alignnone wp-image-793 size-full" title="ISO Certified Company" src="https://edgewatch.com/wp-content/uploads/2023/10/edgewatch-iso-certified.png" alt="ISO Certified Company" width="787" height="128" /></noscript></a></p>	</div>
+</div>
+</div><div data-column="widget-area-5"><div class="ct-widget is-layout-flow widget_block widget_media_gallery" id="block-17">
+<figure class="wp-block-gallery has-nested-images columns-default wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-full"><a href="/company/#certified"><img decoding="async" width="149" height="51" data-id="2785" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20149%2051'%3E%3C/svg%3E" alt="NIS2 CERTIFIED" class="wp-image-2785" data-lazy-src="https://edgewatch.com/wp-content/uploads/2024/09/nis2resources-badge-footer.svg"/><noscript><img loading="lazy" decoding="async" width="149" height="51" data-id="2785" src="https://edgewatch.com/wp-content/uploads/2024/09/nis2resources-badge-footer.svg" alt="NIS2 CERTIFIED" class="wp-image-2785"/></noscript></a></figure>
+
+
+
+<figure class="wp-block-image size-full"><a href="/company/#certified"><img width="560" height="128" decoding="async" data-id="1431" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20560%20128'%3E%3C/svg%3E" alt="Founded by the European Union" class="wp-image-1431" data-lazy-src="https://edgewatch.com/wp-content/uploads/2023/10/ew-Funded_by_the_European_Union-1.svg"/><noscript><img width="560" height="128" decoding="async" data-id="1431" src="https://edgewatch.com/wp-content/uploads/2023/10/ew-Funded_by_the_European_Union-1.svg" alt="Founded by the European Union" class="wp-image-1431"/></noscript></a></figure>
+</figure>
+</div></div></div></div><div data-rocket-location-hash="c82e2a22b3911dc752c310c08ae31ea9" data-row="middle"><div class="ct-container" data-columns-divider="md"><div data-column="widget-area-1"><div class="ct-widget is-layout-flow widget_block" id="block-8"><p>Edgewatch is building a global internet-risk graph —built for an interconnected world— that maps the whole public internet to predict
+how threats propagate across supply chains, delivering explainable,
+evidence-backed scores that tell you what breaks next and why.</p></div></div><div data-column="widget-area-2"><div class="ct-widget is-layout-flow widget_text" id="text-5"><h3 class="widget-title">Quick Links</h3>			<div class="textwidget"><ul>
+<li><a href="/platform">Edgewatch Platform</a></li>
+<li><a href="/platform/attack-surface-monitoring/">Attack Surface Monitoring</a></li>
+<li><a href="/platform/threat-intelligence/">Threat intelligence</a></li>
+<li><a href="/compliance">Compliance</a></li>
+</ul>
+</div>
+		</div></div><div data-column="widget-area-3"><div class="ct-widget is-layout-flow widget_nav_menu" id="nav_menu-2"><h3 class="widget-title">Company</h3><div class="menu-quick-corp-container"><ul id="menu-quick-corp" class="widget-menu"><li id="menu-item-2216" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2216"><a href="https://edgewatch.com/company/">About Edgewatch</a></li>
+<li id="menu-item-2205" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-2205"><a href="https://edgewatch.com/blog/">Blog &#038; News</a></li>
+<li id="menu-item-2207" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2207"><a href="https://edgewatch.com/kb/">Knowledge Base</a></li>
+<li id="menu-item-2204" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2204"><a href="https://edgewatch.com/partner/">Partner Program</a></li>
+<li id="menu-item-2206" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2206"><a href="https://support.edgewatch.com">Support Portal</a></li>
+</ul></div></div></div><div data-column="widget-area-4"><div class="ct-widget is-layout-flow widget_block widget_recent_entries" id="block-9"><ul class="wp-block-latest-posts__list has-dates wp-block-latest-posts"><li><div class="wp-block-latest-posts__featured-image alignleft"><a href="https://edgewatch.com/blog/emerge-americas-2026/" aria-label="Heading to eMerge Americas 2026"><img decoding="async" width="150" height="150" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20150%20150'%3E%3C/svg%3E" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" style="max-width:38px;max-height:38px;" data-lazy-src="https://edgewatch.com/wp-content/uploads/2026/04/miami-emerge2026-150x150.jpg" /><noscript><img loading="lazy" decoding="async" width="150" height="150" src="https://edgewatch.com/wp-content/uploads/2026/04/miami-emerge2026-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" style="max-width:38px;max-height:38px;" /></noscript></a></div><a class="wp-block-latest-posts__post-title" href="https://edgewatch.com/blog/emerge-americas-2026/">Heading to eMerge Americas 2026</a><time datetime="2026-04-17T11:49:57+00:00" class="wp-block-latest-posts__post-date">April 17, 2026</time></li>
+<li><div class="wp-block-latest-posts__featured-image alignleft"><a href="https://edgewatch.com/blog/snifflog-unboxes-2026-roadmap/" aria-label="The Future of Security Intelligence: Unveiling the Edgewatch 2026 Roadmap"><img decoding="async" width="150" height="150" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20150%20150'%3E%3C/svg%3E" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" style="max-width:38px;max-height:38px;" data-lazy-src="https://edgewatch.com/wp-content/uploads/2025/12/snifflog-christimas-150x150.png" /><noscript><img loading="lazy" decoding="async" width="150" height="150" src="https://edgewatch.com/wp-content/uploads/2025/12/snifflog-christimas-150x150.png" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" style="max-width:38px;max-height:38px;" /></noscript></a></div><a class="wp-block-latest-posts__post-title" href="https://edgewatch.com/blog/snifflog-unboxes-2026-roadmap/">The Future of Security Intelligence: Unveiling the Edgewatch 2026 Roadmap</a><time datetime="2025-12-22T13:45:21+00:00" class="wp-block-latest-posts__post-date">December 22, 2025</time></li>
+<li><div class="wp-block-latest-posts__featured-image alignleft"><a href="https://edgewatch.com/blog/mspglobal2025/" aria-label="Edgewatch at MSP Global 2025: Expanding visibility and strengthening Acronis security through attack surface management"><img decoding="async" width="150" height="150" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20150%20150'%3E%3C/svg%3E" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" style="max-width:38px;max-height:38px;" data-lazy-src="https://edgewatch.com/wp-content/uploads/2025/10/1000051345-mspglobal2024-150x150.jpg" /><noscript><img loading="lazy" decoding="async" width="150" height="150" src="https://edgewatch.com/wp-content/uploads/2025/10/1000051345-mspglobal2024-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" style="max-width:38px;max-height:38px;" /></noscript></a></div><a class="wp-block-latest-posts__post-title" href="https://edgewatch.com/blog/mspglobal2025/">Edgewatch at MSP Global 2025: Expanding visibility and strengthening Acronis security through attack surface management</a><time datetime="2025-10-15T09:43:54+00:00" class="wp-block-latest-posts__post-date">October 15, 2025</time></li>
+<li><div class="wp-block-latest-posts__featured-image alignleft"><a href="https://edgewatch.com/blog/exhibit-gisec-global-2025-dubai/" aria-label="Edgewatch to Exhibit at GISEC Global 2025"><img decoding="async" width="150" height="150" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20150%20150'%3E%3C/svg%3E" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" style="max-width:38px;max-height:38px;" data-lazy-src="https://edgewatch.com/wp-content/uploads/2025/05/galleryimg246-150x150.jpg" /><noscript><img loading="lazy" decoding="async" width="150" height="150" src="https://edgewatch.com/wp-content/uploads/2025/05/galleryimg246-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" style="max-width:38px;max-height:38px;" /></noscript></a></div><a class="wp-block-latest-posts__post-title" href="https://edgewatch.com/blog/exhibit-gisec-global-2025-dubai/">Edgewatch to Exhibit at GISEC Global 2025</a><time datetime="2025-05-04T02:00:55+00:00" class="wp-block-latest-posts__post-date">May 4, 2025</time></li>
+</ul></div></div></div></div><div data-rocket-location-hash="937d80614dbf51dcc3a4cc90fb9563cf" data-row="bottom"><div class="ct-container"><div data-column="copyright">
+<div
+	class="ct-footer-copyright"
+	data-id="copyright">
+
+	<p>Copyright © 2026 Edgewatch - <a href="/company/legal">Terms &amp; conditions</a></p></div>
+</div><div data-column="socials">
+<div
+	class="ct-footer-socials"
+	data-id="socials">
+
+	
+		<div class="ct-social-box" data-color="custom" data-icon-size="custom" data-icons-type="simple" >
+			
+			
+							
+				<a href="https://twitter.com/EdgewatchHQ" data-network="twitter" aria-label="X (Twitter)" target="_blank" rel="noopener noreferrer">
+					<span class="ct-icon-container">
+					<svg
+					width="20px"
+					height="20px"
+					viewBox="0 0 20 20"
+					aria-hidden="true">
+						<path d="M2.9 0C1.3 0 0 1.3 0 2.9v14.3C0 18.7 1.3 20 2.9 20h14.3c1.6 0 2.9-1.3 2.9-2.9V2.9C20 1.3 18.7 0 17.1 0H2.9zm13.2 3.8L11.5 9l5.5 7.2h-4.3l-3.3-4.4-3.8 4.4H3.4l5-5.7-5.3-6.7h4.4l3 4 3.5-4h2.1zM14.4 15 6.8 5H5.6l7.7 10h1.1z"/>
+					</svg>
+				</span>				</a>
+							
+				<a href="https://www.linkedin.com/company/edgewatch" data-network="linkedin" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+					<span class="ct-icon-container">
+					<svg
+					width="20px"
+					height="20px"
+					viewBox="0 0 20 20"
+					aria-hidden="true">
+						<path d="M18.6,0H1.4C0.6,0,0,0.6,0,1.4v17.1C0,19.4,0.6,20,1.4,20h17.1c0.8,0,1.4-0.6,1.4-1.4V1.4C20,0.6,19.4,0,18.6,0z M6,17.1h-3V7.6h3L6,17.1L6,17.1zM4.6,6.3c-1,0-1.7-0.8-1.7-1.7s0.8-1.7,1.7-1.7c0.9,0,1.7,0.8,1.7,1.7C6.3,5.5,5.5,6.3,4.6,6.3z M17.2,17.1h-3v-4.6c0-1.1,0-2.5-1.5-2.5c-1.5,0-1.8,1.2-1.8,2.5v4.7h-3V7.6h2.8v1.3h0c0.4-0.8,1.4-1.5,2.8-1.5c3,0,3.6,2,3.6,4.5V17.1z"/>
+					</svg>
+				</span>				</a>
+							
+				<a href="https://github.com/edgewatch" data-network="github" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+					<span class="ct-icon-container">
+					<svg
+					width="20"
+					height="20"
+					viewBox="0 0 20 20"
+					aria-hidden="true">
+						<path d="M8.9,0.4C4.3,0.9,0.6,4.6,0.1,9.1c-0.5,4.7,2.2,8.9,6.3,10.5C6.7,19.7,7,19.5,7,19.1v-1.6c0,0-0.4,0.1-0.9,0.1c-1.4,0-2-1.2-2.1-1.9c-0.1-0.4-0.3-0.7-0.6-1C3.1,14.6,3,14.6,3,14.5c0-0.2,0.3-0.2,0.4-0.2c0.6,0,1.1,0.7,1.3,1c0.5,0.8,1.1,1,1.4,1c0.4,0,0.7-0.1,0.9-0.2c0.1-0.7,0.4-1.4,1-1.8c-2.3-0.5-4-1.8-4-4c0-1.1,0.5-2.2,1.2-3C5.1,7.1,5,6.6,5,5.9c0-0.4,0-1,0.3-1.6c0,0,1.4,0,2.8,1.3C8.6,5.4,9.3,5.3,10,5.3s1.4,0.1,2,0.3c1.3-1.3,2.8-1.3,2.8-1.3C15,4.9,15,5.5,15,5.9c0,0.8-0.1,1.2-0.2,1.4c0.7,0.8,1.2,1.8,1.2,3c0,2.2-1.7,3.5-4,4c0.6,0.5,1,1.4,1,2.3v2.6c0,0.3,0.3,0.6,0.7,0.5c3.7-1.5,6.3-5.1,6.3-9.3C20,4.4,14.9-0.3,8.9,0.4z"/>
+					</svg>
+				</span>				</a>
+							
+				<a href="https://www.postman.com/edgewatch" data-network="dribbble" aria-label="Dribbble" target="_blank" rel="noopener noreferrer">
+					<span class="ct-icon-container"><?xml version="1.0" encoding="UTF-8"?>
+<svg aria-hidden="true"  xmlns="http://www.w3.org/2000/svg" fill="#000000" width="800px" height="800px" viewBox="0 0 32 32">
+  <path d="M18.036 0.131c-8.765-1.12-16.781 5.067-17.905 13.833-1.12 8.765 5.067 16.781 13.833 17.905 8.765 1.12 16.781-5.067 17.9-13.833 1.125-8.765-5.061-16.781-13.828-17.905zM21.328 10.115c-0.297 0-0.579 0.12-0.787 0.333l-5.937 5.932-0.411-0.407-0.855-0.859c5.849-5.833 6.907-5.891 7.989-5zM14.849 16.593l5.916-5.921c0.328-0.344 0.875-0.339 1.204 0.005 0.323 0.349 0.291 0.896-0.073 1.197l-6.265 5.5zM15.287 17.521l-1.469 0.317c-0.031 0.005-0.072-0.011-0.088-0.047-0.016-0.032-0.011-0.068 0.016-0.095l0.859-0.859zM11.547 16.907l1.568-1.563 1.172 1.172-2.641 0.567c-0.047 0.011-0.093-0.009-0.115-0.052-0.025-0.041-0.015-0.093 0.016-0.124zM6.688 24.984c-0.057-0.005-0.1-0.057-0.095-0.109 0.005-0.025 0.016-0.047 0.032-0.063h0.005l1.26-1.26 1.631 1.631zM9.921 23.307c-0.124 0.068-0.187 0.209-0.156 0.344l0.271 1.152c0.043 0.167-0.161 0.28-0.281 0.156h-0.005l-1.635-1.636 5.016-5.011 2.427-0.525 1.161 1.167c-1.672 1.468-3.959 2.932-6.797 4.353zM16.959 18.74l-1.12-1.12 6.265-5.5c0.057-0.052 0.109-0.109 0.156-0.167-0.192 1.792-2.703 4.323-5.301 6.787zM21.839 10.125h-0.005c-2.183-2.193 0.901-5.563 3.276-3.584l-2.145 2.152c-0.063 0.061-0.063 0.167 0 0.228l1.661 1.663c-0.932 0.463-2.052 0.276-2.787-0.459zM25.271 10.125c-0.109 0.109-0.229 0.208-0.359 0.291l-1.609-1.609 2.041-2.047c0.885 0.964 0.849 2.443-0.073 3.365zM25.14 8.068c-0.067 0.047-0.093 0.129-0.072 0.208 0.099 0.197 0.072 0.432-0.068 0.599-0.068 0.084-0.052 0.199 0.031 0.265 0.032 0.021 0.068 0.037 0.109 0.037 0.057 0 0.111-0.021 0.141-0.063 0.235-0.281 0.281-0.677 0.12-1.005-0.063-0.083-0.177-0.104-0.261-0.041z"></path>
+</svg>
+</span>				</a>
+			
+			
+					</div>
+
+	</div>
+
+</div></div></div></footer></div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/blocksy-child/*","/wp-content/themes/blocksy/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="ht-kb-frontend-scripts-js-extra" type="061edf2202a44b4e9bf09a13-text/javascript">
+var voting = {"ajaxurl":"https://edgewatch.com/wp-admin/admin-ajax.php","ajaxnonce":"83d32731d9"};
+var hkbJSSettings = {"liveSearchUrl":"https://edgewatch.com?ajax=1&ht-kb-search=1&s=","focusSearchBox":"1","keepTypingPrompt":"\u003Cul id=\"hkb\" class=\"hkb-searchresults\" role=\"listbox\"\u003E\u003Cli class=\"hkb-searchresults__noresults\" role=\"option\"\u003E\u003Cspan\u003EKeep typing for live search results\u003C/span\u003E \u003C/li\u003E\u003C/ul\u003E","typeDelay":"200","triggerLength":"3"};
+//# sourceURL=ht-kb-frontend-scripts-js-extra
+</script>
+
+<!-- Template for Heroic KB Embed v2 -->
+<script id="hkbfe-script" src="https://edgewatch.com/?kbembed=script" async defer type="061edf2202a44b4e9bf09a13-text/javascript"></script>
+<link id="hkbfe-style" rel="stylesheet" href="https://edgewatch.com/?kbembed=style" media="all">
+<div data-rocket-location-hash="32b8d3603487ef6892266c785936ba9e" class="hkb-embedwrap">
+    <div data-rocket-location-hash="098839469f6d7fbecc729ac550364c0a" id="ht-kb-fe-embed-container" class="ht-kb-fe-embed-container">
+        <div data-rocket-location-hash="2fc7c73b071a330b5d05d42104da652b" id="hkbembed-button" style="--hkbembed-bg: #006ec7;">
+            <span class="hkbembed-button-open">
+                <div class="hkb-embedbtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+                        <g fill="#fff" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="10">
+                            <line fill="none" stroke="#fff" stroke-width="2" x1="20.354" y1="14.697" x2="11.541" y2="5.884" stroke-linecap="butt"></line>
+                            <line fill="none" stroke="#fff" stroke-width="2" x1="5.884" y1="11.541" x2="14.698" y2="20.354" stroke-linecap="butt"></line>
+                            <line fill="none" stroke="#fff" stroke-width="2" x1="33.303" y1="20.354" x2="42.116" y2="11.541" stroke-linecap="butt"></line>
+                            <line fill="none" stroke="#fff" stroke-width="2" x1="36.459" y1="5.884" x2="27.646" y2="14.698" stroke-linecap="butt"></line>
+                            <line fill="none" stroke="#fff" stroke-width="2" x1="27.646" y1="33.303" x2="36.459" y2="42.116" stroke-linecap="butt"></line>
+                            <line fill="none" stroke="#fff" stroke-width="2" x1="42.116" y1="36.459" x2="33.302" y2="27.646" stroke-linecap="butt"></line>
+                            <line fill="none" stroke="#fff" stroke-width="2" x1="14.697" y1="27.646" x2="5.884" y2="36.459" stroke-linecap="butt"></line>
+                            <line fill="none" stroke="#fff" stroke-width="2" x1="11.541" y1="42.116" x2="20.354" y2="33.302" stroke-linecap="butt"></line>
+                            <ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -9.9411 24)" fill="none" stroke="#fff" stroke-width="2" cx="24" cy="24" rx="22" ry="22"></ellipse>
+                            <ellipse transform="matrix(0.7071 -0.7071 0.7071 0.7071 -9.9411 24)" fill="none" stroke="#fff" stroke-width="2" cx="24" cy="24" rx="10" ry="10"></ellipse>
+                        </g>
+                    </svg>
+                </div>
+            </span>
+            <span class="hkbembed-button-close">
+                <svg xmlns="http://www.w3.org/2000/svg" stroke-width="2" viewBox="0 0 24 24" height="24" width="24">
+                    <g fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-linejoin="round">
+                        <path d="M19 5L5 19M19 19L5 5" />
+                    </g>
+                </svg>
+            </span>
+        </div>
+        <div data-rocket-location-hash="6758d33b96e2dd34fe722797b119994f" id="ht-kb-fe-embed-contents">
+            <iframe id="ht-kb-fe-embed-iframe" src="about:blank" loading="lazy" style="display:block;" data-rocket-lazyload="fitvidscompatible" data-lazy-src="https://edgewatch.com/?kbembed=content"></iframe><noscript><iframe id="ht-kb-fe-embed-iframe" src="https://edgewatch.com/?kbembed=content" loading="lazy" style="display:block;"></iframe></noscript>
+        </div>
+    </div>
+</div>
+
+
+<!-- /end Template for Heroic KB Embed v2 --><style>
+				#ht-kb-fe-embed-container {
+					display: none !important; 
+				}
+						@media screen and (min-width: 1200px) {
+							#ht-kb-fe-embed-container {
+								display: block !important; 
+							}
+						}
+						
+						@media screen and (min-width: 768px) and (max-width: 1200px) and (orientation: landscape) {
+							#ht-kb-fe-embed-container {
+								display: block !important; 
+							}
+						}
+						@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+							#ht-kb-fe-embed-container {
+								display: block !important; 
+							}
+						}
+							
+						</style><!-- Matomo --><script type="061edf2202a44b4e9bf09a13-text/javascript">
+(function () {
+function initTracking() {
+var _paq = window._paq = window._paq || [];
+_paq.push(['trackPageView']);_paq.push(['enableLinkTracking']);_paq.push(['alwaysUseSendBeacon']);_paq.push(['setTrackerUrl', "\/\/edgewatch.com\/wp-content\/plugins\/matomo\/app\/matomo.php"]);_paq.push(['setSiteId', '1']);var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+g.type='text/javascript'; g.async=true; g.src="\/\/edgewatch.com\/wp-content\/uploads\/matomo\/matomo.js"; s.parentNode.insertBefore(g,s);
+}
+if (document.prerendering) {
+	document.addEventListener('prerenderingchange', initTracking, {once: true});
+} else {
+	initTracking();
+}
+})();
+</script>
+<!-- End Matomo Code -->			
+			
+
+<script id="leadin-script-loader-js-js-extra" type="061edf2202a44b4e9bf09a13-text/javascript">
+var leadin_wordpress = {"userRole":"visitor","pageType":"post","leadinPluginVersion":"11.3.45"};
+//# sourceURL=leadin-script-loader-js-js-extra
+</script>
+
+<script id="rocket-browser-checker-js-after" type="061edf2202a44b4e9bf09a13-text/javascript">
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+//# sourceURL=rocket-browser-checker-js-after
+</script>
+<script id="rocket-preload-links-js-extra" type="061edf2202a44b4e9bf09a13-text/javascript">
+var RocketPreloadLinksConfig = {"excludeUris":"/wp-content/plugins/matomo/app/matomo.php/|/vulnerability-advisories/path-traversal-and-idor-vulnerabilities-in-esignaviewer-allow-unauthorized-file-access/|/cve/|/(?:.+/)?feed(?:/(?:.+/?)?)?$|/(?:.+/)?embed/|/(index.php/)?(.*)wp-json(/.*|$)|/refer/|/go/|/recommend/|/recommends/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https://edgewatch.com","onHoverDelay":"100","rateThrottle":"3"};
+//# sourceURL=rocket-preload-links-js-extra
+</script>
+<script id="rocket-preload-links-js-after" type="061edf2202a44b4e9bf09a13-text/javascript">
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+
+//# sourceURL=rocket-preload-links-js-after
+</script>
+<script id="ct-scripts-js-extra" type="061edf2202a44b4e9bf09a13-text/javascript">
+var ct_localizations = {"ajax_url":"https://edgewatch.com/wp-admin/admin-ajax.php","public_url":"https://edgewatch.com/wp-content/themes/blocksy/static/bundle/","rest_url":"https://edgewatch.com/wp-json/","search_url":"https://edgewatch.com/search/QUERY_STRING/","show_more_text":"Show more","more_text":"More","search_live_results":"Search results","search_live_no_results":"No results","search_live_no_result":"No results","search_live_one_result":"You got %s result. Please press Tab to select it.","search_live_many_results":"You got %s results. Please press Tab to select one.","search_live_stock_status_texts":{"instock":"In stock","outofstock":"Out of stock"},"clipboard_copied":"Copied!","clipboard_failed":"Failed to Copy","expand_submenu":"Expand dropdown menu","collapse_submenu":"Collapse dropdown menu","dynamic_js_chunks":[{"id":"blocksy_pro_micro_popups","selector":".ct-popup","url":"https://edgewatch.com/wp-content/plugins/blocksy-companion-pro/framework/premium/static/bundle/micro-popups.js?ver=2.1.38","version":"2.1.38"},{"id":"blocksy_mega_menu","selector":".menu .ct-ajax-pending","trigger":"slight-mousemove","url":"https://edgewatch.com/wp-content/plugins/blocksy-companion-pro/framework/premium/extensions/mega-menu/static/bundle/main.js?ver=2.1.38","global_data":[{"var":"blocksyMegaMenu","data":{"persistence_key":"blocksy:mega-menu:c3cc6e"}}],"version":"2.1.38"},{"id":"blocksy_sticky_header","selector":"header [data-sticky]","url":"https://edgewatch.com/wp-content/plugins/blocksy-companion-pro/static/bundle/sticky.js?ver=2.1.38","version":"2.1.38"}],"dynamic_styles":{"lazy_load":"https://edgewatch.com/wp-content/themes/blocksy/static/bundle/non-critical-styles.min.css?ver=2.1.38","search_lazy":"https://edgewatch.com/wp-content/themes/blocksy/static/bundle/non-critical-search-styles.min.css?ver=2.1.38","back_to_top":"https://edgewatch.com/wp-content/themes/blocksy/static/bundle/back-to-top.min.css?ver=2.1.38","cookie_notification":"https://edgewatch.com/wp-content/plugins/blocksy-companion-pro/framework/extensions/cookies-consent/static/bundle/main.min.css"},"dynamic_styles_selectors":[{"selector":".ct-header-cart, #woo-cart-panel","url":"https://edgewatch.com/wp-content/themes/blocksy/static/bundle/cart-header-element-lazy.min.css?ver=2.1.38"},{"selector":".flexy","url":"https://edgewatch.com/wp-content/themes/blocksy/static/bundle/flexy.min.css?ver=2.1.38"},{"selector":".ct-pagination","url":"https://edgewatch.com/wp-content/themes/blocksy/static/bundle/pagination.min.css?ver=2.1.38"},{"selector":".ct-media-container[data-media-id], .ct-dynamic-media[data-media-id]","url":"https://edgewatch.com/wp-content/plugins/blocksy-companion-pro/framework/premium/static/bundle/video-lazy.min.css?ver=2.1.38"},{"selector":"#account-modal","url":"https://edgewatch.com/wp-content/plugins/blocksy-companion-pro/static/bundle/header-account-modal-lazy.min.css?ver=2.1.38"},{"selector":".ct-header-account","url":"https://edgewatch.com/wp-content/plugins/blocksy-companion-pro/static/bundle/header-account-dropdown-lazy.min.css?ver=2.1.38"}],"login_generic_error_msg":"An unexpected error occurred. Please try again later."};
+//# sourceURL=ct-scripts-js-extra
+</script>
+
+
+
+<script id="hcb-script-js-extra" type="061edf2202a44b4e9bf09a13-text/javascript">
+var hcbVars = {"showCopyBtn":"1","copyBtnLabel":"Copy code to clipboard"};
+//# sourceURL=hcb-script-js-extra
+</script>
+
+
+<script id="hkb-toc-scrollspy-js-extra" type="061edf2202a44b4e9bf09a13-text/javascript">
+var hkbTOCSettings = {"htTOCWidgetScollspyViewOffset":"0"};
+//# sourceURL=hkb-toc-scrollspy-js-extra
+</script>
+
+<script type="061edf2202a44b4e9bf09a13-text/javascript">window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://edgewatch.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js" type="061edf2202a44b4e9bf09a13-text/javascript"></script>
+<script type="061edf2202a44b4e9bf09a13-text/javascript">var rocket_beacon_data = {"ajax_url":"https:\/\/edgewatch.com\/wp-admin\/admin-ajax.php","nonce":"31ff624a9d","url":"https:\/\/edgewatch.com\/kb\/mcp","is_mobile":false,"width_threshold":1600,"height_threshold":700,"delay":500,"debug":null,"status":{"atf":true,"lrc":true,"preload_fonts":true,"preconnect_external_domain":true},"elements":"img, video, picture, p, main, div, li, svg, section, header, span","lrc_threshold":1800,"preload_fonts_exclusions":["api.fontshare.com","cdn.fontshare.com"],"processed_extensions":["woff2","woff","ttf"],"external_font_exclusions":[],"preconnect_external_domain_elements":["link","script","iframe"],"preconnect_external_domain_exclusions":["static.cloudflareinsights.com","rel=\"profile\"","rel=\"preconnect\"","rel=\"dns-prefetch\"","rel=\"icon\""]}</script><script data-name="wpr-wpr-beacon" src='https://edgewatch.com/wp-content/plugins/wp-rocket/assets/js/wpr-beacon.min.js' async type="061edf2202a44b4e9bf09a13-text/javascript"></script><script src="https://edgewatch.com/wp-content/cache/min/1/002eddc853012355905c56477432278a.js" data-minify="1" type="061edf2202a44b4e9bf09a13-text/javascript"></script><script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="061edf2202a44b4e9bf09a13-|49" defer></script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9f17d427da2270f4',t:'MTc3NzA2MjIzNw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me -->

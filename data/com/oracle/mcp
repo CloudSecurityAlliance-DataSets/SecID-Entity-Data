@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js"><!-- start : Framework/Redwood2 -->
+<!-- start : ocom/common/global/components/framework/head -->
+<head>
+<!-- start : ocom/common/global/components/head -->
+<title>Oracle MCP</title>
+<meta name="Title" content="Oracle MCP">
+<meta name="Description" content="Discover Oracle's MCP Servers for AI-enhanced database interactions. Explore use cases, benefits, and integration capabilities with Oracle AI Database, MySQL, and OCI. Learn how MCP Servers streamline database management and support AI-driven applications securely and efficiently.">
+<meta name="Keywords" content="Oracle MCP Servers, AI Database, Model Context Protocol, SQLcl, MySQL HeatWave, Oracle Cloud Infrastructure, AI-driven applications, data privacy, database integration, MCP use cases">
+<meta name="siteid" content="us">
+<meta name="countryid" content="US">
+<meta name="robots" content="index, follow">
+<meta name="country" content="United States">
+<meta name="region" content="americas">
+<meta name="Language" content="en">
+<meta name="Updated Date" content="">
+<meta name="page_type" content="Product-Pillar-Overview">
+<script type="text/javascript">
+var pageData = pageData || {};
+//page info
+pageData.pageInfo = pageData.pageInfo || {};
+pageData.pageInfo.language = "en";
+pageData.pageInfo.country = "United States";
+pageData.pageInfo.region = "americas";
+pageData.pageInfo.pageTitle = "Oracle MCP";
+pageData.pageInfo.description = "Discover Oracle's MCP Servers for AI-enhanced database interactions. Explore use cases, benefits, and integration capabilities with Oracle AI Database, MySQL, and OCI. Learn how MCP Servers streamline database management and support AI-driven applications securely and efficiently.";
+pageData.pageInfo.keywords = "Oracle MCP Servers, AI Database, Model Context Protocol, SQLcl, MySQL HeatWave, Oracle Cloud Infrastructure, AI-driven applications, data privacy, database integration, MCP use cases";
+pageData.pageInfo.siteId = "us";
+pageData.pageInfo.countryId = "US";
+pageData.pageInfo.updatedDate = "";
+</script>
+<!-- start : ocom/common/global/components/seo-taxonomy-meta-data-->
+<script type="text/javascript">
+var pageData = pageData || {};
+//taxonmy
+pageData.taxonomy = pageData.taxonomy || {};
+pageData.taxonomy.productServices = [];
+pageData.taxonomy.industry = [];
+pageData.taxonomy.region = [];
+pageData.taxonomy.contentType = [];
+pageData.taxonomy.buyersJourney = [];
+pageData.taxonomy.revenue = [];
+pageData.taxonomy.title = [];
+pageData.taxonomy.audience = [];
+pageData.taxonomy.persona = [];
+</script>
+<!-- end : ocom/common/global/components/seo-taxonomy-meta-data-->
+<!-- start : ocom/common/global/components/social-media-meta-tags -->
+<!-- end : ocom/common/global/components/social-media-meta-tags -->
+<!-- start : ocom/common/global/components/seo-hreflang-meta-tags --><link rel="canonical" href="https://www.oracle.com/mcp/" />
+<link rel="alternate" hreflang="en-US" href="https://www.oracle.com/mcp/" />
+<!-- end : ocom/common/global/components/seo-hreflang-meta-tags -->
+<!-- end : ocom/common/global/components/head -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- start : ocom/common/global/components/framework/layoutAssetHeadInfo -->
+<!-- Container/Display Start -->
+<!-- BEGIN: oWidget_C/_Raw-Text/Display replaceOCOM: null -->
+<link rel="dns-prefetch" href="https://dc.oracleinfinity.io" crossOrigin="anonymous" />
+<link rel="dns-prefetch" href="https://oracle.112.2o7.net" crossOrigin="anonymous" />
+<link rel="dns-prefetch" href="https://s.go-mpulse.net" crossOrigin="anonymous" />
+<link rel="dns-prefetch" href="https://c.go-mpulse.net" crossOrigin="anonymous" />
+<link rel="preconnect" href="https://tms.oracle.com/" crossOrigin="anonymous" />
+<link rel="preconnect" href="https://tags.tiqcdn.com/" crossOrigin="anonymous" />
+<link rel="preconnect" href="https://consent.trustarc.com" crossOrigin="anonymous" />
+<link rel="preconnect" href="https://d.oracleinfinity.io" crossOrigin="anonymous" />
+<link rel="preload" href="https://www.oracle.com/asset/web/fonts/oraclesansvf.woff2" as="font" crossOrigin="anonymous" type="font/woff2" />
+<link rel="preload" href="https://www.oracle.com/asset/web/fonts/redwoodicons.woff2" as="font" crossorigin="anonymous" type="font/woff2">
+<!-- END: oWidget_C/_Raw-Text/Display -->
+<!-- Container/Display end -->
+<!-- Container/Display Start -->
+<!-- BEGIN: oWidget_C/_Raw-Text/Display replaceOCOM: null -->
+<!-- BEGIN CSS/JS -->
+<style>
+body{margin:0}
+.f20w1 > section{opacity:0;filter:opacity(0%)}
+.f20w1 > header{opacity:0;filter:opacity(0%)}
+.f20w1 > footer{opacity:0;filter:opacity(0%)}
+.f20w1 > div{opacity:0;filter:opacity(0%)}
+.f20w1 > nav{opacity:0;filter:opacity(0%)}
+</style>
+<script>
+!function(){
+var d=document.documentElement;d.className=d.className.replace(/no-js/,'js');
+if(document.location.href.indexOf('betamode=') > -1) document.write('<script src="/asset/web/js/ocom-betamode.js"><\/script>');
+}();
+</script>
+<link data-wscss href="/asset/web/css/redwood-base.css" rel="preload" as="style" onload="this.rel='stylesheet';" onerror="this.rel='stylesheet'">
+<link data-wscss href="/asset/web/css/redwood-styles.css" rel="preload" as="style" onload="this.rel='stylesheet';" onerror="this.rel='stylesheet'">
+<noscript>
+<link href="/asset/web/css/redwood-base.css" rel="stylesheet">
+<link href="/asset/web/css/redwood-styles.css" rel="stylesheet">
+</noscript>
+<link data-wsjs data-reqjq href="/asset/web/js/redwood-base.js" rel="preload" as="script">
+<link data-wsjs data-reqjq href="/asset/web/js/redwood-lib.js" rel="preload" as="script">
+<script data-wsjs src="/asset/web/js/jquery-min.js" async onload="$('head link[data-reqjq][rel=preload]').each(function(){var a = document.createElement('script');a.async=false;a.src=$(this).attr('href');this.parentNode.insertBefore(a, this);});$(function(){$('script[data-reqjq][data-src]').each(function(){this.async=true;this.src=$(this).data('src');});});"></script>
+<!-- END CSS/JS -->
+<!-- END: oWidget_C/_Raw-Text/Display -->
+<!-- Container/Display end -->
+<!-- Container/Display Start -->
+<!-- BEGIN: oWidget_C/_Raw-Text/Display replaceOCOM: null -->
+<!-- www-us HeadAdminContainer -->
+<link rel="icon" href="https://www.oracle.com/asset/web/favicons/favicon-32.png" sizes="32x32">
+<link rel="icon" href="https://www.oracle.com/asset/web/favicons/favicon-128.png" sizes="128x128">
+<link rel="icon" href="https://www.oracle.com/asset/web/favicons/favicon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="https://www.oracle.com/asset/web/favicons/favicon-120.png" sizes="120x120">
+<link rel="apple-touch-icon" href="https://www.oracle.com/asset/web/favicons/favicon-152.png" sizes="152x152">
+<link rel="apple-touch-icon" href="https://www.oracle.com/asset/web/favicons/favicon-180.png" sizes="180x180">
+<meta name="msapplication-TileColor" content="#fcfbfa"/>
+<meta name="msapplication-square70x70logo" content="favicon-128.png"/>
+<meta name="msapplication-square150x150logo" content="favicon-270.png"/>
+<meta name="msapplication-TileImage" content="favicon-270.png"/>
+<meta name="msapplication-config" content="none"/>
+<meta name="referrer" content="no-referrer-when-downgrade"/>
+<style>
+#oReactiveChatContainer1 { display:none;}
+</style>
+<!--Tealium embed code Start -->
+<script src="https://tms.oracle.com/main/prod/utag.sync.js"></script>
+<!-- Loading script asynchronously -->
+<script type="text/javascript">
+(function(a,b,c,d){
+if(location.href.indexOf("tealium=dev") == -1) {
+a='https://tms.oracle.com/main/prod/utag.js';
+} else {
+a='https://tms.oracle.com/main/dev/utag.js';
+}
+b=document;c='script';d=b.createElement(c);d.src=a;d.type='text/java'+c;d.async=true;
+a=b.getElementsByTagName(c)[0];a.parentNode.insertBefore(d,a);
+})();
+</script>
+<!--Tealium embed code End-->
+<!-- END: oWidget_C/_Raw-Text/Display -->
+<!-- Container/Display end -->
+<!-- end : ocom/common/global/components/framework/layoutAssetHeadInfo -->
+
+<script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch","rua.ceh":"false","rua.ueh":"false","rua.ieh.st":"0"}]);</script>
+                                <script>!function(e){var n="https://s.go-mpulse.net/boomerang/";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,n="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="DXNLE-YBWWY-AR74T-WMD99-77VRA",function(){function e(){if(!i){var e=document.createElement("script");e.id="boomr-scr-as",e.src=window.BOOMR.url,e.async=!0,o.parentNode.appendChild(e),i=!0}}function t(e){i=!0;var n,t,a,r,d=document,O=window;if(window.BOOMR.snippetMethod=e?"if":"i",t=function(e,n){var t=d.createElement("script");t.id=n||"boomr-if-as",t.src=window.BOOMR.url,BOOMR_lstart=(new Date).getTime(),e=e||d.body,e.appendChild(t)},!window.addEventListener&&window.attachEvent&&navigator.userAgent.match(/MSIE [67]\./))return window.BOOMR.snippetMethod="s",void t(o.parentNode,"boomr-async");a=document.createElement("IFRAME"),a.src="about:blank",a.title="",a.role="presentation",a.loading="eager",r=(a.frameElement||a).style,r.width=0,r.height=0,r.border=0,r.display="none",o.parentNode.appendChild(a);try{O=a.contentWindow,d=O.document.open()}catch(_){n=document.domain,a.src="javascript:var d=document.open();d.domain='"+n+"';void(0);",O=a.contentWindow,d=O.document.open()}if(n)d._boomrl=function(){this.domain=n,t()},d.write("<bo"+"dy onload='document._boomrl();'>");else if(O._boomrl=function(){t()},O.addEventListener)O.addEventListener("load",O._boomrl,!1);else if(O.attachEvent)O.attachEvent("onload",O._boomrl);d.close()}function a(e){window.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!window.BOOMR||!window.BOOMR.version&&!window.BOOMR.snippetExecuted){window.BOOMR=window.BOOMR||{},window.BOOMR.snippetStart=(new Date).getTime(),window.BOOMR.snippetExecuted=!0,window.BOOMR.snippetVersion=12,window.BOOMR.url=n+"DXNLE-YBWWY-AR74T-WMD99-77VRA";var o=document.currentScript||document.getElementsByTagName("script")[0],i=!1,r=document.createElement("link");if(r.relList&&"function"==typeof r.relList.supports&&r.relList.supports("preload")&&"as"in r)window.BOOMR.snippetMethod="p",r.href=window.BOOMR.url,r.rel="preload",r.as="script",r.addEventListener("load",e),r.addEventListener("error",function(){t(!0)}),setTimeout(function(){if(!i)t(!0)},3e3),BOOMR_lstart=(new Date).getTime(),o.parentNode.appendChild(r);else t(!1);if(window.addEventListener)window.addEventListener("load",a,!1);else if(window.attachEvent)window.attachEvent("onload",a)}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var n=""=="true"?1:0,t="",a="kqtzo4axfvefc2pl2usq-f-eb7daea2f-clientnsv4-s.akamaihd.net",o="false"=="true"?2:1,i={"ak.v":"41","ak.cp":"82485","ak.ai":parseInt("604074",10),"ak.ol":"0","ak.cr":0,"ak.ipv":4,"ak.proto":"h2","ak.rid":"20eb127f","ak.r":49524,"ak.a2":n,"ak.m":"dscx","ak.n":"essl","ak.cport":64968,"ak.gh":"23.203.55.168","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.0rtt.ed":"","ak.csrc":"-","ak.acc":"","ak.t":"1777063205","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==TLOlos9+2hzwxNbbIZJgRAZUSByw//0/VRU4hflPRCzfyAAFzNimOJUqfvKJ0stFXtlk9LPTmF6MsusWlT9yK5JM5YKVKB3ieurYgHKhD6FK5Skhvf8pJ7girrdgkmlKjztDSh0hhUjPoptPUpTNZtsaMpc4T4eGlQesanYlSgz5Y0rN/ejmw63tQ1FgIk/Dx6njMNgrpD+Mj3CiZ144JSmgImk3kraVqkqaZa9i/K5oRAx39h21sjkiP2lgoVx9Z6Iu/4FgbO9K1BueK0JgP+TdIV5ykQ3BzarVvLzfNpOACVtOSIgoESyCYsY/dXM9VqVrkQms9NxZiDSMB6VlFzYejwjRInQkZ+NxG7PEFAm1MojrJPkOy1ynfUsXm45hebXBMAIqo2ODdY9cJihlNZpWMhi7hAqqlV2PSGClZZA=","ak.pv":"536","ak.dpoabenc":"","ak.tf":o};if(""!==t)i["ak.ruds"]=t;var r={i:!1,av:function(n){var t="http.initiator";if(n&&(!n[t]||"spa_hard"===n[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.0rtt.ed","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:a,init:function(){if(!r.i){var e=BOOMR.subscribe;e("before_beacon",r.av,null,null),e("onbeacon",r.rv,null,null),r.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head><!-- end : ocom/common/global/components/framework/head -->
+<!-- start : ocom/common/global/components/redwood/layoutAssetStartBodyInfo -->
+<body class="f20 f20v0 rwtheme-oci">
+<!-- Container/Display Start -->
+<!-- BEGIN: oWidget_C/_Raw-Text/Display replaceOCOM: null -->
+<!-- www-us StartBodyAdminContainer -->
+<!-- END: oWidget_C/_Raw-Text/Display -->
+<!-- Container/Display end -->
+<div class="f20w1">
+<!-- Dispatcher:null default -->
+<!-- widgetType: _Raw-Text -->
+<!-- SUBTYPETEMPLATE: _Raw-Text/Display -->
+<!-- BEGIN: oWidget_C/_Raw-Text/Display replaceOCOM: null -->
+<header id="u38" class="u38 u38v0" data-trackas="header" data-ocomid="u38">
+<!-- Skip Links -->
+<div id="u38skip2">
+<ul>
+<li><a id="u38skip2c" href="#maincontent">Skip to content</a></li>
+<li>
+<a id="u38acc" href="https://www.oracle.com/corporate/accessibility/"
+>Accessibility Policy
+</a>
+</li>
+</ul>
+</div>
+<div class="u38w1" id="u38w1">
+<!-- Left Section: Hamburger + Logo -->
+<div class="u38brand" id="u38brand">
+<!-- Menu Trigger Button (Hamburger) -->
+<nav aria-label="Main Menu">
+<a
+id="u38trigger"
+href="/u38-global-menu/"
+data-trackas="menu"
+data-trackas-noexpand
+role="button"
+aria-controls="u38panels"
+aria-expanded="false"
+aria-haspopup="menu"
+>
+<svg
+width="24"
+height="24"
+viewBox="0 0 24 24"
+aria-hidden="true"
+xmlns="http://www.w3.org/2000/svg"
+preserveAspectRatio="none"
+>
+<path d="M22,4 L2,4" class="p1"></path>
+<path d="M2,12 L22,12" class="p2"></path>
+<path d="M2,20 L22,20" class="p3"></path>
+<path d="M0,12 L24,12" class="p4"></path>
+<path d="M0,12 L24,12" class="p5"></path>
+</svg>
+<span class="u38visually-hidden">Menu</span>
+</a>
+</nav>
+<!-- Oracle Logo (136x18 per Figma) - visible on tablet/desktop -->
+<a
+id="u38logolink"
+href="https://www.oracle.com/"
+data-lbl="logo"
+aria-label="Oracle Home"
+>
+<svg
+class="u38-oicn"
+width="136"
+height="18"
+viewBox="0 0 231 30"
+xmlns="http://www.w3.org/2000/svg"
+preserveAspectRatio="xMinYMid"
+>
+<path
+fill="#C74634"
+d="M99.61,19.52h15.24l-8.05-13L92,30H85.27l18-28.17a4.29,4.29,0,0,1,7-.05L128.32,30h-6.73l-3.17-5.25H103l-3.36-5.23m69.93,5.23V0.28h-5.72V27.16a2.76,2.76,0,0,0,.85,2,2.89,2.89,0,0,0,2.08.87h26l3.39-5.25H169.54M75,20.38A10,10,0,0,0,75,.28H50V30h5.71V5.54H74.65a4.81,4.81,0,0,1,0,9.62H58.54L75.6,30h8.29L72.43,20.38H75M14.88,30H32.15a14.86,14.86,0,0,0,0-29.71H14.88a14.86,14.86,0,1,0,0,29.71m16.88-5.23H15.26a9.62,9.62,0,0,1,0-19.23h16.5a9.62,9.62,0,1,1,0,19.23M140.25,30h17.63l3.34-5.23H140.64a9.62,9.62,0,1,1,0-19.23h16.75l3.38-5.25H140.25a14.86,14.86,0,1,0,0,29.71m69.87-5.23a9.62,9.62,0,0,1-9.26-7h24.42l3.36-5.24H200.86a9.61,9.61,0,0,1,9.26-7h16.76l3.35-5.25h-20.5a14.86,14.86,0,0,0,0,29.71h17.63l3.35-5.23h-20.6"
+transform="translate(-0.02 0)"
+/>
+</svg>
+<!-- Small Oracle Logo (32x21 for small tablet 600-759px) - from su01 -->
+<svg
+class="u38-oicn-small"
+width="32"
+height="21"
+viewBox="0 0 32 21"
+xmlns="http://www.w3.org/2000/svg"
+>
+<path
+fill="#C74634"
+d="M9.9,20.1c-5.5,0-9.9-4.4-9.9-9.9c0-5.5,4.4-9.9,9.9-9.9h11.6c5.5,0,9.9,4.4,9.9,9.9c0,5.5-4.4,9.9-9.9,9.9H9.9 M21.2,16.6c3.6,0,6.4-2.9,6.4-6.4c0-3.6-2.9-6.4-6.4-6.4h-11c-3.6,0-6.4,2.9-6.4,6.4s2.9,6.4,6.4,6.4H21.2"
+/>
+</svg>
+</a>
+</div>
+<!-- Center Section: Search Field -->
+<div id="u38nav" data-closetxt="Close menu" data-backtxt="Go back to">
+<!-- Search Form -->
+<form
+role="search"
+name="u38searchForm"
+id="u38searchForm"
+data-contentpaths="/content/Web/Shared/Auto-Suggest Panel Event"
+method="get"
+action="https://search.oracle.com/results"
+>
+<div class="u38searchfield">
+<!-- Search Icon -->
+<svg
+class="u38searchfield-icon"
+width="24"
+height="24"
+viewBox="0 0 24 24"
+aria-hidden="true"
+xmlns="http://www.w3.org/2000/svg"
+>
+<path d="M15,15l6,6M17,10a7,7,0,1,1-7-7A7,7,0,0,1,17,10Z" />
+</svg>
+<!-- Search Input -->
+<input
+id="u38searchinput"
+name="q"
+value=""
+type="text"
+data-autosuggest-url="https://search-api.oracle.com/api/latest/autosuggest"
+placeholder="Search"
+autocomplete="off"
+aria-autocomplete="both"
+aria-label="Search Oracle.com"
+role="combobox"
+aria-expanded="false"
+aria-haspopup="listbox"
+aria-controls="u38searchresults"
+/>
+<!-- Hidden Parameters -->
+<input type="hidden" name="experience" value="site" />
+<input type="hidden" name="size" value="10" />
+<input type="hidden" name="app" value="ocom" />
+<input type="hidden" name="include_questions" value="true" />
+<!-- Clear Button -->
+<button
+type="button"
+id="u38clear"
+class="u38searchclear"
+aria-label="Clear search"
+>
+<svg
+width="16"
+height="16"
+viewBox="0 0 16 16"
+aria-hidden="true"
+xmlns="http://www.w3.org/2000/svg"
+>
+<path
+d="M12 4L4 12M4 4l8 8"
+stroke="currentColor"
+stroke-width="2"
+fill="none"
+/>
+</svg>
+</button>
+</div>
+<!-- Close Search Button (visible at 600-759px when search expanded) -->
+<button
+type="button"
+id="u38closesearch"
+class="u38closesearch"
+aria-label="Close search"
+>
+<svg
+width="24"
+height="24"
+viewBox="0 0 24 24"
+aria-hidden="true"
+xmlns="http://www.w3.org/2000/svg"
+>
+<path
+d="M7,7 L17,17M17,7 L7,17"
+stroke="currentColor"
+stroke-width="2"
+fill="none"
+/>
+</svg>
+</button>
+<!-- Search Results Container -->
+<div
+id="u38searchresults"
+class="u38searchresults"
+role="listbox"
+aria-labelledby="u38searchresultstitle"
+aria-hidden="true"
+data-pagestitle="SUGGESTED LINKS"
+data-autosuggesttitle="SUGGESTED SEARCHES"
+data-allresultstxt="All results for"
+data-allsearchpath="https://search.oracle.com/results?q=SEARCHTERM&amp;size=10&amp;page=1&amp;tab=all&amp;app=ocom"
+>
+<!-- Quick Links (shown on focus when empty) -->
+<div id="u38quicklinks" class="u38quicklinks" aria-hidden="true">
+<span class="u38searchresultstitle" role="presentation"
+>QUICK LINKS
+</span>
+<ul role="presentation">
+<li role="option">
+<a href="/cloud/" data-lbl="oci">Cloud</a>
+</li>
+<li role="option">
+<a href="/database/" data-lbl="database"
+>Database</a
+>
+</li>
+<li role="option">
+<a href="/java/" data-lbl="java">Java</a>
+</li>
+<li role="option">
+<a href="/artificial-intelligence/" data-lbl="ai">AI</a
+>
+</li>
+</ul>
+</div>
+<!-- Suggested Pages (from API) -->
+<div id="u38pages" aria-hidden="true">
+<span class="u38searchresultstitle" role="presentation"
+>SUGGESTED LINKS
+</span>
+<ul id="u38pagesul" role="presentation"></ul>
+</div>
+<!-- Suggested Searches (from API) -->
+<div id="u38autocomplete" aria-hidden="true">
+<span class="u38searchresultstitle" role="presentation"
+>SUGGESTED SEARCHES
+</span>
+<ul id="u38autocompleteul" role="presentation"></ul>
+</div>
+<!-- All Results Link -->
+<div id="u38searchall" aria-hidden="true">
+<ul id="u38searchallul" role="presentation"></ul>
+</div>
+</div>
+<!-- Aria Live Region -->
+<div
+id="u38searchannounce"
+class="u38visually-hidden"
+aria-live="polite"
+aria-atomic="true"
+></div>
+</form>
+<!-- Panel Container (populated by JS from external content) -->
+<div
+id="u38panels"
+data-trackas="menu"
+data-trackas-noexpand
+class="u38panels"
+aria-hidden="true"
+>
+<!-- Panels will be built dynamically from menu content file -->
+</div>
+</div>
+<!-- Right Section: Tools (Icons only per Figma) -->
+<div class="u38tools" id="u38tools">
+<!-- Search Icon (24x24) - visible at 600-759px only, expands search input -->
+<button
+id="u38searchbtn"
+type="button"
+class="u38toolbtn u38searchbtn"
+aria-label="Search"
+aria-expanded="false"
+>
+<svg
+width="24"
+height="24"
+viewBox="0 0 24 24"
+aria-hidden="true"
+xmlns="http://www.w3.org/2000/svg"
+>
+<path
+d="M15,15l6,6M17,10a7,7,0,1,1-7-7A7,7,0,0,1,17,10Z"
+fill="none"
+stroke="currentColor"
+stroke-width="1.5"
+/>
+</svg>
+</button>
+<!-- Country Selector (20x20 flag) - uses #ac-flag for ACS compatibility -->
+<span id="ac-flag">
+<a
+class="flag-focus"
+href="/countries-list.html#countries"
+data-ajax="true"
+rel="lightbox"
+role="button"
+aria-label="Select country"
+>
+<span class="u38visually-hidden">Country</span>
+<img class="flag-image" src="" alt="" />
+</a>
+</span>
+<!-- User/Account Icon (24x24) -->
+<div class="u38signinw1" data-trackas="header">
+<button
+id="u38signin"
+class="u38toolbtn"
+aria-expanded="false"
+aria-controls="u38signinmodal"
+aria-label="Sign in"
+data-lbl="sign-in"
+>
+<svg
+width="24"
+height="24"
+viewBox="0 0 24 24"
+aria-hidden="true"
+xmlns="http://www.w3.org/2000/svg"
+>
+<path
+d="M12,12c2.21,0,4-1.79,4-4s-1.79-4-4-4-4,1.79-4,4,1.79,4,4,4Zm0,2c-2.67,0-8,1.34-8,4v2h16v-2c0-2.66-5.33-4-8-4Z"
+fill="none"
+stroke="currentColor"
+stroke-width="1.5"
+/>
+</svg>
+</button>
+<div id="u38signinmodal" aria-hidden="true">
+<button id="u38actbck" aria-label="Close sign in panel">
+<span class="u38actbcktxt">Back</span>
+</button>
+<div class="u38-profilew2">
+<span class="u38acttitle">Cloud Account</span>
+<a
+href="/cloud/sign-in.html"
+class="u38darkcta u38cloudbg"
+data-lbl="sign-in-to-cloud"
+>Sign in to Cloud
+</a>
+<a
+href="/cloud/free/"
+class="u38lightcta"
+data-lbl="try-free-cloud-trial"
+>Sign Up for Free Cloud Tier
+</a>
+</div>
+<span class="u38acttitle">Oracle Account</span>
+<ul class="u38l-out">
+<li>
+<a
+href="https://www.oracle.com/webapps/redirect/signon?nexturl="
+data-lbl="profile:sign-in-account"
+class="u38darkcta"
+>Sign-In
+</a>
+</li>
+<li>
+<a
+href="https://profile.oracle.com/myprofile/account/create-account.jspx"
+data-lbl="profile:create-account"
+class="u38lightcta"
+>Create an Account
+</a>
+</li>
+</ul>
+<ul class="u38l-in">
+<li>
+<a href="/corporate/contact/help.html" data-lbl="help">Help </a>
+</li>
+<li>
+<a
+href="javascript:sso_sign_out();"
+id="u38pfile-sout"
+data-lbl="signout"
+>Sign Out
+</a>
+</li>
+</ul>
+</div>
+</div>
+<!-- Contact/Chat Icon (24x24) -->
+<a
+id="u38contact"
+class="u38toolbtn"
+href="/corporate/contact/"
+aria-label="Contact us"
+data-lbl="contact"
+>
+<svg
+width="24"
+height="24"
+viewBox="0 0 24 24"
+aria-hidden="true"
+xmlns="http://www.w3.org/2000/svg"
+>
+<path
+d="M20,2H4c-1.1,0-2,.9-2,2v18l4-4h14c1.1,0,2-.9,2-2V4c0-1.1-.9-2-2-2Z"
+fill="none"
+stroke="currentColor"
+stroke-width="1.5"
+/>
+</svg>
+</a>
+</div>
+</div>
+<!-- Background Overlay -->
+<div id="u38overlay" aria-hidden="true"></div>
+<!-- Announcement Region for Screen Readers -->
+<div
+id="u38announce"
+class="u38visually-hidden"
+aria-live="polite"
+aria-atomic="true"
+></div>
+</header>
+<!-- END: oWidget_C/_Raw-Text/Display -->
+<!-- end : ocom/common/global/components/redwood/layoutAssetStartBodyInfo -->
+<main id="maincontent" class="f20w1"><fragment><section class="rh03 rh03v3 cpad rw-theme-30bg" data-trackas="rh03" data-ocomid="rh03" data-bgimg="https://www.oracle.com/a/ocom/img/bgimg02-bgsw-overlay-fpo01.png,https://www.oracle.com/a/ocom/img/bgimg02-bgne-overlay-fpo02.png" ><div class="rh03w1 cwidth"><div class="rh03bc"><div class="rh03bc1"><ol><li><a href="https://www.oracle.com/" >Oracle</a></li></ol></div></div><div class="herotitle rh03twocol"><div class="rh03col1"><h1 class="rwaccent-6" >Oracle MCP Servers</h1><div class="rh03btxt wrapped-rich-text" ><p>Oracle is committed to providing the best possible AI experience. We provide MCP Servers for some of our most popular platforms, including the Oracle AI Database. </p><p>Oracle SQLcl is our MCP Server for the Oracle AI Database.</p><p>MCP refers to the Model Context Protocol, a&nbsp;standard for enabling AI assistants and large language models to interact securely and efficiently with external resources. MCP is designed for language-agnostic, machine-to-machine workflows and provides structured communication between agents (such as AI models) and external tools, including databases, APIs, and other enterprise data sources.<br><br>To get started, download Oracle SQLcl, or browse our other MCP Server offerings, including ones for MySQL, OCI, and our online Documentation.</p><p><br></p></div><div class="obttns"><div><a class  href="https://www.oracle.com/database/sqldeveloper/technologies/sqlcl/download/">Download SQLcl</a></div><div class="obttn1"><a  href="https://github.com/oracle/mcp/tree/main/src">Browse OCI MCP Servers</a></div></div> </div><div class="rh03col2"><div><img  src="https://www.oracle.com/a/tech/img/sql-developer-ai-color.png" alt/><figcaption ></figcaption></div></div></div></div></section></fragment><fragment><section class="rc39 rc39v0" data-ocomid="rc39" data-a11y="true"><div class="rc39w1 cwidth"><div class="rc39w2 cwidth-10"><div class="rc39w5"><div class="rc39w3 rc39quote" ><p>Oracle’s MCP Server revolutionizes AI-driven database interactions. It works with any supported Oracle Database—from 19c to 23ai—and can be used on-premises, in hyperscalers such as Azure, AWS, Google and OCI—and even on your laptop. All Oracle Database users should give it a try to chat with their database, generate reports and perform operations such as Data Load and Data Transform.</p></div><div class="rc39w4"><b >Ron Westfall</b><p >HyperFRAME Research</p></div></div></div></div></section></fragment><fragment><section class="rc11 rc11v0 rw-teal-40bg" data-trackas="rc11" data-ocomid="rc11" data-a11y="true" ><div class="rc11w1 cwidth"><div class="rc11w2 rc11bttns"><p >Learn and share SQL, for free. Get instant access to the Oracle AI Database</p><div class="obttns"><div class><a  href="https://freesql.com/">FreeSQL.com</a></div></div></div></div></section></fragment><fragment><section class="rc30 cpad  rw-theme-40bg rw-pattern-theme1w rw-pattern-8p rc30v1" data-trackas="rc30" data-ocomid="rc30" data-bgimg="https://www.oracle.com/a/ocom/img/gbimg02-bgsw-50opacity-resources-01.png,https://www.oracle.com/a/ocom/img/bgimg02-bgne-50opacity-resources-01.png" data-lbl="resources:" data-a11y="true"><div class="rc30w1 cwidth"><h2 class="rwaccent" >Oracle MCP Use Cases</h2><div class="rc30w2"><form class="oform rc30mobnav"><span class="oform-w"><span class="oselect"><select name="f4"><option  value="#tab-id-e8ddb8f1-54ea-4659-9e4f-4581f72750ac">Design</option><option  value="#tab-id-c58d0cde-1377-4edb-a953-577db482847c">DevOps</option><option  value="#tab-id-c58d0cde-1377-4edb-a953-577db482847c-1">Development</option><option  value="#tab-id-c58d0cde-1377-4edb-a953-577db482847c-1-1">Reporting &amp; Analysis</option></select></span></span></form></div><div class="rc30w3"><div class="rc30w4 rc30pane rc30pane-bleed rw-neutral-30bg"  id="tab-id-e8ddb8f1-54ea-4659-9e4f-4581f72750ac" data-lbl="undefined:"><div class="col-framework col2"><div class="col-w1"><div class="col-item rw-neutral-30bg"><div class="col-item-w1 rc30w10" ><div class="rc30w5"><h4 class >Data modeling and schema generation</h4><p >When starting a new project, describe your desired application schema or data model in plain language, and let your LLM not only generate your DDL, but have your AI Agent deploy that to your Oracle AI Database via our secure MCP server tools.</p><div class="rc30cta"><div class="obttns"><div><a class  href="https://blogs.oracle.com/database/prompt-engineering-using-the-sqlcl-mcp-server-and-your-ai-agent-to-build-schema-objects-from-scratch">Learn More</a></div></div></div> </div></div></div><div class="col-item rw-neutral-30bg" style="justify-content: center;" data-bgimg="https://www.oracle.com:443/cmsng/88349359906324172021018430506853762465.png?_wsbfilename=mcp-model-3.png" ></div></div></div></div><div class="rc30w4 rc30pane rc30pane-bleed rw-neutral-30bg"  id="tab-id-c58d0cde-1377-4edb-a953-577db482847c" data-lbl="undefined:"><div class="col-framework col2"><div class="col-w1"><div class="col-item rw-neutral-30bg"><div class="col-item-w1 rc30w10" ><div class="rc30w5"><h4 class >Observability</h4><p >Our MCP server allows your agent to continuously analyze performance metrics, AWR/ASH data, and SQL execution patterns in real-time. Automatically detect anomalies, pinpoint root causes of slowdowns, recommend and auto-applying targeted fixes. Dramatically reduce diagnostic time from hours to minutes while enabling proactive performance optimization in CI/CD pipelines.</p><div class="rc30cta"><div class="obttns"><div><a class  href="https://docs.oracle.com/en/database/oracle/sql-developer-command-line/25.2/sqcug/example-use-cases-and-prompts.html#GUID-3C6F5BBB-0F46-4CF7-8CAD-6EAD599153E7">Learn More</a></div></div></div> </div></div></div><div class="col-item rw-neutral-30bg" style="justify-content: center;" data-bgimg="https://www.oracle.com:443/cmsng/88349193391577615954949030119513060378.png?_wsbfilename=backup_size_graph_mcp.png" ></div></div></div></div><div class="rc30w4 rc30pane rc30pane-bleed rw-neutral-30bg"  id="tab-id-c58d0cde-1377-4edb-a953-577db482847c-1" data-lbl="undefined:"><div class="col-framework col2"><div class="col-w1"><div class="col-item rw-neutral-30bg"><div class="col-item-w1 rc30w10" ><div class="rc30w5"><h4 class >Build a REACT Application</h4><p >Quickly prototype an application based on your existing database schema. Simply inform your agent where it can find your tables and views, and allow it to setup your entire frontend and mid-tier!</p><div class="rc30cta"><div class="obttns"><div><a class  href="https://blogs.oracle.com/database/prompting-using-the-sqlcl-mcp-server-and-ai-agents-to-create-a-starter-react-app">Learn More</a></div></div></div> </div></div></div><div class="col-item rw-neutral-30bg" style="justify-content: center;" data-bgimg="https://www.oracle.com:443/cmsng/88770477660137541713552397169149931627.png?_wsbfilename=ATM Tracking.png" ></div></div></div></div><div class="rc30w4 rc30pane rc30pane-bleed rw-neutral-30bg"  id="tab-id-c58d0cde-1377-4edb-a953-577db482847c-1-1" data-lbl="undefined:"><div class="col-framework col2"><div class="col-w1"><div class="col-item rw-neutral-30bg"><div class="col-item-w1 rc30w10" ><div class="rc30w5"><h4 class >General business support</h4><div class=" wrapped-rich-text" ><p>Empower your backoffice staff with agents that allow for plain language questions to be transformed to SQL and executed on your Oracle AI Database.</p><p>Ad hoc questions, long term planning and analysis, forecasting, pricing and discount modelling all become that much easier when your existing business data is securely made available to your agents using our MCP Server.</p></div><div class="rc30cta"><div class="obttns"><div><a class  href="https://livelabs.oracle.com/ords/r/dbpm/livelabs/view-workshop?wid=4285">Explore the LiveLab</a></div></div></div> </div></div></div><div class="col-item rw-neutral-30bg" style="justify-content: center;" data-bgimg="https://www.oracle.com:443/cmsng/90136676771067360284241060640290016775.jpg?_wsbfilename=analytics dashboard.jpg" ></div></div></div></div></div></div></section></fragment><fragment><section class="rc30 cpad  rw-theme-10bg o-bgimg rc30v0" data-trackas="rc30" data-ocomid="rc30" data-bgimg="https://www.oracle.com/a/ocom/img/gbimg02-bgsw-50opacity-resources-01.png,https://www.oracle.com/a/ocom/img/bgimg02-bgne-50opacity-resources-01.png" data-lbl="resources:" data-a11y="true"><div class="rc30w1 cwidth"><h2 class="rc30subt" >Explore Oracle MCP Servers</h2><div class="rc30w2"><form class="oform rc30mobnav"><span class="oform-w"><span class="oselect"><select name="f4"><option  value="#tab-id-56d70e1b-947b-43d6-951a-4d41dd6b2ebb">Oracle AI Database</option><option  value="#tab-id-8c5a7eba-d358-4b21-a3e1-38ac2a127402">MySQL &amp; MySQL Heatwave</option><option  value="#tab-id-8c5a7eba-d358-4b21-a3e1-38ac2a127402-1">Oracle Cloud Infrastructure (OCI)</option></select></span></span></form></div><div class="rc30w3"><div class="rc30w4 rc30pane"  id="tab-id-56d70e1b-947b-43d6-951a-4d41dd6b2ebb" data-lbl="undefined:"><div class="col-framework col2"><div class="col-w1"><div class="col-item rw-neutral-30bg"><div class="col-item-w1 rc30w10"><div class="rc30w5"><div class="rc30w6"><img  data-src="https://www.oracle.com/a/tech/img/mcp-server.png" alt/></div></div><div class="rc30w5"><h4 >Oracle SQLcl</h4><p >SQLcl's free and integrated MCP Server bridges Oracle AI Databases with AI-driven solutions by allowing Language Learning Models (LLMs) to interactively execute queries and process results. This positions SQLcl as the go-to interface for both traditional database development and cutting-edge AI/ML-driven applications.</p><div><a  href="https://www.oracle.com/database/sqldeveloper/technologies/sqlcl/">Explore Oracle SQLcl</a></div></div></div></div><div class="col-item rw-neutral-40bg"><div class="col-item-w1 rc30w11"><h4 >Learn More</h4><ul class="icn-ulist"><li class="icn-chevronright"><a  href="https://marketplace.visualstudio.com/items?itemName=Oracle.sql-developer">SQL Developer Extension for VS Code</a></li><li class="icn-chevronright"><a  href="https://docs.oracle.com/en/database/oracle/sql-developer-command-line/25.2/sqcug/using-oracle-sqlcl-mcp-server.html">MCP Server Documentation</a></li><li class="icn-chevronright"><a  href="https://forums.oracle.com/ords/apexds/domain/dev-community/category/sqlcl">User Community</a></li></ul></div></div></div></div></div><div class="rc30w4 rc30pane"  id="tab-id-8c5a7eba-d358-4b21-a3e1-38ac2a127402" data-lbl="undefined:"><div class="col-framework col2"><div class="col-w1"><div class="col-item rw-neutral-30bg"><div class="col-item-w1 rc30w10"><div class="rc30w5"><div class="rc30w6"><img  data-src="https://www.oracle.com:443/cmsng/90358849033538992947098798834654966232.avif?_wsbfilename=rc32-mysql-heatwave-1.avif" alt/></div></div><div class="rc30w5"><h4 >MySQL</h4><div class=" wrapped-rich-text" ><p>A Python-based MCP (Model Context Protocol) server that provides a suite of tools for managing and interacting with MySQL AI and MySQL HeatWave database resources. This MCP server is not intended for production use but as a proof of concept for exploring models using MCP Servers.<br><br>Tools included allow for management of connections, running queries, manage your vector store, and working with OCI’s Object Store.</p></div><div><a  href="https://www.oracle.com/mysql/"></a></div></div></div></div><div class="col-item rw-neutral-40bg"><div class="col-item-w1 rc30w11"><h4 >Learn More</h4><ul class="icn-ulist"><li class="icn-chevronright"><a  href="https://github.com/oracle/mcp/blob/main/src/mysql-mcp-server/README.md">Github Project</a></li><li class="icn-chevronright"><a  href="https://www.oracle.com/mysql/">MySQL HeatWave</a></li></ul></div></div></div></div></div><div class="rc30w4 rc30pane"  id="tab-id-8c5a7eba-d358-4b21-a3e1-38ac2a127402-1" data-lbl="undefined:"><div class="col-framework col2"><div class="col-w1"><div class="col-item rw-neutral-30bg"><div class="col-item-w1 rc30w10"><div class="rc30w5"><div class="rc30w6"><img  data-src="https://www.oracle.com:443/cmsng/90359464046384303764772230002013956027.avif?_wsbfilename=rc24full-distributed-cloud.avif" alt/></div></div><div class="rc30w5"><h4 >OCI</h4><div class=" wrapped-rich-text" ><p>A collection of MCP Servers for working with and managing OCI services such as Cloud Guard, Compute, Storage, Identity, Logging, Monitoring, and much more! </p><br><p>Highlights</p><ul class="obullets"><li><a href="https://github.com/oracle/mcp/tree/main/src/oci-recovery-mcp-server">Autonomous Recovery Service</a> extends enterprise-grade
+data protection through MCP with secure, automated access</li><li><a href="https://github.com/oracle/mcp/tree/main/src/dbtools-mcp-server">DBTools MCP  server</a> provides various tools for managing OCI database resources, including autonomous databases, database tools connections, and SQL execution capabilities</li><li><a href="https://www.oracle.com/cloud/cloud-native/iot-platform/" class="o-hf">Oracle Cloud Infrastructure Internet of Things Platform</a> provides an MCP
+server for working with and managing OCI Internet of
+Things Platform resources. </li><br></ul></div><div><a  href="https://www.oracle.com/cloud/"></a></div></div></div></div><div class="col-item rw-neutral-40bg"><div class="col-item-w1 rc30w11"><h4 >Learn More</h4><ul class="icn-ulist"><li class="icn-chevronright"><a  href="https://www.oracle.com/cloud/">Oracle Cloud Infrastructure</a></li><li class="icn-chevronright"><a  href="https://github.com/oracle/mcp/tree/main/src/oci-api-mcp-server">OCI API MCP on Github</a></li><li class="icn-chevronright"><a  href="https://github.com/oracle/mcp/tree/main/src/oci-iot-mcp-server">OCI IoT Platform on Github</a></li></ul></div></div></div></div></div></div></div></section></fragment><fragment><section class="rc36 rc36v3 cpad rw-neutral-10bg rw-pattern2 rw-pattern-20p" data-ocomid="rc36" data-trackas="rc36"><div class="rc36w1 cwidth"><h2 >Bring Agentic AI to your Database</h2><div class="col-framework col2 col-gutters col-justified col-multi inview"><div class="col-w1"><div class="col-item"><div class="col-item-w1"><h3><span>1</span></h3><h3 >Zero Database Configuration</h3><p >The SQLcl MCP Server makes connecting agents to your Oracle AI Database effortless. Unlike other systems that require manual setup and dependencies, MCP Server streamlines connectivity with simple configuration steps and automatic integration. It also runs seamlessly within the SQL Developer VS Code extension, which handles deployment automatically—eliminating the need for complex installations or runtime management. </p></div></div><div class="col-item"><div class="col-item-w1"><h3><span>2</span></h3><h3 >Security and Data Privacy</h3><p >Agents communicate with your Oracle AI databases via our MCP Server. Credentials are never shared with your Agents, and all passwords are encrypted in Oracle SSO wallets. The installation process emphasizes both simplicity and safety, allowing users to deploy MCP Server quickly without compromising security standards.</p></div></div><div class="col-item"><div class="col-item-w1"><h3><span>3</span></h3><h3 >Available on all Oracle AI Databases</h3><p >To ensure full accessibility, MCP Server is compatible with all supported Oracle AI Database versions. It operates consistently across on-premises, virtualized, containerized, and cloud environments, enabling organizations to maintain secure and unified operations regardless of their infrastructure.</p></div></div><div class="col-item"><div class="col-item-w1"><h3><span>4</span></h3><h3 >Broad appeal and powerful use cases</h3><p >Oracle MCP Server supports a wide range of use cases, making it a powerful and versatile tool for all database and data professionals. Whether you are a developer, database administrator, data engineer, or business analyst, MCP Server simplifies how you interact with your Oracle AI Database and enhances productivity across diverse tasks.</p></div></div></div></div></div></section></fragment><fragment><section class="rc102 rc102v0 cpad" data-trackas="rc102" data-ocomid="rc102" data-a11y="true"><div class="rc102w1 cwidth"><header class="rw-ctitle"><div><h2 >Explore More</h2><a ></a></div></header><div class="col-framework col3 col-top col-gutters"><div class="col-w1"><div class="col-item"><div class="col-item-w1"><img class="rc102img"  data-src="https://website-builder.oraclecorp.com/assets/images/branding/tech-oci-02.jpg" alt="Oracle LiveLab"/></div><div class="col-item-w2"><div class="rwhead-sm" >MySQL HeatWave and MySQL AI integration with MCP</div></div><div class="col-item-3"><p >The MySQL HeatWave MCP Server provides a collection of specialized tools that help you leverage the full capabilities of  MySQL</p></div><div class="col-item-w4"><div class="obttns"><div class><a  href="https://blogs.oracle.com/mysql/mysql-heatwave-and-mysql-ai-integration-with-model-context-protocol">Read More</a></div></div></div></div><div class="col-item"><div class="col-item-w1"><img class="rc102img"  data-src="https://www.oracle.com:443/cmsng/88356389034831424547480321279154749077.jpg?_wsbfilename=SQLDevCopilot_mcp_1.jpg" alt="Video: SQLcl MCP for Oracle AI Database"/></div><div class="col-item-w2"><div class="rwhead-sm" >Video: SQLcl MCP for Oracle AI Database</div></div><div class="col-item-3"><p >SQLcl MCP support for Vector features in Oracle AI Database</p></div><div class="col-item-w4"><div class="obttns"><div class><a  href="https://www.youtube.com/watch?v=hj6WoZVGUBg&amp;t=2063s">Watch</a></div></div></div></div><div class="col-item"><div class="col-item-w1"><img class="rc102img"  data-src="https://www.oracle.com:443/cmsng/88360898611812350149592343867660741527.png?_wsbfilename=mcp-server-oracleaidb-2.png" alt="Blog: Introducing MCP Server for Oracle AI Database"/></div><div class="col-item-w2"><div class="rwhead-sm" >Introducing MCP Server for Oracle AI Database</div></div><div class="col-item-3"><p >Learn more about MCP Server for the Oracle AI Database</p></div><div class="col-item-w4"><div class="obttns"><div class><a  href="https://blogs.oracle.com/database/post/introducing-mcp-server-for-oracle-database">Read More</a></div></div></div></div></div></div></div></section></fragment></main><!-- start : ocom/common/global/components/framework/layoutAssetEndBodyInfo -->
+<!-- Dispatcher:null default -->
+<!-- widgetType: _Raw-Text -->
+<!-- SUBTYPETEMPLATE: _Raw-Text/Display -->
+<!-- BEGIN: oWidget_C/_Raw-Text/Display replaceOCOM: null -->
+<!-- SU02v1 -->
+<footer
+id="su02"
+class="su02 su02v1"
+data-trackas="footer"
+data-ocomid="su02"
+>
+<div class="su02w1 cwidth">
+<div class="su02w3">
+<ul class="su02legal">
+<li class="su02copy">
+<a data-lbl="copyright" href="/legal/copyright.html">&copy; 2026 Oracle</a>
+</li>
+<li>
+<a data-lbl="privacy" href="/legal/privacy/">Privacy</a>
+<span>/</span>
+<a data-lbl="do-not-sell-my-info" href="/legal/privacy/privacy-choices.html">Do Not Sell My Info</a>
+</li>
+<li>
+<div id="teconsent"></div>
+</li>
+<li>
+<a data-lbl="ad-choices" href="/legal/privacy/privacy-policy/#adchoices">Ad Choices</a>
+</li>
+<li>
+<a data-lbl="careers" href="/corporate/careers/">Careers</a>
+</li>
+<li>
+<a data-lbl="subscribe-to-emails" href="https://go.oracle.com/subscribe/?l_code=en&src1=OW:O:FO">Subscribe to emails</a>
+</li>
+<li>
+<a data-lbl="integrity-helpline" href="https://secure.ethicspoint.com/domain/media/en/gui/31053/index.html">Integrity Helpline</a>
+</li>
+<li>
+<a data-lbl="contact-us" href="/corporate/contact/">Contact Us</a>
+</li>
+</ul>
+<ul class="su02social">
+<li class="scl-facebook">
+<a
+data-lbl="scl-icon:facebook"
+href="https://www.facebook.com/Oracle/"
+target="_blank"
+title="Oracle on Facebook"
+>
+<span>Facebook</span>
+</a>
+</li>
+<li class="scl-twitter">
+<a
+data-lbl="scl-icon:twitter"
+href="https://x.com/oracle"
+target="_blank"
+aria-label="Follow Oracle on X"
+>
+<span>X</span>
+</a>
+</li>
+<li class="scl-linkedin">
+<a
+data-lbl="scl-icon:linkedin"
+href="https://www.linkedin.com/company/oracle/"
+target="_blank"
+aria-label="Oracle on LinkedIn"
+>
+<span>LinkedIn</span>
+</a>
+</li>
+<li class="scl-youtube">
+<a
+data-lbl="scl-icon:youtube"
+href="https://www.youtube.com/oracle/"
+target="_blank"
+aria-label="Watch Oracle on YouTube"
+>
+<span>YouTube</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</footer>
+<!-- /SU02v1 -->
+<!-- END: oWidget_C/_Raw-Text/Display -->
+</div>
+<!-- Container/Display Start -->
+<!-- BEGIN: oWidget_C/_Raw-Text/Display replaceOCOM: null -->
+<!-- Start - End Body Admin Container -->
+<!-- Start SiteCatalyst code -->
+<script type="text/javascript" data-reqjq data-src="/asset/web/analytics/ora_ocom.js"></script>
+<!-- End SiteCatalyst code -->
+<!-- End - End Body Admin Container -->
+<!-- END: oWidget_C/_Raw-Text/Display -->
+<!-- Container/Display end -->
+<!-- end : ocom/common/global/components/framework/layoutAssetEndBodyInfo -->
+</body>
+<!-- end : Framework/Redwood2 -->
+</html>

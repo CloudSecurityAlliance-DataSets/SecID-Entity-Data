@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "ru.yandex_team.calendar_app",
+      "sha256_cert_fingerprints": [
+        "F9:6D:7C:E5:86:8F:D0:38:77:C0:5E:8F:58:0C:E0:73:9E:56:8E:B2:42:C4:C5:F7:F7:C6:22:1E:1E:69:EF:96",
+        "AC:A4:05:DE:D8:B2:5C:B2:E8:C6:DA:69:42:5D:2B:43:07:D0:87:C1:27:6F:C0:6A:D5:94:27:31:CC:C5:1D:BA"
+      ]
+    }
+  }
+]

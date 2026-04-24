@@ -1,0 +1,28 @@
+{
+    "canonical_url":"https://www.open-xchange.com/.well-known/csaf/provider-metadata.json",
+    "distributions":[
+      {
+         "directory_url":"https://documentation.open-xchange.com/appsuite/security/advisories/csaf/"
+      },
+      {
+         "directory_url":"https://documentation.open-xchange.com/dovecot/security/advisories/csaf/"
+      }
+    ],
+    "last_updated":"2024-09-06T00:00:00.000Z",
+    "list_on_CSAF_aggregators":true,
+    "metadata_version":"2.0",
+    "mirror_on_CSAF_aggregators":true,
+    "public_openpgp_keys":[
+      {
+        "fingerprint":"76A365790D5A604279A282173E8A2E7B95EBEAEE",
+        "url":"https://documentation.open-xchange.com/appsuite/security/advisories/csaf/csaf_signing_public.asc"
+      }
+    ],
+    "publisher":{
+      "category":"vendor",
+      "name":"Open-Xchange GmbH",
+      "contact_details":"security@open-xchange.com",
+      "namespace":"https://open-xchange.com"
+    },
+    "role":"csaf_trusted_provider"
+}

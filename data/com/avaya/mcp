@@ -1,0 +1,3039 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+    <meta charset="UTF-8"/>
+    <title>Secure Model Context Protocol (MCP) Integration | Avaya</title>
+    
+    
+    <meta name="description" content="Explore how Avaya leverages the Model Context Protocol (MCP), an open standard for securely connecting AI models and LLMs to enterprise communications data."/>
+    <meta name="template" content="page-content"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    
+    
+    
+
+<meta name="content-page-ref" content="XfMeghLeTSi8C-nIVdcJLEtrI0n9OAEE3tYVb_jJmaChXu9js4emQXNRhK7Pfmrsikdo68o9vxLQxUN8uGli3DnINyjzuIovWKfZlqAp2ZU"/>
+<script defer="defer" type="text/javascript" src="/.rum/@adobe/helix-rum-js@%5E2/dist/micro.js"></script>
+<link rel="canonical" href="https://www.avaya.com/en/solutions/mcp/"/>
+
+    
+
+    
+        
+            <link rel="alternate" hreflang="en-us" href="https://www.avaya.com/en/solutions/mcp/"/>
+        
+            <link rel="alternate" hreflang="fr-fr" href="https://www.avaya.com/fr/solutions/mcp/"/>
+        
+            <link rel="alternate" hreflang="de-de" href="https://www.avaya.com/de/solutions/mcp/"/>
+        
+            <link rel="alternate" hreflang="it-it" href="https://www.avaya.com/it/solutions/mcp/"/>
+        
+            <link rel="alternate" hreflang="es-mx" href="https://www.avaya.com/es/solutions/mcp/"/>
+        
+            <link rel="alternate" hreflang="ja-jp" href="https://www.avaya.com/jp/solutions/mcp/"/>
+        
+    
+    <!-- bug in AEM, default alternate links not working -->
+    
+
+
+    
+
+<!-- Favicon start -->
+<link rel="icon" href="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-site/resources/images/favicon.png" type="image/png" sizes="16x16"/>
+<!-- Favicon End -->
+
+<!-- Fonts Preload Start -->
+<link rel="preload" href="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-site/resources/fonts/oxygen/oxygen-v15-latin-300.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+<link rel="preload" href="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-site/resources/fonts/oxygen/oxygen-v15-latin-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+<link rel="preload" href="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-site/resources/fonts/oxygen/oxygen-v15-latin-700.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+
+<!-- Fonts Preload End -->
+
+
+<!-- OneTrust Cookie Consent -->
+<script type="text/javascript">
+  var now = new Date();
+  now.setTime(now.getTime() + 1 * 3600 * 1000 * 24 * 365);
+  delete_cookie();
+  function delete_cookie() {
+    if (!getCookie('cleared-onetrust-cookies')) {
+      document.cookie = "OptanonAlertBoxClosed" + "=" + "; path=/" + "; domain=.avaya.com" + '; expires=Thu, 01 Jan 1970 00:00:01 GMT';
+      document.cookie = "OptanonConsent" + "=" + "; path=/" + "; domain=.avaya.com" + '; expires=Thu, 01 Jan 1970 00:00:01 GMT';
+    }
+    document.cookie = "cleared-onetrust-cookies" + "=" + "; path=/" + "; domain=.avaya.com" + "; expires=" + now;
+  }
+  function getCookie(cookieName) {
+    var value = '; ' + document.cookie;
+    var parts = value.split('; ' + cookieName + '=');
+    if (parts.length == 2) {
+      return true;
+    }
+  }
+</script>
+
+<script type="text/javascript" src="https://cdn.cookielaw.org/consent/11fcaab1-94a5-4127-a288-57d67b245b37/OtAutoBlock.js"></script>
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="11fcaab1-94a5-4127-a288-57d67b245b37"></script>
+
+<script type="text/javascript">
+  function OptanonWrapper() {
+
+  } 
+</script>
+<!-- OneTrust Cookie Consent end -->
+
+<!-- Google Tag Manager -->
+
+  <meta name="google-site-verification" content="RJ18Y5pcI5myrM4FcEe1copk9JHnxrDDi3cdE_JfHgg"/>
+
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []
+      w[l].push({
+        'gtm.start': new Date().getTime(), event: 'gtm.js'
+      })
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''
+      j.async = true
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+      f.parentNode.insertBefore(j, f)
+
+    })(window, document, 'script', 'dataLayer', 'GTM\u002DNJWMX8F')
+  </script>
+
+<!-- End Google Tag Manager -->
+
+<!-- Vidyard video integration start -->
+<script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script>
+<!-- Vidyard video integration end -->
+
+
+  
+    <link rel="stylesheet" href="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-base.lc-3c3f5dd55b9ba40f3a512eeabe9e111c-lc.min.css" type="text/css">
+
+
+
+
+
+
+    
+    
+    
+
+    
+
+    
+
+<script type="text/javascript">
+            if ( !window.CQ_Analytics ) {
+                window.CQ_Analytics = {};
+            }
+            if ( !CQ_Analytics.TestTarget ) {
+                CQ_Analytics.TestTarget = {};
+            }
+            CQ_Analytics.TestTarget.clientCode = 'avayallc';
+            CQ_Analytics.TestTarget.currentPagePath = '\/content\/aem\u002Davaya\u002Dportal\/locale\u002Dsites\/en_us\/solutions\/mcp';
+        </script>
+    <script src="/etc.clientlibs/cq/testandtarget/clientlibs/testandtarget/parameters.lc-775c9eb7ff4c48025fbe3d707bcf5f55-lc.min.js"></script>
+<script src="/etc.clientlibs/clientlibs/granite/jquery.lc-7842899024219bcbdb5e72c946870b79-lc.min.js"></script>
+<script src="/etc.clientlibs/cq/personalization/clientlib/personalization/integrations/commons.lc-5370019fd157d93202ac2d6f771f04b8-lc.min.js"></script>
+<script src="/etc.clientlibs/cq/testandtarget/clientlibs/testandtarget/atjs-integration.lc-401aa9ea1dd109fe7762186a74ae6c2b-lc.min.js"></script>
+
+
+    
+
+
+        <script type="text/javascript" src="//assets.adobedtm.com/4ef3d55cac66/aaa699ed8668/launch-ea8dc7528956.min.js" async></script>
+
+
+    
+    <script src="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-dependencies.lc-7236095638a9dac496a4644c3f068d6c-lc.min.js"></script>
+
+
+    
+    <link rel="stylesheet" href="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-dependencies.lc-d41d8cd98f00b204e9800998ecf8427e-lc.min.css" type="text/css">
+<link rel="stylesheet" href="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-site.lc-095a6cb06119f8cc277c43684fb878f5-lc.min.css" type="text/css">
+
+
+    
+    
+    <script async src="/etc.clientlibs/core/wcm/components/commons/datalayer/v2/clientlibs/core.wcm.components.commons.datalayer.v2.lc-1e0136bad0acfb78be509234578e44f9-lc.min.js"></script>
+
+
+    
+    <script async src="/etc.clientlibs/core/wcm/components/commons/datalayer/acdl/core.wcm.components.commons.datalayer.acdl.lc-bf921af342fd2c40139671dbf0920a1f-lc.min.js"></script>
+
+
+
+    
+    
+    <meta class="elastic" name="language" content="en"/>
+
+    
+    <meta class="elastic" name="name" content="MCP"/>
+
+    
+    <meta class="elastic" name="description" content="Explore how Avaya leverages the Model Context Protocol (MCP), an open standard for securely connecting AI models and LLMs to enterprise communications data."/>
+
+    
+
+    
+    <meta class="elastic" name="publish_date" content="2026-04-24T15:03:23Z"/>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+    
+    
+       
+    
+
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="facebook-domain-verification" content="wkehcojvtaduz276nme9njm0c619rw"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="@Avaya"/>
+
+
+    <meta name="WT.z_locale" content="en"/>
+    
+    <meta name="DC_Date" content="2026-04-24T15:03:23Z"/>
+    
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="Avaya"/>
+    <meta property="og:type" content="website"/>
+    
+    <meta property="og:url" content="https://www.avaya.com/en/solutions/mcp/"/>
+
+    <meta property="og:title" content="Secure Model Context Protocol (MCP) Integration | Avaya"/>
+    <meta property="og:description" content="Explore how Avaya leverages the Model Context Protocol (MCP), an open standard for securely connecting AI models and LLMs to enterprise communications data."/>
+    
+
+    
+</head>
+    <body class="page basicpage" id="page-35045742bc" data-cmp-link-accessibility-enabled data-cmp-link-accessibility-text="opens in a new tab" data-cmp-data-layer-enabled data-cmp-data-layer-name="adobeDataLayer">
+        <script>
+          var dataLayerName = 'adobeDataLayer' || 'adobeDataLayer';
+          window[dataLayerName] = window[dataLayerName] || [];
+          window[dataLayerName].push({
+              page: JSON.parse("{\x22page\u002D35045742bc\x22:{\x22@type\x22:\x22aem\u002Davaya\u002Dportal\/components\/page\x22,\x22repo:modifyDate\x22:\x222026\u002D04\u002D24T15:03:23Z\x22,\x22dc:title\x22:\x22MCP\x22,\x22dc:description\x22:\x22Explore how Avaya leverages the Model Context Protocol (MCP), an open standard for securely connecting AI models and LLMs to enterprise communications data.\x22,\x22xdm:template\x22:\x22\/conf\/aem\u002Davaya\u002Dportal\/settings\/wcm\/templates\/page\u002Dcontent\x22,\x22xdm:language\x22:\x22en\u002DUS\x22,\x22xdm:tags\x22:[],\x22repo:path\x22:\x22\/content\/aem\u002Davaya\u002Dportal\/locale\u002Dsites\/en_us\/solutions\/mcp.html\x22}}"),
+              event:'cmp:show',
+              eventInfo: {
+                  path: 'page.page\u002D35045742bc'
+              }
+          });
+        </script>
+        
+        
+            
+
+
+
+
+            
+
+<!-- Google Tag Manager (noscript) -->
+
+
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJWMX8F" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+
+
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Libraries for Eloqua forms -->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js'></script>
+
+<!-- End Libraries for Eloqua forms -->
+
+<div class="root container responsivegrid">
+
+    
+    <div id="container-c4a1f8da40" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <header class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+<div id="header" class="cmp-experiencefragment cmp-experiencefragment--Header">
+
+
+    
+    <div id="container-db276205dc" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="navigation aem-GridColumn aem-GridColumn--default--12"><!-- Header HTML Template - Start -->
+
+    
+    
+
+
+
+    <section class="site-header">
+        <nav class="site-header__wrapper" aria-label="main navigation">
+            <div class="site-header__logo">
+                <a href="https://www.avaya.com/en/" aria-label="home" target="_self">
+                    <img src="/content/dam/aem-avaya-portal/de_de/about-avaya/newsroom-press-kit/avaya_red_logo_600x300.jpg" alt="Home"/>
+                </a>
+            </div>
+
+            <div class="site-header__menu">
+                <div class="site-header__menu-overlay"></div>
+                <ul class="site-header__main-menu" role="menu" aria-label="Main navigation">
+
+                    
+                        
+                            
+                            
+                                <li class="site-header__main-menu--item" role="presentation">
+                                    <a class="site-header__main-menu--item-link" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="submenu-megamenu-0" role="menuitem" target="_self">
+                                        <span class="site-header__main-menu--item-link-text">
+                                            Products
+                                        </span>
+                                        <span class="site-header__main-menu--item-link-icon">
+                                            <svg class="icon icon-dropdown-arrow">
+                                                <use xlink:href="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-homepage/resources/images/svg/symbol-defs.svg#icon-dropdown-arrow">
+                                                </use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <!-- EXPERIENCE FRAGMENT -->
+                                    
+                                        <div class="xfpage page basicpage">
+
+
+    
+    <div id="container-8818caad24" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="column-container tabs panelcontainer mega-menu aem-GridColumn aem-GridColumn--default--12"><div data-cmp-data-layer="{&#34;column-container-6c74d8d5b6&#34;:{&#34;shownItems&#34;:[&#34;column-container-6c74d8d5b6-item-131d9045a6&#34;],&#34;@type&#34;:&#34;aem-avaya-portal/components/column-container&#34;,&#34;repo:modifyDate&#34;:&#34;2026-03-17T14:52:20Z&#34;}}" data-placeholder-text="false" class="cmp-column-container">
+
+    <div class="column-container__wrapper">
+        <div class="column-container__column" data-col="3">
+            <div data-cmp-data-layer="{&#34;column-container-6c74d8d5b6-item-131d9045a6&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/column-container/item&#34;,&#34;repo:modifyDate&#34;:&#34;2026-03-17T14:52:20Z&#34;,&#34;dc:title&#34;:&#34;Contact Center&#34;}}" class="column-container__column--3-col"><div class="container responsivegrid column-container__column--inner">
+
+    
+    <div id="container-cbc3bf703c" class="cmp-container" style="background-color:#FFF;">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text text--eyebrow aem-GridColumn aem-GridColumn--default--12">
+<div data-cmp-data-layer="{&#34;text-da3abd7346&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/text&#34;,&#34;repo:modifyDate&#34;:&#34;2026-03-17T14:52:20Z&#34;,&#34;xdm:text&#34;:&#34;&lt;p>CONTACT&lt;br>\r\nCENTER&lt;/p>\r\n&#34;}}" id="text-da3abd7346" class="cmp-text">
+    <p>CONTACT<br />
+CENTER</p>
+
+</div>
+
+    
+
+</div>
+<div class="teaser teaser--section-title aem-GridColumn aem-GridColumn--default--12">
+<div id="teaser-830e5bce40" class="cmp-teaser" data-cmp-data-layer="{&#34;teaser-830e5bce40&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/teaser&#34;,&#34;repo:modifyDate&#34;:&#34;2026-03-17T14:52:20Z&#34;}}">
+    
+        <div class="cmp-teaser__content">
+            
+    
+
+            
+    
+
+            
+    
+
+            
+    <div class="cmp-teaser__action-container">
+        
+    <a class="cmp-teaser__action-link" id="teaser-830e5bce40-cta-f96abb0dd7" data-cmp-data-layer="{&#34;teaser-830e5bce40-cta-f96abb0dd7&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/teaser/cta&#34;,&#34;dc:title&#34;:&#34;Avaya Infinity Platform&#34;,&#34;xdm:linkURL&#34;:&#34;/en/products/infinity-platform/&#34;}}" data-cmp-clickable href="https://www.avaya.com/en/products/infinity-platform/" target="_self">Avaya Infinity Platform</a>
+
+    </div>
+
+        </div>
+        
+    
+
+    
+</div>
+
+    
+
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div data-cmp-data-layer="{&#34;text-49fd3d46e9&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/text&#34;,&#34;repo:modifyDate&#34;:&#34;2026-03-17T14:52:20Z&#34;,&#34;xdm:text&#34;:&#34;&lt;p>A comprehensive enterprise CX platform designed for the AI age.&lt;/p>\r\n&#34;}}" id="text-49fd3d46e9" class="cmp-text">
+    <p>A comprehensive enterprise CX platform designed for the AI age.</p>
+
+</div>
+
+    
+
+</div>
+<div class="separator aem-GridColumn aem-GridColumn--default--12">
+<div id="separator-2fccf69b51" class="cmp-separator">
+    <hr class="cmp-separator__horizontal-rule" aria-hidden="true" role="none"/>
+</div></div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+</div>
+<div data-cmp-data-layer="{&#34;column-container-6c74d8d5b6-item-18cabddfc6&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/column-container/item&#34;,&#34;repo:modifyDate&#34;:&#34;2026-03-17T14:52:20Z&#34;,&#34;dc:title&#34;:&#34;CCI&#34;}}" class="column-container__column--3-col"><div class="container responsivegrid column-container__column--inner">
+
+    
+    <div id="container-5e21d70b29" class="cmp-container" style="background-color:#F5F5F5;">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text text--eyebrow aem-GridColumn aem-GridColumn--default--12">
+<div data-cmp-data-layer="{&#34;text-fe47f6f9f7&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/text&#34;,&#34;repo:modifyDate&#34;:&#34;2026-03-17T14:52:20Z&#34;,&#34;xdm:text&#34;:&#34;&lt;p>CRITICAL COMMUNICATIONS INFRASTRUCTURE&lt;/p>\r\n&#34;}}" id="text-fe47f6f9f7" class="cmp-text">
+    <p>CRITICAL COMMUNICATIONS INFRASTRUCTURE</p>
+
+</div>
+
+    
+
+</div>
+<div class="teaser teaser--section-title aem-GridColumn aem-GridColumn--default--12">
+<div id="teaser-d6f5bcc0f6" class="cmp-teaser" data-cmp-data-layer="{&#34;teaser-d6f5bcc0f6&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/teaser&#34;,&#34;repo:modifyDate&#34;:&#34;2026-03-17T14:52:20Z&#34;}}">
+    
+        <div class="cmp-teaser__content">
+            
+    
+
+            
+    
+
+            
+    
+
+            
+    <div class="cmp-teaser__action-container">
+        
+    <a class="cmp-teaser__action-link" id="teaser-d6f5bcc0f6-cta-820c7e74c4" data-cmp-data-layer="{&#34;teaser-d6f5bcc0f6-cta-820c7e74c4&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/teaser/cta&#34;,&#34;dc:title&#34;:&#34;Avaya Nexus&#34;,&#34;xdm:linkURL&#34;:&#34;/en/products/nexus-critical-communications-infrastructure/&#34;}}" data-cmp-clickable href="https://www.avaya.com/en/products/nexus-critical-communications-infrastructure/" target="_self">Avaya Nexus</a>
+
+    </div>
+
+        </div>
+        
+    
+
+    
+</div>
+
+    
+
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div data-cmp-data-layer="{&#34;text-827078b484&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/text&#34;,&#34;repo:modifyDate&#34;:&#34;2026-03-17T14:52:20Z&#34;,&#34;xdm:text&#34;:&#34;&lt;p>Mission-critical voice with unmatched resiliency.&lt;br>\r\n&lt;/p>\r\n&#34;}}" id="text-827078b484" class="cmp-text">
+    <p>Mission-critical voice with unmatched resiliency.<br />
+</p>
+
+</div>
+
+    
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+</div>
+<div data-cmp-data-layer="{&#34;column-container-6c74d8d5b6-item-13fa73c370&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/column-container/item&#34;,&#34;repo:modifyDate&#34;:&#34;2026-03-17T14:52:20Z&#34;,&#34;dc:title&#34;:&#34;Unified Communications&#34;}}" class="column-container__column--3-col"><div class="container responsivegrid column-container__column--inner">
+
+    
+    <div id="container-0e00c0ebf7" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text text--eyebrow aem-GridColumn aem-GridColumn--default--12">
+<div data-cmp-data-layer="{&#34;text-0d591bcc20&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/text&#34;,&#34;repo:modifyDate&#34;:&#34;2026-03-17T14:52:20Z&#34;,&#34;xdm:text&#34;:&#34;&lt;p>UNIFIED &lt;br>\r\nCOMMUNICATIONS&lt;/p>\r\n&#34;}}" id="text-0d591bcc20" class="cmp-text">
+    <p>UNIFIED <br />
+COMMUNICATIONS</p>
+
+</div>
+
+    
+
+</div>
+<div class="teaser teaser--section-title aem-GridColumn aem-GridColumn--default--12">
+<div id="teaser-16648a97f9" class="cmp-teaser" data-cmp-data-layer="{&#34;teaser-16648a97f9&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/teaser&#34;,&#34;repo:modifyDate&#34;:&#34;2026-03-17T14:52:20Z&#34;}}">
+    
+        <div class="cmp-teaser__content">
+            
+    
+
+            
+    
+
+            
+    
+
+            
+    <div class="cmp-teaser__action-container">
+        
+    <a class="cmp-teaser__action-link" id="teaser-16648a97f9-cta-50e12c0fdc" data-cmp-data-layer="{&#34;teaser-16648a97f9-cta-50e12c0fdc&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/teaser/cta&#34;,&#34;dc:title&#34;:&#34;Communication &amp; Collaboration&#34;,&#34;xdm:linkURL&#34;:&#34;/en/products/unified-communications/&#34;}}" data-cmp-clickable href="https://www.avaya.com/en/products/unified-communications/" target="_self">Communication &amp; Collaboration</a>
+
+    </div>
+
+        </div>
+        
+    
+
+    
+</div>
+
+    
+
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div data-cmp-data-layer="{&#34;text-0101f275be&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/text&#34;,&#34;repo:modifyDate&#34;:&#34;2026-03-17T14:52:20Z&#34;,&#34;xdm:text&#34;:&#34;&lt;p>Enhance productivity and foster connectivity across your business.&lt;/p>\r\n&#34;}}" id="text-0101f275be" class="cmp-text">
+    <p>Enhance productivity and foster connectivity across your business.</p>
+
+</div>
+
+    
+
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div data-cmp-data-layer="{&#34;text-2105f331b7&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/text&#34;,&#34;repo:modifyDate&#34;:&#34;2026-03-17T14:52:20Z&#34;,&#34;xdm:text&#34;:&#34;&lt;p>&lt;a href=\&#34;/content/aem-avaya-portal/locale-sites/en_us/products/aura.html\&#34;>Avaya Aura&lt;/a>&lt;br>\r\n&lt;a href=\&#34;/content/aem-avaya-portal/locale-sites/en_us/products/aura-private-cloud.html\&#34;>Avaya Aura Private Cloud&lt;/a>&lt;br>\r\n&lt;a href=\&#34;/content/aem-avaya-portal/locale-sites/en_us/products/cloud-office.html\&#34;>Avaya Cloud Office&lt;/a>&lt;br>\r\n&lt;a href=\&#34;/content/aem-avaya-portal/locale-sites/en_us/products/ip-office.html\&#34;>Avaya IP Office&lt;/a>&lt;/p>\r\n&#34;}}" id="text-2105f331b7" class="cmp-text">
+    <p><a href="https://www.avaya.com/en/products/aura/" target="_self">Avaya Aura</a><br />
+<a href="https://www.avaya.com/en/products/aura-private-cloud/" target="_self">Avaya Aura Private Cloud</a><br />
+<a href="https://www.avaya.com/en/products/cloud-office/" target="_self">Avaya Cloud Office</a><br />
+<a href="https://www.avaya.com/en/products/ip-office/" target="_self">Avaya IP Office</a></p>
+
+</div>
+
+    
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+</div>
+
+        </div>
+        
+    </div>
+
+</div></div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+                                    
+                                    <!-- EXPERIENCE FRAGMENT -->
+                                </li>
+                            
+                        
+                    
+                        
+                            
+                            
+                                <li class="site-header__main-menu--item" role="presentation">
+                                    <a class="site-header__main-menu--item-link" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="submenu-megamenu-1" role="menuitem" target="_self">
+                                        <span class="site-header__main-menu--item-link-text">
+                                            Solutions
+                                        </span>
+                                        <span class="site-header__main-menu--item-link-icon">
+                                            <svg class="icon icon-dropdown-arrow">
+                                                <use xlink:href="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-homepage/resources/images/svg/symbol-defs.svg#icon-dropdown-arrow">
+                                                </use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <!-- EXPERIENCE FRAGMENT -->
+                                    
+                                        <div class="xfpage page basicpage">
+
+
+    
+    <div id="container-9414f7042e" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="column-container tabs panelcontainer mega-menu aem-GridColumn aem-GridColumn--default--12"><div data-cmp-data-layer="{&#34;column-container-bf80b9141d&#34;:{&#34;shownItems&#34;:[&#34;column-container-bf80b9141d-item-24d11d0856&#34;],&#34;@type&#34;:&#34;aem-avaya-portal/components/column-container&#34;,&#34;repo:modifyDate&#34;:&#34;2025-06-23T21:26:56Z&#34;}}" data-placeholder-text="false" class="cmp-column-container">
+
+    <div class="column-container__wrapper">
+        <div class="column-container__column" data-col="2">
+            <div data-cmp-data-layer="{&#34;column-container-bf80b9141d-item-24d11d0856&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/column-container/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-06-23T21:26:56Z&#34;,&#34;dc:title&#34;:&#34;By Industry&#34;}}" class="column-container__column--2-col"><div class="container responsivegrid column-container__column--inner">
+
+    
+    <div id="container-db0db2cae8" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+<div data-cmp-data-layer="{&#34;text-5a7239a117&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/text&#34;,&#34;repo:modifyDate&#34;:&#34;2025-06-23T21:26:56Z&#34;,&#34;xdm:text&#34;:&#34;&lt;p>BY INDUSTRY&lt;/p>\r\n&#34;}}" id="text-5a7239a117" class="cmp-text">
+    <p>BY INDUSTRY</p>
+
+</div>
+
+    
+
+</div>
+<div class="list aem-GridColumn aem-GridColumn--default--12">
+<ul id="list-a3a9b54e5c" class="cmp-list">
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/solutions/healthcare-provider/" target="_self">
+            <span class="cmp-list__item-title">Healthcare</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/solutions/education/" target="_self">
+            <span class="cmp-list__item-title">Education</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/solutions/financial-services/" target="_self">
+            <span class="cmp-list__item-title">Financial Services</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/solutions/media-and-entertainment/" target="_self">
+            <span class="cmp-list__item-title">Media and Entertainment</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/solutions/public-sector/" target="_self">
+            <span class="cmp-list__item-title">Government</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+</ul>
+
+    
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+</div>
+<div data-cmp-data-layer="{&#34;column-container-bf80b9141d-item-6dd5d47d20&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/column-container/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-06-23T21:26:56Z&#34;,&#34;dc:title&#34;:&#34;By Use Case&#34;}}" class="column-container__column--2-col"><div class="container responsivegrid column-container__column--inner">
+
+    
+    <div id="container-484ce7d941" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+<div data-cmp-data-layer="{&#34;text-cc7d3bb6c9&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/text&#34;,&#34;repo:modifyDate&#34;:&#34;2025-06-23T21:26:56Z&#34;,&#34;xdm:text&#34;:&#34;&lt;p>BY USE CASE&lt;/p>\r\n&#34;}}" id="text-cc7d3bb6c9" class="cmp-text">
+    <p>BY USE CASE</p>
+
+</div>
+
+    
+
+</div>
+<div class="list aem-GridColumn aem-GridColumn--default--12">
+<ul id="list-d8bb1db04e" class="cmp-list">
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/solutions/customer-experience-and-contact-center/" target="_self">
+            <span class="cmp-list__item-title">Improve customer experience</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/solutions/employee-experience/" target="_self">
+            <span class="cmp-list__item-title">Increase employee engagement</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/solutions/business-growth/" target="_self">
+            <span class="cmp-list__item-title">Drive business growth</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/solutions/ai-virtual-agent/" target="_self">
+            <span class="cmp-list__item-title">AI virtual agents</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/solutions/remote-contact-center/" target="_self">
+            <span class="cmp-list__item-title">Remote contact center</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+</ul>
+
+    
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+</div>
+
+        </div>
+        
+    </div>
+
+</div></div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+                                    
+                                    <!-- EXPERIENCE FRAGMENT -->
+                                </li>
+                            
+                        
+                    
+                        
+                            
+                            
+                                <li class="site-header__main-menu--item" role="presentation">
+                                    <a class="site-header__main-menu--item-link" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="submenu-megamenu-2" role="menuitem" target="_self">
+                                        <span class="site-header__main-menu--item-link-text">
+                                            Services &amp; Support
+                                        </span>
+                                        <span class="site-header__main-menu--item-link-icon">
+                                            <svg class="icon icon-dropdown-arrow">
+                                                <use xlink:href="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-homepage/resources/images/svg/symbol-defs.svg#icon-dropdown-arrow">
+                                                </use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <!-- EXPERIENCE FRAGMENT -->
+                                    
+                                        <div class="xfpage page basicpage">
+
+
+    
+    <div id="container-2dd3dc3bd6" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="column-container tabs panelcontainer mega-menu aem-GridColumn aem-GridColumn--default--12"><div data-cmp-data-layer="{&#34;column-container-14928ef73d&#34;:{&#34;shownItems&#34;:[&#34;column-container-14928ef73d-item-e6f83c214f&#34;],&#34;@type&#34;:&#34;aem-avaya-portal/components/column-container&#34;,&#34;repo:modifyDate&#34;:&#34;2026-02-19T14:28:37Z&#34;}}" data-placeholder-text="false" class="cmp-column-container">
+
+    <div class="column-container__wrapper">
+        <div class="column-container__column" data-col="2">
+            <div data-cmp-data-layer="{&#34;column-container-14928ef73d-item-e6f83c214f&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/column-container/item&#34;,&#34;dc:title&#34;:&#34;Avaya Services&#34;}}" class="column-container__column--2-col"><div class="container responsivegrid column-container__column--inner">
+
+    
+    <div id="container-6b703b9258" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text text--section-title aem-GridColumn aem-GridColumn--default--12">
+<div data-cmp-data-layer="{&#34;text-ee623bf22a&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/text&#34;,&#34;repo:modifyDate&#34;:&#34;2026-02-19T14:28:37Z&#34;,&#34;xdm:text&#34;:&#34;&lt;p>&lt;b>Avaya Services&lt;/b>&lt;/p>\r\n&#34;}}" id="text-ee623bf22a" class="cmp-text">
+    <p><b>Avaya Services</b></p>
+
+</div>
+
+    
+
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div data-cmp-data-layer="{&#34;text-f41f256f41&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/text&#34;,&#34;repo:modifyDate&#34;:&#34;2026-02-19T14:28:37Z&#34;,&#34;xdm:text&#34;:&#34;&lt;p>Expert services to design, implement, and manage your communications infrastructure. Get the end-to-end support you need to drive real business growth.&lt;/p>\r\n&#34;}}" id="text-f41f256f41" class="cmp-text">
+    <p>Expert services to design, implement, and manage your communications infrastructure. Get the end-to-end support you need to drive real business growth.</p>
+
+</div>
+
+    
+
+</div>
+<div class="button btn-secondary aem-GridColumn aem-GridColumn--default--12">
+<a id="button-ab2d16825d" class="cmp-button" data-cmp-clickable data-cmp-data-layer="{&#34;button-ab2d16825d&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/button&#34;,&#34;repo:modifyDate&#34;:&#34;2026-02-19T14:28:37Z&#34;,&#34;dc:title&#34;:&#34;Explore services&#34;,&#34;xdm:linkURL&#34;:&#34;/en/services/&#34;}}" href="https://www.avaya.com/en/services/" target="_self">
+    
+    
+
+    <span class="cmp-button__text">Explore services</span>
+</a>
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+</div>
+<div data-cmp-data-layer="{&#34;column-container-14928ef73d-item-199347d661&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/column-container/item&#34;,&#34;repo:modifyDate&#34;:&#34;2026-02-19T14:28:37Z&#34;,&#34;dc:title&#34;:&#34;Support&#34;}}" class="column-container__column--2-col"><div class="container responsivegrid column-container__column--inner">
+
+    
+    <div id="container-35687665c5" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+<div data-cmp-data-layer="{&#34;text-18b72457e5&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/text&#34;,&#34;repo:modifyDate&#34;:&#34;2026-02-19T14:01:11Z&#34;,&#34;xdm:text&#34;:&#34;&lt;p>SUPPORT&lt;/p>\r\n&#34;}}" id="text-18b72457e5" class="cmp-text">
+    <p>SUPPORT</p>
+
+</div>
+
+    
+
+</div>
+<div class="list aem-GridColumn aem-GridColumn--default--12">
+<ul id="list-a197e2e372" class="cmp-list">
+    <li class="cmp-list__item">
+
+    
+
+    
+        
+        <a class="cmp-list__item-link " href="https://support.avaya.com/support/en/contact" target="_blank">
+            <span class="cmp-list__item-title">Customer Support</span>
+            
+        </a>
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/developer-support/sdks/" target="_self">
+            <span class="cmp-list__item-title">APIs and SDKs</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/partner-locator/" target="_self">
+            <span class="cmp-list__item-title">Partner Locator</span>
+            
+        </a>
+        
+    
+
+</li>
+    
+</ul>
+
+    
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+</div>
+
+        </div>
+        
+    </div>
+
+</div></div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+                                    
+                                    <!-- EXPERIENCE FRAGMENT -->
+                                </li>
+                            
+                        
+                    
+                        
+                            
+                            
+                                <li class="site-header__main-menu--item" role="presentation">
+                                    <a class="site-header__main-menu--item-link" href="#" aria-haspopup="true" aria-expanded="false" aria-controls="submenu-megamenu-3" role="menuitem" target="_self">
+                                        <span class="site-header__main-menu--item-link-text">
+                                            Newsroom
+                                        </span>
+                                        <span class="site-header__main-menu--item-link-icon">
+                                            <svg class="icon icon-dropdown-arrow">
+                                                <use xlink:href="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-homepage/resources/images/svg/symbol-defs.svg#icon-dropdown-arrow">
+                                                </use>
+                                            </svg>
+                                        </span>
+                                    </a>
+                                    <!-- EXPERIENCE FRAGMENT -->
+                                    
+                                        <div class="xfpage page basicpage">
+
+
+    
+    <div id="container-cce26288b1" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="column-container tabs panelcontainer mega-menu aem-GridColumn aem-GridColumn--default--12"><div data-cmp-data-layer="{&#34;column-container-44de726325&#34;:{&#34;shownItems&#34;:[&#34;column-container-44de726325-item-dab73d5c51&#34;],&#34;@type&#34;:&#34;aem-avaya-portal/components/column-container&#34;,&#34;repo:modifyDate&#34;:&#34;2026-02-18T16:51:06Z&#34;}}" data-placeholder-text="false" class="cmp-column-container">
+
+    <div class="column-container__wrapper">
+        <div class="column-container__column" data-col="3">
+            <div data-cmp-data-layer="{&#34;column-container-44de726325-item-dab73d5c51&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/column-container/item&#34;,&#34;dc:title&#34;:&#34;Resources&#34;}}" class="column-container__column--3-col"><div class="container responsivegrid column-container__column--inner">
+
+    
+    <div id="container-dd0dc80209" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text text--section-title aem-GridColumn aem-GridColumn--default--12">
+<div data-cmp-data-layer="{&#34;text-ceea5f31ee&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/text&#34;,&#34;repo:modifyDate&#34;:&#34;2026-02-18T16:51:06Z&#34;,&#34;xdm:text&#34;:&#34;&lt;p>&lt;b>Resources Library&lt;/b>&lt;/p>\r\n&#34;}}" id="text-ceea5f31ee" class="cmp-text">
+    <p><b>Resources Library</b></p>
+
+</div>
+
+    
+
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div data-cmp-data-layer="{&#34;text-05e258966a&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/text&#34;,&#34;repo:modifyDate&#34;:&#34;2026-02-18T16:51:06Z&#34;,&#34;xdm:text&#34;:&#34;&lt;p>Explore our Resources Library—your go-to hub for quick tips, deep dives, and insights—all in one place.&lt;/p>\r\n&#34;}}" id="text-05e258966a" class="cmp-text">
+    <p>Explore our Resources Library—your go-to hub for quick tips, deep dives, and insights—all in one place.</p>
+
+</div>
+
+    
+
+</div>
+<div class="button btn-secondary aem-GridColumn aem-GridColumn--default--12">
+<a id="button-147800b28e" class="cmp-button" data-cmp-clickable data-cmp-data-layer="{&#34;button-147800b28e&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/button&#34;,&#34;repo:modifyDate&#34;:&#34;2026-02-18T16:51:06Z&#34;,&#34;dc:title&#34;:&#34;Explore resources&#34;,&#34;xdm:linkURL&#34;:&#34;/en/resources/&#34;}}" href="https://www.avaya.com/en/resources/" target="_self">
+    
+    
+
+    <span class="cmp-button__text">Explore resources</span>
+</a>
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+</div>
+<div data-cmp-data-layer="{&#34;column-container-44de726325-item-11044f1683&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/column-container/item&#34;,&#34;repo:modifyDate&#34;:&#34;2026-02-18T16:51:06Z&#34;,&#34;dc:title&#34;:&#34;Discover&#34;}}" class="column-container__column--3-col"><div class="container responsivegrid column-container__column--inner">
+
+    
+    <div id="container-ac965536ff" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text aem-GridColumn aem-GridColumn--default--12">
+<div data-cmp-data-layer="{&#34;text-0b4316d79c&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/text&#34;,&#34;repo:modifyDate&#34;:&#34;2026-02-18T16:51:06Z&#34;,&#34;xdm:text&#34;:&#34;&lt;p>DISCOVER&lt;/p>\r\n&#34;}}" id="text-0b4316d79c" class="cmp-text">
+    <p>DISCOVER</p>
+
+</div>
+
+    
+
+</div>
+<div class="list aem-GridColumn aem-GridColumn--default--12">
+<ul id="list-75ca7a77bd" class="cmp-list">
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/blogs/" target="_self">
+            <span class="cmp-list__item-title">Blogs</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/success-stories/" target="_self">
+            <span class="cmp-list__item-title">Customer Stories</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/videos/" target="_self">
+            <span class="cmp-list__item-title">Videos</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/newsroom/" target="_self">
+            <span class="cmp-list__item-title">Press</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/about-avaya/events/" target="_self">
+            <span class="cmp-list__item-title">Events</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+</ul>
+
+    
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+</div>
+<div data-cmp-data-layer="{&#34;column-container-44de726325-item-13fd23295a&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/column-container/item&#34;,&#34;repo:modifyDate&#34;:&#34;2026-02-18T16:51:06Z&#34;,&#34;dc:title&#34;:&#34;Featured Resource&#34;}}" class="column-container__column--3-col"><div class="container responsivegrid column-container__column--inner">
+
+    
+    <div id="container-9e03362f63" class="cmp-container" style="background-color:#F5F5F5;">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="card aem-GridColumn aem-GridColumn--default--12"><!-- card.html -->
+
+<!-- Component Default Configurations Start -->
+
+<!-- Component Default Configurations End -->
+
+
+
+
+    
+
+    
+
+    
+
+    
+          
+  
+<div class="resource">
+    <a href="https://www.avaya.com/en/documents/eb-avaya-infinity-driving-intelligent-orchestration.pdf" class="card__link" rel="noreferer, noopener" target="_blank">
+        
+            <div class="card__tag">
+                <span class="card__tag--icon ebook"></span>
+                <span class="card__tag--label">eBook</span>
+            </div>
+        
+
+        <div class="card__title">
+            <h4 class="card__title--text">
+                Avaya Infinity: Driving intelligent orchestration and creating connections
+            </h4>
+        </div>
+
+        <div class="card__description">
+         
+        </div>
+
+        <div class="card__cta">
+            <span class="card__cta--link">Read the eBook</span>
+        </div>
+    </a>
+</div>
+
+    
+
+     
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+</div>
+
+        </div>
+        
+    </div>
+
+</div></div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+                                    
+                                    <!-- EXPERIENCE FRAGMENT -->
+                                </li>
+                            
+                        
+                    
+                        
+                            
+                                <li class="site-header__main-menu--item simple" role="presentation">
+                                    <a class="site-header__main-menu--item-link" href="https://www.avaya.com/en/about-avaya/" aria-haspopup="false" aria-expanded="false" role="menuitem" target="_self">
+                                        <span class="site-header__main-menu--item-link-text">
+                                            Company
+                                        </span>
+                                    </a>
+                                </li>
+                            
+                            
+                        
+                    
+                    <!-- mega menu utility mobile -->
+                    <li class="site-header__main-menu--item site-header__main-menu--mobile">
+                        
+  <!-- Component Default Configurations Start -->
+  
+  
+  
+    
+
+
+  
+
+  <!-- HEADER  SEARCH -->
+  
+    <section class="search" id="navigation-search-box" role="search" data-search-profile="en" data-search-results="https://www.avaya.com/en/search-results/">
+
+      <div class="search__btn btn btn-search" role="button">
+
+        <a href="#" class="btn__icon-search" aria-label="search" target="_self">
+          <svg class="icon icon-search">
+            <use xlink:href="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-site/resources/images/svg/symbol-defs.svg#icon-search">
+            </use>
+          </svg>
+          <span class="search__btn-label btn-search__text">Search</span>
+        </a>
+         <span class="site-header__main-menu--item-link-icon">
+          <svg class="icon icon-dropdown-arrow">
+            <use xlink:href="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-homepage/resources/images/svg/symbol-defs.svg#icon-dropdown-arrow">
+            </use>
+          </svg>
+        </span>
+
+        <form class="search__form" data-hook-search="form" method="get" action="#" autocomplete="off">
+          <div class="search__field">
+
+            <input class="search__input" data-cmp-hook-search="input" type="text" name="q" placeholder="Search" role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-invalid="false" aria-expanded="false" aria-label="search input"/>
+            <svg class="icon icon-search">
+              <use xlink:href="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-site/resources/images/svg/symbol-defs.svg#icon-search">
+              </use>
+            </svg>
+          </div>
+        </form>
+
+        <a href="#" class="icon-close" aria-label="Close search" target="_self">
+          <svg class="icon ">
+            <use xlink:href="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-site/resources/images/svg/symbol-defs.svg#icon-mobile-close">
+            </use>
+          </svg>
+          </span>
+        </a>
+      </div>
+    </section>
+  
+
+  <div class="search__info" aria-live="polite" role="status"></div>
+
+                    </li>
+                    <li class="site-header__main-menu--item site-header__main-menu--mobile">
+                        
+    <nav class="language-navigation" id="languagenavigation-240583e139" data-cmp-data-layer="{&#34;languagenavigation-240583e139&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/languagenavigation&#34;,&#34;repo:modifyDate&#34;:&#34;2026-02-18T19:17:19Z&#34;}}" aria-label="Languages" role="navigation">
+        <a class="language-navigation--toggle utility-menu--mobile--link" href="#" aria-label="language" target="_self">
+            <svg class="icon icon-globe" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <use xlink:href="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-site/resources/images/svg/symbol-defs.svg#icon-globe">
+                </use>
+            </svg>
+            <span class="site-header__main-menu--item-link-text">
+                Languages
+            </span>
+            <span class="site-header__main-menu--item-link-icon">
+                <svg class="icon icon-dropdown-arrow">
+                    <use xlink:href="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-homepage/resources/images/svg/symbol-defs.svg#icon-dropdown-arrow">
+                    </use>
+                </svg>
+            </span>
+        </a>
+        <ul class="language-navigation__group">
+            <li class="language-navigation__item language-navigation__item--countrycode-US language-navigation__item--langcode-en-US language-navigation__item--level-0 language-navigation__item--active" data-cmp-data-layer="{&#34;languagenavigation-240583e139-item-35045742bc&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/languagenavigation/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-07-23T15:28:35Z&#34;,&#34;dc:title&#34;:&#34;English&#34;,&#34;xdm:linkURL&#34;:&#34;/en/solutions/mcp/&#34;}}">
+                
+                <a data-cmp-clickable class="language-navigation__item-link" hreflang="en-US" lang="en-US" rel="alternate" href="https://www.avaya.com/en/solutions/mcp/" target="_self">English</a>
+            </li>
+        
+            <li class="language-navigation__item language-navigation__item--countrycode-FR language-navigation__item--langcode-fr-FR language-navigation__item--level-0" data-cmp-data-layer="{&#34;languagenavigation-240583e139-item-35e6b75666&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/languagenavigation/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-08-07T09:45:52Z&#34;,&#34;dc:title&#34;:&#34;Français&#34;,&#34;xdm:linkURL&#34;:&#34;/fr/solutions/mcp/&#34;}}">
+                
+                <a data-cmp-clickable class="language-navigation__item-link" hreflang="fr-FR" lang="fr-FR" rel="alternate" href="https://www.avaya.com/fr/solutions/mcp/" target="_self">Français</a>
+            </li>
+        
+            <li class="language-navigation__item language-navigation__item--countrycode-DE language-navigation__item--langcode-de-DE language-navigation__item--level-0" data-cmp-data-layer="{&#34;languagenavigation-240583e139-item-c92fd3feb1&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/languagenavigation/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-08-05T09:34:52Z&#34;,&#34;dc:title&#34;:&#34;Deutsch&#34;,&#34;xdm:linkURL&#34;:&#34;/de/solutions/mcp/&#34;}}">
+                
+                <a data-cmp-clickable class="language-navigation__item-link" hreflang="de-DE" lang="de-DE" rel="alternate" href="https://www.avaya.com/de/solutions/mcp/" target="_self">Deutsch</a>
+            </li>
+        
+            <li class="language-navigation__item language-navigation__item--countrycode-IT language-navigation__item--langcode-it-IT language-navigation__item--level-0" data-cmp-data-layer="{&#34;languagenavigation-240583e139-item-db91576044&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/languagenavigation/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-08-05T12:31:52Z&#34;,&#34;dc:title&#34;:&#34;Italiano&#34;,&#34;xdm:linkURL&#34;:&#34;/it/solutions/mcp/&#34;}}">
+                
+                <a data-cmp-clickable class="language-navigation__item-link" hreflang="it-IT" lang="it-IT" rel="alternate" href="https://www.avaya.com/it/solutions/mcp/" target="_self">Italiano</a>
+            </li>
+        
+            <li class="language-navigation__item language-navigation__item--countrycode-MX language-navigation__item--langcode-es-MX language-navigation__item--level-0" data-cmp-data-layer="{&#34;languagenavigation-240583e139-item-d784836670&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/languagenavigation/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-08-04T15:23:09Z&#34;,&#34;dc:title&#34;:&#34;Español&#34;,&#34;xdm:linkURL&#34;:&#34;/es/solutions/mcp/&#34;}}">
+                
+                <a data-cmp-clickable class="language-navigation__item-link" hreflang="es-MX" lang="es-MX" rel="alternate" href="https://www.avaya.com/es/solutions/mcp/" target="_self">Español</a>
+            </li>
+        
+            <li class="language-navigation__item language-navigation__item--countrycode-JP language-navigation__item--langcode-ja-JP language-navigation__item--level-0" data-cmp-data-layer="{&#34;languagenavigation-240583e139-item-179d2fea7f&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/languagenavigation/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-08-29T14:02:58Z&#34;,&#34;dc:title&#34;:&#34;日本語&#34;,&#34;xdm:linkURL&#34;:&#34;/jp/solutions/mcp/&#34;}}">
+                
+                <a data-cmp-clickable class="language-navigation__item-link" hreflang="ja-JP" lang="ja-JP" rel="alternate" href="https://www.avaya.com/jp/solutions/mcp/" target="_self">日本語</a>
+            </li>
+        </ul>
+    </nav>
+
+                    </li>
+                </ul>
+
+                <div class="site-header__main-menu--cta-box">
+                    <a href="https://www.avaya.com/en/contacts/" class="btn btn-primary" target="_self">Contact us</a>
+                </div>
+            </div>
+
+            <div class="site-header__utility-menu">
+                
+                    <div class="site-header__language">
+    <nav class="language-navigation" id="languagenavigation-240583e139" data-cmp-data-layer="{&#34;languagenavigation-240583e139&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/languagenavigation&#34;,&#34;repo:modifyDate&#34;:&#34;2026-02-18T19:17:19Z&#34;}}" aria-label="Languages" role="navigation">
+        <a class="language-navigation--toggle utility-menu--mobile--link" href="#" aria-label="language" target="_self">
+            <svg class="icon icon-globe" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <use xlink:href="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-site/resources/images/svg/symbol-defs.svg#icon-globe">
+                </use>
+            </svg>
+            <span class="site-header__main-menu--item-link-text">
+                Languages
+            </span>
+            <span class="site-header__main-menu--item-link-icon">
+                <svg class="icon icon-dropdown-arrow">
+                    <use xlink:href="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-homepage/resources/images/svg/symbol-defs.svg#icon-dropdown-arrow">
+                    </use>
+                </svg>
+            </span>
+        </a>
+        <ul class="language-navigation__group">
+            <li class="language-navigation__item language-navigation__item--countrycode-US language-navigation__item--langcode-en-US language-navigation__item--level-0 language-navigation__item--active" data-cmp-data-layer="{&#34;languagenavigation-240583e139-item-35045742bc&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/languagenavigation/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-07-23T15:28:35Z&#34;,&#34;dc:title&#34;:&#34;English&#34;,&#34;xdm:linkURL&#34;:&#34;/en/solutions/mcp/&#34;}}">
+                
+                <a data-cmp-clickable class="language-navigation__item-link" hreflang="en-US" lang="en-US" rel="alternate" href="https://www.avaya.com/en/solutions/mcp/" target="_self">English</a>
+            </li>
+        
+            <li class="language-navigation__item language-navigation__item--countrycode-FR language-navigation__item--langcode-fr-FR language-navigation__item--level-0" data-cmp-data-layer="{&#34;languagenavigation-240583e139-item-35e6b75666&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/languagenavigation/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-08-07T09:45:52Z&#34;,&#34;dc:title&#34;:&#34;Français&#34;,&#34;xdm:linkURL&#34;:&#34;/fr/solutions/mcp/&#34;}}">
+                
+                <a data-cmp-clickable class="language-navigation__item-link" hreflang="fr-FR" lang="fr-FR" rel="alternate" href="https://www.avaya.com/fr/solutions/mcp/" target="_self">Français</a>
+            </li>
+        
+            <li class="language-navigation__item language-navigation__item--countrycode-DE language-navigation__item--langcode-de-DE language-navigation__item--level-0" data-cmp-data-layer="{&#34;languagenavigation-240583e139-item-c92fd3feb1&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/languagenavigation/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-08-05T09:34:52Z&#34;,&#34;dc:title&#34;:&#34;Deutsch&#34;,&#34;xdm:linkURL&#34;:&#34;/de/solutions/mcp/&#34;}}">
+                
+                <a data-cmp-clickable class="language-navigation__item-link" hreflang="de-DE" lang="de-DE" rel="alternate" href="https://www.avaya.com/de/solutions/mcp/" target="_self">Deutsch</a>
+            </li>
+        
+            <li class="language-navigation__item language-navigation__item--countrycode-IT language-navigation__item--langcode-it-IT language-navigation__item--level-0" data-cmp-data-layer="{&#34;languagenavigation-240583e139-item-db91576044&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/languagenavigation/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-08-05T12:31:52Z&#34;,&#34;dc:title&#34;:&#34;Italiano&#34;,&#34;xdm:linkURL&#34;:&#34;/it/solutions/mcp/&#34;}}">
+                
+                <a data-cmp-clickable class="language-navigation__item-link" hreflang="it-IT" lang="it-IT" rel="alternate" href="https://www.avaya.com/it/solutions/mcp/" target="_self">Italiano</a>
+            </li>
+        
+            <li class="language-navigation__item language-navigation__item--countrycode-MX language-navigation__item--langcode-es-MX language-navigation__item--level-0" data-cmp-data-layer="{&#34;languagenavigation-240583e139-item-d784836670&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/languagenavigation/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-08-04T15:23:09Z&#34;,&#34;dc:title&#34;:&#34;Español&#34;,&#34;xdm:linkURL&#34;:&#34;/es/solutions/mcp/&#34;}}">
+                
+                <a data-cmp-clickable class="language-navigation__item-link" hreflang="es-MX" lang="es-MX" rel="alternate" href="https://www.avaya.com/es/solutions/mcp/" target="_self">Español</a>
+            </li>
+        
+            <li class="language-navigation__item language-navigation__item--countrycode-JP language-navigation__item--langcode-ja-JP language-navigation__item--level-0" data-cmp-data-layer="{&#34;languagenavigation-240583e139-item-179d2fea7f&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/languagenavigation/item&#34;,&#34;repo:modifyDate&#34;:&#34;2025-08-29T14:02:58Z&#34;,&#34;dc:title&#34;:&#34;日本語&#34;,&#34;xdm:linkURL&#34;:&#34;/jp/solutions/mcp/&#34;}}">
+                
+                <a data-cmp-clickable class="language-navigation__item-link" hreflang="ja-JP" lang="ja-JP" rel="alternate" href="https://www.avaya.com/jp/solutions/mcp/" target="_self">日本語</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+                
+
+                
+                    <div class="site-header__search">
+  <!-- Component Default Configurations Start -->
+  
+  
+  
+    
+
+
+  
+
+  <!-- HEADER  SEARCH -->
+  
+    <section class="search" id="navigation-search-box" role="search" data-search-profile="en" data-search-results="https://www.avaya.com/en/search-results/">
+
+      <div class="search__btn btn btn-search" role="button">
+
+        <a href="#" class="btn__icon-search" aria-label="search" target="_self">
+          <svg class="icon icon-search">
+            <use xlink:href="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-site/resources/images/svg/symbol-defs.svg#icon-search">
+            </use>
+          </svg>
+          <span class="search__btn-label btn-search__text">Search</span>
+        </a>
+         <span class="site-header__main-menu--item-link-icon">
+          <svg class="icon icon-dropdown-arrow">
+            <use xlink:href="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-homepage/resources/images/svg/symbol-defs.svg#icon-dropdown-arrow">
+            </use>
+          </svg>
+        </span>
+
+        <form class="search__form" data-hook-search="form" method="get" action="#" autocomplete="off">
+          <div class="search__field">
+
+            <input class="search__input" data-cmp-hook-search="input" type="text" name="q" placeholder="Search" role="combobox" aria-autocomplete="list" aria-haspopup="true" aria-invalid="false" aria-expanded="false" aria-label="search input"/>
+            <svg class="icon icon-search">
+              <use xlink:href="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-site/resources/images/svg/symbol-defs.svg#icon-search">
+              </use>
+            </svg>
+          </div>
+        </form>
+
+        <a href="#" class="icon-close" aria-label="Close search" target="_self">
+          <svg class="icon ">
+            <use xlink:href="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-site/resources/images/svg/symbol-defs.svg#icon-mobile-close">
+            </use>
+          </svg>
+          </span>
+        </a>
+      </div>
+    </section>
+  
+
+  <div class="search__info" aria-live="polite" role="status"></div>
+</div>
+                
+                <a href="https://www.avaya.com/en/contacts/" class="btn btn-primary" target="_self">Contact us</a>
+            </div>
+
+            <a href="#" class="btn btn-hamburger" target="_self">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <use class="icon-mobile-menu" xlink:href="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-site/resources/images/svg/symbol-defs.svg#icon-mobile-menu">
+                    </use>
+                    <use class="icon-mobile-close" xlink:href="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-site/resources/images/svg/symbol-defs.svg#icon-mobile-close">
+                    </use>
+                </svg>
+            </a>
+
+            <div class="site-header__wrapper--overlay" aria-hidden="true"></div>
+        </nav> <!-- header-wrapper end -->
+    </section>
+
+    <!-- Subnavigation - start -->
+    
+    <!-- subnavigation - end -->
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    
+</header>
+<main class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    <div id="container-d76b4c4dab" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
+
+    
+    <div id="container-2c7b89cf1d" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="hero hero--medium-grid p-3 aem-GridColumn aem-GridColumn--default--12">
+
+  <!-- Component Placeholder -->
+  
+  
+  
+    
+
+
+  <!-- Main Wrapper -->
+  <div class="hero__wrapper hero__responsive-images hero__responsive-border">
+
+    <!-- Content Section -->
+    <div class="hero__content-wrapper">
+      <div class="hero__content">
+        
+
+        <h1 class="hero__title">Rearchitecting enterprise customer experience for the MCP generation </h1>
+
+        
+      </div>
+
+      <!-- CTA Buttons -->
+      <div class="hero__cta-wrapper">
+        <a href="#demo" class="btn-primary" rel="noreferer, noopener" target="_self">
+          <span>Watch a demo</span>
+        </a>
+
+        
+      </div>
+
+      <!-- Contact Section -->
+      
+    </div>
+
+    <!-- Media Section -->
+    <div class="hero__media-wrapper">
+
+      <!-- VIDEO: shows only if videoId is present -->
+      
+
+      <!-- IMAGE: shows only if NO video and imageSrc is authored -->
+      
+    </div>
+
+  </div>
+
+</div>
+<div class="intro p-2 intro--redesign-2025-col-one-no-cta-white-bg aem-GridColumn aem-GridColumn--default--12">
+
+<!-- Component Default Configurations Start -->
+
+
+
+    
+
+<!-- Component Default Configurations End -->
+
+<!-- Component HTML Main Wrapper Start -->
+<div class="intro__wrapper"> 
+    
+    
+    <div class="intro__description-one text">
+      <p>The rules of AI write themselves anew almost daily. People and brands are rushing to define what AI means and how to make it work, but a single question stands above the rest: Who controls the future of your customer and employee experiences—you, or your vendors? At Avaya, we believe the answer should be you. That’s why we are embracing the open future of AI, building the Avaya Infinity platform to support Model Context Protocol (MCP). It’s the right move—for our customers, for the market, and for the kind of trust and innovation that will define what’s next for enterprises and public sector agencies. </p>
+<p><a href="https://www.avaya.com/en/newsroom/2025/pr-us-250722/" target="_self" rel="noopener noreferrer">Read the press release</a></p>
+
+      <div class="intro__cta-wrap">
+        <a href="/en" class="intro__primary-btn" rel="noreferer, noopener" target="_self">
+          <span>Read the press release</span>
+        </a>
+      </div>
+    </div>
+    
+    
+</div>
+<!-- Component HTML Main Wrapper End -->
+    
+
+</div>
+<div class="quotes p-3 aem-GridColumn aem-GridColumn--default--12">
+
+<!-- Component Default Configurations Start -->
+
+
+
+    
+
+<!-- Component Default Configurations End -->
+
+<!-- Component HTML Main Wrapper Start -->
+  <div class="quotes__wrapper">
+      <div class="quotes__desc-section">
+          
+          <h2 class="quotes__title">What is MCP? </h2>
+          <div class="quotes__separator"></div>
+          <div class="quotes__desc text"><p>MCP stands for Model Context Protocol, an emerging open standard that enables AI models (like GPT, Claude, or Gemini) to securely and reliably interact with external tools, data sources, APIs, and user context in a structured way. It allows AI to operate with memory, relevance, and continuity—not in isolation, rather in sync with the enterprise context, user history, and operational intent. MCP makes AI infinitely useful in high-stakes, high-scale environments. </p>
+</div>
+          <div class="quotes__cta-wrapper">
+            <a href="#glossary" class="quotes__primary-btn" rel="noreferer, noopener" target="_self">
+              <span>Full glossary</span>
+            </a>
+            <a href="https://www.avaya.com/en/solutions/mcp/faq/" class="quotes__secondary-btn" rel="noreferer, noopener" target="_self">
+              <span>FAQs</span>
+            </a>
+          </div>
+      </div>
+      <div class="quotes__quote-section-wrapper">
+          <div class="quotes__quote-section">
+              <div class="quotes__quote"><p>&#34;This is not a &#39;wait-and-see&#39; moment. Avaya believes the time to be intentional about building the definitive open orchestration engine for the modern enterprise is now.&#34;</p>
+</div>
+              <p class="quotes__quotedby">David Funck, 
+                
+                <span class="quotes__quotedby-designation">Chief Technology Officer, Avaya</span>
+              </p>
+          </div>
+          
+      </div>
+  </div>
+<!-- Component HTML Main Wrapper End -->
+
+
+</div>
+<div class="pml-50 globalComponent p-3 pml-50--grey-bg aem-GridColumn aem-GridColumn--default--12">
+
+<!-- Component Default Configurations Start -->
+
+
+
+    
+
+<!-- Component Default Configurations End -->
+
+<!-- Component HTML Main Wrapper Start -->  
+<div class="pml-50__wrapper">
+  <div class="pml-50__content-wrapper">
+      
+      <h2 class="pml-50__title">How does MCP work? </h2>
+      
+      <div class="pml-50__desc text">
+          <p>MCP is built on a client → model → server architecture: </p>
+<ul><li>The <b>Client</b> gathers context (user info, role, task, environment). </li><li>The <b>Model</b> (e.g., Claude, GPT) receives the context and a list of available tools or actions. </li><li>The <b>Server</b> hosts the tools (APIs, databases, etc.) and executes any actions the model requests. </li></ul>
+<p>All communication follows <b>structured schemas</b> so everything is interpretable, traceable, and secure. </p>
+
+      </div>
+      <div class="pml-50__cta-wrapper">
+        <a href="https://www.avaya.com/en/documents/wp-model-context-protocol-uc16044en.pdf" class="pml-50__primary-btn" rel="noreferer, noopener" target="_blank">
+          <span>Read the white paper</span>
+        </a>
+        
+      </div>
+  </div>
+  <div class="pml-50__image-wrapper">
+      <img class="pml-50__img" src="/content/dam/aem-avaya-portal/en_us/MCP-page-client-model-server%20graphic-v2_380x380.jpg" alt="MCP Illustration on how it works" loading="eager"/>
+
+      <!-- Video Start -->
+      
+      <!-- Video End -->
+
+      
+  </div>
+</div>
+<!-- Component HTML Main Wrapper End -->
+    
+</div>
+<div class="videos globalComponent videos--full-feather p-2 aem-GridColumn aem-GridColumn--default--12">
+
+<!-- Component Default Configurations Start -->
+
+
+
+    
+
+<!-- Component Default Configurations End -->
+
+<!-- Component HTML Main Wrapper Start -->
+  <div class="videos__wrapper" id="demo">
+      
+      
+      <div class="videos__inner-wrapper">
+        <div class="videos__block">
+          <div class="videos__container">
+            <div class="videos__content-wrapper">
+              <h3 class="videos__title">Avaya Infinity with MCP—Achieving AI-powered enterprise communications intelligence</h3>
+              <div class="videos__description text"><p> </p>
+<p>This demonstration shows how enterprise communications supervisors or anyone from the business can not only analyze data, but also build their own dashboards and perform analyses in real time, independent of traditional interfaces.</p>
+</div>
+              <div class="videos__cta-wrapper">
+                  <a href="https://www.avaya.com/en/products/infinity-platform/" class="videos__secondary-btn" rel="noreferer, ,noopener" target="_self"><span>Learn more about Avaya Infinity</span></a>
+              </div>
+            </div>
+            
+            
+              <div class="videos__media-wrapper">
+                <img class="video__img" src="/content/dam/aem-avaya-portal/en_us/videos/2025/MCP-Video-Still-923x526-1.jpg" alt="MCP graphic" loading="lazy"/>
+                <!-- Video Start -->
+                <div class="video__play-btn image-play-btn">
+                  <a href="javascript:void(0)" aria-label="Play Button" class="vidyardTriggerElement play-btn" data-uuid="Aw8m5djW6NrQtJvgUucRWr" target="_self">
+                    <div class="vidyard-popup-modal">
+                      <div class="vidyard-player-embed" data-v="4" data-uuid="Aw8m5djW6NrQtJvgUucRWr" data-type="lightbox" data-autoplay="1" data-muted="1"></div>
+                    </div>
+                  </a>
+                </div>
+                <!-- Video End -->
+                <div class="video-loop-laptop">
+                  <div class="video-loop" style="background-image: url(/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-site/resources/images/laptop-shadow.jpg)">
+                    <div class="laptop-bg" style="background-image: url(/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-site/resources/images/laptop-V2.jpg)"></div>
+                    <div class="video-container">
+                      <div class="vidyard-outerContainer">
+                        <div class="vidyard-innerContainer">
+                          <iframe title="Avaya Infinity with MCP—Achieving AI-powered enterprise communications intelligence" src="//play.vidyard.com/Aw8m5djW6NrQtJvgUucRWr/type/background?preview=1" scrolling="no" frameborder="0" allowtransparency="true" allowfullscreen="true"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+          </div>
+        </div>
+      </div>
+  </div>
+<!-- Component HTML Main Wrapper End -->
+
+</div>
+<div class="intro p-3 intro--redesign-2025-col-one-no-cta-white-bg aem-GridColumn aem-GridColumn--default--12">
+
+<!-- Component Default Configurations Start -->
+
+
+
+    
+
+<!-- Component Default Configurations End -->
+
+<!-- Component HTML Main Wrapper Start -->
+<div class="intro__wrapper"> 
+    
+    <h2 class="intro__title">Killing friction with AI and MCP </h2>
+    <div class="intro__description-one text">
+      <p>For too long, integrating AI into customer experience has meant choosing the lesser of two evils: </p>
+<ul><li>Lock-in with a single provider’s closed ecosystem, sacrificing flexibility and future optionality </li><li>Chaos through brittle, costly, one-off integrations across multiple tools and data silos </li></ul>
+<p>This false choice limits innovation and burdens IT teams. It creates fragmented experiences that erode trust—with both customers and employees. In a world that moves at the speed of AI, this approach is simply unsustainable. </p>
+<p>Enter MCP—the open, vendor-agnostic standard changing everything. With MCP, AI models can interact seamlessly with tools, data, and operational logic—securely and at scale. A favorite metaphor for the few opining on this topic is to think of it as the USB-C for AI: one universal connector that works across models, platforms, and enterprise systems.   </p>
+<p>Created and released by Anthropic in late 2024. The rapid adoption of MCP by major technology players such as OpenAI, Google DeepMind, and Microsoft underscores its strategic importance. This alignment indicates a collective realization that proprietary integrations hinder market growth more than any advantage gained by closed ecosystems. We are currently witnessing and co-creating a foundational shift toward interoperability, transparency, and user control. </p>
+
+      <div class="intro__cta-wrap">
+        <a href="/en" class="intro__primary-btn" rel="noreferer, noopener" target="_self">
+          <span>Read the press release</span>
+        </a>
+      </div>
+    </div>
+    
+    
+</div>
+<!-- Component HTML Main Wrapper End -->
+    
+
+</div>
+<div class="animation-text-slider p-2 aem-GridColumn aem-GridColumn--default--12">
+
+   <!-- Component Default Configurations Start -->
+   
+   
+   
+    
+
+   <!-- Component Default Configurations End -->
+
+   <!-- Component HTML Main Wrapper Start -->
+   <div class="animation-text-slider__wrapper">
+
+      <div class="animation-text-slider__heading">
+         <h2 class="animation-text-slider__title"></h2>
+         
+         
+         
+      </div>
+
+      <div class="animation-text-slider__accordion-wrapper">
+         <div class="animation-text-slider__content-wrapper">
+
+            
+               <div class="animation-text-slider__content-block active">
+                  <a class="animation-text-slider__content-title" href="javascript:void(0)" target="_self">
+                     <span>Innovate on your terms with an open, model-agnostic platform</span>
+                  </a>
+                  <div class="animation-text-slider__inner-wrapper">
+                     <div class="animation-text-slider__content-text text">
+                        <ul><li>Choose the right LLM for each use case—you’re never locked into one vendor.</li><li>Let AI pull insights from your CRM, knowledge base, databases, EHRs—wherever your truth lives. </li><li>Future-proof your ecosystem so as new models and tools emerge, they can be integrated without disruption or rewrite.</li></ul>
+
+                     </div>
+                     
+                  </div>
+               </div>
+            
+               <div class="animation-text-slider__content-block ">
+                  <a class="animation-text-slider__content-title" href="javascript:void(0)" target="_self">
+                     <span>Deliver contextual experiences that create enduring connection </span>
+                  </a>
+                  <div class="animation-text-slider__inner-wrapper">
+                     <div class="animation-text-slider__content-text text">
+                        <ul><li>Build composable, flexible CX environments that create connection rooted in deep, real-time understanding of customer and constituent history, intent, and journey.</li><li>Give customers the service they expect and deserve by giving agents the full picture across touchpoints, systems, and time. </li><li>Empower agents with the knowledge they need to meet customers everywhere they are, all the time. </li></ul>
+
+                     </div>
+                     
+                  </div>
+               </div>
+            
+               <div class="animation-text-slider__content-block ">
+                  <a class="animation-text-slider__content-title" href="javascript:void(0)" target="_self">
+                     <span>Build with enterprise-grade trust, security, and governance at scale </span>
+                  </a>
+                  <div class="animation-text-slider__inner-wrapper">
+                     <div class="animation-text-slider__content-text text">
+                        <ul><li>Our zero-trust architecture means every AI call runs through an auditable gateway with strict permissions.</li><li>Immutable logs and tool-level controls support compliance with HIPAA, GDPR, and beyond for regulatory confidence. </li><li>High-stakes actions require explicit confirmation—ensuring judgment stays human, even as AI accelerates execution.</li></ul>
+
+                     </div>
+                     
+                  </div>
+               </div>
+            
+
+         </div>
+
+         <div id="js-animation-text-slider__animation-block" class="animation-text-slider__animation-block">
+         </div>
+         <div class="animation-text-slider__animation-links" style="display:none">
+            
+            <div data-alt="Graphic of open agnostic model platform" data-loading="lazy" class="animation-text-slider__accordion-image">/content/dam/aem-avaya-portal/en_us/MCP-Overview-page-3-tab-module-image-01_586x453.jpg</div>
+         
+            
+            <div data-alt="Graphic of agent experience and customer service" data-loading="lazy" class="animation-text-slider__accordion-image">/content/dam/aem-avaya-portal/en_us/MCP-Overview-page-3-tab-module-image-02_586x453..jpg</div>
+         
+            
+            <div data-alt="Graphic of security in the cloud and on premises" data-loading="lazy" class="animation-text-slider__accordion-image">/content/dam/aem-avaya-portal/en_us/MCP-Overview-page-3-tab-module-image-03_586x453..jpg</div>
+         </div>
+      </div>
+
+
+   </div>
+   <!-- Component HTML Main Wrapper End -->
+
+</div>
+<div class="intro p-2 intro--redesign-2025-col-one-no-cta-white-bg aem-GridColumn aem-GridColumn--default--12">
+
+<!-- Component Default Configurations Start -->
+
+
+
+    
+
+<!-- Component Default Configurations End -->
+
+<!-- Component HTML Main Wrapper Start -->
+<div class="intro__wrapper"> 
+    
+    
+    <div class="intro__description-one text">
+      <p>MCP enables AI systems to operate with dynamic awareness of user, session, and business context. For Avaya Infinity, this means models can consistently deliver responses that are not only accurate but also relevant, personalized, and on-brand — even across fragmented ecosystems and at enterprise scale. This level of contextual intelligence is critical for organizations managing thousands of workflows, users, and integration points across operations. </p>
+
+      <div class="intro__cta-wrap">
+        <a href="/en" class="intro__primary-btn" rel="noreferer, noopener" target="_self">
+          <span>Read the press release</span>
+        </a>
+      </div>
+    </div>
+    
+    
+</div>
+<!-- Component HTML Main Wrapper End -->
+    
+
+</div>
+<div class="pml-50 globalComponent p-3 pml-50--asset-left aem-GridColumn aem-GridColumn--default--12">
+
+<!-- Component Default Configurations Start -->
+
+
+
+    
+
+<!-- Component Default Configurations End -->
+
+<!-- Component HTML Main Wrapper Start -->  
+<div class="pml-50__wrapper" id="aaif">
+  <div class="pml-50__content-wrapper">
+      
+      <h2 class="pml-50__title">Shaping the future of open AI for customer experience</h2>
+      
+      <div class="pml-50__desc text">
+          <p>Avaya is not just talking about open AI. We are actively helping shape the standards through AAIF membership, while delivering native MCP support in Avaya Infinity for secure, model-agnostic, enterprise-ready orchestration.</p>
+<ul><li><b>Control </b>– gain more control over AI models and tools so you can choose the right capabilities for each use case without being constrained by a single vendor.</li><li><b>Governance</b> – strengthen interoperability and oversight across systems so AI can be applied consistently and responsibly.</li><li><b>Future-readiness </b>– build an AI architecture designed for regulated environments that require resilience and long-term trust.</li></ul>
+
+      </div>
+      <div class="pml-50__cta-wrapper">
+        <a href="https://www.avaya.com/en/products/infinity-platform/" class="pml-50__primary-btn" rel="noreferer, noopener" target="_self">
+          <span>Explore Avaya Infinity</span>
+        </a>
+        
+      </div>
+  </div>
+  <div class="pml-50__image-wrapper">
+      <img class="pml-50__img" src="/content/dam/aem-avaya-portal/en_us/aaif-and-linux-silver-member-logo-380x380.jpg" alt="Agentic AI Foundation and Linux Silver Member Logo" loading="eager"/>
+
+      <!-- Video Start -->
+      
+      <!-- Video End -->
+
+      
+  </div>
+</div>
+<!-- Component HTML Main Wrapper End -->
+    
+</div>
+<div class="quotes p-3 aem-GridColumn aem-GridColumn--default--12">
+
+<!-- Component Default Configurations Start -->
+
+
+
+    
+
+<!-- Component Default Configurations End -->
+
+<!-- Component HTML Main Wrapper Start -->
+  <div class="quotes__wrapper">
+      <div class="quotes__desc-section">
+          
+          <h2 class="quotes__title">Collaboration with Databricks</h2>
+          <div class="quotes__separator"></div>
+          <div class="quotes__desc text"><p>As part of our commitment to secure, scalable, and open AI, we are partnering with Databricks to bring enterprise-grade governance and data privacy to the MCP implementation within the Avaya Infinity platform. This collaboration ensures that enterprise customers can confidently deploy AI tools with fine-grained access control, audit logging, and seamless integration across structured and unstructured data sources. </p>
+</div>
+          <div class="quotes__cta-wrapper">
+            
+            
+          </div>
+      </div>
+      <div class="quotes__quote-section-wrapper">
+          <div class="quotes__quote-section">
+              <div class="quotes__quote"><p>&#34;Generative AI offers tremendous potential to transform customer experiences, and we are thrilled to collaborate with Avaya to help organizations quickly unify their data, simplify data and AI governance and security, and ultimately deliver AI that understands their business.&#34;</p>
+</div>
+              <p class="quotes__quotedby">Heather Akuiyibo, 
+                
+                <span class="quotes__quotedby-designation">VP of GTM Integration, Databricks</span>
+              </p>
+          </div>
+          <div class="quotes__image">
+            <div class="quotes__background">
+              <img/>
+            </div>
+            <div class="quotes__image-inner">
+              <img src="/content/dam/aem-avaya-portal/en_us/Databricks-logo-318x293-1.jpg" alt="Databricks logo " loading="eager"/>
+            </div>
+          </div>
+      </div>
+  </div>
+<!-- Component HTML Main Wrapper End -->
+
+
+</div>
+<div class="intro p-2 intro--redesign-2025-col-one-no-cta-white-bg aem-GridColumn aem-GridColumn--default--12">
+
+<!-- Component Default Configurations Start -->
+
+
+
+    
+
+<!-- Component Default Configurations End -->
+
+<!-- Component HTML Main Wrapper Start -->
+<div class="intro__wrapper"> 
+    
+    <h2 class="intro__title">From fragmented to freedom with MCP </h2>
+    <div class="intro__description-one text">
+      <p>In a typical enterprise, there are &#39;N&#39; number of tools and data sources (e.g., Salesforce, a product database, a knowledge base) and &#39;M&#39; number of AI models or applications that need to access them. Before MCP, connecting each tool to each AI model required a unique, point-to-point integration. This created a combinatorial explosion of development work, resulting in an architecture that was expensive to build, difficult to maintain, and inherently unscalable.  </p>
+<p>MCP transforms this paradigm by introducing a standardized intermediary layer, converting the complex N x M problem into a simple and scalable &#34;N&#43;M&#34; solution. Each of the &#39;N&#39; tools only needs to be wrapped with a single MCP server, and each of the &#39;M&#39; AI models only needs a single MCP client. Once a component can &#34;speak&#34; MCP, it can communicate with any other MCP-compliant component in the ecosystem.   This dramatically reduces development overhead, eliminates redundant work, and eradicates the technical debt associated with maintaining dozens of fragile, custom connectors. Investments in new technologies, channels, and modalities meant to unify customer interactions often fracture them. Customers end up feeling less known, less cared for, and less connected to the businesses that serve them than ever before. For many organizations, this pain is felt most deeply in enterprise communications.</p>
+<p>Avaya is turning this tide, unifying the fragmented enterprise communications experience. By connecting the channels, insights, technologies, and workflows that help deliver best-in-class interactions.</p>
+
+      <div class="intro__cta-wrap">
+        <a href="/en" class="intro__primary-btn" rel="noreferer, noopener" target="_self">
+          <span>Read the press release</span>
+        </a>
+      </div>
+    </div>
+    
+    
+</div>
+<!-- Component HTML Main Wrapper End -->
+    
+
+</div>
+<div class="intro p-2 intro--redesign-2025-col-one-no-cta-white-bg aem-GridColumn aem-GridColumn--default--12">
+
+<!-- Component Default Configurations Start -->
+
+
+
+    
+
+<!-- Component Default Configurations End -->
+
+<!-- Component HTML Main Wrapper Start -->
+<div class="intro__wrapper"> 
+    
+    <h2 class="intro__title">The potential ROI of MCP </h2>
+    <div class="intro__description-one text">
+      <p>With MCP, Avaya Infinity users will realize even deeper business value: faster resolution times, more natural conversations, stronger brand consistency, and higher satisfaction across customer and employee interactions. It unlocks a new tier of performance in generative AI, where outputs aren’t just intelligent — they’re situationally aware and strategically aligned.  </p>
+<p>Early research suggests MCP will yield dramatic improvements for enterprises, saving time and money in a number of areas: </p>
+
+      <div class="intro__cta-wrap">
+        <a href="/en" class="intro__primary-btn" rel="noreferer, noopener" target="_self">
+          <span>Read the press release</span>
+        </a>
+      </div>
+    </div>
+    
+    
+</div>
+<!-- Component HTML Main Wrapper End -->
+    
+
+</div>
+<div class="column-container tabs panelcontainer p-2 aem-GridColumn aem-GridColumn--default--12"><div data-cmp-data-layer="{&#34;column-container-47e2a397b6&#34;:{&#34;shownItems&#34;:[&#34;column-container-47e2a397b6-item-1354ebea0f&#34;],&#34;@type&#34;:&#34;aem-avaya-portal/components/column-container&#34;,&#34;repo:modifyDate&#34;:&#34;2026-04-24T15:03:21Z&#34;}}" data-placeholder-text="false" class="cmp-column-container">
+
+    <div class="column-container__wrapper">
+        <div class="column-container__column">
+            <div data-cmp-data-layer="{&#34;column-container-47e2a397b6-item-1354ebea0f&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/column-container/item&#34;,&#34;repo:modifyDate&#34;:&#34;2026-04-24T15:03:21Z&#34;,&#34;dc:title&#34;:&#34;Table&#34;}}" class="column-container__column---col"><div class="table parbase column-container__column--inner">
+<table width="100%" cellspacing="0" cellpadding="1" border="1"><tbody><tr><td> </td><td><b>Before MCP</b></td><td><b>After MCP</b></td></tr><tr><td><b>Integration</b></td><td>Custom connectors per model/tool </td><td>One MCP interface works across models and tools </td></tr><tr><td><b>Deployment time</b></td><td>Long, expensive due to bespoke engineering </td><td>50–70% faster, lower costs via reuse (<a href="https://quiq.com/blog/ai-benchmarking-best-practices/?utm_source=chatgpt.com" target="_blank">quiq.com</a>, <a href="https://palma.ai/blog/security-first?utm_source=chatgpt.com" target="_blank">Palma AI</a>, <a href="https://humanloop.com/blog/mcp?utm_source=chatgpt.com" target="_blank">Humanloop</a>, <a href="https://www.aibase.com/news/18973?utm_source=chatgpt.com" target="_blank">aibase.com</a>) </td></tr><tr><td><b>Data access</b></td><td>AI blind to system data, context lost </td><td>Full real-time context: CMS, CRM, EHR, ERP </td></tr><tr><td><b>Risk management</b></td><td>Manual lookup, delayed fraud detection </td><td>Instant cross-system checks reduce fraud by 30% </td></tr></tbody></table>
+
+</div>
+</div>
+
+        </div>
+        
+    </div>
+
+</div></div>
+<div class="intro p-2 intro--redesign-2025-col-two-no-cta-grey-bg aem-GridColumn aem-GridColumn--default--12">
+
+<!-- Component Default Configurations Start -->
+
+
+
+    
+
+<!-- Component Default Configurations End -->
+
+<!-- Component HTML Main Wrapper Start -->
+<div class="intro__wrapper"> 
+    
+    <h2 class="intro__title">The future is open </h2>
+    <div class="intro__description-one text">
+      <p>The world’s most influential AI leaders are aligning behind MCP because they recognize that the future of AI is open and contextual, and its potential is nearly impossible to overstate. Continuing our belief in and commitment to open and intelligent orchestration, Avaya is proud to help lead the charge, bringing MCP to the world of customer experience. </p>
+
+      
+    </div>
+    
+    
+</div>
+<!-- Component HTML Main Wrapper End -->
+    
+
+</div>
+<div class="resources resources--new-redesign resources--3-cards resources--bgcolor-white aem-GridColumn aem-GridColumn--default--12">
+
+<!-- Component Default Configurations Start -->
+
+
+
+    
+
+<!-- Component Default Configurations End -->
+
+<!-- Component HTML Main Wrapper Start -->
+  <div class="resources__wrapper">
+      
+      
+        <div class="resources__eyebrow">Resources</div>
+        <h2 class="resources__title">Learn how Model Context Protocol reinforces Avaya’s open AI strategy </h2>
+        <div class="resources__description"></div>
+        <div class="resources__cta-section">
+          
+          
+        </div>
+      
+      
+
+      <div class="resources__card-block simplebar-block">
+          <div class="resources__card-block-inner">
+              <div class="resources__card">
+                  
+                  
+                    <a href="https://www.avaya.com/en/documents/wp-mcp-status-report-mis16053en.pdf" rel="noreferer, noopener" target="_blank">
+                  
+                    <div class="resources__card-inner">
+                        <!-- Video Tag Start -->
+                        
+                        <!-- Video Tag Video End -->
+                        
+                          <div class="resources__card-type-wrapper">
+                            <span class="resources__card-type__icon white-paper"></span>
+                            <p class="resources__card-type">White Paper</p>
+                          </div>
+                        
+                        
+                        
+                          <h4 class="resources__card-title">The Model Context Protocol: A status report for enterprise customer experience leaders</h4>
+                        
+                        
+                        
+                        <div class="resources__card-desc RTE">Learn how open AI orchestration is reshaping the contact center and why Avaya Infinity is built for what comes next.</div>
+                        <div class="resources__card-cta">
+                          
+                            <span>Read the white paper</span>
+                            
+                            
+                          
+                          
+                        </div>
+                    </div>
+                  </a>
+              </div>
+          
+              <div class="resources__card">
+                  
+                  
+                    <a href="https://www.avaya.com/en/blogs/avaya-linux-foundation-agentic-ai-foundation/" rel="noreferer, noopener" target="_self">
+                  
+                    <div class="resources__card-inner">
+                        <!-- Video Tag Start -->
+                        
+                        <!-- Video Tag Video End -->
+                        
+                          <div class="resources__card-type-wrapper">
+                            <span class="resources__card-type__icon blog"></span>
+                            <p class="resources__card-type">Blog</p>
+                          </div>
+                        
+                        
+                        
+                          <h4 class="resources__card-title">Why Avaya is investing in open AI foundations</h4>
+                        
+                        
+                        
+                        <div class="resources__card-desc RTE">Avaya moved early on MCP. Now its memberships in the Linux Foundation and the Agentic AI Foundation show how open standards, governance, and interoperability are shaping enterprise AI.</div>
+                        <div class="resources__card-cta">
+                          
+                            <span>Read the blog</span>
+                            
+                            
+                          
+                          
+                        </div>
+                    </div>
+                  </a>
+              </div>
+          
+              <div class="resources__card">
+                  
+                  
+                    <a href="https://www.avaya.com/en/documents/wp-open-for-ai-mis16050en.pdf" rel="noreferer, noopener" target="_blank">
+                  
+                    <div class="resources__card-inner">
+                        <!-- Video Tag Start -->
+                        
+                        <!-- Video Tag Video End -->
+                        
+                          <div class="resources__card-type-wrapper">
+                            <span class="resources__card-type__icon white-paper"></span>
+                            <p class="resources__card-type">White Paper</p>
+                          </div>
+                        
+                        
+                        
+                          <h4 class="resources__card-title">The importance of being open for AI</h4>
+                        
+                        
+                        
+                        <div class="resources__card-desc RTE">Learn why AI agility, innovation, and enterprise value depend on escaping the walled gardens of legacy CCaaS vendors.</div>
+                        <div class="resources__card-cta">
+                          
+                            <span>Read the white paper</span>
+                            
+                            
+                          
+                          
+                        </div>
+                    </div>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+<!-- Component HTML Main Wrapper End -->
+
+</div>
+<div class="separator separator--small aem-GridColumn aem-GridColumn--default--12">
+<div id="separator-7af65d6631" class="cmp-separator">
+    <hr class="cmp-separator__horizontal-rule" aria-hidden="true" role="none"/>
+</div></div>
+<div class="intro p-2 intro--col-one aem-GridColumn aem-GridColumn--default--12">
+
+<!-- Component Default Configurations Start -->
+
+
+
+    
+
+<!-- Component Default Configurations End -->
+
+<!-- Component HTML Main Wrapper Start -->
+<div class="intro__wrapper" id="glossary"> 
+    
+    <h2 class="intro__title">Glossary </h2>
+    <div class="intro__description-one text">
+      <p>Full glossary of terms below.</p>
+
+      
+    </div>
+    
+    
+</div>
+<!-- Component HTML Main Wrapper End -->
+    
+
+</div>
+<div class="column-container tabs panelcontainer p-2 aem-GridColumn aem-GridColumn--default--12"><div data-cmp-data-layer="{&#34;column-container-fc4391da92&#34;:{&#34;shownItems&#34;:[&#34;column-container-fc4391da92-item-312d3a7bce&#34;],&#34;@type&#34;:&#34;aem-avaya-portal/components/column-container&#34;,&#34;repo:modifyDate&#34;:&#34;2026-04-24T15:03:22Z&#34;}}" data-placeholder-text="false" class="cmp-column-container">
+
+    <div class="column-container__wrapper">
+        <div class="column-container__column">
+            <div data-cmp-data-layer="{&#34;column-container-fc4391da92-item-312d3a7bce&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/column-container/item&#34;,&#34;repo:modifyDate&#34;:&#34;2026-04-24T15:03:22Z&#34;,&#34;dc:title&#34;:&#34;Table&#34;}}" class="column-container__column---col"><div class="table parbase column-container__column--inner">
+<table width="100%" cellspacing="0" cellpadding="1" border="1"><tbody><tr><td><b>Term</b></td><td><b>Definition</b></td><td><b>Why It Matters</b></td></tr><tr><td><b>MCP (Model Context Protocol)</b></td><td>An open protocol that standardizes how AI models interact with tools, APIs, and memory via structured context objects.</td><td>Enables reliable, interpretable, and scalable AI behavior across workflows and enterprise systems.</td></tr><tr><td><b>Context</b></td><td>A bundle of structured information passed to a model—such as user ID, session history, roles, time, or tool availability.</td><td>Empowers models to generate relevant, personalized, and situational responses.</td></tr><tr><td><b>Model</b></td><td>The generative AI (e.g., Claude, GPT-4, Gemini) that receives the MCP context and generates responses.</td><td>The “brain” in the loop, which uses context to make smarter, more aligned decisions.</td></tr><tr><td><b>Client</b></td><td>The application or interface (e.g., chat window, agent framework, customer portal) that gathers and sends context to the model.</td><td>The user-facing entry point that initiates requests and interactions.</td></tr><tr><td><b>Server</b></td><td>The logic layer that hosts tools, APIs, functions, and data sources the model can use via MCP.</td><td>The action-execution backend, ensuring AI outputs can trigger real-world business actions.</td></tr><tr><td><b>Tools</b></td><td>Discrete functions or APIs (e.g., “search knowledge base,” “check ticket status,” “update CRM”) exposed to the model via MCP.</td><td>Allow models to go beyond language and take actions on external systems.</td></tr><tr><td><b>Schemas</b></td><td>The structured definitions (in JSON or YAML) for how tools and context should be represented and passed to models.</td><td>Create a common language between client, server, and model, improving consistency and debugging.</td></tr><tr><td><b>Memory</b></td><td>Persistent context retained across sessions (user history, preferences, past actions) provided to the model.</td><td>Enables continuity and personalization over time — like an agent that “remembers” a customer.</td></tr><tr><td><b>Ephemeral Context</b></td><td>Short-lived, session-specific information (e.g., current task, temporary variables).</td><td>Keeps AI responses focused and efficient for the current interaction only.</td></tr><tr><td><b>Agent</b></td><td>An AI system that can take actions, invoke tools, and make decisions based on MCP context — often used in autonomous or semi-autonomous workflows.</td><td>MCP provides the backbone for enabling safe, useful, and controllable agent behavior.</td></tr><tr><td><b>Orchestration</b></td><td>Coordinating multiple steps, tools, and model outputs to achieve a higher-order business goal.</td><td>MCP simplifies orchestration by giving models access to structured context and tools in one protocol.</td></tr><tr><td><b>Observability</b></td><td>The ability to inspect what context was passed, what decisions the model made, and how tools were used.</td><td>Crucial for debugging, compliance, and enterprise trust in AI systems.</td></tr><tr><td><b>Interoperability</b></td><td>The ability for different AI models and platforms to work with a shared structure of tools and context.</td><td>MCP enables plug-and-play AI across different vendors and architectures.</td></tr></tbody></table>
+
+</div>
+</div>
+
+        </div>
+        
+    </div>
+
+</div></div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</main>
+<footer class="experiencefragment footer aem-GridColumn aem-GridColumn--default--12">
+<div id="experiencefragment-30de008ddc" class="cmp-experiencefragment cmp-experiencefragment--footer">
+
+
+    
+    <div id="container-6d2ff83d35" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="column-container tabs panelcontainer mega-menu aem-GridColumn aem-GridColumn--default--12"><div data-cmp-data-layer="{&#34;column-container-4d360ffaf6&#34;:{&#34;shownItems&#34;:[&#34;column-container-4d360ffaf6-item-57eaebbf47&#34;],&#34;@type&#34;:&#34;aem-avaya-portal/components/column-container&#34;,&#34;repo:modifyDate&#34;:&#34;2026-04-07T13:43:04Z&#34;}}" data-placeholder-text="false" class="cmp-column-container">
+
+    <div class="column-container__wrapper">
+        <div class="column-container__column" data-col="4">
+            <div data-cmp-data-layer="{&#34;column-container-4d360ffaf6-item-57eaebbf47&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/column-container/item&#34;,&#34;repo:modifyDate&#34;:&#34;2026-04-07T13:43:04Z&#34;,&#34;dc:title&#34;:&#34;brand&#34;}}" class="column-container__column--4-col"><div class="container responsivegrid cmp-container--logo column-container__column--inner">
+
+    
+    <div id="container-381ef85c98" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="image aem-GridColumn aem-GridColumn--default--12">
+<div data-cmp-is="image" data-cmp-src="/content/experience-fragments/aem-avaya-portal/locale-sites/en_us/site/footer/master/_jcr_content/root/column_container/item_1749207819737/image.coreimg{.width}.svg/1775569384250/avaya-logored.svg" data-asset-id="ad0b1b8f-8892-475f-9093-c0fa5aca0ff6" data-cmp-filereference="/content/dam/aem-avaya-portal/decorative/AVAYA-LogoRed.svg" id="image-68784dfac2" data-cmp-data-layer="{&#34;image-68784dfac2&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/image&#34;,&#34;repo:modifyDate&#34;:&#34;2026-04-07T13:43:04Z&#34;,&#34;image&#34;:{&#34;repo:id&#34;:&#34;ad0b1b8f-8892-475f-9093-c0fa5aca0ff6&#34;,&#34;repo:modifyDate&#34;:&#34;2025-06-13T01:02:56Z&#34;,&#34;@type&#34;:&#34;image/svg+xml&#34;,&#34;repo:path&#34;:&#34;/content/dam/aem-avaya-portal/decorative/AVAYA-LogoRed.svg&#34;}}}" data-cmp-hook-image="imageV3" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        <img src="/content/experience-fragments/aem-avaya-portal/locale-sites/en_us/site/footer/master/_jcr_content/root/column_container/item_1749207819737/image.coreimg.svg/1775569384250/avaya-logored.svg" loading="lazy" class="cmp-image__image" itemprop="contentUrl" width="153" height="49" alt="Avaya"/>
+    
+    
+    
+</div>
+
+    
+
+</div>
+<div class="text aem-GridColumn aem-GridColumn--default--12">
+<div data-cmp-data-layer="{&#34;text-25506447d9&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/text&#34;,&#34;repo:modifyDate&#34;:&#34;2026-04-07T13:43:04Z&#34;,&#34;xdm:text&#34;:&#34;&lt;p>Strengthen the customer connections that build business value for your organization.&amp;nbsp;&lt;/p>\r\n&#34;}}" id="text-25506447d9" class="cmp-text">
+    <p>Strengthen the customer connections that build business value for your organization. </p>
+
+</div>
+
+    
+
+</div>
+<div class="button btn-primary aem-GridColumn aem-GridColumn--default--12">
+<a id="button-3613db5587" class="cmp-button" aria-label="Request a Demo" data-cmp-clickable data-cmp-data-layer="{&#34;button-3613db5587&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/button&#34;,&#34;repo:modifyDate&#34;:&#34;2026-04-07T13:43:04Z&#34;,&#34;dc:title&#34;:&#34;Contact us&#34;,&#34;xdm:linkURL&#34;:&#34;/en/contacts/&#34;}}" href="https://www.avaya.com/en/contacts/" target="_self">
+    
+    
+
+    <span class="cmp-button__text">Contact us</span>
+</a>
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+</div>
+<div data-cmp-data-layer="{&#34;column-container-4d360ffaf6-item-fe2d4e7358&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/column-container/item&#34;,&#34;repo:modifyDate&#34;:&#34;2026-04-07T13:43:04Z&#34;,&#34;dc:title&#34;:&#34;products&#34;}}" class="column-container__column--4-col"><div class="container responsivegrid column-container__column--inner">
+
+    
+    <div id="container-a3370a2bf5" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text text--eyebrow aem-GridColumn aem-GridColumn--default--12">
+<div data-cmp-data-layer="{&#34;text-f706f93651&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/text&#34;,&#34;repo:modifyDate&#34;:&#34;2026-04-07T13:43:04Z&#34;,&#34;xdm:text&#34;:&#34;&lt;p>PRODUCTS&lt;/p>\r\n&#34;}}" id="text-f706f93651" class="cmp-text">
+    <p>PRODUCTS</p>
+
+</div>
+
+    
+
+</div>
+<div class="list aem-GridColumn aem-GridColumn--default--12">
+<ul id="list-9a8de89eb9" class="cmp-list">
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/products/infinity-platform/" target="_self">
+            <span class="cmp-list__item-title">Avaya Infinity</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/products/nexus-critical-communications-infrastructure/" target="_self">
+            <span class="cmp-list__item-title">Avaya Nexus™</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/products/unified-communications/" target="_self">
+            <span class="cmp-list__item-title">Unified Communications</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/products/" target="_self">
+            <span class="cmp-list__item-title">Product Portfolio</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/devices-and-phones/" target="_self">
+            <span class="cmp-list__item-title">Devices Catalog</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+</ul>
+
+    
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+</div>
+<div data-cmp-data-layer="{&#34;column-container-4d360ffaf6-item-ac84359f25&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/column-container/item&#34;,&#34;repo:modifyDate&#34;:&#34;2026-04-07T13:43:04Z&#34;,&#34;dc:title&#34;:&#34;customer-support&#34;}}" class="column-container__column--4-col"><div class="container responsivegrid column-container__column--inner">
+
+    
+    <div id="container-458e4b077a" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text text--eyebrow aem-GridColumn aem-GridColumn--default--12">
+<div data-cmp-data-layer="{&#34;text-2b84485bf4&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/text&#34;,&#34;repo:modifyDate&#34;:&#34;2026-04-07T13:43:04Z&#34;,&#34;xdm:text&#34;:&#34;&lt;p>SERVICES &amp;amp; SUPPORT&lt;/p>\r\n&#34;}}" id="text-2b84485bf4" class="cmp-text">
+    <p>SERVICES &amp; SUPPORT</p>
+
+</div>
+
+    
+
+</div>
+<div class="list aem-GridColumn aem-GridColumn--default--12">
+<ul id="list-a6c370d496" class="cmp-list">
+    <li class="cmp-list__item">
+
+    
+
+    
+        
+        <a class="cmp-list__item-link " href="https://support.avaya.com/support/en/public" target="_blank">
+            <span class="cmp-list__item-title">Support</span>
+            
+        </a>
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        
+        <a class="cmp-list__item-link " href="https://documentation.avaya.com/" target="_blank">
+            <span class="cmp-list__item-title">Documentation</span>
+            
+        </a>
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/services/" target="_self">
+            <span class="cmp-list__item-title">Services</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/partner-locator/" target="_self">
+            <span class="cmp-list__item-title">Partner Locator</span>
+            
+        </a>
+        
+    
+
+</li>
+    
+</ul>
+
+    
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+</div>
+<div data-cmp-data-layer="{&#34;column-container-4d360ffaf6-item-70213549b2&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/column-container/item&#34;,&#34;repo:modifyDate&#34;:&#34;2026-04-07T13:43:04Z&#34;,&#34;dc:title&#34;:&#34;company&#34;}}" class="column-container__column--4-col"><div class="container responsivegrid column-container__column--inner">
+
+    
+    <div id="container-1e895e27bb" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="text text--eyebrow aem-GridColumn aem-GridColumn--default--12">
+<div data-cmp-data-layer="{&#34;text-95ee6849bc&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/text&#34;,&#34;repo:modifyDate&#34;:&#34;2026-04-07T13:43:04Z&#34;,&#34;xdm:text&#34;:&#34;&lt;p>COMPANY&lt;/p>\r\n&#34;}}" id="text-95ee6849bc" class="cmp-text">
+    <p>COMPANY</p>
+
+</div>
+
+    
+
+</div>
+<div class="list aem-GridColumn aem-GridColumn--default--12">
+<ul id="list-c9e71db950" class="cmp-list">
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/about-avaya/" target="_self">
+            <span class="cmp-list__item-title">About</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/about-avaya/careers/" target="_self">
+            <span class="cmp-list__item-title">Careers</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/legal/investor-relations/" target="_self">
+            <span class="cmp-list__item-title">Investor Relations</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/trust-center/" target="_self">
+            <span class="cmp-list__item-title">Avaya Trust Center</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/about-avaya/executive-briefing-centers/" target="_self">
+            <span class="cmp-list__item-title">Executive Briefing Centers</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/about-avaya/voc/" target="_self">
+            <span class="cmp-list__item-title">Voice of the Customer</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+</ul>
+
+    
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+</div>
+
+        </div>
+        
+    </div>
+
+</div></div>
+<div class="separator separator--grey aem-GridColumn aem-GridColumn--default--12">
+<div id="separator-c399268a02" class="cmp-separator">
+    <hr class="cmp-separator__horizontal-rule" aria-hidden="true" role="none"/>
+</div></div>
+<div class="column-container tabs panelcontainer mega-menu aem-GridColumn aem-GridColumn--default--12"><div data-cmp-data-layer="{&#34;column-container-267a8981c3&#34;:{&#34;shownItems&#34;:[&#34;column-container-267a8981c3-item-25a46e4d76&#34;],&#34;@type&#34;:&#34;aem-avaya-portal/components/column-container&#34;,&#34;repo:modifyDate&#34;:&#34;2026-04-07T13:43:04Z&#34;}}" data-placeholder-text="false" class="cmp-column-container">
+
+    <div class="column-container__wrapper">
+        <div class="column-container__column" data-col="auto">
+            <div data-cmp-data-layer="{&#34;column-container-267a8981c3-item-25a46e4d76&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/column-container/item&#34;,&#34;repo:modifyDate&#34;:&#34;2026-04-07T13:43:04Z&#34;,&#34;dc:title&#34;:&#34;sitemap&#34;}}" class="column-container__column--auto-col"><div class="container responsivegrid cmp-container--sitemap-links column-container__column--inner">
+
+    
+    <div id="container-263c39c68c" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="list cmp-list--horizontal aem-GridColumn aem-GridColumn--default--12">
+<ul id="list-1603b73b2b" class="cmp-list">
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/legal/" target="_self">
+            <span class="cmp-list__item-title">Legal Center</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/sitemap/" target="_self">
+            <span class="cmp-list__item-title">Sitemap</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/legal/termsofuse/" target="_self">
+            <span class="cmp-list__item-title">Terms of Use</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/privacy/" target="_self">
+            <span class="cmp-list__item-title">Privacy</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+        <a class="cmp-list__item-link optanon-show-settings" href="javascript:void(0);" target="_self">
+           <span class="cmp-list__item-title">Cookies</span>
+        </a>
+    
+
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/trademarks/" target="_self">
+            <span class="cmp-list__item-title">Trademarks</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        <a class="cmp-list__item-link " href="https://www.avaya.com/en/accessibility/" target="_self">
+            <span class="cmp-list__item-title">Accessibility</span>
+            
+        </a>
+        
+        
+    
+
+</li>
+    
+
+    <li class="cmp-list__item">
+
+    
+
+    
+        
+            <span class="cmp-list__item-title">© 2026 Avaya LLC</span>
+            
+        
+        
+        
+    
+
+</li>
+    
+</ul>
+
+    
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+</div>
+<div data-cmp-data-layer="{&#34;column-container-267a8981c3-item-ca04cc84f6&#34;:{&#34;@type&#34;:&#34;aem-avaya-portal/components/column-container/item&#34;,&#34;repo:modifyDate&#34;:&#34;2026-04-07T13:43:04Z&#34;,&#34;dc:title&#34;:&#34;social-media&#34;}}" class="column-container__column--auto-col"><div class="container responsivegrid cmp-container--social-media column-container__column--inner">
+
+    
+    <div id="container-6a108f944b" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="linkcollection aem-GridColumn aem-GridColumn--default--12">
+<!-- Component Default Configurations Start -->
+
+
+
+    
+
+<!-- Component Default Configurations End -->
+<ul class="linkcollection-list" role="list" aria-label="Link Collection">
+  <li class="linkcollection-list__item" role="listitem">
+    <a class="linkcollection-list__link" href="https://x.com/avaya" target="_blank" aria-label="X.com">
+      <img src="/content/dam/aem-avaya-portal/icons/icon-x.svg" alt="X.com" aria-hidden="true"/>
+    </a>
+  </li>
+
+  <li class="linkcollection-list__item" role="listitem">
+    <a class="linkcollection-list__link" href="https://www.youtube.com/avaya" target="_blank" aria-label="youtube.com">
+      <img src="/content/dam/aem-avaya-portal/icons/icon-youtube.svg" alt="youtube.com" aria-hidden="true"/>
+    </a>
+  </li>
+
+  <li class="linkcollection-list__item" role="listitem">
+    <a class="linkcollection-list__link" href="https://www.linkedin.com/company/avaya/" target="_blank" aria-label="LinkedIn">
+      <img src="/content/dam/aem-avaya-portal/icons/icon-linkedin.svg" alt="LinkedIn" aria-hidden="true"/>
+    </a>
+  </li>
+</ul>
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+</div>
+
+        </div>
+        
+    </div>
+
+</div></div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    
+</footer>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+            
+    
+    <script src="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-site.lc-7daaf253cbe6194703ee2bac4d0a3d00-lc.min.js"></script>
+
+
+    
+
+    
+    <script async src="/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.lc-0a6aff292f5cc42142779cde92054524-lc.min.js"></script>
+<script async src="/etc.clientlibs/clientlibs/granite/jquery/granite/csrf.lc-652a558c3774088b61b0530c184710d1-lc.min.js"></script>
+<script async src="/etc.clientlibs/aem-avaya-portal/clientlibs/clientlib-base.lc-4967765add8a922492a7528ec0884938-lc.min.js"></script>
+
+
+
+
+
+    
+
+    
+
+    
+
+<script type="text/javascript">
+    CQ_Analytics.TestTarget.maxProfileParams = 11;
+
+    if (CQ_Analytics.CCM) {
+        if (CQ_Analytics.CCM.areStoresInitialized) {
+            CQ_Analytics.TestTarget.registerMboxUpdateCalls();
+        } else {
+            CQ_Analytics.CCM.addListener("storesinitialize", function (e) {
+                CQ_Analytics.TestTarget.registerMboxUpdateCalls();
+            });
+        }
+    } else {
+        // client context not there, still register calls
+        CQ_Analytics.TestTarget.registerMboxUpdateCalls();
+    }
+    </script>
+    
+
+    
+
+
+
+    
+    
+
+        
+    </body>
+</html>

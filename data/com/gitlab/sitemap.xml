@@ -15793,6 +15793,46 @@
     <lastmod>2026-04-24</lastmod>
   </url>
   <url>
+    <loc>https://gitlab.com/gitlab-org/ops/registry-conformance</loc>
+    <lastmod>2026-04-24</lastmod>
+  </url>
+  <url>
+    <loc>https://gitlab.com/gitlab-org/ops/registry-conformance/-/merge_requests</loc>
+    <lastmod>2026-04-24</lastmod>
+  </url>
+  <url>
+    <loc>https://gitlab.com/gitlab-org/ops/registry-conformance/-/issues</loc>
+    <lastmod>2026-04-24</lastmod>
+  </url>
+  <url>
+    <loc>https://gitlab.com/gitlab-org/ops/registry-conformance/-/snippets</loc>
+    <lastmod>2026-04-24</lastmod>
+  </url>
+  <url>
+    <loc>https://gitlab.com/gitlab-org/ops/registry-conformance/-/wikis/home</loc>
+    <lastmod>2026-04-24</lastmod>
+  </url>
+  <url>
+    <loc>https://gitlab.com/gitlab-org/secure/tests/adamcohen/582246-provide-memory-safe-language-guidance</loc>
+    <lastmod>2026-04-24</lastmod>
+  </url>
+  <url>
+    <loc>https://gitlab.com/gitlab-org/secure/tests/adamcohen/582246-provide-memory-safe-language-guidance/-/merge_requests</loc>
+    <lastmod>2026-04-24</lastmod>
+  </url>
+  <url>
+    <loc>https://gitlab.com/gitlab-org/secure/tests/adamcohen/582246-provide-memory-safe-language-guidance/-/issues</loc>
+    <lastmod>2026-04-24</lastmod>
+  </url>
+  <url>
+    <loc>https://gitlab.com/gitlab-org/secure/tests/adamcohen/582246-provide-memory-safe-language-guidance/-/snippets</loc>
+    <lastmod>2026-04-24</lastmod>
+  </url>
+  <url>
+    <loc>https://gitlab.com/gitlab-org/secure/tests/adamcohen/582246-provide-memory-safe-language-guidance/-/wikis/home</loc>
+    <lastmod>2026-04-24</lastmod>
+  </url>
+  <url>
     <loc>https://gitlab.com/gitlab-org/ci-cd/runner-tools/issue-triager</loc>
     <lastmod>2026-04-24</lastmod>
   </url>
@@ -18241,46 +18281,6 @@
     <lastmod>2026-04-24</lastmod>
   </url>
   <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774470598-deletion_scheduled-80588311</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774470598-deletion_scheduled-80588311/-/merge_requests</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774470598-deletion_scheduled-80588311/-/issues</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774470598-deletion_scheduled-80588311/-/snippets</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774470598-deletion_scheduled-80588311/-/wikis/home</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774469310-deletion_scheduled-80587846</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774469310-deletion_scheduled-80587846/-/merge_requests</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774469310-deletion_scheduled-80587846/-/issues</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774469310-deletion_scheduled-80587846/-/snippets</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774469310-deletion_scheduled-80587846/-/wikis/home</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
     <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774467716-deletion_scheduled-80587226</loc>
     <lastmod>2026-04-24</lastmod>
   </url>
@@ -18298,66 +18298,6 @@
   </url>
   <url>
     <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774467716-deletion_scheduled-80587226/-/wikis/home</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774463918-deletion_scheduled-80585730</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774463918-deletion_scheduled-80585730/-/merge_requests</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774463918-deletion_scheduled-80585730/-/issues</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774463918-deletion_scheduled-80585730/-/snippets</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774463918-deletion_scheduled-80585730/-/wikis/home</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774456355-deletion_scheduled-80582167</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774456355-deletion_scheduled-80582167/-/merge_requests</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774456355-deletion_scheduled-80582167/-/issues</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774456355-deletion_scheduled-80582167/-/snippets</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774456355-deletion_scheduled-80582167/-/wikis/home</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774453498-deletion_scheduled-80580423</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774453498-deletion_scheduled-80580423/-/merge_requests</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774453498-deletion_scheduled-80580423/-/issues</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774453498-deletion_scheduled-80580423/-/snippets</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774453498-deletion_scheduled-80580423/-/wikis/home</loc>
     <lastmod>2026-04-24</lastmod>
   </url>
   <url>
@@ -18381,26 +18321,6 @@
     <lastmod>2026-04-24</lastmod>
   </url>
   <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774451489-deletion_scheduled-80579208</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774451489-deletion_scheduled-80579208/-/merge_requests</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774451489-deletion_scheduled-80579208/-/issues</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774451489-deletion_scheduled-80579208/-/snippets</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774451489-deletion_scheduled-80579208/-/wikis/home</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
     <loc>https://gitlab.com/gitlab-org/frontend/playground/markrian/test-gitlab-create-ui-2</loc>
     <lastmod>2026-04-24</lastmod>
   </url>
@@ -18418,146 +18338,6 @@
   </url>
   <url>
     <loc>https://gitlab.com/gitlab-org/frontend/playground/markrian/test-gitlab-create-ui-2/-/wikis/home</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774450560-deletion_scheduled-80578674</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774450560-deletion_scheduled-80578674/-/merge_requests</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774450560-deletion_scheduled-80578674/-/issues</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774450560-deletion_scheduled-80578674/-/snippets</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774450560-deletion_scheduled-80578674/-/wikis/home</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774450418-deletion_scheduled-80578606</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774450418-deletion_scheduled-80578606/-/merge_requests</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774450418-deletion_scheduled-80578606/-/issues</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774450418-deletion_scheduled-80578606/-/snippets</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774450418-deletion_scheduled-80578606/-/wikis/home</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774450330-deletion_scheduled-80578554</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774450330-deletion_scheduled-80578554/-/merge_requests</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774450330-deletion_scheduled-80578554/-/issues</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774450330-deletion_scheduled-80578554/-/snippets</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774450330-deletion_scheduled-80578554/-/wikis/home</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774450289-deletion_scheduled-80578530</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774450289-deletion_scheduled-80578530/-/merge_requests</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774450289-deletion_scheduled-80578530/-/issues</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774450289-deletion_scheduled-80578530/-/snippets</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774450289-deletion_scheduled-80578530/-/wikis/home</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774450017-deletion_scheduled-80578360</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774450017-deletion_scheduled-80578360/-/merge_requests</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774450017-deletion_scheduled-80578360/-/issues</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774450017-deletion_scheduled-80578360/-/snippets</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774450017-deletion_scheduled-80578360/-/wikis/home</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774449695-deletion_scheduled-80578206</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774449695-deletion_scheduled-80578206/-/merge_requests</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774449695-deletion_scheduled-80578206/-/issues</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774449695-deletion_scheduled-80578206/-/snippets</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774449695-deletion_scheduled-80578206/-/wikis/home</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774449233-deletion_scheduled-80577970</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774449233-deletion_scheduled-80577970/-/merge_requests</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774449233-deletion_scheduled-80577970/-/issues</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774449233-deletion_scheduled-80577970/-/snippets</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774449233-deletion_scheduled-80577970/-/wikis/home</loc>
     <lastmod>2026-04-24</lastmod>
   </url>
   <url>
@@ -18601,18 +18381,6 @@
     <lastmod>2026-04-24</lastmod>
   </url>
   <url>
-    <loc>https://gitlab.com/gitlab-org/frontend/playground/markrian/test-gitlab-create-ui-deletion_scheduled-80576905</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/frontend/playground/markrian/test-gitlab-create-ui-deletion_scheduled-80576905/-/merge_requests</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/frontend/playground/markrian/test-gitlab-create-ui-deletion_scheduled-80576905/-/issues</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
     <loc>https://gitlab.com/gitlab-org/production-engineering/runners-platform/runner-io-benchmark</loc>
     <lastmod>2026-04-24</lastmod>
   </url>
@@ -18630,86 +18398,6 @@
   </url>
   <url>
     <loc>https://gitlab.com/gitlab-org/production-engineering/runners-platform/runner-io-benchmark/-/wikis/home</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774442952-deletion_scheduled-80574535</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774442952-deletion_scheduled-80574535/-/merge_requests</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774442952-deletion_scheduled-80574535/-/issues</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774442952-deletion_scheduled-80574535/-/snippets</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774442952-deletion_scheduled-80574535/-/wikis/home</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774442852-deletion_scheduled-80574476</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774442852-deletion_scheduled-80574476/-/merge_requests</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774442852-deletion_scheduled-80574476/-/issues</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774442852-deletion_scheduled-80574476/-/snippets</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774442852-deletion_scheduled-80574476/-/wikis/home</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774442500-deletion_scheduled-80574345</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774442500-deletion_scheduled-80574345/-/merge_requests</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774442500-deletion_scheduled-80574345/-/issues</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774442500-deletion_scheduled-80574345/-/snippets</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774442500-deletion_scheduled-80574345/-/wikis/home</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774442416-deletion_scheduled-80574285</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774442416-deletion_scheduled-80574285/-/merge_requests</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774442416-deletion_scheduled-80574285/-/issues</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774442416-deletion_scheduled-80574285/-/snippets</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774442416-deletion_scheduled-80574285/-/wikis/home</loc>
     <lastmod>2026-04-24</lastmod>
   </url>
   <url>
@@ -19050,26 +18738,6 @@
   </url>
   <url>
     <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774330780-deletion_scheduled-80529392/-/wikis/home</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774329325-deletion_scheduled-80528567</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774329325-deletion_scheduled-80528567/-/merge_requests</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774329325-deletion_scheduled-80528567/-/issues</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774329325-deletion_scheduled-80528567/-/snippets</loc>
-    <lastmod>2026-04-24</lastmod>
-  </url>
-  <url>
-    <loc>https://gitlab.com/gitlab-org/secure/tests/ifrenkel/dependency-resolution/dependency-resolution-1774329325-deletion_scheduled-80528567/-/wikis/home</loc>
     <lastmod>2026-04-24</lastmod>
   </url>
   <url>
@@ -38182,6 +37850,10 @@
   </url>
   <url>
     <loc>https://gitlab.com/gitlab-org/security-products/secret-detection/secret-detection-rules/-/merge_requests</loc>
+    <lastmod>2026-04-24</lastmod>
+  </url>
+  <url>
+    <loc>https://gitlab.com/gitlab-org/security-products/secret-detection/secret-detection-rules/-/issues</loc>
     <lastmod>2026-04-24</lastmod>
   </url>
   <url>

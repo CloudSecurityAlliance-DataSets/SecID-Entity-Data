@@ -1,0 +1,50 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ea.game.starwarscapital_row",
+      "sha256_cert_fingerprints": [
+        "DA:DA:13:7B:30:FB:A4:19:A5:6F:5A:4A:4F:0C:33:E4:B1:5C:ED:4C:AC:ED:A4:68:DC:D6:0C:23:BA:88:73:84"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ea.gp.capitalphx",
+      "sha256_cert_fingerprints": [
+        "DA:DA:13:7B:30:FB:A4:19:A5:6F:5A:4A:4F:0C:33:E4:B1:5C:ED:4C:AC:ED:A4:68:DC:D6:0C:23:BA:88:73:84"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ea.gp.pvzn3xt",
+      "sha256_cert_fingerprints": [
+        "76:2C:FD:F0:E7:8D:9B:13:1F:F1:41:9F:B0:C2:B5:71:A2:54:08:4A:05:86:0A:DC:D8:3B:DD:38:09:D4:1A:29"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ea.gp.fifaultimate",
+      "sha256_cert_fingerprints": [
+        "5B:FF:7D:61:4E:1B:A1:1A:56:6A:BB:58:9C:86:3B:01:3F:79:AA:74:7B:D2:14:67:33:36:6C:56:25:A5:F0:D2"
+      ]
+    }
+  }
+]

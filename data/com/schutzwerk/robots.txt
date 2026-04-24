@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /xmas
+Disallow: /en/alias-map/
+Disallow: /l/
+
+Sitemap: https://www.schutzwerk.com/sitemap.xml

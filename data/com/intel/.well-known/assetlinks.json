@@ -1,0 +1,38 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.intel.AppShell.BIL",
+      "sha256_cert_fingerprints": [
+        "52:0A:BD:E5:0E:75:70:A9:6D:8E:BA:9E:A6:3D:3C:7D:F6:19:CA:73:8D:E6:DC:10:11:C5:72:0B:46:B6:BC:50"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.intel.AppShell.AS10AppLinks",
+      "sha256_cert_fingerprints": [
+        "52:0A:BD:E5:0E:75:70:A9:6D:8E:BA:9E:A6:3D:3C:7D:F6:19:CA:73:8D:E6:DC:10:11:C5:72:0B:46:B6:BC:50"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.intel.AppShell.BILTEST",
+      "sha256_cert_fingerprints": [
+        "52:0A:BD:E5:0E:75:70:A9:6D:8E:BA:9E:A6:3D:3C:7D:F6:19:CA:73:8D:E6:DC:10:11:C5:72:0B:46:B6:BC:50"
+      ]
+    }
+  }
+]

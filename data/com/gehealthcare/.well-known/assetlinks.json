@@ -1,0 +1,42 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.gehc.ent.qa.projectc",
+            "sha256_cert_fingerprints": [
+                "7A:4F:DD:CF:E4:EC:F5:92:F8:25:50:18:0A:E8:FB:4C:40:D6:B1:6F:20:F2:7A:A2:DC:B1:6A:92:5A:56:7C:35",
+                "A6:82:63:B3:10:FA:8F:97:D1:9B:76:E5:11:2C:30:13:02:04:79:06:9D:F5:48:85:D0:4E:19:B3:D8:B8:72:D2",
+                "02:14:AD:66:9B:98:CF:B0:93:47:B8:FE:51:DE:98:EC:C3:8D:BF:5E:16:7C:CC:78:0E:5E:7C:4F:0D:EA:5E:A3"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.gehc.ent.stage.projectc",
+            "sha256_cert_fingerprints": [
+                "7A:4F:DD:CF:E4:EC:F5:92:F8:25:50:18:0A:E8:FB:4C:40:D6:B1:6F:20:F2:7A:A2:DC:B1:6A:92:5A:56:7C:35",
+                "A6:82:63:B3:10:FA:8F:97:D1:9B:76:E5:11:2C:30:13:02:04:79:06:9D:F5:48:85:D0:4E:19:B3:D8:B8:72:D2",
+                "02:14:AD:66:9B:98:CF:B0:93:47:B8:FE:51:DE:98:EC:C3:8D:BF:5E:16:7C:CC:78:0E:5E:7C:4F:0D:EA:5E:A3"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.ge.projectc",
+            "sha256_cert_fingerprints": [
+                "7A:4F:DD:CF:E4:EC:F5:92:F8:25:50:18:0A:E8:FB:4C:40:D6:B1:6F:20:F2:7A:A2:DC:B1:6A:92:5A:56:7C:35"
+            ]
+        }
+    }
+]

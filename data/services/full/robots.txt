@@ -1,23 +1,35 @@
 User-agent: *
+
+# Uploads sensíveis WooCommerce
 Disallow: /wp-content/uploads/wc-logs/
 Disallow: /wp-content/uploads/woocommerce_transient_files/
 Disallow: /wp-content/uploads/woocommerce_uploads/
+
+# Carrinho e variações WooCommerce
 Disallow: /*?add-to-cart=
-Disallow: /*?*add-to-cart=
-Disallow: /*?*attribute_pa_
-Disallow: /*?attribute_pa_pacote=
-Disallow: /*?*attribute_pa_pacote=
-Disallow: /*?*variation_id=
-Disallow: /*?utm_source=
-Disallow: /*?*utm_source=
+Disallow: /*?attribute_pa_
+Disallow: /*?variation_id=
 Disallow: /*?ack=
-Disallow: /*?*ack=
 Disallow: /*?e-page=
+
+# Tracking parameters
+Disallow: /*?utm_
+Disallow: /*&utm_
 Disallow: /*?gclid=
 Disallow: /*?fbclid=
-Disallow: /wp-admin/
-Disallow: /feed/
+
+# Multilíngue, ordenação, paginação loja
+Disallow: /*?lang=
+Disallow: /*?order=
+Disallow: /*?product-page=
+Disallow: /*&product-page=
+Disallow: /*?attachment_id=
+
+# Feeds secundários (mantém /feed/ principal pra RSS)
 Disallow: /*/feed/
+
+# Admin
+Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php
 
 Sitemap: https://full.services/sitemap_index.xml

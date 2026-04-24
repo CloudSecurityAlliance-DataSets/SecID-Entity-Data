@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+  <loc>https://cribl.io/blog/from-security-to-observability-how-one-pipeline-serves-every-team/</loc>
+  <priority>0.8</priority>
+  <lastmod>2026-04-24T15:50:29.840Z</lastmod>
+</url>
+<url>
+  <loc>https://cribl.io/blog/syslog-even-better-best-practices/</loc>
+  <priority>0.8</priority>
+  <lastmod>2026-04-24T14:21:51.812Z</lastmod>
+</url>
+<url>
   <loc>https://cribl.io/blog/build-vs-buy-whats-the-best-route-for-observability-pipelines/</loc>
   <priority>0.8</priority>
   <lastmod>2026-04-23T15:18:17.145Z</lastmod>
@@ -9,11 +19,6 @@
   <loc>https://cribl.io/blog/observability-data-vs-data-observability-whats-the-difference/</loc>
   <priority>0.8</priority>
   <lastmod>2026-04-22T21:57:52.290Z</lastmod>
-</url>
-<url>
-  <loc>https://cribl.io/blog/from-security-to-observability-how-cribl-helps-reduce-tco-and-simplify-log/</loc>
-  <priority>0.8</priority>
-  <lastmod>2026-04-22T20:28:29.584Z</lastmod>
 </url>
 <url>
   <loc>https://cribl.io/blog/cribl-and-crowdstrike-partner-to-transform-data-management-for-siem-solutions/</loc>
@@ -3289,11 +3294,6 @@
   <loc>https://cribl.io/blog/why-i-joined-cribl-people-conviction-and-a-vision-of-the-future/</loc>
   <priority>0.8</priority>
   <lastmod>2025-04-03T19:21:00.633Z</lastmod>
-</url>
-<url>
-  <loc>https://cribl.io/blog/syslog-even-better-best-practices/</loc>
-  <priority>0.8</priority>
-  <lastmod>2025-04-03T19:20:59.628Z</lastmod>
 </url>
 <url>
   <loc>https://cribl.io/blog/how-to-slash-cyber-security-costs-with-cribl-stream/</loc>
@@ -8751,6 +8751,11 @@
   <lastmod>2025-05-23T02:22:16.093Z</lastmod>
 </url>
 <url>
+  <loc>https://cribl.io/solutions/initiatives/investigations/</loc>
+  <priority>1</priority>
+  <lastmod>2026-04-23T20:50:20.158Z</lastmod>
+</url>
+<url>
   <loc>https://cribl.io/solutions/initiatives/central-logging-teams/</loc>
   <priority>1</priority>
   <lastmod>2026-04-21T22:37:21.577Z</lastmod>
@@ -8894,11 +8899,6 @@
   <loc>https://cribl.io/solutions/initiatives/</loc>
   <priority>1</priority>
   <lastmod>2026-03-13T14:22:19.439Z</lastmod>
-</url>
-<url>
-  <loc>https://cribl.io/solutions/initiatives/investigations/</loc>
-  <priority>1</priority>
-  <lastmod>2026-03-12T21:12:20.664Z</lastmod>
 </url>
 <url>
   <loc>https://cribl.io/homepage-test8774t456/</loc>

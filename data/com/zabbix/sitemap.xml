@@ -631,6 +631,7 @@
 <url><loc>https://www.zabbix.com/integrations/akcp</loc></url>
 <url><loc>https://www.zabbix.com/integrations/alcatel_lucent</loc></url>
 <url><loc>https://www.zabbix.com/integrations/alerta</loc></url>
+<url><loc>https://www.zabbix.com/integrations/allquiet</loc></url>
 <url><loc>https://www.zabbix.com/integrations/alvao</loc></url>
 <url><loc>https://www.zabbix.com/integrations/alvarion</loc></url>
 <url><loc>https://www.zabbix.com/integrations/amd</loc></url>
@@ -3572,6 +3573,7 @@
 <url><loc>https://www.zabbix.com/ru/integrations/akcp</loc></url>
 <url><loc>https://www.zabbix.com/ru/integrations/alcatel_lucent</loc></url>
 <url><loc>https://www.zabbix.com/ru/integrations/alerta</loc></url>
+<url><loc>https://www.zabbix.com/ru/integrations/allquiet</loc></url>
 <url><loc>https://www.zabbix.com/ru/integrations/alvao</loc></url>
 <url><loc>https://www.zabbix.com/ru/integrations/alvarion</loc></url>
 <url><loc>https://www.zabbix.com/ru/integrations/amd</loc></url>
@@ -6461,6 +6463,7 @@
 <url><loc>https://www.zabbix.com/jp/integrations/akcp</loc></url>
 <url><loc>https://www.zabbix.com/jp/integrations/alcatel_lucent</loc></url>
 <url><loc>https://www.zabbix.com/jp/integrations/alerta</loc></url>
+<url><loc>https://www.zabbix.com/jp/integrations/allquiet</loc></url>
 <url><loc>https://www.zabbix.com/jp/integrations/alvao</loc></url>
 <url><loc>https://www.zabbix.com/jp/integrations/alvarion</loc></url>
 <url><loc>https://www.zabbix.com/jp/integrations/amd</loc></url>
@@ -9389,6 +9392,7 @@
 <url><loc>https://www.zabbix.com/cn/integrations/akcp</loc></url>
 <url><loc>https://www.zabbix.com/cn/integrations/alcatel_lucent</loc></url>
 <url><loc>https://www.zabbix.com/cn/integrations/alerta</loc></url>
+<url><loc>https://www.zabbix.com/cn/integrations/allquiet</loc></url>
 <url><loc>https://www.zabbix.com/cn/integrations/alvao</loc></url>
 <url><loc>https://www.zabbix.com/cn/integrations/alvarion</loc></url>
 <url><loc>https://www.zabbix.com/cn/integrations/amd</loc></url>
@@ -12293,6 +12297,7 @@
 <url><loc>https://www.zabbix.com/la/integrations/akcp</loc></url>
 <url><loc>https://www.zabbix.com/la/integrations/alcatel_lucent</loc></url>
 <url><loc>https://www.zabbix.com/la/integrations/alerta</loc></url>
+<url><loc>https://www.zabbix.com/la/integrations/allquiet</loc></url>
 <url><loc>https://www.zabbix.com/la/integrations/alvao</loc></url>
 <url><loc>https://www.zabbix.com/la/integrations/alvarion</loc></url>
 <url><loc>https://www.zabbix.com/la/integrations/amd</loc></url>
@@ -15261,6 +15266,7 @@
 <url><loc>https://www.zabbix.com/br/integrations/akcp</loc></url>
 <url><loc>https://www.zabbix.com/br/integrations/alcatel_lucent</loc></url>
 <url><loc>https://www.zabbix.com/br/integrations/alerta</loc></url>
+<url><loc>https://www.zabbix.com/br/integrations/allquiet</loc></url>
 <url><loc>https://www.zabbix.com/br/integrations/alvao</loc></url>
 <url><loc>https://www.zabbix.com/br/integrations/alvarion</loc></url>
 <url><loc>https://www.zabbix.com/br/integrations/amd</loc></url>
@@ -18231,6 +18237,7 @@
 <url><loc>https://www.zabbix.com/de/integrations/akcp</loc></url>
 <url><loc>https://www.zabbix.com/de/integrations/alcatel_lucent</loc></url>
 <url><loc>https://www.zabbix.com/de/integrations/alerta</loc></url>
+<url><loc>https://www.zabbix.com/de/integrations/allquiet</loc></url>
 <url><loc>https://www.zabbix.com/de/integrations/alvao</loc></url>
 <url><loc>https://www.zabbix.com/de/integrations/alvarion</loc></url>
 <url><loc>https://www.zabbix.com/de/integrations/amd</loc></url>
@@ -21133,6 +21140,7 @@
 <url><loc>https://www.zabbix.com/fr/integrations/akcp</loc></url>
 <url><loc>https://www.zabbix.com/fr/integrations/alcatel_lucent</loc></url>
 <url><loc>https://www.zabbix.com/fr/integrations/alerta</loc></url>
+<url><loc>https://www.zabbix.com/fr/integrations/allquiet</loc></url>
 <url><loc>https://www.zabbix.com/fr/integrations/alvao</loc></url>
 <url><loc>https://www.zabbix.com/fr/integrations/alvarion</loc></url>
 <url><loc>https://www.zabbix.com/fr/integrations/amd</loc></url>
@@ -24034,6 +24042,7 @@
 <url><loc>https://www.zabbix.com/cz/integrations/akcp</loc></url>
 <url><loc>https://www.zabbix.com/cz/integrations/alcatel_lucent</loc></url>
 <url><loc>https://www.zabbix.com/cz/integrations/alerta</loc></url>
+<url><loc>https://www.zabbix.com/cz/integrations/allquiet</loc></url>
 <url><loc>https://www.zabbix.com/cz/integrations/alvao</loc></url>
 <url><loc>https://www.zabbix.com/cz/integrations/alvarion</loc></url>
 <url><loc>https://www.zabbix.com/cz/integrations/amd</loc></url>

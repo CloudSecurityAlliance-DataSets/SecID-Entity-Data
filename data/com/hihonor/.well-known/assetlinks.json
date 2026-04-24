@@ -1,0 +1,14 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.hihonor.vmall",
+            "sha256_cert_fingerprints": [
+                "B4:D6:3F:A0:BB:0B:18:EE:89:0D:BF:0F:F7:45:7F:33:33:FB:74:77:E0:33:2E:3E:39:CF:8D:EA:C5:48:7F:1B"
+            ]
+        }
+    }
+]
