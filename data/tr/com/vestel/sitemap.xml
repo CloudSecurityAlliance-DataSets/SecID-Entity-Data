@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://statics.vestel.com.tr/vstlsitemap/product.xml</loc>
+  </url>
+  <url>
+    <loc>https://statics.vestel.com.tr/vstlsitemap/productimage.xml</loc>
+  </url>
+  <url>
+    <loc>https://statics.vestel.com.tr/vstlsitemap/category.xml</loc>
+  </url>
+  <url>
+    <loc>https://statics.vestel.com.tr/vstlsitemap/staticpage.xml</loc>
+  </url>
+</urlset>

@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /wp-admin
+Disallow: /admin
+
+# Add all sitemaps
+Sitemap: https://www.toreon.com/sitemap_index.xml
+Sitemap: https://www.toreon.com/post-sitemap1.xml
+Sitemap: https://www.toreon.com/post-sitemap2.xml
+Sitemap: https://www.toreon.com/page-sitemap.xml
+Sitemap: https://www.toreon.com/local-sitemap.xml

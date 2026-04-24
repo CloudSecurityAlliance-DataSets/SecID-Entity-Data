@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /search/
+Disallow: /cart/
+Allow: /
+
+Sitemap: https://www.tecno-mobile.com/sitemap.xml

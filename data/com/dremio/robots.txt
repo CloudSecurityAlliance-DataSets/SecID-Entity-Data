@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Sitemap: https://www.dremio.com/sitemap_index.xml
+
+#WP Import Export Rule
+User-agent: *
+Disallow: /wp-content/uploads/wp-import-export-lite/
+
+# LLM-readable content
+LLMs: https://www.dremio.com/llms.txt
+LLMs: https://www.dremio.com/llms-full.txt

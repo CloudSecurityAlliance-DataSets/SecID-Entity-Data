@@ -1,0 +1,248 @@
+# Altera
+
+> Altera is an independent, pure-play FPGA company providing leadership programmable logic solutions — FPGAs, SoC FPGAs, CPLDs, intellectual property (IP), development tools, and acceleration platforms — for applications spanning cloud, network, and edge computing. Altera operates independently to accelerate innovation across industries including aerospace & defense, industrial automation, AI/ML, broadcast, financial services, wireless/wireline communications, robotics, transportation, and consumer electronics.
+
+Altera's product portfolio is organized into three performance tiers: High-Performance (Agilex 9, Agilex 7, Stratix 10), Mid-Range (Agilex 5, Arria 10, Arria V), and Power & Cost-Optimized (Agilex 3, MAX 10, MAX V, Cyclone 10, Cyclone V, Cyclone IV). The flagship Agilex family spans the 9, 7, 5, and 3 series — built on advanced process nodes with features like AI tensor blocks, high-speed transceivers (up to 116 Gbps), integrated Arm processors, and HBM2e memory. Quartus Prime is the primary FPGA design software, and the FPGA AI Suite provides end-to-end AI model deployment workflows. Altera also maintains a rich ecosystem of development kits, IP cores, partner programs (ASAP), community forums, training, and a university program.
+
+## Products — FPGAs, SoC FPGAs, and CPLDs
+
+- [FPGA, SoC, CPLD Product Overview](https://www.altera.com/fpga): Full product portfolio organized by performance tier — High-Performance, Mid-Range, and Power & Cost-Optimized
+- [Agilex 9 SoC FPGA Direct RF-Series](https://www.altera.com/products/fpga/agilex/9/rf-series): Highest-performance SoC FPGA integrating wideband and medium-band data converters on-chip, up to 58 Gbps transceivers and 25 TFLOPS DSP, targeting military/aerospace RF and radar applications
+- [Agilex 7 FPGAs and SoC FPGAs](https://www.altera.com/products/fpga/agilex/7): Industry-leading fabric performance per watt with F-Series, I-Series, and M-Series sub-families; up to 4M LEs, 116G PAM4 transceivers, PCIe 5.0, CXL, HBM2e, and optional quad-core Arm Cortex-A53
+- [Agilex 5 FPGAs and SoC FPGAs](https://www.altera.com/products/fpga/agilex/5): First FPGA with AI tensor blocks in fabric; E-Series for edge/embedded and D-Series for performance; up to 152.6 TOPS INT8, multi-core Arm Cortex-A55/A76, PCIe 4.0, DDR5
+- [Agilex 3 FPGAs and SoC FPGAs](https://www.altera.com/products/fpga/agilex/3): Cost-optimized FPGAs with up to 1.9X higher fabric performance and 38% lower power vs. previous generation, AI-optimized tensor blocks, PCIe 3.0, and Secure Device Manager
+- [Stratix 10 FPGAs and SoC FPGAs](https://www.altera.com/products/fpga/stratix/10): High-performance family using Hyperflex architecture with EMIB/AIB chiplet technology; GX, SX, TX, DX, and AX series covering throughput, SoC, transceiver, PCIe 4.0, and direct RF use cases
+- [Arria 10 FPGAs and SoC FPGAs](https://www.altera.com/products/fpga/arria/10): Mid-range FPGAs delivering 20% fMAX advantage and up to 40% lower power than previous generation; GT, GX, and SX variants with dual-core Arm Cortex-A9
+- [Arria V FPGAs](https://www.altera.com/products/fpga/arria/v): Mid-range FPGAs for cost-sensitive transceiver-based applications
+- [Cyclone 10 FPGAs](https://www.altera.com/products/fpga/cyclone/10): Power and cost-optimized FPGAs for high-volume, low-power designs
+- [Cyclone V FPGAs and SoC FPGAs](https://www.altera.com/products/fpga/cyclone/v): Low-power FPGAs with integrated transceivers and optional Arm Cortex-A9 HPS; E, GX, GT, SE, SX, ST variants for edge-centric applications
+- [Cyclone IV FPGAs](https://www.altera.com/products/fpga/cyclone/iv): Cost-optimized FPGAs for high-volume applications
+- [MAX 10 FPGAs](https://www.altera.com/products/fpga/max/10): Non-volatile FPGAs combining flash memory, PLD, and analog in a single chip with instant-on capability and configuration in under 10ms
+- [MAX V CPLDs](https://www.altera.com/products/fpga/max/v): Ultra-low-power CPLDs for simple logic applications
+
+## Development Software and Tools
+
+- [Development Software & Tools Overview](https://www.altera.com/products/development-tools): Complete suite of development tools for FPGA, SoC, and CPLD design — spanning AI, design/simulation, embedded, and IP development
+- [Quartus Prime Design Software](https://www.altera.com/products/development-tools/quartus): Primary FPGA design environment for design entry, synthesis, optimization, verification, and simulation — supporting designs with millions of logic elements
+- [FPGA AI Suite](https://www.altera.com/products/development-tools/fpga-ai-suite): End-to-end AI workflow integrating OpenVINO for model optimization, supporting TensorFlow, PyTorch, and ONNX frameworks for deploying AI on FPGAs
+- [Visual Designer Studio (Beta)](https://www.altera.com/products/development-tools/visual-designer-studio): Next-generation visual system integration tool for simplified and accelerated FPGA design with intuitive IP block connection and data flow visualization
+- [Open FPGA Stack (OFS)](https://www.altera.com/products/development-tools/open-fpga-stack): Open-source hardware and software infrastructure for customizing FPGA-based acceleration platforms, supporting Stratix 10 and Agilex families
+- [Altera FPGA Add-on for oneAPI Base Toolkit](https://www.altera.com/products/development-tools/oneapi): Unified programming model using DPC++ and SYCL standard for cross-architecture FPGA development and AI inference
+- [Power and Thermal Analyzer](https://www.altera.com/products/development-tools/power-thermal-analyzer): Tool for estimating and analyzing power consumption and thermal performance of FPGA designs
+- [Advanced Link Analyzer](https://www.altera.com/products/development-tools/advanced-link-analyzer): High-speed serial link simulation and analysis tool
+- [Transceiver Toolkit](https://www.altera.com/products/development-tools/transceiver-toolkit): Debug and optimization tool for FPGA high-speed transceiver links
+- [DSP Builder](https://www.altera.com/products/development-tools/dsp-builder): IP development tool for creating optimized DSP designs for Altera FPGAs
+- [ARM SoC EDS](https://www.altera.com/products/development-tools/arm-soc-eds): Embedded development suite for Arm-based SoC FPGA software development
+- [Ashling RISCFree IDE](https://www.altera.com/products/development-tools/ashling-riscfree): IDE for RISC-V based Nios V soft processor development
+- [Questa – Altera FPGA Edition](https://www.altera.com/products/development-tools/quartus-prime/questa): Simulation and verification tool for Altera FPGA designs
+- [Intel Simics Simulator for Altera FPGAs](https://www.altera.com/products/development-tools/simics-virtual-platform): Virtual platform simulation for Altera FPGA pre-silicon software development
+- [P4 Suite for FPGAs](https://www.altera.com/products/development-tools/p4-suite-fpga): P4-based programmable networking and packet processing development suite for FPGAs
+
+## Development Kits
+
+- [FPGA Development Kits Overview](https://www.altera.com/products/development-kits): Hardware development kits organized by performance tier for prototyping, deployment, and experimentation
+- [Agilex 9 Development Kits](https://www.altera.com/products/development-kits/agilex-9): Development kits for Agilex 9 high-performance SoC FPGAs
+- [Agilex 7 Development Kits](https://www.altera.com/products/development-kits/agilex-7): Development kits for Agilex 7 FPGAs and SoC FPGAs
+- [Agilex 5 Development Kits](https://www.altera.com/products/development-kits/agilex-5): Development kits for Agilex 5 mid-range FPGAs
+- [Agilex 3 Development Kits](https://www.altera.com/products/development-kits/agilex-3): Development kits for Agilex 3 cost-optimized FPGAs
+- [Stratix 10 Development Kits](https://www.altera.com/products/development-kits/stratix-10): Development kits for Stratix 10 high-performance FPGAs
+- [Arria 10 Development Kits](https://www.altera.com/products/development-kits/arria-10): Development kits for Arria 10 mid-range FPGAs
+- [Cyclone V Development Kits](https://www.altera.com/products/development-kits/cyclone-v): Development kits for Cyclone V low-power FPGAs
+- [MAX 10 Development Kits](https://www.altera.com/products/development-kits/max-10): Development kits for MAX 10 non-volatile FPGAs
+
+## Intellectual Property (IP)
+
+- [FPGA Intellectual Property Overview](https://www.altera.com/products/intellectual-property): Comprehensive IP portfolio including soft/hardened cores, reference designs, and partner solutions
+- [PCI Express IP](https://www.altera.com/products/intellectual-property/interfaces/pci-express): PCIe interface IP cores
+- [Compute Express Link (CXL) IP](https://www.altera.com/products/intellectual-property/interfaces/cxl): CXL interface IP for cache-coherent interconnect
+- [Ethernet IP](https://www.altera.com/products/intellectual-property/interfaces/ethernet): Ethernet MAC and PHY IP cores
+- [Audio/Video IP](https://www.altera.com/products/intellectual-property/interfaces/audio-video): Interface IP for audio and video processing
+- [Communication IP](https://www.altera.com/products/intellectual-property/interfaces/communication): Communication protocol interface IP
+- [High Speed IP](https://www.altera.com/products/intellectual-property/interfaces/high-speed): High-speed interface IP cores
+- [Serial IP](https://www.altera.com/products/intellectual-property/interfaces/serial): Serial communication interface IP
+- [Networking/Security IP](https://www.altera.com/products/intellectual-property/interfaces/networking-security): Network and security protocol IP
+- [DMA Controllers](https://www.altera.com/products/intellectual-property/memory-controllers/dma): DMA memory controller IP
+- [Flash Controllers](https://www.altera.com/products/intellectual-property/memory-controllers/flash): Flash memory controller IP
+- [SDRAM Controllers](https://www.altera.com/products/intellectual-property/memory-controllers/sdram): SDRAM memory controller IP
+- [SRAM Controllers](https://www.altera.com/products/intellectual-property/memory-controllers/sram): SRAM memory controller IP
+- [AI DSP IP](https://www.altera.com/products/intellectual-property/dsp/ai): AI-focused DSP intellectual property
+- [Video & Image Processing IP](https://www.altera.com/products/intellectual-property/dsp/video): Video and image processing DSP IP
+- [Floating Point IP](https://www.altera.com/products/intellectual-property/dsp/floating-point): Floating-point math DSP IP
+- [Error Correction IP](https://www.altera.com/products/intellectual-property/dsp/error-correction): Forward error correction DSP IP
+- [Modulation IP](https://www.altera.com/products/intellectual-property/dsp/modulation): Signal modulation DSP IP
+- [Filters/Transforms IP](https://www.altera.com/products/intellectual-property/dsp/filters-transforms): Digital filter and transform DSP IP
+- [Nios V Soft Processors](https://www.altera.com/products/ip/po-3098/nios-v-processors): Next-generation RISC-V soft processor IP for scalable embedded applications on FPGAs
+- [Transceivers & Basic Functions IP](https://www.altera.com/products/intellectual-property/transceivers): Transceiver and basic function IP cores
+- [Clocks, PLLs & Resets IP](https://www.altera.com/products/intellectual-property/clocks-plls): Clock management, PLL, and reset IP cores
+
+## Industry Solutions
+
+- [AI / FPGAi Solutions](https://www.altera.com/fpga-solutions/ai): Accelerating AI from power-efficient TinyML to large LLM Transformer models with AI-infused FPGA fabric and custom solutions for data adaptation and autonomous decision-making
+- [Aerospace, Defense & Government](https://www.altera.com/fpga-solutions/aerospace-defense-government): High-performance FPGAs for real-time data processing, secure communications, signal processing, and long-lifecycle military technology
+- [Industrial](https://www.altera.com/fpga-solutions/industrial): FPGA solutions for industrial automation, edge computing, AI, and robotics — from edge to cloud
+- [Broadcast & Pro AV](https://www.altera.com/fpga-solutions/broadcast-proav): FPGAs for high-quality content processing, low-latency transmission, real-time video analytics, AI-enhanced graphics, and flexible broadcast system design
+- [Financial Services](https://www.altera.com/fpga-solutions/financial-services): FPGA-based solutions for ultra-low-latency trading, nanosecond order processing, complex computation, and AI workloads in financial markets
+- [Consumer Electronics](https://www.altera.com/fpga-solutions/consumer-electronics): FPGAs for performance, flexibility, and energy efficiency in devices including cameras, gaming consoles, and home entertainment with edge AI acceleration
+- [Transportation](https://www.altera.com/fpga-solutions/transportation): Automotive-grade FPGAs for ADAS, in-vehicle experience applications, and rapid adaptation to evolving automotive standards
+- [Wireless](https://www.altera.com/fpga-solutions/wireless): FPGAs purpose-built for Radio Access Network (RAN) evolution including 6G, AI-driven optimizations, O-RU enablement, and diverse global standards
+- [Wireline](https://www.altera.com/fpga-solutions/wireline): FPGAs for wireline infrastructure providing real-time data handling, protocol flexibility, ultra-low latency, and AI at the edge
+- [Security Solutions](https://www.altera.com/fpga-solutions/security): Hardware-based FPGA security including Secure Device Manager, anti-tamper features, and cryptographic capabilities across Agilex and Stratix 10 families
+- [Robotics Solutions Stack](https://www.altera.com/fpga-solutions/robotics): Layered framework of hardware, software, and IP for building autonomous robots, drones, and industrial automation — enabling sense, think, and act capabilities
+- [Healthcare / Medical](https://www.altera.com/fpga-solutions/healthcare): Integrating FPGAs in healthcare innovations for medical imaging, diagnostics, and patient monitoring
+- [Test & Measurement](https://www.altera.com/fpga-solutions/test-and-measurement): FPGA solutions for precision and performance in test and measurement instruments
+- [Sensor Interfaces](https://www.altera.com/fpga-solutions/sensory-interfaces): FPGA sensor interface solutions for edge AI applications
+- [Video Solutions Stack](https://www.altera.com/fpga-solutions/video-solutions-stack): End-to-end FPGA video processing pipeline solutions
+
+## Design Resources and Training
+
+- [FPGA Design Hubs and Developer Centers](https://www.altera.com/design/guidance/developer-centers): Step-by-step guided design journeys with key resources and documentation for each FPGA family
+- [Design Resources Overview](https://www.altera.com/design/resources-overview): Product support resources including documentation, how-to guides, IP technology resources, training, downloads, and PCB resources
+- [FPGA Developer Training](https://www.altera.com/design/fpga-training/overview): Instructor-led and on-demand training classes with learning plans for beginner and advanced FPGA developers
+- [eLearning Catalog](https://www.altera.com/design/fpga-training/elearning): On-demand self-paced FPGA training courses
+- [Instructor-Led Training](https://www.altera.com/design/fpga-training/instructor-led): Live instructor-led FPGA training sessions
+- [Learning Plans](https://www.altera.com/design/fpga-training/learning-plans): Curated learning paths for structured FPGA skill development
+- [How to Begin a Simple FPGA Design](https://www.altera.com/design/fpga-training/begin-design): Getting started guide for new FPGA designers
+- [Download Center](https://www.altera.com/downloads): Download Quartus Prime and other Altera FPGA development software
+- [Example Designs](https://altera-fpga.github.io/latest/ed-demo-list/ed-list/): Reference example designs and demonstrations for Altera FPGAs
+- [Self-Service License Center](https://www.altera.com/APS): License management for Altera FPGA development tools
+
+## Support and Community
+
+- [Altera Community Forums](https://community.altera.com/category/forums): Community discussion forums for FPGA designers and developers
+- [Knowledge Articles](https://community.altera.com/category/top/kb/knowledge-base): Searchable knowledge base of technical articles and solutions
+- [Altera Community Blog](https://community.altera.com/category/top/blog/fpga-blog): Technical blog posts on FPGA design, applications, and Altera news
+- [Altera University Program](https://www.altera.com/university): Free access to professional-grade FPGA tools and curriculum support for professors and researchers
+- [Quality & Reliability](https://www.altera.com/quality/overview): Quality policies, environmental information, responsible sourcing, and product reliability standards
+- [Contact Altera](https://www.altera.com/contact): Inquiry submission, authorized distributor contacts, and self-help support resources
+
+## Partners
+
+- [ASAP Partner Program](https://www.altera.com/asap): Altera Solution Acceleration Partner program connecting companies with Altera partners to accelerate innovation and time-to-market
+
+## Company
+
+- [Company Overview](https://www.altera.com/company/overview): Altera provides leadership programmable solutions from cloud to edge with an end-to-end portfolio of FPGAs, CPLDs, IP, tools, SoMs, SmartNICs, and IPUs
+- [Leadership Team](https://www.altera.com/company/leadership): Altera's executive management team
+- [Newsroom](https://www.altera.com/newsroom): Latest press releases and technology announcements
+- [Events](https://www.altera.com/events): Upcoming industry conferences and events with Altera presence
+- [Careers](https://altera.wd1.myworkdayjobs.com/Altera): Job opportunities at Altera
+
+## Optional
+
+### Design Hubs (step-by-step guided design journeys per FPGA family)
+
+- [Agilex 7 Design Hub](https://www.altera.com/products/fpga/agilex/7#design-hub): Guided design flow, key resources, and documentation for Agilex 7 development
+- [Agilex 5 Design Hub](https://www.altera.com/products/fpga/agilex/5#design-hub): Guided design flow, key resources, and documentation for Agilex 5 development
+- [Agilex 3 Design Hub](https://www.altera.com/products/fpga/agilex/3#design-hub): Guided design flow, key resources, and documentation for Agilex 3 development
+
+### Legacy Developer Centers
+
+- [Stratix 10 Developer Center](https://www.altera.com/design/guidance/developer-centers/stratix-10): Developer resources for Stratix 10 FPGA designs
+- [Arria 10 Developer Center](https://www.altera.com/design/guidance/developer-centers/arria-10): Developer resources for Arria 10 FPGA designs
+- [Cyclone 10 GX Developer Center](https://www.altera.com/design/guidance/developer-centers/cyclone-10-gx): Developer resources for Cyclone 10 GX designs
+- [Cyclone 10 LP Developer Center](https://www.altera.com/design/guidance/developer-centers/cyclone-10-lp): Developer resources for Cyclone 10 LP designs
+- [MAX 10 Developer Center](https://www.altera.com/design/guidance/developer-centers/max-10): Developer resources for MAX 10 FPGA designs
+
+### Software Downloads (Quartus Prime editions and development tools)
+
+- [Quartus Prime Pro Download](https://www.altera.com/downloads/fpga-development-tools/quartus-prime-pro-current): Latest Quartus Prime Pro Edition for high-performance FPGA families (Agilex, Stratix 10)
+- [Quartus Prime Standard Download](https://www.altera.com/downloads/fpga-development-tools/quartus-prime-standard-current): Quartus Prime Standard Edition for mid-range and cost-optimized FPGA families
+- [Quartus Prime Lite Download](https://www.altera.com/downloads/fpga-development-tools/quartus-prime-lite-current): Free Quartus Prime Lite Edition for select FPGA families
+- [Quartus II Subscription Edition Download](https://www.altera.com/downloads/fpga-development-tools/quartus-ii-subcription-edition-current): Legacy Quartus II Subscription Edition
+- [Quartus II Web Edition Download](https://www.altera.com/downloads/fpga-development-tools/quartus-ii-web-edition-current): Legacy free Quartus II Web Edition
+
+### Embedded Tool Downloads
+
+- [Arm Development Studio for Altera SoC FPGA Download](https://www.altera.com/downloads/embedded-tools/arm-development-studio-for-altera-soc-fpga-current): Arm DS for SoC FPGA software development
+- [Altera SoC EDS Pro Download](https://www.altera.com/downloads/embedded-tools/altera-soc-eds-pro-current): SoC Embedded Development Suite Pro edition
+- [Altera SoC EDS Standard Download](https://www.altera.com/downloads/embedded-tools/altera-soc-eds-standard-current): SoC Embedded Development Suite Standard edition
+
+### Add-On Tool Downloads
+
+- [DSP Builder Pro Download](https://www.altera.com/downloads/add-on-development-tools/dsp-builder-pro-current): DSP Builder Pro for advanced DSP design
+- [DSP Builder Standard Download](https://www.altera.com/downloads/add-on-development-tools/dsp-builder-standard-current): DSP Builder Standard edition
+- [SDK for OpenCL Pro Download](https://www.altera.com/downloads/add-on-development-tools/sdk-for-opencl-pro-current): OpenCL development kit Pro edition for FPGA acceleration
+- [SDK for OpenCL Standard Download](https://www.altera.com/downloads/add-on-development-tools/sdk-for-opencl-standard-current): OpenCL development kit Standard edition
+- [FPGA AI Suite Download](https://www.altera.com/downloads/add-on-development-tools/altera-fpga-ai-suite-current): FPGA AI Suite for deploying AI models on FPGAs
+
+### Simulation Tool Downloads
+
+- [Questa-Altera FPGA Edition Pro Download](https://www.altera.com/downloads/simulation-tools/questa-altera-fpga-edition-pro-current): Questa FPGA simulation Pro edition
+- [Questa-Altera FPGA Edition Standard Download](https://www.altera.com/downloads/simulation-tools/questa-altera-fpga-edition-standard-current): Questa FPGA simulation Standard edition
+- [ModelSim-Altera FPGAs Pro Download](https://www.altera.com/downloads/simulation-tools/modelsim-altera-fpgas-pro-current): ModelSim simulation Pro edition
+- [ModelSim-Altera FPGAs Standard Download](https://www.altera.com/downloads/simulation-tools/modelsim-altera-fpgas-standard-current): ModelSim simulation Standard edition
+- [Simics Simulator for Altera FPGA Download](https://www.altera.com/downloads/simulation-tools/simics-simulator-for-altera-fpga-current): Virtual platform simulator download
+
+### Utilities and Licensing
+
+- [FlexLM License Daemons Download](https://www.altera.com/downloads/utilities/flexlm-license-daemons-software-current): Floating license server daemon software
+- [Advanced Link Analyzer Pro Download](https://www.altera.com/downloads/utilities/advanced-link-analyzer-pro-current): High-speed link analysis Pro edition
+- [Advanced Link Analyzer Standard Download](https://www.altera.com/downloads/utilities/advanced-link-analyzer-standard-current): High-speed link analysis Standard edition
+- [Self-Service License Center](https://www.altera.com/SSLC): Manage Altera FPGA software licenses
+- [Licensing Support Center](https://www.altera.com/support/support-resources/licensing/support-center): Licensing troubleshooting and support
+
+### Documentation Portal (docs.altera.com)
+
+- [All Documentation](https://docs.altera.com/search?value-filters=Resource_Type~%2522Documentation%2522): Full technical documentation search portal
+- [Documentation by Product Family](https://www.altera.com/design/devices/resources): Browse documentation organized by FPGA device family
+- [IP Documentation](https://docs.altera.com/search?value-filters=Resource_Type~%2522Documentation%2522%2ASubject_Topic~%2522Subject%20Area%257CIP%20Documents%2522): Intellectual property core documentation
+- [Development Software Documentation](https://docs.altera.com/search?value-filters=Resource_Type~%2522Documentation%2522%2ASubject_Topic~%2522Subject%20Area%257CDevelopment%20SW%20Documents%2522): Quartus Prime and development tool documentation
+- [Release Notes](https://docs.altera.com/search?value-filters=Resource_Type~%2522Documentation%257CRelease%20Notes%2522): Software and IP release notes
+- [Application Notes](https://docs.altera.com/search?value-filters=Resource_Type~%2522Documentation%257CApplication%20Notes%2522): Technical application notes and design guidance
+- [Device Overviews](https://docs.altera.com/search?value-filters=Resource_Type~%2522Documentation%257CProduct%20Specifications%257CDevice%20Overviews%2522): FPGA device overview specifications
+- [Datasheets](https://docs.altera.com/search?value-filters=Resource_Type~%2522Documentation%257CProduct%20Specifications%257CData%20Sheets%2522): Product datasheets with electrical and timing specifications
+- [Errata / Known Issues](https://docs.altera.com/search?value-filters=Resource_Type~%2522Documentation%257CProduct%20Specifications%257CKnown%20Issues%20%252F%20Errata%2522): Known silicon and software issues
+- [How-To Videos](https://docs.altera.com/search?value-filters=Resource_Type~%2522Developer%20Training%257CHow%20To%20Videos%2522): Video tutorials and walkthroughs
+- [Knowledge Articles](https://docs.altera.com/search?value-filters=Resource_Type~%2522Support%20Resources%257CKnowledge%20Articles%2522): Searchable technical support knowledge base
+
+### Example Designs and Drivers
+
+- [Example Design Hub](https://docs.altera.com/p/design-resources/example-design-hub): Central hub for all FPGA example designs
+- [FPGA Developer Site](https://altera-fpga.github.io/latest/): Open-source FPGA developer resources, example designs, and driver documentation
+- [Zephyr RTOS Drivers](https://altera-fpga.github.io/latest/driver-list_zephyr/): Zephyr RTOS driver documentation for Altera FPGAs
+- [Linux Drivers](https://altera-fpga.github.io/latest/driver-list_linux/): Linux kernel driver documentation for Altera FPGAs
+
+### Design Resources
+
+- [Quartus Support Center](https://www.altera.com/design/guidance/software/quartus-support): Quartus Prime troubleshooting and support resources
+- [PCB Board Resources](https://docs.altera.com/search?value-filters=Resource_Type~%2522Developer%20Resources%257CPCB%20Board%20Resources%2522): PCB design files, signal integrity, and board layout resources
+- [Package Drawings & Thermal Data](https://www.altera.com/design/devices/resources/package-thermal): FPGA package mechanical drawings and thermal specifications
+- [Pinout Files](https://www.altera.com/design/devices/resources/pinouts): Device pin assignment and pinout files
+
+### Training (learn.altera.com)
+
+- [My Learning Dashboard](https://learn.altera.com/learn/mycourses): Personal learning progress and enrolled courses
+- [eLearning Catalog](https://learn.altera.com/pages/45/additional-learning-plans-and-elearnings): Self-paced online FPGA courses
+- [Instructor-Led Training Catalog](https://learn.altera.com/pages/27/instructor-led-training-ilt-catalog): Live instructor-led FPGA training sessions
+- [Full Training Catalog](https://learn.altera.com/learn/catalog/view/12): Browse all available FPGA training courses
+- [Learning Plans](https://learn.altera.com/pages/39/learning-plans): Structured learning paths from beginner to advanced
+- [How to Begin a Simple FPGA Design (Course)](https://learn.altera.com/learn/courses/261/how-to-begin-a-simple-fpga-design): Introductory course for first-time FPGA designers
+
+### Legacy Development Kits
+
+- [Arria V Development Kits](https://www.altera.com/products/development-kits/arria-v): Development kits for Arria V mid-range FPGAs
+- [MAX V Development Kits](https://www.altera.com/products/development-kits/max-v): Development kits for MAX V CPLDs
+- [Cyclone 10 Development Kits](https://www.altera.com/products/development-kits/cyclone-10): Development kits for Cyclone 10 FPGAs
+- [Cyclone IV Development Kits](https://www.altera.com/products/development-kits/cyclone-iv): Development kits for Cyclone IV FPGAs
+
+### Partner Ecosystem
+
+- [Find Partners](https://www.altera.com/asap/find-partners): Search for Altera Solution Acceleration Partners by expertise and region
+- [Find Partner Offerings](https://www.altera.com/asap/partner-offerings): Browse partner boards, IP, software, and services
+- [Join ASAP Program](https://asap.altera.com/ASAP/s/asap-signup): Apply to become an Altera Solution Acceleration Partner
+- [ASAP Partner Sign In](https://asap.altera.com/ASAP/login): Existing partner portal login
+
+### Social Media and Newsletter
+
+- [Altera on LinkedIn](https://www.linkedin.com/company/altera-fpga): Official Altera LinkedIn page
+- [Altera on YouTube](https://www.youtube.com/@AlteraFPGA_): Official Altera YouTube channel with tutorials, demos, and product videos
+- [Altera on X (Twitter)](https://x.com/alterafpga_): Official Altera X/Twitter account
+- [Inside Edge Newsletter](https://www.altera.com/contact-us/email-preferences): Subscribe to Altera's newsletter for FPGA news and updates
+
+### Legal and Security
+
+- [Terms of Use](https://www.altera.com/privacy/altera-terms-of-use): Website terms and conditions
+- [Privacy Policy](https://www.altera.com/privacy/altera-privacy-notice): Altera privacy notice
+- [Cookie Notice](https://www.altera.com/privacy/altera-cookie-notice): Cookie usage policy
+- [Trademarks](https://www.altera.com/privacy/altera-trademarks): Altera trademark information and guidelines
+- [PSIRT (Product Security Incident Response)](https://www.altera.com/security/psirt): Product security vulnerability reporting and advisories

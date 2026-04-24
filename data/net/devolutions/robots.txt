@@ -1,0 +1,13 @@
+User-agent: SemrushBot
+Crawl-delay: 3
+
+User-agent: SiteAuditBot
+Crawl-delay: 3
+
+User-agent: *
+Disallow: /*pad.xml$
+Disallow: /products.htm
+
+# Sitemap files
+Sitemap: https://devolutions.net/sitemap.xml
+Sitemap: https://devolutions.net/sitemap-index.xml

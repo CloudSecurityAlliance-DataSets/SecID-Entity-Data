@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /static/
+
+Sitemap: https://www.bosch.com/sitemap.xml

@@ -1,0 +1,4 @@
+Contact: https://contact.yokogawa.com/cs/gw?c-id=000983
+Expires: 2027-04-30T03:00:00.000Z
+Preferred-Languages: en, ja
+Policy: https://www.yokogawa.com/solutions/products-and-services/announcements/vulpolicy/

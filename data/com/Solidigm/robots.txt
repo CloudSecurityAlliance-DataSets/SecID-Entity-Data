@@ -1,0 +1,14 @@
+#Any search crawler can crawl our site
+User-agent: *
+
+# Disallow only below mentioned paths
+Disallow: /products/client
+
+#Allow only below mentioned paths
+Allow: /
+
+#Crawl all sitemaps mentioned below
+Sitemap: https://www.solidigm.com/sitemap.xml
+Sitemap: https://www.solidigmtechnology.cn/sitemap.xml
+Sitemap: https://www.solidigmtechnology.kr/sitemap.xml
+Sitemap: https://www.solidigmtechnology.jp/sitemap.xml

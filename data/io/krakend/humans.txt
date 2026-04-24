@@ -1,0 +1,46 @@
+/* SITE */
+Site: https://www.krakend.io
+Contact: hello@krakend.io
+
+
+/* TEAM */
+CEO: Albert Lombarte
+LinkedIn: https://www.linkedin.com/in/alombarte/
+
+CTO: Daniel López
+LinkedIn: https://www.linkedin.com/in/daniel-lopez-alarcon-09b54b31/
+
+CIO: Daniel Ortiz
+LinkedIn: https://www.linkedin.com/in/dortiz-krakend/
+
+CSO: Albert García
+LinkedIn: https://www.linkedin.com/in/obokaman/
+
+Senior Engineer: David Hontecillas
+LinkedIn: https://www.linkedin.com/in/hontecillas/
+
+Senior Engineer: Jorge Tarrero
+LinkedIn: https://www.linkedin.com/in/jorge-tarrero-mart%C3%ADn-39731348/
+
+Senior Engineer: Narcis Davins
+LinkedIn: https://www.linkedin.com/in/narcis-davins/
+
+Technical Account Executive: Toni Pinel
+LinkedIn: https://www.linkedin.com/in/tonipinel/
+
+Finance Manager: Rute Paulo
+LinkedIn: https://www.linkedin.com/in/rutepaulo/
+
+Account Executive: Blerim Berisha
+LinkedIn: https://www.linkedin.com/in/blerimberisha/
+
+Partner Manager: Giovanna Martinez
+LinkedIn: https://www.linkedin.com/in/giovannadertonio/
+
+
+/* ABOUT */
+KrakenD: API management, simplified and supercharged. Crafted by developers who care. Experience seamless performance.
+
+
+/* THE KRAKEND'S CHALLENGE */
+K0RvUTZzVXAvWkRmd095NUdIRURTTnI2aThjL3RsOTdRVFQvZFVaS212T1NybUFnTlVwSVBQSHpzRGI2cWV5d2ZFemdpaVdLc1FSL1RheER4NUg1c0t1VkF0UWs0MitEdGpYeHNFUHoydU90aWJ3UG9GQ3lZZVBzaUgwMWpYK0hEMEphQ0tnTlV0OWdvcERad2MwdzI0VEhRSXhiVkY2V3pIazI2djhaSmxBOTlHOUZIa09KUElGd0paa3cyVys2VGZjaUlDazFaUDJFVGFQM3hTZnlJbkp6a20wRGpMbVdneEs0ZGY4bXFNUktnL3hvS2U0cDhPZmZXMDIrRVk3Ni95c2ZqYTgvaThnZ3hGb0JITFRpdnVzcTZ4Q3BMcSs5MkJDRThrcWZPUVg9fGJpcG1xOi8vYWFpLnhkLzRlTDlsbjV8bHp6ZGE6Ly9ya3ouaHUvM1djWG1jQnxzZ2draDovL3lyZy5vYi8zRHdiV1VCfGh0dHBzOi8vYml0Lmx5LzN4TmZFWkY=

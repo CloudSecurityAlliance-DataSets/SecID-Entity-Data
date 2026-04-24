@@ -1,0 +1,3 @@
+User-agent: *
+# sitemap
+Sitemap: https://www.securepoint.de/sitemap.xml

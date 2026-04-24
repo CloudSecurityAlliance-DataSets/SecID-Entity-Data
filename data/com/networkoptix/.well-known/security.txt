@@ -1,0 +1,6 @@
+Contact: mailto:security@networkoptix.com
+Expires: 2024-08-15T21:00:00.000Z
+Preferred-Languages: en
+Canonical: https://www.networkoptix.com/.well-known/security.txt
+Policy: https://www.networkoptix.com/vulnerability-disclosure-program
+Hiring: https://www.networkoptix.com/careers

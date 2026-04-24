@@ -1,0 +1,5 @@
+Contact: mailto:ciso@cirosec.de
+Expires: 2026-12-19T23:59:00.000Z
+Preferred-Languages: de,en
+Policy: https://cirosec.de/en/cirosec-responsible-disclosure-policy/
+Hiring: https://cirosec.de/karriere/

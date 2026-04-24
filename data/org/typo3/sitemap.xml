@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/_assets/984e6ee9829f85eb447bb6a36455204a/CSS/Sitemap.xsl"?>
+
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+        <sitemap>
+            <loc>https://typo3.org/sitemap-type/pages/sitemap.xml</loc>
+            <lastmod>2026-04-23T10:06:05+02:00</lastmod>
+        </sitemap>
+    
+        <sitemap>
+            <loc>https://typo3.org/sitemap.xml?sitemap=news&amp;cHash=d729da1b39b6000b6b3d3d03543123e0</loc>
+            <lastmod>2023-05-25T23:22:56+02:00</lastmod>
+        </sitemap>
+    
+        <sitemap>
+            <loc>https://typo3.org/sitemap.xml?page=1&amp;sitemap=news&amp;cHash=7bf13b321d8d4479726ac22b8e39af2c</loc>
+            <lastmod>2023-05-25T23:22:56+02:00</lastmod>
+        </sitemap>
+    
+        <sitemap>
+            <loc>https://typo3.org/sitemap.xml?page=2&amp;sitemap=news&amp;cHash=bbd97950e5a214187c341cfd34a1e4ea</loc>
+            <lastmod>2023-05-25T23:22:56+02:00</lastmod>
+        </sitemap>
+    
+</sitemapindex>

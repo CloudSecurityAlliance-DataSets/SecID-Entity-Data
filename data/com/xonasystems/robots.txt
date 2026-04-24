@@ -1,0 +1,18 @@
+User-agent: *
+Disallow: /blog/author/
+Disallow: /resource/author/
+Disallow: /press/author/
+Disallow: /solutions/use-case/author/
+Disallow: /xona-events/author/xona
+Disallow: /glossary/author/xona
+Disallow: /_hcms/mem/login
+Disallow: /_hcms/mem/register
+Disallow: /_hcms/mem/reset/request
+Disallow: /xona-events/arcanumxonawebinar
+Sitemap: https://www.xonasystems.com/sitemap.xml
+
+Disallow: /_hcms/preview/
+Disallow: /hs/manage-preferences/
+Disallow: /hs/preferences-center/
+Disallow: /*?*hs_preview=*
+Disallow: /*?*hsCacheBuster=*

@@ -1,0 +1,83 @@
+# Leica Biosystems
+
+> Leica Biosystems is a global leader in histology and pathology workflow solutions and automation. Leica Biosystems offers a comprehensive product range including HistoCore histology solutions, BOND IHC staining instruments, Aperio digital pathology scanners and more.
+
+## General Information
+- [News and Press Releases] (https://www.leicabiosystems.com/news/): This page provides news articles and updates from Leica Biosystems organized by date of publication.
+- [About Us] (https://www.leicabiosystems.com/about/): This page describes Leica Biosystems' company history, global presence in the histology equipment industry and association with its parent company, Danaher.
+- [Events] (https://www.leicabiosystems.com/events/): This page displays by date both upcoming and past events such as tradeshows, conferences and webinars that are hosted or attended by Leica Biosystems.
+- [Partnering with Leica Biosystems] (https://www.leicabiosystems.com/about/partner-with-us/): This page describes the benefits of partnering with Leica Biosystems for cancer diagnostics projects and provides ways to initiate partnership requests.
+- [Product and Technology Innovations] (https://www.leicabiosystems.com/about/innovations/): This page describes Leica Biosystems' 150 year history of product innovation and shares some of its' most recent technological achievements in the field of cancer diagnostics.
+- [Contacting Leica Biosystems] (https://www.leicabiosystems.com/contact-us/): This page provides relevant contact information to use in contacting Leica Biosystems including an inquiry form for quote requests and support needs.
+
+## Histology Solutions
+- [Histology Instruments and Equipment] (https://www.leicabiosystems.com/histology-equipment/): This page describes the instruments and consumables Leica Biosystems manufactures for clinical or research histology laboratories that process and stain tissue samples for pathology analysis.
+- [Clinical Microtomes] (https://www.leicabiosystems.com/histology-equipment/microtomes/): This page describes the microtomes and tissue sectioning workstation accessories manufactured by Leica Biosystems for use in clinical laboratories.
+- [Research Microtomes] (https://www.leicabiosystems.com/research/research-microtomes/): This page describes the microtomes and tissue sectioning workstation accessories manufactured by Leica Biosystems for use in research laboratories.
+- [Cryostats and Frozen Tissue Sectioning Instruments] (https://www.leicabiosystems.com/histology-equipment/cryostats/): This page describes the frozen tissue sectioning systems manufactured by Leica Biosystems for use in both clinical and research laboratories.
+- [Vibratomes and Vibrating Tissue Sectioning Instruments] (https://www.leicabiosystems.com/research/vibratomes/): This page describes the vibrating blade microtomes manufactured by Leica Biosystems for precise tissue sectioning in research laboratories.
+- [HistoCore Tissue Processors] (https://www.leicabiosystems.com/histology-equipment/tissue-processors/): This page describes the HistoCore brand of dual- and single-retort histology tissue processing centers manufactured for clinical labs to dehydrate and infiltrate samples in preparation for sectioning.
+- [HistoCore Arcadia Tissue Embedding Centers] (https://www.leicabiosystems.com/histology-equipment/histology-embedding-centers-accessories/): This page describes the HistoCore brand histology tissue embedding instruments and accessories manufactured by Leica Biosystems for clinical laboratories preparing samples for microtomy.
+- [Routine H&E Slide Stainers and Coverslippers] (https://www.leicabiosystems.com/histology-equipment/he-slide-stainers-special-stainers-coverslippers/): This page describes the hematoxylin and eosin tissue stainers and coverslippers manufactured by Leica Biosystems for routine workflows in clinical laboratories.
+- [Specimen Identification] (https://www.leicabiosystems.com/histology-equipment/specimen-labeling-products/): This page describes the printing instruments, software systems and tracking accessories that enable clinical histology labs to create secure links between patients and samples.
+- [Histology Consumables] (https://www.leicabiosystems.com/histology-consumables/): This page provides a listing of various consumable products and accessories for sale to histology labs.
+
+## Immunohistochemistry Solutions
+- [IHC and ISH Advanced Staining Solutions] (https://www.leicabiosystems.com/ihc-ish/): This page describes Leica Biosystems immunohistochemistry and in situ hybridization staining solutions for clinical and research histology laboratories.
+- [BOND IHC-ISH Staining Instruments] (https://www.leicabiosystems.com/ihc-ish/ihc-ish-instruments/): This page describes the BOND family of immunohistochemistry and in situ hybridization fully automated slide staining systems for clinical and research histology labs.
+- [Novocastra Antibodies] (https://www.leicabiosystems.com/ihc-ish/novocastra-antibodies/): This page describes Leica Biosystems' comprehensive portfolio of Novocastra Antibodies which support high-quality IHC stains across a range of pathology applications.
+- [FISH Molecular Solutions] (https://www.leicabiosystems.com/ihc-ish/fish-molecular-solutions/): This page describes molecular testing automation solutions provided by Leica Biosystems including Kreatech FISH probes and other products for FISH procedures.
+- [OEM IHC-ISH Reagent Partnerships] (https://www.leicabiosystems.com/ihc-ish/oem-reagent-partnerships/): This page describes Leica Biosystems' capabilities for developing advanced IHC-ISH staining reagents with partner labs.
+- [Companion Diagnostics] (https://www.leicabiosystems.com/ihc-ish/companion-diagnostics/): This page describes Leica Biosystems' capabilities in developing companion diagnostics for leading pharmaceutical companies.
+- [IHC Staining Gallery] (https://www.leicabiosystems.com/life-sciences-and-research-solutions/stain-gallery/): This page displays sample tissue slide imagery that illustrate the staining capabilities of the BOND RX fully automated research stainer.
+
+## Digital Pathology Solutions
+- [Digital Pathology Solutions] (https://www.leicabiosystems.com/digital-pathology/): This page describes Leica Biosystems' end-to-end digital pathology product solutions including scanning instruments, software and services.
+- [Digital Slide Scanners] (https://www.leicabiosystems.com/digital-pathology/scan/): This page describes Leica Biosystems' full line of Aperio digital pathology slide scanners with various capacities and throughput options for research and clinical laboratories.
+- [Digital Pathology Software] (https://www.leicabiosystems.com/digital-pathology/manage/): This page describes Leica Biosystems' portfolio of software solutions which support or enable digital pathology processes including slide scanning, slide image analysis, and laboratory management and collaboration.
+- [Digital Pathology Slide Analysis Software] (https://www.leicabiosystems.com/digital-pathology/analyze/): This page describes slide analysis software solutions offered by Leica Biosystems and incorporate artificial intelligence.
+- [Clinical Digital Pathology Solution] (https://www.leicabiosystems.com/digital-pathology/aperio-gt-450-dx-with-lis-connectivity/): This page describes the Aperio GT 450 DX scanner, WebViewer DX and eSlideManager software and LIS Connectivity designed to bring digital pathology processes to clinical labs.
+- [Digital Pathology Slide Gallery] (https://www.leicabiosystems.com/life-sciences-and-research-solutions/educational-resources/digital-pathology-gallery/): This page provides example slide images of various tissue types illustrating the capabilities of Aperio fully automated scanners.
+
+## Support
+- [Service and Support] (https://www.leicabiosystems.com/service-support/): This page describes the technical support and product service offerings available to Leica Biosystems customers.
+- [Product Documentation Library] (https://www.leicabiosystems.com/service-support/order-technical-documentation/): This page provides access to Leica Biosystems' documentation library as well as a form for ordering printed documentation.
+- [Leica Biosystems Parts Request] (https://www.leicabiosystems.com/service-support/genuine-leica-biosystems-parts/): This page enables Leica Biosystems customers to request genuine parts for their instrumentation.
+- [Product Service Agreements] (https://www.leicabiosystems.com/service-support/service-agreements/): This page describes the service agreement offerings available to Leica Biosystems customers.
+- [Technical Support] (https://www.leicabiosystems.com/service-support/technical-support/): This page provides technical support information and contact information to customers of Leica Biosystems.
+- [Service Quote Request] (https://www.leicabiosystems.com/service-support/request-quote/): This page provides a quote request form for Leica Biosystems customers in need of product service.
+
+## Online Purchasing
+- [Account Log In] (https://shop.leicabiosystems.com/login): This page lets Leica Biosystems customers log into their accounts, make online purchases, and manage their orders.
+- [Quick Order] (https://shop.leicabiosystems.com/quickorder): This page lets Leica Biosystems customers add products to their online shopping cart using data table entries and csv file uploads.
+- [IHC Primary Antibodies] (https://shop.leicabiosystems.com/ihc-ish/ihc-primary-antibodies/): This page lists the available immunohistochemistry antibodies for sale and provides e-commerce and quoting functionality.
+- [Ancillary Reagents and Consumables for IHC] (https://shop.leicabiosystems.com/ihc-ish/ancillaries-consumables/): This page lists the reagents and related products for use with BOND staining systems and provides e-commerce and quoting functionality.
+- [Tissue Cassettes] (https://shop.leicabiosystems.com/histology-consumables/cassettes/): This page lists the cassettes products used for securing tissue for processing steps in histology workflows.
+- [Microscope Slides and Coverglass] (https://shop.leicabiosystems.com/histology-consumables/slides-coverglass/): The page lists Leica microscope slides and coverglass and provides e-commerce and bulk quoting functionality.
+- [Paraffins] (https://shop.leicabiosystems.com/histology-consumables/paraffins/): This page lists the paraffin wax formulations available for sale and provides e-commerce and bulk quoting functionality.
+- [Histology Reagents and Solutions] (https://shop.leicabiosystems.com/histology-consumables/reagents-solutions/): This page lists a range of histology reagents and solutions for preanalytic workflow stages.
+- [Routine Hematoxylin and Eosin and Special Stains] (https://shop.leicabiosystems.com/histology-consumables/routine-he-special-stains/): This page lists a range of H&E and special stains for use in histology staining workflows.
+- [Microtome and Cryostat Blades] (https://shop.leicabiosystems.com/us/histology-consumables/microtome-cryostat-blades/): This page list Leica Biosystems blades for microtome and cryostat sectioning.
+- [Tissue Specimen Transport and Storage Consumables] (https://shop.leicabiosystems.com/histology-consumables/archiving-transport-storage/): This page lists histology tissue specimen archiving, transportation and storage consumables and provides e-commerce and bulk quoting functionality.
+- [Slide Mounting Media and Adhesives] (https://shop.leicabiosystems.com/histology-consumables/mounting-media-adhesives/): This page lists the slide mounting media and adhesive products available for sale from Leica Biosystems.
+- [Ancillary Histology Consumables] (https://shop.leicabiosystems.com/histology-consumables/ancillaries/): This page lists a range of ancillary consumable products used in histology laboratory workflows.
+
+## Educational Materials
+- [Clinical Histology Webinars] (https://www.leicabiosystems.com/clinical-solutions/webinars/): This page lists some of the recent webinars Leica Biosystems has hosted for clinical histology labs.
+- [Clinical Histology Lab Case Studies] (https://www.leicabiosystems.com/clinical-solutions/case-studies/): This page describes the impact Leica Biosystems has had on various cancer diagnostics laboratories.
+- [Clinical Histology Educational Resources] (https://www.leicabiosystems.com/clinical-solutions/resources/): This page provides access to several educational articles about various histology topics.
+- [Knowledge Pathway] (https://www.leicabiosystems.com/knowledge-pathway/): This page provides a directory of educational materials designed to support histologists continuing education and professional development.
+- [Histology Fundamentals] (https://www.leicabiosystems.com/knowledge-pathway/fundamentals/page-0/): This page provides a listing of educational articles, webinars and other resources intended to education visitors on the fundamentals of histology.
+- [Histology Sample Preparation Resources] (https://www.leicabiosystems.com/knowledge-pathway/sample-preparation/page-0/): This page provides a listing of educational articles, webinars and other resources intended to education visitors on the tissue sample preparation steps of histology workflows.
+- [Histology Tissue Processing Resources] (https://www.leicabiosystems.com/knowledge-pathway/tissue-processing/page-0/): This page provides a listing of educational articles, webinars and other resources intended to education visitors on the tissue processing steps including dehydration and infiltration of histology workflows.
+- [Histology Slide Staining Resources] (https://www.leicabiosystems.com/knowledge-pathway/staining/page-0/): : This page provides a listing of educational articles, webinars and other resources intended to education visitors on the routine H&E staining and coverslipping steps of histology workflows.
+- [Digital Pathology and Artificial Intelligence Resources] (https://www.leicabiosystems.com/knowledge-pathway/digital-pathology-and-ai/page-0/): This page provides a listing of digital pathology educational articles, webinars and other resources to support pathologists and histotechnicians.
+- [Research Histology and Pre-Analytics Resources] (https://www.leicabiosystems.com/life-sciences-and-research-solutions/histology-and-pre-analytics/): This page provides a listing of various educational resources for research histology workflows and life sciences labs.
+- [IHC & Multiplexing Resources] (https://www.leicabiosystems.com/life-sciences-and-research-solutions/ihc-and-multiplexing/): This page lists educational resources including articles and webinars about immunohistochemistry staining and multiplexing in research applications.
+- [Digital Pathology Scanning Resources] (https://www.leicabiosystems.com/life-sciences-and-research-solutions/digital-pathology-imaging-and-scanning/): This page provides a listing of articles and webinars for researchers seeking to learn about operating digital pathology scanning instruments.
+
+## Miscellaneous
+
+- [Product Security] (https://www.leicabiosystems.com/about/product-security/): This page provides information about Leica Biosystems product security considerations.
+- [Website Terms and Conditions] (https://www.leicabiosystems.com/about/terms-and-conditions/): This page provides information about the terms and conditions of using the Leica Biosystems website in various languages.
+- [Innovation Partners] (https://www.leicabiosystems.com/life-sciences-and-research-solutions/partners/): This page lists several of Leica Biosystems partnerships with biotechnology companies to advance the field of cancer diagnostics.

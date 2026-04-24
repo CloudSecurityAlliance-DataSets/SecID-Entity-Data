@@ -1,0 +1,16 @@
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://www.wiz.io/sitemap-1.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.wiz.io/sitemap-cve-1.xml</loc>
+  </sitemap>
+
+  <sitemap>
+    <loc>https://www.wiz.io/sitemap-cve-2.xml</loc>
+  </sitemap>
+
+  <sitemap>
+    <loc>https://www.wiz.io/sitemap-cve-3.xml</loc>
+  </sitemap>
+</sitemapindex>

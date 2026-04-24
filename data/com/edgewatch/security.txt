@@ -1,0 +1,4 @@
+Contact: mailto:security@edgewatch.com
+Expires: 2025-11-30T23:00:00.000Z
+Preferred-Languages: en
+Policy: https://edgewatch.com/legal/disclosure

@@ -1,0 +1,5 @@
+Contact: https://vdp.nibegroup.com
+Expires: 2028-12-31T13:00:00.000Z
+Preferred-Languages: en
+Canonical: https://www.nibe.com/security.txt
+Policy: https://vdp.nibegroup.com

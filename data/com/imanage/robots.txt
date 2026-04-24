@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /umbraco/
+Disallow: /uk/
+
+Sitemap: https://imanage.com/sitemap-xml/

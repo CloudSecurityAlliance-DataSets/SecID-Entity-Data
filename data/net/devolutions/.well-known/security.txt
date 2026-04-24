@@ -1,0 +1,10 @@
+# Our security contact email
+Contact: mailto:security@devolutions.net
+
+# Our security policy
+Policy: https://devolutions.net/security/report-issue/
+
+# Our preferred contact languages
+Preferred-Languages: en, fr
+
+Expires: 2025-12-31T00:00:00.000Z

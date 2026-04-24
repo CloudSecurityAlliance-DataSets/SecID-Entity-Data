@@ -1,0 +1,32 @@
+User-Agent: *
+Disallow: /cgi-bin
+Disallow: /wp-
+Disallow: /?s=
+Disallow: *&s=
+Disallow: /search
+Disallow: /author/
+Disallow: *?attachment_id=
+Disallow: */feed
+Disallow: */rss
+Disallow: */embed
+Disallow: */jobposting
+Disallow: */opennms-appliance-mini-feedback-form
+Allow: /wp-content/uploads/
+Allow: /wp-content/themes/
+Allow: /*/*.js
+Allow: /*/*.css
+Allow: /wp-*.png
+Allow: /wp-*.jpg
+Allow: /wp-*.jpeg
+Allow: /wp-*.gif
+Allow: /wp-*.svg
+Allow: /wp-*.pdf
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow: /wp-content/uploads/2021/05/Minion-Data-Sheet.pdf
+Disallow: /wp-content/uploads/2022/04/Minion-Virtual-Appliance-Data-Sheet-AR-Updated-Apr-2022.pdf
+
+Sitemap: https://www.opennms.com/sitemap_index.xml
+# ---------------------------
+# END YOAST BLOCK

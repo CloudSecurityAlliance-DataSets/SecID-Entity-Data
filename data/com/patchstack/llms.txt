@@ -1,0 +1,57 @@
+# Patchstack
+
+> Patchstack is the leader in open-source vulnerability intelligence, providing the fastest and smartest vulnerability mitigation for WordPress websites through virtual patching.
+
+## Main Pages
+
+- [Homepage](https://patchstack.com/): Overview of Patchstack's vulnerability mitigation platform for WordPress websites
+- [Pricing](https://patchstack.com/pricing/): Plans for developers, enterprises, and web hosting providers
+- [RapidMitigate](https://patchstack.com/rapidmitigate/): Automated vulnerability mitigation that blocks threats with highly targeted rules
+- [Application Security](https://patchstack.com/application-security/): Software Composition Analysis (SCA) scanning for WordPress
+- [WordPress Security](https://patchstack.com/wordpress-security/): Comprehensive WordPress security protection overview
+- [About](https://patchstack.com/about/): Company information, team, and mission
+
+## Solutions
+
+- [For Hosting Providers](https://patchstack.com/for-hosts/): Enterprise vulnerability mitigation for web hosting companies
+- [For Agencies](https://patchstack.com/for-agencies/): Security management for WordPress agencies
+- [For Plugin Developers](https://patchstack.com/for-plugins/): Managed Vulnerability Disclosure Program (mVDP) for plugin and theme developers
+- [WooCommerce Security](https://patchstack.com/woocommerce-security/): Targeted security for WooCommerce stores
+- [Security Auditing](https://patchstack.com/auditing/): Professional WordPress security auditing services
+
+## Resources
+
+- [Articles](https://patchstack.com/articles/): Security research, vulnerability reports, and WordPress security insights
+- [Vulnerability Database](https://patchstack.com/database/): The largest open-source WordPress vulnerability database
+- [Documentation](https://docs.patchstack.com/): Technical documentation and integration guides
+- [Academy](https://patchstack.com/academy/welcome/): Educational resources for WordPress security
+- [Bug Bounty](https://patchstack.com/bug-bounty/): Security researcher reward program
+- [State of WordPress Security 2026](https://patchstack.com/whitepaper/state-of-wordpress-security-in-2026/): Annual report on WordPress vulnerability trends
+
+## Comparisons
+
+- [Patchstack vs Wordfence](https://patchstack.com/wordfence-alternative/): Feature comparison with Wordfence
+- [Patchstack vs Sucuri](https://patchstack.com/sucuri-alternative/): Feature comparison with Sucuri
+- [Patchstack vs WPScan](https://patchstack.com/wpscan-alternative/): Feature comparison with WPScan
+- [Patchstack vs Jetpack](https://patchstack.com/jetpack-alternative/): Feature comparison with Jetpack
+- [Patchstack vs MalCare](https://patchstack.com/malcare-alternative/): Feature comparison with MalCare
+- [Patchstack vs SiteLock](https://patchstack.com/sitelock-alternative/): Feature comparison with SiteLock
+
+## Key Facts
+
+- Founded in 2021 (formerly WebARX, founded in 2018)
+- Headquarters: Tallinn, Estonia
+- 12,000+ highly targeted mitigation rules, the largest collection on the market
+- 4,100+ vulnerabilities disclosed in 2024, of which 13% were highly exploitable
+- 900+ plugins installed on millions of sites have Patchstack as a security point of contact
+- Prevents up to 74% more vulnerability exploits compared to leading web application firewalls
+- 4.9 stars on G2
+- Products: RapidMitigate (virtual patching), Application Security (SCA), Threat Intelligence API, mVDP (Managed Vulnerability Disclosure Program)
+
+## Contact
+
+- Website: https://patchstack.com
+- Documentation: https://docs.patchstack.com
+- LinkedIn: https://www.linkedin.com/company/patchstack/
+- Twitter/X: https://twitter.com/patchstackapp
+- Discord: https://discord.gg/rkE8yxtNmS

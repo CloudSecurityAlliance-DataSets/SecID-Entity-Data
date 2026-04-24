@@ -1,0 +1,5 @@
+User-agent: *
+  Allow: /
+  Disallow: /vulnerability-database
+  Host: https://wiz.io
+  Sitemap: https://wiz.io/sitemap.xml

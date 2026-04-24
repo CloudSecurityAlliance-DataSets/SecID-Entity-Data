@@ -1,0 +1,5 @@
+Contact: mailto:security@trendmicro.com
+Encryption: https://www.trendmicro.com/vulnerability
+Policy: https://www.trendmicro.com/vulnerability
+Hiring: https://www.trendmicro.com/en_us/about/careers.html
+CSAF: https://www.trendmicro.com/.well-known/csaf/provider-metadata.json

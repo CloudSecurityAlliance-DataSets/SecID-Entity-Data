@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /cdn-cgi/
+Allow: /
+Sitemap: https://segura.security/sitemap-index.xml

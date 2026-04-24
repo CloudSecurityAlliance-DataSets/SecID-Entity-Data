@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /templates/
+Disallow: /swag-store/
+Disallow: /sales/
+
+Sitemap: https://www.mirantis.com/sitemap-mirantis.xml

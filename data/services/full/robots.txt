@@ -1,0 +1,23 @@
+User-agent: *
+Disallow: /wp-content/uploads/wc-logs/
+Disallow: /wp-content/uploads/woocommerce_transient_files/
+Disallow: /wp-content/uploads/woocommerce_uploads/
+Disallow: /*?add-to-cart=
+Disallow: /*?*add-to-cart=
+Disallow: /*?*attribute_pa_
+Disallow: /*?attribute_pa_pacote=
+Disallow: /*?*attribute_pa_pacote=
+Disallow: /*?*variation_id=
+Disallow: /*?utm_source=
+Disallow: /*?*utm_source=
+Disallow: /*?ack=
+Disallow: /*?*ack=
+Disallow: /*?e-page=
+Disallow: /*?gclid=
+Disallow: /*?fbclid=
+Disallow: /wp-admin/
+Disallow: /feed/
+Disallow: /*/feed/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://full.services/sitemap_index.xml

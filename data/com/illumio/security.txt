@@ -1,0 +1,25 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Contact: mailto:security@illumio.com
+Expires: 2026-06-30T07:00:00.000Z
+Encryption: https://keys.openpgp.org/vks/v1/by-fingerprint/C244C8FEB9964B939DB34BC704DEC2FE98DC36FF
+Preferred-Languages: en
+Canonical: https://illumio.com/.well-known/security.txt
+Policy: https://www.illumio.com/legal/responsible-disclosure-policy
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEwkTI/rmWS5Ods0vHBN7C/pjcNv8FAmT/P+8ACgkQBN7C/pjc
+Nv8Jzw/+Nso5Vp5GC5wAY4H+hy1qAlxqTtwDqLHbeB6eUjESa1RbJFGoDAhz9GEQ
+sLfveOnE5lrmva9tdgimTQxqTZWHAbKboWwHj8cBIudVWul7Y1TupnyxZAC4b84R
+fOdmIwbQh4dkUH1wBJoFZmDrzRtlA7WVP5jgSo6PMiZXWnvrDNZL3llqHR5XK45I
+c/lpyzcYWDcBST4e/WN8Mcm0oHf99/qvND71sVbXVjCszlqdTw0AhURYguTtBjIq
+SI2R906s9kXvYhi1VzWNtpLu1aa7aK8os9FIipqCqzCKK9XPnQmDiDT24QgdybIp
+0k46nwIb8ZyOiA2yPf5mlWS6QKFHDlyMoyQ4epoDS1QtVhDn3oGK0BpsLuc4xT5I
+wDiIvh8sLxNns0Ow+BDuq/w+VbKDJhJLwCc9Dr5DHCTjioT4MVyVV7AvvAxelzCO
+khnmptTxwoijvKx4EYEhzxzVhS0H3Od/Ea7Td9x6jAsnb22GyPF+dUTYjmv8QkDG
+BajZKuKSAzfcLmw+9jla65BWSeNHbbzQpdUlIBhqNNJrRezquTPdjovMNLyM5VV5
+0CGTRK9XrlolYWzE80aJXdlYm3yQPdhnITXMlqMCueAQgEyHudoIxqklrzVeLeXC
+ioKKRmASF7QyaxPrCA0LD8PDyDVzYFaWQRIvCxYvr1saG8O1Wqk=
+=5wSi
+-----END PGP SIGNATURE-----

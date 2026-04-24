@@ -1,0 +1,6 @@
+﻿Contact: https://selinc.com/form/124003/
+Preferred-Languages: en
+Canonical: https://selinc.com/.well-known/security.txt
+Policy: https://selinc.com/support/security-notifications/
+Hiring: https://selinc.wd1.myworkdayjobs.com/SEL?q=cybersecurity
+Expires: 2027-11-30T15:00:00Z

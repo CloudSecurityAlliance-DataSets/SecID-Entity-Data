@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <?xml-stylesheet type="text/xsl" href="https://konghq.com/sitemap.xsl"?>
+  <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+      <sitemap>
+        <loc>https://konghq.com/sitemaps/blogs.xml</loc>
+        <lastmod>2026-04-24T04:52:07+00:00</lastmod>
+      </sitemap>
+    
+      <sitemap>
+        <loc>https://konghq.com/sitemaps/customer-stories.xml</loc>
+        <lastmod>2026-04-24T04:52:07+00:00</lastmod>
+      </sitemap>
+    
+      <sitemap>
+        <loc>https://konghq.com/sitemaps/conferences.xml</loc>
+        <lastmod>2026-04-24T04:52:07+00:00</lastmod>
+      </sitemap>
+    
+      <sitemap>
+        <loc>https://konghq.com/sitemaps/ebooks.xml</loc>
+        <lastmod>2026-04-24T04:52:07+00:00</lastmod>
+      </sitemap>
+    
+      <sitemap>
+        <loc>https://konghq.com/sitemaps/legal.xml</loc>
+        <lastmod>2026-04-24T04:52:07+00:00</lastmod>
+      </sitemap>
+    
+      <sitemap>
+        <loc>https://konghq.com/sitemaps/meetups.xml</loc>
+        <lastmod>2026-04-24T04:52:07+00:00</lastmod>
+      </sitemap>
+    
+      <sitemap>
+        <loc>https://konghq.com/sitemaps/pages.xml</loc>
+        <lastmod>2026-04-24T04:52:07+00:00</lastmod>
+      </sitemap>
+    
+      <sitemap>
+        <loc>https://konghq.com/sitemaps/press-releases.xml</loc>
+        <lastmod>2026-04-24T04:52:07+00:00</lastmod>
+      </sitemap>
+    
+      <sitemap>
+        <loc>https://konghq.com/sitemaps/reports.xml</loc>
+        <lastmod>2026-04-24T04:52:07+00:00</lastmod>
+      </sitemap>
+    
+      <sitemap>
+        <loc>https://konghq.com/sitemaps/user-calls.xml</loc>
+        <lastmod>2026-04-24T04:52:07+00:00</lastmod>
+      </sitemap>
+    
+      <sitemap>
+        <loc>https://konghq.com/sitemaps/videos.xml</loc>
+        <lastmod>2026-04-24T04:52:07+00:00</lastmod>
+      </sitemap>
+    
+      <sitemap>
+        <loc>https://konghq.com/sitemaps/webinars.xml</loc>
+        <lastmod>2026-04-24T04:52:07+00:00</lastmod>
+      </sitemap>
+    
+      <sitemap>
+        <loc>https://konghq.com/sitemaps/workshops.xml</loc>
+        <lastmod>2026-04-24T04:52:07+00:00</lastmod>
+      </sitemap>
+    
+      <sitemap>
+        <loc>https://konghq.com/sitemaps/campaigns.xml</loc>
+        <lastmod>2026-04-24T04:52:07+00:00</lastmod>
+      </sitemap>
+    
+      <sitemap>
+        <loc>https://konghq.com/sitemaps/demos.xml</loc>
+        <lastmod>2026-04-24T04:52:07+00:00</lastmod>
+      </sitemap>
+    
+      <sitemap>
+        <loc>https://konghq.com/sitemaps/resources.xml</loc>
+        <lastmod>2026-04-24T04:52:07+00:00</lastmod>
+      </sitemap>
+    
+    <sitemap>
+      <loc>https://konghq.com/sitemaps/en-gb.xml</loc>
+      <lastmod>2026-04-24T04:52:07+00:00</lastmod>
+    </sitemap>
+  </sitemapindex>

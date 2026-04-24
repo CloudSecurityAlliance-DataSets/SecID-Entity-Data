@@ -1,0 +1,26 @@
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow: /tag/*
+Disallow: /category/czech-republic/feed/
+Disallow: /faq/what-major-android-browser-flaw-allowing-hackers-to-bypass-sop/feed/
+Disallow: /blog/tag/banking-sector/feed/
+Disallow: /blog/tag/application-security-vulnerabilities/feed/
+Disallow: /author/omriinbar/feed/
+Disallow: /zh/blog/hacker-vs-struts2-game-has-no-ending/feed/
+Disallow: /zh/emea/tcss/feed/
+Disallow: /ko/emea/balidea/feed/
+Disallow: /author/stephen/feed/
+Disallow: /author/jonathansinger/feed/
+Disallow: /category/technical-blog/feed/
+Disallow: /blog/tag/drupal/feed/
+Disallow: /r-d-israel/senior-qa-engineer-200/feed/
+Disallow: /de/emea/orange-cyberdefense/feed/
+Disallow: /blog/tag/crypto/feed/
+Disallow: /blog/tag/partnership/feed/
+Disallow: /author/guyrotem/feed/
+Disallow: /*.pdf$
+
+Sitemap: https://checkmarx.com/sitemap_index.xml
+# ---------------------------
+# END YOAST BLOCK

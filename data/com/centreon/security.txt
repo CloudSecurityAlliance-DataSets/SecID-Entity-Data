@@ -1,0 +1,9 @@
+# Welcome to Centreon Security.txt Page
+# Your presence on our Security.txt page shows that you care about security,
+# and that is something we truly value.
+# If you have found something that needs our attention or have any security concerns,
+# you are in the right place. Feel free to reach out and let us know how we can work together to make Centreon safer.
+# 🐞 Report a vulnerability
+If you would like to report a security issue, you may report it to us on our VDP program.
+Contact: https://vdp.centreon.com
+Canonical: https://centreon.com/.well-known/security.txt

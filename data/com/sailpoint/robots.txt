@@ -1,0 +1,4 @@
+User-agent: *
+
+Disallow: /web-requests
+Sitemap: https://www.sailpoint.com/sitemap.xml

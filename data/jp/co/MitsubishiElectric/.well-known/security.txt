@@ -1,0 +1,27 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Contact: https://www.mitsubishielectric.co.jp/psirt/disclosurepolicy/index.html
+Expires: 2027-04-20T23:59:59+09:00
+Acknowledgments: https://www.mitsubishielectric.co.jp/psirt/vulnerability/index.html
+Canonical: https://www.mitsubishielectric.co.jp/.well-known/security.txt
+Encryption: https://www.mitsubishielectric.co.jp/psirt/pgp/
+Policy: https://www.mitsubishielectric.co.jp/psirt/policy/index.html
+Preferred-Languages: ja, en
+-----BEGIN PGP SIGNATURE-----
+
+iQJpBAEBCABTFiEEllz4cTirMj2MDvhlik7ar2LnHDMFAmnE9Z81HG1pdHN1Ymlz
+aGllbGVjdHJpYy5wc2lydEB5ZC5taXRzdWJpc2hpZWxlY3RyaWMuY28uanAACgkQ
+ik7ar2LnHDOn2A//Z/vmOuYCQhXCFhNGYx8Yov9tO7U9uKH+5eqPp6zK3zasQhK1
+9eraZmFC3cmGo5RA2NYD0jCNM8ri4kIpC5WqMqIaLhO9p0BiikkJ2wIDeVXeS3zm
+LD/ufyCCQ2rJTSj/114OGGcaRgnfwUxzYg7MEMhMQLEHzJD9pQpUOqZW777H6Nrz
+WqBGUlLy2aum0f43DlrpgaejSMGqMqCbe5cFDAlRrwUXZ1VdJL8WGLi7qWpTKklG
+lVcbdkJvajf9K+8nSRDZv7n+yMMIrXu5qqXHzJkepkOyUlM7hdqkryQl0wF4mdYA
+80SxQYhFU63qpsF0zA890VJMtqZ+Vmx4RhmgW65XqWGnB95+iwdXIDf3zb2DJK5K
+9SgjeaWmHfe+aTfH6XLX6UcvcLKoD6Uj0Rq5s9mK5V+sHkqVRfemscrCyQjnu+Ya
+zWn5Sy5Zts1h1Wh10DNh734GK5xk0D+OiJj1U2M/KnNE8YCdGDPbA+LWnIDkuWeg
+6nfIRIZfkNQZm2ME4NFUED9YF9UJVTYId8yMrbSXsdsEtlCs1FEQgJjZrjhMsfbv
+p73ZmbfwrMgapxvxhva2JxjXZlhZ9OmVRp2+avN4sumG3eNZbo+c1Zza34YyMRAe
+em229ChC8Bs/I8LZJkEVRDRHnj6LnP3sR8fq/FX59Hsb2CygilXLbpJEjhw=
+=5w0a
+-----END PGP SIGNATURE-----

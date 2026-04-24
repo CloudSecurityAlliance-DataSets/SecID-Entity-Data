@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+Sitemap: https://www.onekey.com/sitemap.xml
+
+Sitemap: https://www.onekey.com/sitemap.xml

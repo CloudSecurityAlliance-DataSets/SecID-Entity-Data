@@ -1,0 +1,8 @@
+Acknowledgments: https://www.2n.com/en-GB/about-2n/cybersecurity/security-advisories
+Canonical: https://www.2n.com/.well-known/security.txt
+Contact: https://www.2n.com/en-GB/about-2n/cybersecurity/form/
+Encryption: https://www.2n.com/en-GB/download/2n_product_security_public_keytxt
+Expires: 2027-12-31T22:59:00Z
+Hiring: https://www.2n.com/en-GB/careers/
+Policy: https://www.2n.com/en-GB/about-2n/cybersecurity/vulnerability-management
+Preferred-Languages: en

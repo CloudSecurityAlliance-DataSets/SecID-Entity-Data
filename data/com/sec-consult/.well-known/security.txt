@@ -1,0 +1,14 @@
+# In case you identify security issues in our infrastructure, please contact the following email addresses
+Contact: mailto:security-research@sec-consult.com
+Contact: mailto:office@sec-consult.com
+
+# Interested to work with the experts of SEC Consult? Send us your application.
+Hiring: https://sec-consult.com/career
+
+# Our PGP key for the SEC Consult Vulnerability Lab (security-research@sec-consult.com)
+Encryption: https://keys.openpgp.org/vks/v1/by-fingerprint/F9A9D4AF3DC2D298835090252D2DD7B5C6EE883F
+
+# Preferred languages are English and German
+Preferred-Languages: en, de
+
+Expires: 2027-02-25T07:00:00.000Z

@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<urlset xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>https://www.broadcom.com/products/sitemap.xml</loc>
+      <lastmod>2026-02-24T07:00:38Z</lastmod>
+      <xhtml:link rel="alternate" href="https://www.broadcom.com/products/sitemap.xml" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://jp.broadcom.com/products/sitemap.xml" hreflang="ja"/>
+      <xhtml:link rel="alternate" href="https://www.broadcom.cn/products/sitemap.xml" hreflang="zh"/>
+   </url>
+   <url>
+      <loc>https://www.broadcom.com/solutions/sitemap.xml</loc>
+      <lastmod>2026-02-24T07:00:38Z</lastmod>
+      <xhtml:link rel="alternate" href="https://www.broadcom.com/solutions/sitemap.xml" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://jp.broadcom.com/solutions/sitemap.xml" hreflang="ja"/>
+      <xhtml:link rel="alternate" href="https://www.broadcom.cn/solutions/sitemap.xml" hreflang="zh"/>
+   </url>
+   <url>
+      <loc>https://www.broadcom.com/video/sitemap.xml</loc>
+      <lastmod>2026-02-24T07:00:38Z</lastmod>
+      <xhtml:link rel="alternate" href="https://www.broadcom.com/video/sitemap.xml" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://jp.broadcom.com/video/sitemap.xml" hreflang="ja"/>
+      <xhtml:link rel="alternate" href="https://www.broadcom.cn/video/sitemap.xml" hreflang="zh"/>
+   </url>
+   <url>
+      <loc>https://www.broadcom.com/support/sitemap.xml</loc>
+      <lastmod>2026-02-24T07:00:38Z</lastmod>
+      <xhtml:link rel="alternate" href="https://www.broadcom.com/support/sitemap.xml" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://jp.broadcom.com/support/sitemap.xml" hreflang="ja"/>
+      <xhtml:link rel="alternate" href="https://www.broadcom.cn/support/sitemap.xml" hreflang="zh"/>
+   </url>
+   <url>
+      <loc>https://www.broadcom.com/blog/sitemap.xml</loc>
+      <lastmod>2026-02-24T07:00:38Z</lastmod>
+      <xhtml:link rel="alternate" href="https://www.broadcom.com/blog/sitemap.xml" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://jp.broadcom.com/blog/sitemap.xml" hreflang="ja"/>
+      <xhtml:link rel="alternate" href="https://www.broadcom.cn/blog/sitemap.xml" hreflang="zh"/>
+   </url>
+   <url>
+      <loc>https://www.broadcom.com/topics/sitemap.xml</loc>
+      <lastmod>2026-02-24T07:00:38Z</lastmod>
+      <xhtml:link rel="alternate" href="https://www.broadcom.com/topics/sitemap.xml" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://jp.broadcom.com/topics/sitemap.xml" hreflang="ja"/>
+      <xhtml:link rel="alternate" href="https://www.broadcom.cn/topics/sitemap.xml" hreflang="zh"/>
+   </url>
+   <url>
+      <loc>https://www.broadcom.com/company/sitemap.xml</loc>
+      <lastmod>2026-02-24T07:00:38Z</lastmod>
+      <xhtml:link rel="alternate" href="https://www.broadcom.com/company/sitemap.xml" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://jp.broadcom.com/company/sitemap.xml" hreflang="ja"/>
+      <xhtml:link rel="alternate" href="https://www.broadcom.cn/company/sitemap.xml" hreflang="zh"/>
+   </url>
+   <url>
+      <loc>https://www.broadcom.com/unplaced-pages/sitemap.xml</loc>
+      <lastmod>2026-02-24T07:00:38Z</lastmod>
+      <xhtml:link rel="alternate" href="https://www.broadcom.com/unplaced-pages/sitemap.xml" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://jp.broadcom.com/unplaced-pages/sitemap.xml" hreflang="ja"/>
+      <xhtml:link rel="alternate" href="https://www.broadcom.cn/unplaced-pages/sitemap.xml" hreflang="zh"/>
+   </url>
+</urlset>

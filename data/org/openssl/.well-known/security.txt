@@ -1,0 +1,5 @@
+Canonical: https://www.openssl.org/.well-known/security.txt
+Contact: openssl-security@openssl.org
+Contact: https://openssl-library.org/community/#reporting-security-bugssecurityreports
+Acknowledgement: https://openssl-library.org/news/vulnerabilities/
+Policy: https://openssl-library.org/policies/general/security-policy/

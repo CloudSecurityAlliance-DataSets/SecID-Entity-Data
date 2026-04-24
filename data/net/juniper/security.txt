@@ -1,0 +1,5 @@
+Contact: mailto:sirt@juniper.net
+Contact: mailto:IT-CIRT@juniper.net
+Encryption: https://www.juniper.net/security/report-vulnerability
+Hiring: https://www.juniper.net/careers
+Expires: 2026-06-30T00:00:00.000Z

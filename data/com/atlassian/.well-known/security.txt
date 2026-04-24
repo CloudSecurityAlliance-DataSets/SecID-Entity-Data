@@ -1,0 +1,27 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: https://www.atlassian.com/trust/security/report-a-vulnerability
+Contact: mailto:security@atlassian.com
+Expires: 2027-02-04T00:00:00.000Z
+Encryption: https://security-static.prod.atl-paas.net/atlassian-security-public.asc
+Preferred-Languages: en
+Canonical: https://www.atlassian.com/.well-known/security.txt
+Policy: https://www.atlassian.com/trust/security/report-a-vulnerability
+Hiring: https://www.atlassian.com/company/careers/all-jobs?team=Security
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEE6En837D8ZziDAo9REVaaQvymXBkFAmmDssMACgkQEVaaQvym
+XBly3w//av/SYhF2S0OTkD2/raNyn5B3xLsJviQI9duv3YMnyA8EC7TcqtXvEVzo
+72cq5zAEhJX+9wIvaPfPlwdIhu5ydReZpIt8+BEb1wlELTR8Sh6JOAofOnXbQ0pk
+7Wge9DsUTqCWlhsFUy22xmJqYCd/a1ohOBYbvd1Rsiphc/AlAR1CGz1pBETxaPrw
+/6FJ4N67eY5JNV1QgAtKRSa3SRY9R2uxvaOBz08tXXFh6ZMPKTslDzsdg0CvSQLY
+91pawwKN5QLs1tNyCteW3aCjttQvyJ/jWrmsXzV9nkNx+J4h6X4YZ4YBV5cxKAp5
+Cbl8J2X1SYKOB+atM89fXO19NnlQQDao/VXxO/f4ER6nHc8EYI8Wj0KQkbSJZe/6
+s62C0Zi/Jum5GhNZg70Eakpw8I1NCb9ccUVLXnW/aaJuJQp6En3nQswg5goXtmz3
+zNiE6wxocIHpOq2s0cuoyZ9ocJ9iDw8tFM/DSt5Xqv6YVr3ttZZ3qxcDSohOdyVQ
+uNLwTuT4papk/IYDfY/YTogUAf+or2gMlMxIfdKG4bJ19Yg0FGssOVwssBig7akV
+QQHjMwyyCpS42ii72LcqznCQSjZxVJNlM3OcY0SWR/Xnle7IrIDPt7U7ectXAmXh
+60uvpRnalChozj/K+iS4VQnS83RwOTIWI6ko9gC8GYeu1AvIb/c=
+=h/GF
+-----END PGP SIGNATURE-----

@@ -1,0 +1,35 @@
+# Updated 01.19.23 (www.pingidentity.com)
+
+# For all bots
+
+User-agent: *
+Disallow:  /cbin/
+Disallow: /*/modals/
+Disallow: /*/ultimate-guides/
+Disallow: /*/ty/
+Disallow: /bin/
+Disallow: /*/account/
+Disallow: /*/legal/data-access-request---verification
+Disallow: /*/legal/legal-thank-you
+Disallow: /*/legal/privacy-thank-you
+Disallow: /*/company/ping-newsroom/news
+Allow: /*/account/sign-on
+
+User-agent: SemrushBot-BA
+Disallow: /
+
+User-agent: SemrushBot
+Crawl-delay: 60
+
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: AhrefsSiteAudit
+Crawl-delay: 10
+
+Sitemap: https://www.pingidentity.com/sitemap.xml
+Sitemap: https://www.pingidentity.com/fr/sitemap.xml
+Sitemap: https://www.pingidentity.com/de/sitemap.xml
+Sitemap: https://www.pingidentity.com/es/sitemap.xml
+Sitemap: https://www.pingidentity.com/pt/sitemap.xml
+Sitemap: https://www.pingidentity.com/ja/sitemap.xml

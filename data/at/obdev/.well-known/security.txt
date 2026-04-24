@@ -1,0 +1,3 @@
+Contact: mailto:security@obdev.at
+Encryption: https://obdev.at/cve/vulnerability-disclosure-policy.html
+Policy: https://obdev.at/cve/vulnerability-disclosure-policy.html

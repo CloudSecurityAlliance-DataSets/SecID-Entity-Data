@@ -1,0 +1,534 @@
+# Automox
+
+> Save time, reduce risk, and cut complexity by automating OS, third-party, and configuration updates on Windows, macOS, and Linux endpoints from anywhere.
+
+## The Problem
+
+IT operations teams lose hours every week to manual endpoint management. Legacy tools like WSUS only handle Microsoft software, leaving hundreds of third-party applications unpatched. When workforces went remote, the old model broke entirely. Devices outside the corporate network sit beyond the reach of on-premises infrastructure.
+
+Endpoints fall behind. Vulnerabilities accumulate. Attackers exploit known CVEs faster than most organizations can remediate them.
+
+Research shows that 60% of data breaches trace back to unpatched vulnerabilities. Over 75% of vulnerabilities on the average endpoint come from third-party applications, not operating systems. Applications like Chrome, Java, and Adobe products remain unpatched twice as often as Microsoft software because legacy tools cannot manage them.
+
+Manual patching creates additional problems. According to industry research, 59% of organizations agree their processes and tools do not enable them to respond quickly enough to cyber threats. Missing OS patches ranks as the number one technical attack surface exposure causing data breaches.
+
+## What Automox Does
+
+Automox automates OS, third-party, and configuration updates across Windows, macOS, and Linux endpoints. A lightweight agent deploys in seconds and keeps endpoints current without VPNs or on-premises hardware. Devices update automatically whenever they connect to the internet.
+
+The platform covers 580+ third-party applications, including Chrome, Zoom, Slack, and Adobe products. IT teams manage everything from a single cloud console instead of juggling multiple tools.
+
+**Take your time back.** Automate updates and prove endpoints are current in minutes instead of chasing patches manually.
+
+**Power workforce productivity.** Endpoints stay ready without VPNs or hardware dependencies. Updates happen wherever devices connect.
+
+**Prove vulnerabilities are fixed.** Remediate thousands of CVEs in days, not months. Reporting shows which endpoints are patched and which need attention.
+
+**Cut cost and complexity.** Replace multiple legacy tools with a single cloud platform. Standardize your update workflow.
+
+---
+
+## Platform Guide
+
+### Core Capabilities
+
+Automox organizes endpoint management into three functions: Update, Configure, and Control.
+
+**Update** automates patching for operating systems and third-party applications. Policies define when updates deploy and to which devices. The platform handles Windows, macOS, and Linux simultaneously, applying patches on schedule or on-demand. Reporting confirms compliance across the fleet.
+
+**Configure** ensures endpoints meet security baselines and organizational standards. Deploy settings, enforce policies, and maintain consistency across every device. Configuration management reduces attack surface by standardizing endpoint state.
+
+**Control** extends the platform through Worklets, custom automation scripts that execute on endpoints at scale. Worklets handle tasks that policies cannot, from software deployment to vulnerability remediation to compliance enforcement.
+
+### Policies
+
+Policies define automated actions across managed endpoints. Each policy specifies target devices, schedule, and behavior.
+
+**Patch policies** automate operating system and third-party software updates. Configure which patches to apply, when to apply them, and how to handle reboots. Filter patches by severity, source, age, or display name.
+
+**Worklet policies** execute custom scripts on endpoints. Use Worklets for tasks beyond standard patching: software installation, configuration changes, compliance checks, or remediation actions.
+
+**Required software policies** ensure specific applications remain installed on target devices. The platform automatically reinstalls software if removed.
+
+### Policy Scheduling
+
+Policies support flexible scheduling through day, week, and month configurations.
+
+**Days of the week**: Schedule policies for specific days. Options range from every day to single days or custom combinations like Monday, Wednesday, and Friday.
+
+**Weeks per month**: Target specific weeks within each month. Run policies every week, alternate weeks, or specific weeks like the second and fourth.
+
+**Months per year**: Schedule policies for specific months. Run every month or target quarters like March, June, September, and December.
+
+Policies also support maintenance windows that define acceptable hours for updates, preventing disruption during business-critical periods.
+
+### Patch Filters
+
+Advanced filtering controls which patches policies apply.
+
+| Filter | Options |
+|--------|---------|
+| Display name | Contains, does not contain specific text |
+| Severity | Critical, high, medium, low, none, other |
+| Patch source | Windows Update, Mozilla, Adobe, Oracle, Apple, Microsoft |
+| Operating system | Windows, macOS, Linux |
+| Patch age | 1 to 180 days old |
+
+Combine filters to create precise targeting. For example, apply only critical Windows Update patches older than seven days.
+
+### Device Targeting
+
+Policies target devices through groups and filters.
+
+**Groups** organize devices by location, department, function, or any criteria. Assign devices to groups manually or automatically based on attributes.
+
+**Device filters** target endpoints by operating system, IP address, hostname, organizational unit, or tags. Operators include exact match, contains, and exclusions.
+
+### Supported Operating Systems
+
+Automox manages endpoints through a single lightweight agent.
+
+**Windows**: Windows 10, Windows 11, Windows Server 2012 R2, Windows Server 2016, Windows Server 2019, Windows Server 2022, Windows Server 2025
+
+**macOS**: macOS 12 Monterey, macOS 13 Ventura, macOS 14 Sonoma, macOS 15 Sequoia. Automox provides day-zero support for new macOS releases.
+
+**Linux**: Ubuntu, Red Hat Enterprise Linux (RHEL), CentOS, Amazon Linux, Debian, SUSE Linux Enterprise Server, Oracle Linux, Rocky Linux, AlmaLinux
+
+### Third-Party Application Support
+
+Automox patches 580+ third-party applications automatically. Popular applications include:
+
+- **Browsers**: Chrome, Firefox, Edge, Opera, Brave
+- **Productivity**: Microsoft Office, Adobe Acrobat, Zoom, Slack, Microsoft Teams
+- **Development**: Visual Studio Code, Git, Node.js, Python
+- **Utilities**: 7-Zip, WinRAR, VLC, Adobe Reader
+- **Security**: Various antivirus and security tools
+- **Runtime**: Java, .NET Framework, Adobe Flash (legacy)
+
+Third-party patches deploy through the same policies as operating system updates. No separate configuration required.
+
+---
+
+## Worklets
+
+### What Are Worklets
+
+A Worklet is a PowerShell or Bash script designed for execution on endpoints at scale within the Automox platform. Worklets extend automation beyond standard patching to handle any task that can be scripted.
+
+Each Worklet contains two code blocks:
+
+**Evaluation code** runs first and determines whether remediation is needed. If evaluation returns exit code 0, the endpoint is compliant and remediation skips. Any other exit code triggers remediation.
+
+**Remediation code** runs when evaluation indicates action is needed. This code performs the actual work: installing software, changing configuration, or fixing compliance issues.
+
+### Supported Languages
+
+**PowerShell** for Windows endpoints. Worklets support PowerShell 5.1 and later.
+
+**Bash** for macOS and Linux endpoints. Standard Bash scripting with access to system utilities.
+
+### Worklet Development Kit
+
+The Worklet Development Kit (WDK) is a PowerShell module that simplifies common automation tasks. WDK provides pre-built functions that reduce complexity and embed best practices.
+
+WDK goals:
+- Lower barriers to entry for automation
+- Establish consistent code patterns and error handling
+- Reduce redundant boilerplate code
+- Embed security best practices
+
+WDK deploys automatically to Windows endpoints. Call WDK functions directly in Worklet code without manual setup.
+
+**Key WDK functions:**
+
+`Get-Win32App` retrieves installed applications across system and user profiles. Use the `-IncludeUsers` parameter to scan user installations.
+
+`Remove-Win32App` performs silent uninstallation when the application supports quiet removal.
+
+### Example: Uninstalling Firefox
+
+This example demonstrates a Worklet that removes Mozilla Firefox from Windows endpoints.
+
+**Evaluation code:**
+```powershell
+# Check if Firefox is installed
+$firefox = Get-Win32App | Where-Object { $_.DisplayName -like "*Firefox*" }
+if ($firefox) {
+    exit 1  # Remediation needed
+} else {
+    exit 0  # Already compliant
+}
+```
+
+**Remediation code:**
+```powershell
+# Remove Firefox using WDK
+$firefox = Get-Win32App -IncludeUsers | Where-Object { $_.DisplayName -like "*Firefox*" }
+foreach ($app in $firefox) {
+    if ($app.QuietUninstallString) {
+        Remove-Win32App -App $app
+    } else {
+        Write-Output "Cannot silently uninstall: $($app.DisplayName)"
+    }
+}
+```
+
+### Common Worklet Use Cases
+
+**Software deployment**: Install applications not available through standard patching. Deploy internal tools, licensed software, or custom packages.
+
+**Security hardening**: Disable insecure protocols like SMBv1 or LLMNR. Configure firewall rules. Enable security logging.
+
+**Compliance enforcement**: Check registry settings, file permissions, or service configurations. Remediate non-compliant endpoints automatically.
+
+**Vulnerability mitigation**: Apply workarounds for zero-day vulnerabilities before patches are available. Disable vulnerable features or apply configuration changes.
+
+**System maintenance**: Clean temporary files, manage disk space, rotate logs, or perform scheduled maintenance tasks.
+
+### Worklet Catalog
+
+Automox includes 368+ pre-built Worklets covering common IT automation tasks. The catalog provides ready-to-use solutions for Windows, macOS, and Linux.
+
+Catalog categories:
+- Security hardening and compliance
+- Software installation and removal
+- System configuration
+- User management
+- Logging and monitoring
+- Vulnerability remediation
+
+Access the Worklet catalog through the Automox console or community at community.automox.com.
+
+---
+
+## API Reference
+
+### Overview
+
+The Automox Console API provides programmatic access to manage devices, policies, groups, and organizations. The API follows RESTful standards with JSON request and response bodies.
+
+Base URL: `https://console.automox.com/api`
+
+### Authentication
+
+The API supports two authentication methods:
+
+**Organization API keys** provide access scoped to a specific organization. Generate keys from the Automox console under the Keys menu.
+
+**Bearer token authentication** passes the API key in the Authorization header:
+```
+Authorization: Bearer YOUR_API_KEY
+```
+
+### Organization ID
+
+Many endpoints require an organization ID parameter. Find your organization ID in the console URL after switching to the desired organization:
+```
+https://console.automox.com/dashboard?o=12345
+```
+The number after `o=` is your organization ID.
+
+### Key Endpoints
+
+| Category | Endpoints |
+|----------|-----------|
+| Devices | List, get, update, delete devices; execute commands |
+| Policies | Create, read, update, delete policies; manage schedules |
+| Groups | Manage device groups and assignments |
+| Organizations | Access organization settings and metadata |
+| Commands | Queue commands for device execution |
+| Packages | View available patches and software packages |
+| Reports | Extract compliance and status data |
+| Users | Manage API keys and user access |
+
+### Example: List Devices
+
+```bash
+curl -X GET "https://console.automox.com/api/servers?o=12345" \
+  -H "Authorization: Bearer YOUR_API_KEY"
+```
+
+Response returns JSON array of device objects with properties including ID, hostname, operating system, patch status, and last check-in time.
+
+### Example: List Policies
+
+```bash
+curl -X GET "https://console.automox.com/api/policies?o=12345" \
+  -H "Authorization: Bearer YOUR_API_KEY"
+```
+
+Response includes policy configuration, schedule, target groups, and patch filters.
+
+### Response Codes
+
+| Code | Meaning |
+|------|---------|
+| 200 | Success |
+| 201 | Resource created |
+| 204 | Success, no content returned |
+| 400 | Bad request, check parameters |
+| 401 | Authentication required |
+| 403 | Insufficient permissions |
+| 404 | Resource not found |
+| 429 | Rate limit exceeded |
+| 503 | Service temporarily unavailable |
+
+### Rate Limits
+
+The API enforces rate limits to ensure service availability. When limits are exceeded, requests return 429 status. Implement exponential backoff in production integrations.
+
+### Best Practices
+
+Store API keys securely using environment variables. Never commit keys to source control or share them in community posts.
+
+Use pagination for endpoints returning large datasets. Most list endpoints support limit and offset parameters.
+
+Cache responses when appropriate to reduce API calls and improve application performance.
+
+---
+
+## Best Practices
+
+### Patch Management Best Practices
+
+**Maintain endpoint inventory.** Know what devices, applications, and operating systems exist across your organization. Complete inventory enables accurate risk assessment and ensures no endpoints fall through the cracks.
+
+**Establish regular schedules.** Patching on irregular schedules leads to missed patches. Define cadences based on vulnerability severity, device function, and business requirements. Critical patches warrant faster deployment than routine updates.
+
+**Prioritize third-party applications.** Over 75% of endpoint vulnerabilities come from third-party software. Applications like browsers, Java, and Adobe products require the same attention as operating system patches.
+
+**Automate where possible.** Manual patching introduces delays and human error. Automated solutions apply patches consistently, scale across thousands of endpoints, and free IT teams for higher-value work.
+
+**Monitor compliance continuously.** Maintain current reports showing patch status across all endpoints. Identify unpatched devices quickly and track remediation progress. Target 95% or higher patch compliance.
+
+**Test before broad deployment.** Verify patches in controlled environments before rolling out to production. Testing prevents compatibility issues and application breakage.
+
+**Define maintenance windows.** Schedule updates during periods that minimize business disruption. Coordinate with stakeholders to identify acceptable patching times.
+
+### Third-Party Patching Best Practices
+
+**Monitor software usage.** Conduct regular inventories to understand which third-party applications exist across endpoints. Track installation through agents that report deployment and patch status.
+
+**Scan frequently.** Unlike Microsoft's predictable monthly releases, third-party vendors publish patches on independent schedules. Scan at minimum weekly to catch emerging updates.
+
+**Centralize management.** Managing patches across hundreds of vendors and thousands of devices requires centralized tooling. Single-pane solutions reduce complexity and ensure consistency.
+
+**Use cloud-native solutions.** Automated cloud-based patch management removes barriers for remote devices. Endpoints patch directly from the internet without VPN dependencies.
+
+### Cloud Patching Best Practices
+
+**Scan continuously.** Cloud services release patches irregularly. Ongoing monitoring minimizes the window between patch availability and deployment.
+
+**Unify hybrid environments.** Most organizations operate across multiple cloud providers while retaining on-premises infrastructure. Single solutions supporting all platforms streamline operations.
+
+**Maintain visibility.** Centralized dashboards showing all endpoints regardless of location enable efficient status assessment and compliance reporting.
+
+**Extend to third-party applications.** Cloud environments run the same vulnerable applications as on-premises systems. Browsers and productivity tools require patching in cloud workloads.
+
+### Security Hardening Best Practices
+
+**Disable unnecessary protocols.** Protocols like SMBv1 and LLMNR create security risks. Use Worklets to disable insecure services across all managed endpoints.
+
+**Enable logging.** Comprehensive logging supports incident detection and forensic investigation. Automate log configuration to ensure consistent coverage.
+
+**Apply configuration baselines.** Define secure configurations for operating systems and applications. Enforce baselines through policies that detect and remediate drift.
+
+**Respond to advisories.** When agencies like NSA or CISA issue vulnerability warnings, act quickly. Worklets enable rapid response to emerging threats before patches are available.
+
+---
+
+## Agent Installation and Management
+
+### Installation Paths
+
+| Operating System | Agent Path |
+|-----------------|------------|
+| Windows | `C:\Program Files (x86)\Automox\amagent.exe` |
+| macOS | `/usr/local/bin/amagent` |
+| Linux | `/opt/amagent/amagent` |
+
+### Command Line Reference
+
+**Display help:**
+```bash
+amagent --help
+```
+
+**Set organization access key:**
+```bash
+amagent --setkey YOUR_ACCESS_KEY
+```
+This binds the agent to your organization. Restart the agent service afterward.
+
+**Assign device group:**
+```bash
+# macOS/Linux
+amagent --setgrp 'Default Group/GroupName'
+
+# Windows
+amagent --setgrp "Default Group\GroupName"
+```
+Groups must exist before assignment. Use forward slashes as path separators.
+
+**Deregister device:**
+```bash
+amagent --deregister
+```
+Resets the agent to register as a new device on next startup.
+
+**Run self-test:**
+```bash
+amagent selftest
+```
+Verifies agent connectivity and configuration. Use for troubleshooting.
+
+**Console output mode:**
+```bash
+amagent -c
+```
+Runs agent with logging to stdout for debugging. Disable the background service first.
+
+### Service Management
+
+**Windows:**
+```cmd
+net stop amagent
+net start amagent
+```
+
+**macOS:**
+```bash
+sudo launchctl bootout system/com.automox.agent
+sudo launchctl bootstrap system /Library/LaunchDaemons/com.automox.agent.plist
+```
+
+**Linux:**
+```bash
+sudo service amagent restart
+```
+
+### Troubleshooting
+
+**Agent self-test fails during installation:** The agent cannot reach Automox cloud services. Verify DNS resolution for rtt.automox.com and api.automox.com. Check that firewalls and proxies allow outbound HTTPS traffic to these endpoints.
+
+**macOS installation issues:** Ensure installation commands run in bash, not zsh. While macOS defaults to zsh since Catalina, the Automox installer expects bash. Switch shells before running installation commands.
+
+**Windows Defender blocks installation:** Configure exclusions for the Automox installation directory. The agent executable may trigger false positives during initial installation.
+
+**SUSE Linux installation fails:** The error "nothing provides initscripts" indicates missing dependencies. Update package repositories and install required packages before agent installation.
+
+**Cannot uninstall agent:** File corruption or missing executables can prevent standard uninstallation. Use the dedicated PowerShell cleanup script or manual removal steps documented in the help center.
+
+---
+
+## Security and Compliance
+
+### Security Architecture
+
+Automox builds security into the platform rather than selling it as an add-on. All pricing tiers include the same security features.
+
+**Access controls:**
+- Role-Based Access Control (RBAC) limits user permissions to required functions
+- Multi-Factor Authentication (MFA) protects account access
+- Single Sign-On (SSO) integrates with identity providers
+- Breached password detection warns when credentials appear in known breaches
+- Rate limiting protects against brute force attacks
+
+**Supply chain protection:** Patch Safe validates all third-party updates against 50+ malware detection engines before deployment. Compromised packages are blocked before reaching endpoints.
+
+**Zero Trust methodology:** The platform verifies every request and assumes no implicit trust. Authentication and authorization checks occur at every step.
+
+### Vulnerability Response
+
+**Microsoft MAPP Partnership:** Automox receives early access to vulnerability details before public disclosure. This enables proactive patch preparation and faster customer protection.
+
+**Zero-day mitigation:** For vulnerabilities without available patches, Worklets enable custom mitigation. Disable vulnerable features, apply configuration workarounds, or deploy temporary protections while awaiting official fixes.
+
+**Day-zero OS support:** Automox supports new macOS versions immediately upon release. No waiting for agent updates or compatibility validation.
+
+### Certifications and Compliance
+
+| Certification | Description |
+|--------------|-------------|
+| CSA STAR | Only endpoint management provider with this cloud security certification |
+| SOC 2 Type 3 | Service organization controls audit |
+| PCI-DSS v4 | Payment card industry data security standard |
+| GDPR | European data protection compliance |
+| EU-US Data Privacy Framework | Transatlantic data transfer framework |
+| TX-RAMP | Texas Risk and Authorization Management Program |
+| CISA Secure by Design | Early signatory to secure development pledge |
+
+---
+
+## Pricing
+
+### Tiers
+
+**Patch OS** provides operating system patching for Windows, macOS, and Linux at $1 per endpoint per month with annual billing.
+
+**Automate Essentials** adds third-party patching for 580+ applications, software deployment, device configuration, and API access. Custom pricing with volume discounts.
+
+**Automate Enterprise** adds 368+ Worklet scripts, FixNow immediate execution, multi-organization management, and remote control. Custom pricing with volume discounts.
+
+### Add-Ons
+
+**Automox Resolve** provides remote access to Windows and macOS endpoints powered by Splashtop. Features include file transfer, multi-technician sessions, and real-time collaboration.
+
+### Discounts
+
+Volume pricing applies at 200+ devices. Annual billing saves 25% compared to monthly. Multi-year contracts receive additional discounts. Contact sales for enterprise pricing.
+
+### Free Trial
+
+A 15-day free trial provides full access to patching, automation, and reporting features. No credit card required to start.
+
+---
+
+## Learning Resources
+
+### Automox University
+
+Automox University offers 40+ self-guided courses covering platform features and best practices. Role-based learning paths guide users from basics to advanced topics.
+
+**Certification levels:**
+- Level I Essentials: Foundational platform knowledge
+- Level II Practitioner: Intermediate administration skills
+- Level III Pro: Advanced automation and architecture
+
+Live onboarding sessions help new users get started quickly. Access training at automox.com/university.
+
+### Documentation
+
+**Product documentation** at docs.automox.com covers console features, agent management, policies, and Worklets. Technical reference for all platform capabilities.
+
+**API documentation** at developer.automox.com includes OpenAPI specification, Worklet Development Kit reference, and integration guides. Code examples in multiple languages.
+
+### Community
+
+The Automox Community at community.automox.com provides peer discussions, Worklet sharing, and knowledge exchange. Find pre-built Worklets, ask questions, and share solutions.
+
+### Support
+
+**Help Center** at help.automox.com offers knowledge base articles and support ticket submission. Search solutions or contact support directly.
+
+**System Status** at status.automox.com tracks platform availability and incident history. Subscribe to notifications for service updates.
+
+---
+
+## Key Links
+
+- Website: https://www.automox.com
+- Platform: https://www.automox.com/platform
+- Worklets: https://www.automox.com/worklets
+- Catalog Sitemap: https://www.automox.com/catalog-sitemap.xml
+- Pricing: https://www.automox.com/pricing
+- Free Trial: https://www.automox.com/signup
+- Console: https://console.automox.com
+- Product Documentation: https://docs.automox.com
+- API Documentation: https://developer.automox.com
+- Help Center: https://help.automox.com
+- Community: https://community.automox.com
+- Automox University: https://www.automox.com/university
+- System Status: https://status.automox.com
+- Security: https://www.automox.com/security
+- Blog: https://www.automox.com/blog

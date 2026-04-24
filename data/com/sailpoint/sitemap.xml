@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <sitemap>
+        <loc>https://www.sailpoint.com/sitemap/en.xml</loc>
+    </sitemap>
+    <sitemap>
+        <loc>https://www.sailpoint.com/sitemap/es.xml</loc>
+    </sitemap>
+    <sitemap>
+        <loc>https://www.sailpoint.com/sitemap/es-mx.xml</loc>
+    </sitemap>
+    <sitemap>
+        <loc>https://www.sailpoint.com/sitemap/fr.xml</loc>
+    </sitemap>
+    <sitemap>
+        <loc>https://www.sailpoint.com/sitemap/ja.xml</loc>
+    </sitemap>
+    <sitemap>
+        <loc>https://www.sailpoint.com/sitemap/ko.xml</loc>
+    </sitemap>
+    <sitemap>
+        <loc>https://www.sailpoint.com/sitemap/en-au.xml</loc>
+    </sitemap>
+    <sitemap>
+        <loc>https://www.sailpoint.com/sitemap/de.xml</loc>
+    </sitemap>
+    <sitemap>
+        <loc>https://www.sailpoint.com/sitemap/pt-br.xml</loc>
+    </sitemap>
+    <sitemap>
+        <loc>https://www.sailpoint.com/sitemap/zh-hant.xml</loc>
+    </sitemap>
+</sitemapindex>

@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /community/profile/
+Disallow: /home/users/
+Disallow: /documents/login/software/
+Disallow: /documents/referenced/
+Disallow: /*/_jcr_content/
+Disallow: /*?filter=userIdentifier
+Sitemap: https://www.silabs.com/sitemap.xml

@@ -1,0 +1,24 @@
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow:
+
+Sitemap: https://www.pingcap.com/sitemap_index.xml
+# ---------------------------
+# END YOAST BLOCK
+
+# AI Crawlers — explicitly allowed for AEO/LLM visibility
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /

@@ -1,0 +1,5 @@
+Contact: mailto:security.vulnerabilities@hitachivantara.com
+Expires: 2026-12-31T22:59:00.000Z
+Canonical: https://www.hitachivantara.com/.well-known/security.txt
+Policy: https://www.hitachivantara.com/en-us/security#section-vulnerability-disclosure-policy
+Hiring: https://www.hitachivantara.com/en-us/company/careers.html

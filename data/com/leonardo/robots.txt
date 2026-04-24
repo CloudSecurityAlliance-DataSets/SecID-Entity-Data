@@ -1,0 +1,10 @@
+User-Agent: *
+Allow: /
+Disallow: /*/c/portal/update_language?*
+Disallow: */search?*
+Disallow: */web/*
+Disallow: */www.emarketstorage.com*
+Disallow: */theme/*
+Disallow: /*?f=
+Sitemap: https://www.leonardo.com/sitemap_EN.xml
+Sitemap: https://www.leonardo.com/sitemap_IT.xml

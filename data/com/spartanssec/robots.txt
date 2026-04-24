@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /?*
+Disallow: /search
+Disallow: /checkout
+Disallow: /cart
+Disallow: /account
+Allow: /
+
+Sitemap: https://spartanssec.com/sitemap.xml

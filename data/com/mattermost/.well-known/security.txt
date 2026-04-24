@@ -1,0 +1,5 @@
+Contact: mailto:security@mattermost.com
+Expires: 2030-06-21T10:00:00.000Z
+Preferred-Languages: en
+Canonical: https://mattermost.com/.well-known/security.txt
+Policy: https://mattermost.com/security-vulnerability-report/

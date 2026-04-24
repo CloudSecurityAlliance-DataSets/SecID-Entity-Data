@@ -1,0 +1,6 @@
+Report An Issue: https://www.blackberry.com/en/secure-communications/services/psirt-report-an-issue
+Contact: secure@blackberry.com
+Preferred-Languages: en
+Encryption: https://www.blackberry.com/bbsirt-pgp-key.txt
+Acknowledgments: https://www.blackberry.com/en/secure-communications/services/psirt
+Policy: https://www.blackberry.com/en/secure-communications/blackberry-coordinated-vulnerability-disclosure-policy

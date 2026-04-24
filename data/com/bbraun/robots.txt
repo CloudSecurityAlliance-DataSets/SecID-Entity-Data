@@ -1,0 +1,7 @@
+User-Agent: *
+Allow:  /
+Disallow: /en/products-and-solutions/therapies/infusion-therapy/lobo-booklet.html
+Disallow: /en/products-and-solutions/therapies/pain-therapy/multimodal-pain-management/studies-summary.html
+Disallow: /en/products-and-solutions/therapies/vascular-access/central-venous-catheter-certofix-/cvc-safe-placement.html
+
+Sitemap: https://www.bbraun.com/sitemap.xml

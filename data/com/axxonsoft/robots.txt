@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /search
+Disallow: /nova
+Disallow: /storage
+Disallow: /bitrix
+Disallow: /imprint
+Disallow: /press-center/subscription/thank-you-for-subscription
+Disallow: /products/integration/supported-ip/devices-list/digieyes-de-hdxxxx
+Disallow: /press-center/news/drivers-pack-3217-is-released
+Disallow: /products/integration/supported-ip/devices-list/ips-ips-9xxips-eye-xxx-series
+Disallow: /*?
+
+Host: https://www.axxonsoft.com
+Sitemap: https://www.axxonsoft.com/sitemap-en.xml

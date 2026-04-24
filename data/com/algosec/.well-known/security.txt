@@ -1,0 +1,2 @@
+Contact: mailto:security@algosec.com
+Policy: https://www.algosec.com/resources/algosec-security-center

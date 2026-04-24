@@ -1,0 +1,7 @@
+Contact: https://neo4j.com/trust-center/responsible-disclosure/
+Expires: 2027-01-01T00:00:00.000Z
+Encryption: https://keys.openpgp.org/vks/v1/by-fingerprint/5B7D17782C3B3F228C8AFF54B69ACF2EA0297D6E
+Acknowledgments: https://neo4j.com/trust-center/responsible-disclosure/
+Canonical: https://console.neo4j.io/.well-known/security.txt
+Policy: https://neo4j.com/trust-center/responsible-disclosure/
+Hiring: https://neo4j.com/careers/

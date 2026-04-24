@@ -1,0 +1,45 @@
+User-agent: PallBot
+Disallow:
+
+User-agent: Googlebot
+Disallow:
+crawl-delay: 20
+
+User-agent: Baiduspider
+Disallow:
+crawl-delay: 20
+
+User-agent: Bingbot
+Disallow:
+
+User-agent: MSNbot
+Disallow:
+crawl-delay: 20
+
+User-agent: Slurp
+Disallow:
+
+User-agent: gsa-crawler
+Disallow:
+
+User-agent: YandexBot
+Disallow:
+crawl-delay: 20
+
+User-agent: BrightEdge Crawler
+Disallow:
+crawl-delay: 20
+
+User-agent: MJ12bot
+Disallow:
+crawl-delay: 20
+
+User-agent: *
+Disallow:
+crawl-delay: 20
+
+Sitemap: https://www.pall.com/sitemap.xml
+Sitemap: https://www.pall.com/ar-sitemap.xml
+Sitemap: https://www.pall.com/br-sitemap.xml
+Sitemap: https://www.pall.com/de-sitemap.xml
+Sitemap: https://www.pall.com/kr-sitemap.xml

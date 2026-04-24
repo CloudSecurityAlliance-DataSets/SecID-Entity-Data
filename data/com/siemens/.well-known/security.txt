@@ -1,0 +1,10 @@
+Contact: mailto:productcert@siemens.com
+Contact: mailto:cert@siemens.com
+Encryption: https://cert-portal.siemens.com/productcert/pgp/productcert-siemens-com.asc
+Encryption: https://cert-portal.siemens.com/cert/pgp/cert-siemens-com.asc
+Acknowledgments: https://cert-portal.siemens.com/productcert/json/hall_of_thanks.json
+Preferred-Languages: en, de
+Canonical: https://www.siemens.com/.well-known/security.txt
+Policy: https://www.siemens.com/en-us/content/cert-services-vulnerability-process/
+CSAF: https://cert-portal.siemens.com/productcert/csaf/provider-metadata.json
+Expires: 2027-04-12T04:54:08Z

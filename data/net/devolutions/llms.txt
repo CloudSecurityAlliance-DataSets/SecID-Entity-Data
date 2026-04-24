@@ -1,0 +1,66 @@
+# Devolutions
+
+> Devolutions is a Canadian company (founded 2004, near Montreal, Quebec) that provides remote connection management, password management, and privileged access management (PAM) solutions for IT professionals and SMBs. Their products serve 200,000+ users across 140+ countries. All products are designed to work standalone or as an integrated platform ecosystem.
+
+Core products: Remote Desktop Manager (RDM), Devolutions Server, Devolutions Hub, Devolutions Gateway, Devolutions PAM, and Devolutions Workspace. All packages are subscription-based, licensed per named user, for up to 99 users. The Starter Pack is exclusively for teams of 5 or fewer.
+
+## Products
+
+- [Remote Desktop Manager (RDM)](https://devolutions.net/remote-desktop-manager/): Centralizes RDP, SSH, VNC, ARD, Telnet, and 200+ remote connection types in a single platform with built-in enterprise-grade password management, role-based access control, and credential injection. Free (solo/individual) or Team (shared, licensed) editions. Runs on Windows, macOS, Linux, iOS, and Android.
+- [Remote Desktop Manager Free](https://devolutions.net/products/remote-desktop-manager-free/): Completely free edition for individual users. No time limit, no hidden fees. Full-featured for solo use with local data source. Cannot share sessions or credentials with a team.
+- [Devolutions Server](https://devolutions.net/server/): Self-hosted data source for Devolutions RDM, centralizing connections, credentials, and privileged access on your own infrastructure (Windows Server + MSSQL). Supports SSO via Active Directory, Microsoft Entra ID, Okta, and PingOne; RBAC; MFA (TOTP, YubiKey, Duo, SMS, Radius); a REST API and PowerShell module; and full PAM capabilities (account discovery, automated password rotation, JIT checkout workflows, session recording) when paired with Devolutions PAM. Logs to syslog, Slack, Windows Event Viewer, or Microsoft Sentinel. Three major releases per year; high availability supported on Windows-based deployments.
+- [Devolutions Hub Business](https://devolutions.net/hub/): Cloud-hosted data source for Devolutions RDM, combining shared credential vaults, role-based access control, SSO (Microsoft Entra ID, Okta), zero-knowledge client-side encryption, and optional PAM integration (checkout workflows, privileged credential vaulting, password usage policies). Also works as a standalone org-wide password manager via the web app or Devolutions Workspace. SOC 2 Type II, SOC 3, and ISO/IEC 27001:2022 certified. Free solo tier available; team packages are licensed per user.
+- [Devolutions PAM](https://devolutions.net/privileged-access-management/): Privileged access management module for SMBs and IT pros. Features: privileged account discovery (AD, Entra ID, SSH, SQL Server, local Windows), password vaulting, approval workflows, session recording, JIT elevation, zero standing privilege (ZSP), and compliance reporting. Priced at $50/user. Available cloud or self-hosted via Devolutions Server or Hub.
+- [Devolutions Workspace](https://devolutions.net/workspace/): Unified secure access app available as desktop (Windows, macOS), mobile (iOS, Android), and browser extension (Chrome, Firefox, Edge, Opera, Safari). Provides access to credentials and remote sessions from Hub Business, Hub Personal, and Devolutions Server. Includes built-in OTP authenticator and push notification approvals. Free.
+- [UniGetUI](https://devolutions.net/unigetui/): A graphical interface for the most common Windows CLI package managers — WinGet, Scoop, Chocolatey, Pip, Npm, .NET Tool, and PowerShell Gallery. Discover, install, update, and uninstall software without the command line, with bulk operations, export/import of package lists, and auto-update notifications. Free, open source (MIT licensed), and available via Microsoft Store, winget, scoop, or Chocolatey. Windows 10/11 only.
+- [Devolutions PowerShell Universal](https://devolutions.net/powershell-universal/): A unified platform to build, automate, and operationalize PowerShell at scale. Covers scheduled automation, REST API generation, interactive dashboards, web apps, and role-based access control. Includes a free Developer edition (requires a Devolutions account) for local development with full features; a Server license is required for production use.
+- [Free Products Overview](https://devolutions.net/free/): RDM Free, Hub Personal, Devolutions Send, and Workspace are all available at no cost for individual users.
+
+## Companion Tools
+
+- [Devolutions Send](https://devolutions.net/devolutions-send/): Free secure one-time secret and file sharing service. Client-side encrypted, links expire after 24 hours. Integrated into RDM, Devolutions Server, Hub, and Workspace. Available standalone at send.devolutions.com.
+- [Devolutions Gateway](https://devolutions.net/gateway/): Lightweight, open-source (Rust) secure access proxy for just-in-time connections to resources in segmented networks. VPN-free alternative to RD Gateway. Supports RDP, SSH, VNC, ARD, Telnet, PowerShell, and web protocols. Managed by Devolutions Server or Hub. Installable on Windows or Linux. Up to 5 concurrent sessions free with Devolutions Server license.
+- [Devolutions Launcher](https://devolutions.net/launcher/): Allows end users to launch remote sessions from a browser without installing RDM. Works with Devolutions Server and Hub.
+- [Devolutions Agent ](https://devolutions.net/agent/): Background service enabling centralized Gateway updates, privilege elevation and delegation management (PEDM), and remote RDP script execution via RDM.
+
+## Solution Packages
+
+- [Starter Pack](https://devolutions.net/solutions/starter-pack/): All products (RDM, Devolutions Server or Hub, Gateway, PAM, Workspace, Launcher) at half price for teams of up to 5 users. $25/user/month. Best entry point for small teams wanting full PAM capabilities.
+- [Workforce Password Management Package](https://devolutions.net/solutions/password-management/): Devolutions Hub Business + Workspace. For business users managing shared credentials and enforcing MFA/SSO policies.
+- [Remote Access Management Package](https://devolutions.net/solutions/remote-connection-management/): Devolutions Hub or Server + Gateway + Launcher + Workspace. For just-in-time secure external access without a VPN.
+- [Remote Desktop Management & IT Operations Package](https://devolutions.net/remote-desktop-manager/): RDM + Devolutions Server or Hub + Gateway + Launcher + Workspace. For sysadmins managing 50+ remote connection types with granular access control.
+- [Privileged Access Management Package](https://devolutions.net/solutions/privileged-access-management/): Full products suite including Privileged Access Management module. For organizations enforcing least privilege, automated password rotation, and compliance reporting.
+- [Compare All Packages](https://devolutions.net/solutions/): Side-by-side overview of all solution packages and included products.
+- [Online Store](https://store.devolutions.net/package): Purchase licenses, renew subscriptions, and get quotes for all Devolutions packages.
+
+## Integrations & Use Cases
+
+- [Devolutions Use Cases](https://devolutions.net/solutions/use-case/): Explore how Devolutions solutions address a wide range of IT challenges, including secure remote access, credential management, and infrastructure modernization.
+- [Integration Center](https://devolutions.net/integration-center/): 100+ integrations including CyberArk, BeyondTrust, 1Password, KeePass, LastPass, Azure AD, Okta, and more.
+
+## Resources & Community
+
+- [Documentation](https://docs.devolutions.net/): Full technical documentation for all products.
+- [Forum](https://forum.devolutions.net/): Community support forum with 12,000+ members. Monitored by Devolutions team.
+- [Academy](https://academy.devolutions.net/): Free self-paced courses and learning paths for all products. Requires a free Devolutions Account.
+- [Blog](https://devolutions.net/blog/): Weekly articles covering product releases, IT security, use cases, and how-to guides.
+- [Support Center](https://devolutions.net/support/): Support plans documentation, including standard (included with paid licenses) and premium support options.
+- [Download RDM](https://devolutions.net/remote-desktop-manager/download/): Windows (MSI/EXE/ZIP, x64/ARM64), macOS, iOS, Android.
+- [Devolutions Portal](https://portal.devolutions.com/): Account management, license assignment, and team administration.
+
+## Company
+
+- [About Devolutions](https://devolutions.net/company/about/): Company history, mission, values. Founded 2004, headquartered near Montreal, Quebec, Canada.
+- [Trust Center & Security](https://devolutions.net/security/): Security practices, SOC 2 Type II, ISO/IEC 27001:2022 certifications, and responsible disclosure policy.
+- [Careers](https://devolutions.net/company/positions/): Open positions at Devolutions.
+- [Contact](https://devolutions.net/contact/): Sales, support, and general inquiries.
+
+## Optional
+
+- [Starter Pack Blog Announcement](https://devolutions.net/blog/2025/06/introducing-the-starter-pack-pam-for-small-teams/): Detailed walkthrough of the Starter Pack, what is included, and who it is for.
+- [Proof of Concept Program](https://devolutions.net/guided-poc/): Free 90-day guided or self-guided PoC for Devolutions Server for teams of 100+ users.
+- [Reseller Program](https://devolutions.net/buy/reseller/): Partner and reseller program for MSPs and channel partners.
+- [Status Page](https://status.devolutions.net/): Real-time availability of Devolutions cloud services.
+- [Newsroom](https://devolutions.net/company/newsroom/): Press releases and official announcements.
+- [White Papers & Reports](https://devolutions.net/support/whitepapers/): Research papers on PAM, IT security, and SMB best practices.
+- [IT Security Glossary](https://devolutions.net/glossary/): Definitions of key IT and security terms referenced across Devolutions content.

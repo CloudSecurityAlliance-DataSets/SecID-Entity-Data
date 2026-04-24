@@ -1,0 +1,76 @@
+Sitemap:https://www.honeywell.com/sitemap.xml
+Sitemap:https://www.honeywell.com/sitemap-dz-en.xml
+Sitemap:https://www.honeywell.com/sitemap-ao-en.xml
+Sitemap:https://www.honeywell.com/sitemap-au-en.xml
+Sitemap:https://www.honeywell.com/sitemap-ca-en.xml
+Sitemap:https://www.honeywell.com/sitemap-cz-en.xml
+Sitemap:https://www.honeywell.com/sitemap-in-en.xml
+Sitemap:https://www.honeywell.com/sitemap-ke-en.xml
+Sitemap:https://www.honeywell.com/sitemap-my-en.xml
+Sitemap:https://www.honeywell.com/sitemap-ng-en.xml
+Sitemap:https://www.honeywell.com/sitemap-ph-en.xml
+Sitemap:https://www.honeywell.com/sitemap-ro-en.xml
+Sitemap:https://www.honeywell.com/sitemap-za-en.xml
+Sitemap:https://www.honeywell.com/sitemap-th-en.xml
+Sitemap:https://www.honeywell.com/sitemap-gb-en.xml
+Sitemap:https://www.honeywell.com/sitemap-at-de.xml
+Sitemap:https://www.honeywell.com/sitemap-be-nl.xml
+Sitemap:https://www.honeywell.com/sitemap-be-fr.xml
+Sitemap:https://www.honeywell.com/sitemap-br-pt.xml
+Sitemap:https://www.honeywell.com/sitemap-bg-bg.xml
+Sitemap:https://www.honeywell.com/sitemap-ca-fr.xml
+Sitemap:https://www.honeywell.com/sitemap-dk-da.xml
+Sitemap:https://www.honeywell.com/sitemap-fi-fi.xml
+Sitemap:https://www.honeywell.com/sitemap-fr-fr.xml
+Sitemap:https://www.honeywell.com/sitemap-de-de.xml
+Sitemap:https://www.honeywell.com/sitemap-hu-hu.xml
+Sitemap:https://www.honeywell.com/sitemap-id-id.xml
+Sitemap:https://www.honeywell.com/sitemap-jp-ja.xml
+Sitemap:https://www.honeywell.com/sitemap-kr-ko.xml
+Sitemap:https://www.honeywell.com/sitemap-mx-es.xml
+Sitemap:https://www.honeywell.com/sitemap-ma-fr.xml
+Sitemap:https://www.honeywell.com/sitemap-no-nb.xml
+Sitemap:https://www.honeywell.com/sitemap-pl-pl.xml
+Sitemap:https://www.honeywell.com/sitemap-sk-sk.xml
+Sitemap:https://www.honeywell.com/sitemap-ch-fr.xml
+Sitemap:https://www.honeywell.com/sitemap-ch-de.xml
+Sitemap:https://www.honeywell.com/sitemap-tn-fr.xml
+Sitemap:https://www.honeywell.com/sitemap-tr-tr.xml
+Sitemap:https://www.honeywell.com/sitemap-vn-vi.xml
+Sitemap:https://www.honeywell.com/sitemap-ae-en.xml
+Sitemap:https://www.honeywell.com/sitemap-eg-en.xml
+Sitemap:https://www.honeywell.com/sitemap-sa-en.xml
+Sitemap:https://www.honeywell.com/sitemap-ae-ar.xml
+Sitemap:https://www.honeywell.com/sitemap-sa-ar.xml
+Sitemap:https://www.honeywell.com/sitemap-it-it.xml
+
+User-agent: *
+Disallow: /us/en/search?search=*
+Disallow: /us/en/search?q=*
+Disallow: /content/honeywell/us/en/search.html?search=*
+Disallow: /content/dam/honeywellbt/en/documents/downloads/honeywell-forge/Honeywell_Forge_Terms.pdf
+Disallow: /us/en/error/monitoring-page
+Disallow: /content/honeywellbt/us/en/error/monitoring-page.html
+Disallow: /worldwide/*
+Disallow: /us/en/press/2017/10
+Disallow: /?ic_medium=*
+Disallow: /?query=*
+Disallow: /?utm*
+Disallow: /br/pt?utm*
+Disallow: /content/dam/honeywellbt/en/documents/downloads/hon-HoneywellForge_ForBuildings_Brochure_042020.pdf
+Disallow: /content/honeywellbt/language-masters/*
+Disallow: /en-us/*
+Disallow: /us/en??gh_jid=*
+Disallow: /us/en??utm_source=adzuna??utm_source%3Dadzuna
+Disallow: /us/en?crane_footer=custom
+Disallow: /us/en?gadid=*
+Disallow: /us/en?ref=i8ubkzdfclwp
+Disallow: /us/en?trk=*
+Disallow: /us/en/?cm_sp=*
+Disallow: /us/en/company/sustainability?utm_source=%5C%5C%5C%5C%5C%22https://jobalert.ie%5C%5C%5C%5C%5C%22
+Disallow: /us/en/company/quantum/quantum-computer?c_correlation_id=*
+Disallow: /us/en/cookie-notice?ref=*
+Disallow: /us/en/honeywell-forge/*	
+Disallow: /us/en/news/featured-stories/2024/05/water-conservation?utm_content=Retargeting_bes?kare_0-2d_blank%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C%5C/productivity-solutions/mobile-computers/vehicle-mount-computers/thor-vm1a-vehicle-mounted-computer/sensing-solutions/intelligent-life-care/systevo-legacy/led-corridor-lamp-cl-340-silver
+Disallow: /us/en/news/featured-stories/2024/11/understanding-distributed-energy-resources-and-demand-response?utm_content=EP/hi/search/design/page/6/sensing-solutions/intelligent-life-care/call-systems/patient-room-components
+Disallow: /us/en/news/featured-stories/2025/04/logimat-2025-summary?utm_source=https://www.zoost.ai/?utm_source%3Dhttps://www.zoost.ai/&utm_medium=https://www.zoost.ai

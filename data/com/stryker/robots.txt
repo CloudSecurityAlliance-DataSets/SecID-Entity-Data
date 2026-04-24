@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+
+Sitemap: https://www.stryker.com/sitemap-index.xml
+
+Sitemap: https://www.stryker.com/m.sitemap-index.xml

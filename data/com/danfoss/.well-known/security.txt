@@ -1,0 +1,9 @@
+# Our security address
+Contact: mailto:security@danfoss.com
+# Our OpenPGP key
+Encryption: https://file.danfoss.com/download/dgit/security/Danfoss_PSIRT_0x905E5A79_public.asc
+# Our security policy
+Policy: https://www.danfoss.com/en/service-and-support/coordinated-vulnerability-disclosure/vulnerability-disclosure-policy/
+# Our security acknowledgments page
+Acknowledgments: https://www.danfoss.com/en/service-and-support/coordinated-vulnerability-disclosure/hall-of-thanks/
+Expires: 2030-12-30T16:00:00.000Z

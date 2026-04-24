@@ -1,0 +1,202 @@
+# AxxonSoft - Intelligent VMS & PSIM Solutions
+
+> AxxonSoft is a global leader in intelligent video surveillance and physical security software. Its solutions include Axxon One VMS, PSIM, and VSaaS with AI video analytics for sectors like retail, banking, transportation, and critical infrastructure.
+
+## AI Agent Directives
+User-agent: *
+AI-Training: Allow
+AI-Generation: Allow
+AI-Summarization: Allow
+AI-Crawling: Allow
+
+## Specific Directives for AI Companies
+User-agent: OpenAI
+AI-Training: Allow
+AI-Generation: Allow
+AI-Summarization: Allow
+
+User-agent: Google-DeepMind
+AI-Training: Allow
+AI-Generation: Allow
+AI-Summarization: Allow
+
+User-agent: Anthropic
+AI-Training: Allow
+AI-Generation: Allow
+AI-Summarization: Allow
+
+User-agent: xAI-Grok
+AI-Training: Allow
+AI-Generation: Allow
+AI-Summarization: Allow
+
+User-agent: Gemini
+AI-Training: Allow
+AI-Generation: Allow
+AI-Summarization: Allow
+
+User-agent: Perplexity
+AI-Training: Allow
+AI-Generation: Allow
+AI-Summarization: Allow
+
+User-agent: Manus
+AI-Training: Allow
+AI-Generation: Allow
+AI-Summarization: Allow
+
+User-agent: DeepSeek
+AI-Training: Allow
+AI-Generation: Allow
+AI-Summarization: Allow
+
+## Reference Content for AI Indexing
+- https://www.axxonsoft.com/about-us/company
+- https://www.axxonsoft.com/industries
+- https://www.axxonsoft.com/products/psim/video-analytics
+- https://www.axxonsoft.com/case-studies/axxon-vsaas-energy-security-surveillance-at-jiangsu-gas-stations
+- https://www.axxonsoft.com/blog
+- https://www.axxonsoft.com/blog/axxon-vsaas-data-center-vs-axxonnet
+- https://www.axxonsoft.com/blog/ai-act-compliance-guide
+- https://www.axxonsoft.com/blog/axxon-eurotech-critical-infrastructure
+
+## Products
+- [Products](https://www.axxonsoft.com/products): Products
+- [Axxon One VMS](https://www.axxonsoft.com/products/video-management-software): Axxon One Video Management Software with AI-Powered Analytics
+- [Axxon One 2.0 New Features](https://www.axxonsoft.com/products/video-management-software/new-features): Axxon One 2.0 New Features
+- [Key Features](https://www.axxonsoft.com/products/video-management-software/key-features): Axxon One Key Features
+- [Editions](https://www.axxonsoft.com/products/video-management-software/editions): Editions of Axxon One Video Management Software
+- [Specifications](https://www.axxonsoft.com/products/video-management-software/axxon-one-specifications): Axxon One VMS Specifications
+- [GDPR Compliance](https://www.axxonsoft.com/products/video-management-software/compliance-and-certifications): Axxon One VMS GDPR Compliance - Data Protection & Privacy Features
+- [Axxon PSIM](https://www.axxonsoft.com/products/psim): Axxon PSIM Software: Complete Security Integration and Management Solution
+- [Key Features](https://www.axxonsoft.com/products/psim/psim-key-features): Key Features
+- [Core Functionality](https://www.axxonsoft.com/products/psim/core-functionality): Core Functionality
+- [Video Analytics](https://www.axxonsoft.com/products/psim/video-analytics): Intelligent Video Analytics: Empowering PSIM Solution
+- [Specifications](https://www.axxonsoft.com/products/psim/psim-specifications): Axxon PSIM Specifications
+- [Cloud Solutions](https://www.axxonsoft.com/products/cloud-solutions): Cloud Video surveillance and security solutions | AxxonSoft
+- [VSaaS Software Platform](https://www.axxonsoft.com/products/cloud-solutions/video-surveillance-as-a-service-platform): VSaaS Datacenter software platform for building your own VSaaS | AxxonSoft
+- [AxxonNet](https://www.axxonsoft.com/products/cloud-solutions/cloud-managed-vms): Free cloud service for managing on-premise vms | AxxonNet
+- [Integration](https://www.axxonsoft.com/products/integration): Integrated Security Solutions
+- [IP Integration & ONVIF Support](https://www.axxonsoft.com/products/integration/supported-ip): IP Integration
+- [ACS, FSA, PIDS](https://www.axxonsoft.com/products/integration/acfa): Access Control and Fire Alarm Module
+- [POS Integration](https://www.axxonsoft.com/products/integration/pos): POS PSIM
+- [Face Recognition](https://www.axxonsoft.com/products/integration/face-recognition): Facial Recognition Integration: Advanced Search Capabilities
+- [Traffic Control](https://www.axxonsoft.com/products/integration/traffic-control): Traffic Control
+- [Integrated Monitoring Module](https://www.axxonsoft.com/products/integration/integrated-monitoring-module): Integrated Monitoring Module
+
+## AI & Analytics
+- [AI & Analytics](https://www.axxonsoft.com/ai-video-analytics): AI & Analytics
+- [Artificial Intelligence](https://www.axxonsoft.com/ai-video-analytics/video-content-analytics): AxxonSoft Video Content Analytics: Enhancing Security with Advanced AI Solutions
+- [Behavior Analytics](https://www.axxonsoft.com/ai-video-analytics/video-content-analytics/behavior-analytics): Behavior Analytics
+- [Smoke & Fire Detection](https://www.axxonsoft.com/ai-video-analytics/video-content-analytics/smoke-fire-detection): Smoke & Fire Detection
+- [Crowd Estimation](https://www.axxonsoft.com/ai-video-analytics/video-content-analytics/crowd-estimation): Accurate people counter & crowd estimation system for real-time monitoring
+- [Neural Analytics](https://www.axxonsoft.com/ai-video-analytics/video-content-analytics/artificial-intelligence-video-surveillance-neural-analytics): Artificial Intelligence-Powered Video Surveillance: AxxonSoft Neural Analytics
+- [AI Accelerators](https://www.axxonsoft.com/ai-video-analytics/video-content-analytics/ai-accelerators): AI Accelerators
+- [Meta-detector](https://www.axxonsoft.com/ai-video-analytics/video-content-analytics/metadata-detector-tool): Advanced Metadata Tool for Real-Time Scene Recognition
+- [PPE Detection](https://www.axxonsoft.com/ai-video-analytics/video-content-analytics/ppe-detection-technology): AI-Powered PPE Detection for Workplace Safety
+- [Intelligent Search](https://www.axxonsoft.com/ai-video-analytics/ai-search): Exploring AI Search: Transforming Video Surveillance with AxxonSoft’s Advanced Capabilities
+- [MomentQuest](https://www.axxonsoft.com/ai-video-analytics/ai-search/momentquest): MomentQuest
+- [Smart Face Search](https://www.axxonsoft.com/ai-video-analytics/ai-search/smart-face-search): Smart Face Search
+- [ANPR/LPR Search](https://www.axxonsoft.com/ai-video-analytics/ai-search/anpr-lpr): ANPR/LPR Search
+- [Custom AI Analytics](https://www.axxonsoft.com/ai-video-analytics/ai-based-video-analytics-deep-learning-technology): AI-based Video Analytics with Deep Learning Technology for Smarter Surveillance Solutions
+- [Train It Yourself](https://www.axxonsoft.com/ai-video-analytics/train-your-neural-model-for-intelligent-video-monitoring): Train Your Neural Model for Intelligent Video Monitoring - TIY by AxxonSoft
+
+## Industries
+- [Industries](https://www.axxonsoft.com/industries): Industries
+- [Safe City](https://www.axxonsoft.com/industries/safe-city-smart-city-surveillance): Safe City: Smart City Surveillance Solution
+- [Retail](https://www.axxonsoft.com/industries/retail-security): Retail Solution for Commercial Security Systems and Video Surveillance
+- [Airports](https://www.axxonsoft.com/industries/airport-security-solutions): Secure Airport with AxxonSoft Comprehensive Security Cameras Software Solutions
+- [Education](https://www.axxonsoft.com/industries/k12-school-universities-security-solutions): School Security Solutions for K12 and Universities
+- [Banking](https://www.axxonsoft.com/industries/banking-financial-institutions-bank-surveillance-cameras-solution): Bank Surveillance Cameras Solution for Ultimate Security
+- [Casinos](https://www.axxonsoft.com/industries/casino-security-and-surveillance-solution): Casino Security & Surveillance - Casino Surveillance Cameras Solution
+- [Sports & Entertainment](https://www.axxonsoft.com/industries/sports-entertainment-venue-security): Venue and Stadium Security with AxxonSoft Comprehensive Solution
+- [Transport & Logistic](https://www.axxonsoft.com/industries/transportation-logistics): Streamline Traffic and Logistics Remote Video Surveillance
+- [Mining](https://www.axxonsoft.com/industries/mining-industry-software-solutions-and-mine-site-security-systems): Comprehensive Mining Industry Software Solutions and Mine Site Security Systems
+- [Oil & Gas](https://www.axxonsoft.com/industries/oil-gas-security-systems): Oil and Gas Security Systems
+- [Data Centers](https://www.axxonsoft.com/industries/data-centers-security-solutions): Data Center Security Solutions | AxxonSoft
+- [Law Enforcement](https://www.axxonsoft.com/industries/law-enforcement-software): Innovating Public Safety through AxxonSoft Law Enforcement Solutions
+- [Traffic Management](https://www.axxonsoft.com/industries/traffic-video-surveillance-solution): Intelligent Traffic Video Surveillance & AI-Powered Traffic Management Solutions
+- [Manufacturing](https://www.axxonsoft.com/industries/industrial-video-surveillance-security): Industrial Video Surveillance & Security Solutions - AxxonSoft
+
+## Case Studies
+- [Case Studies](https://www.axxonsoft.com/case-studies): All Case Studies
+- [Public Safety](https://www.axxonsoft.com/case-studies?industries=case-study-public-safety): Public Safety Case Studies
+- [Safe City](https://www.axxonsoft.com/case-studies?industries=case-study-homeland-security): Safe City Case Studies
+- [Airports](https://www.axxonsoft.com/case-studies?industries=airports): Airport Security Case Studies
+- [Manufacturing](https://www.axxonsoft.com/case-studies?industries=case-study-manufacturing): Manufacturing Case Studies
+- [Hospitality](https://www.axxonsoft.com/case-studies?industries=case-study-hospitality): Hospitality Case Studies
+- [Retail](https://www.axxonsoft.com/case-studies?industries=case-study-retail): Retail Case Studies
+- [Transport](https://www.axxonsoft.com/case-studies?industries=case-study-transportation): Transportation Case Studies
+- [Banking](https://www.axxonsoft.com/case-studies?industries=case-study-financial): Banking & Financial Case Studies
+- [Mining](https://www.axxonsoft.com/case-studies?industries=case-study-mining): Mining Industry Case Studies
+- [Casino](https://www.axxonsoft.com/case-studies?industries=case-study-casino): Casino Security Case Studies
+- [Corporate Campuses](https://www.axxonsoft.com/case-studies?industries=case-study-corporate-campuses): Corporate Campuses Case Studies
+- [Education](https://www.axxonsoft.com/case-studies?industries=case-study-education): Education Case Studies
+- [Oil & Gas](https://www.axxonsoft.com/case-studies?industries=case-study-oil-gas): Oil & Gas Case Studies 
+- [Logistics](https://www.axxonsoft.com/case-studies?industries=case-study-logistics): Logistics Case Studies
+- [Data Centers](https://www.axxonsoft.com/case-studies?industries=case-study-data-centers): Data Centers Case Studies
+- [Sports & Entertainment](https://www.axxonsoft.com/case-studies?industries=sports-entertainment): Sports & Entertainment Case Studies
+
+## Partners
+- [Partners](https://www.axxonsoft.com/partners): Partners
+- [Partner Services](https://www.axxonsoft.com/partners/partner-services): Partner Services
+- [Partner Support](https://www.axxonsoft.com/partners/partner-services/partner-support): Partner Support
+- [Partner Certification Process](https://www.axxonsoft.com/partners/partner-services/partner-certification): Partner Certification
+- [Technology Partners](https://www.axxonsoft.com/partners/technology-partners): Technology partners
+- [Solution Partners](https://www.axxonsoft.com/partners/solution-partners): Solution Partners
+- [Our Partners Near You](https://www.axxonsoft.com/partners/partner-locator): Find a Partner
+- [Why AxxonSoft?](https://www.axxonsoft.com/partners/why-axxonsoft): Why Partner with AxxonSoft? | Intelligent VMS & PSIM Solutions
+
+## Support
+- [Support](https://www.axxonsoft.com/support): Support
+- [Axxon One FAQ](https://docs.axxonsoft.com/confluence/spaces/one20en/pages/246484059/FAQ): FAQ - Axxon One 2.0 (english) - Axxonsoft Documentation
+- [Axxon One Setup Checklist](https://docs.axxonsoft.com/confluence/spaces/one20en/pages/246484085/Axxon+One+setup+checklist+and+best+practices): Axxon One setup checklist and best practices - Axxon One 2.0 (english) - Axxonsoft Documentation
+- [Documentation](https://docs.axxonsoft.com/confluence/spaces/ASdoc/pages/84353203/AxxonSoft+documentation): AxxonSoft documentation - Documentation repository - Axxonsoft Documentation
+- [Axxon One SDK](https://docs.axxonsoft.com/confluence/spaces/one20en/pages/246486976/Integration+SDK): Integration SDK - Axxon One 2.0 (english) - Axxonsoft Documentation
+- [Downloads](https://www.axxonsoft.com/support/downloads): Downloads
+- [Axxon One VMS](https://www.axxonsoft.com/support/downloads/axxon-one-vms): Axxon One VMS
+- [Axxon PSIM](https://www.axxonsoft.com/support/downloads/axxon-psim): Axxon PSIM Software for Complete Security System Integration and Management
+- [Drivers Pack](https://www.axxonsoft.com/support/downloads/drivers-pack): Drivers Pack
+- [Axxon DetectorPack](https://www.axxonsoft.com/support/downloads/detector-pack): Axxon DetectorPack 3.13.2
+- [Mobile Clients](https://www.axxonsoft.com/support/downloads/mobile-client): Mobile Clients
+- [Utilities](https://www.axxonsoft.com/support/downloads/utilities): Utilities
+- [Training](https://www.axxonsoft.com/support/training): Training
+- [Certified Professionals](https://www.axxonsoft.com/support/training/certified-professionals): Certified Professionals
+- [Legal](https://www.axxonsoft.com/legal): Legal
+- [Disclosure Policy](https://www.axxonsoft.com/legal/axxonsoft-vulnerability-disclosure-policy): AxxonSoft Vulnerability Disclosure Policy
+- [Security Advisories](https://www.axxonsoft.com/legal/axxonsoft-vulnerability-disclosure-policy/security-advisories): Security Advisories
+- [Hardware Calculator](https://sale.axxonsoft.com/calc/calculator.jsf): Platform Calculator
+- [Service Desk](https://help.axxonsoft.com/jira/servicedesk/customer/user/login?destination=portals)
+- [AxxonSoft Community](https://community.axxonsoft.com/): Forums - AxxonSoft Community
+
+## Resources
+- [Resources](https://www.axxonsoft.com/resources): Resources
+- [Press Center](https://www.axxonsoft.com/press-center): Press Center
+- [News](https://www.axxonsoft.com/press-center/news): News
+- [Events](https://www.axxonsoft.com/press-center/events): Events
+- [AxxonSoft in Press](https://www.axxonsoft.com/press-center/articles): AxxonSoft in Press
+- [Subscribe to E-news](https://www.axxonsoft.com/press-center/subscription): Subscription
+- [Webinars](https://www.axxonsoft.com/webinars): Webinars
+- [Personalized Demo](https://www.axxonsoft.com/webinars#personalized-demo): Webinars
+- [Upcoming Webinars](https://www.axxonsoft.com/webinars#upcoming-webinars): Webinars
+- [On-demand](https://www.axxonsoft.com/webinars#on-demand): Webinars
+- [Marketing Materials](https://www.axxonsoft.com/resources/marketing-materials): Marketing Materials
+- [Video Materials](https://www.axxonsoft.com/resources/video-materials): Video Materials
+- [Blog](https://www.axxonsoft.com/blog): AxxonSoft Insights - Technology Blog on Security News
+- [Glossary](https://www.axxonsoft.com/glossary): Glossary
+
+## Company
+- [Company](https://www.axxonsoft.com/about-us): Company
+- [About](https://www.axxonsoft.com/about-us/company): About Company
+- [Leadership](https://www.axxonsoft.com/about-us/leadership): Leadership
+- [Careers](https://www.axxonsoft.com/about-us/careers): Careers
+- [Global Offices](https://www.axxonsoft.com/about-us/offices): Global Offices
+
+## Sitemap
+
+- [XML Sitemap]([https://www.axxonsoft.com/sitemap-en.xml|https://www.axxonsoft.com/sitemap-en.xml])
+
+## Legal & Privacy
+
+- [User Agreement]([https://www.axxonsoft.com/agreement|https://www.axxonsoft.com/agreement])
+- [Privacy Policy]([https://www.axxonsoft.com/agreement/privacy-policy|https://www.axxonsoft.com/agreement/privacy-policy])

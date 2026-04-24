@@ -1,0 +1,4 @@
+User-agent:*
+Disallow:/ir/
+Disallow:/iq/
+Sitemap: https://www.tp-link.com/nl/sitemap.xml

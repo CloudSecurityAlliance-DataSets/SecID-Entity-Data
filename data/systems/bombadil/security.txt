@@ -1,0 +1,14 @@
+# Bombadil Systems LLC Security Policy
+# https://bombadil.systems/.well-known/security.txt
+
+Contact: mailto:security@bombadil.systems
+Expires: 2027-01-16T23:59:59.000Z
+Preferred-Languages: en
+Canonical: https://bombadil.systems/.well-known/security.txt
+
+# Bombadil Systems is an independent security research firm.
+# We appreciate responsible disclosure and will acknowledge
+# valid reports promptly.
+
+# For general inquiries: chris@bombadil.systems
+# For security vulnerabilities: research@bombadil.systems

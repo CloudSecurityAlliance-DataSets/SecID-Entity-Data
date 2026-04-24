@@ -1,0 +1,6 @@
+Contact: mailto:bugbounty@socradar.io
+Encryption: https://socradar.io/.well-known/pgp-key.txt
+Acknowledgments: https://socradar.io/hall-of-fame
+Preferred-Languages: en
+Canonical: https://socradar.io/.well-known/security.txt
+Policy: https://socradar.io/vulnerability-disclosure-policy

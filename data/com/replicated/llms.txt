@@ -1,0 +1,4 @@
+# Replicated.com LLMs policy - Allow all
+
+User-agent: *
+Allow: /

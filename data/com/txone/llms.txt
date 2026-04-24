@@ -1,0 +1,128 @@
+# TXOne Networks
+
+> TXOne Networks is the operations-first OT cybersecurity company. We protect industrial control systems, production floors, and critical infrastructure with prevention-first architecture that deploys without downtime — spanning network security, endpoint protection, security inspection, discovery and assessment, and strategic governance.
+
+TXOne was founded in 2019 as a joint venture between Trend Micro and Moxa and is now a fully independent company headquartered in Taipei, Taiwan. Our portfolio is built for the realities of OT: legacy Windows endpoints that cannot be patched in place, industrial protocols that IT firewalls cannot parse, and production lines where any outage costs millions per hour. The TXOne Complete architecture unifies Edge (network), Stellar (endpoint), Element (inspection), and Sennin (governance) under a single operational model, powered by CPSDR behavioral detection, TXODI deep packet inspection, and VSAR operational-context vulnerability scoring.
+
+This site is published in 2 languages (English is the canonical source, and Japanese is also available). All content is delivered via ISR from Sanity CMS; revalidation runs every 15 minutes. The URLs below point to the canonical English versions.
+
+## Core
+
+- [Home](https://www.txone.com/): Operations-first OT security overview and portfolio entry point.
+- [Products overview](https://www.txone.com/products): Full catalog across network, endpoint, inspection, discovery, and governance.
+- [Deployment architecture](https://www.txone.com/products/deployment-architecture): How TXOne products map to the Purdue model and defense-in-depth for OT.
+- [Industries](https://www.txone.com/industries): Industry-specific OT security solutions.
+- [Company](https://www.txone.com/company): Mission, leadership, and operations-first philosophy.
+- [Contact](https://www.txone.com/contact): Technical assessments, demos, and regional contact.
+
+## Product categories
+
+- [Network Security](https://www.txone.com/products/network-security): Inline threat prevention across 180+ industrial protocols with hardware bypass.
+- [Endpoint Protection](https://www.txone.com/products/endpoint-protection): Prevention and visibility for Windows 2000 through Windows 11 and Linux OT endpoints.
+- [Security Inspection](https://www.txone.com/products/security-inspection): Portable and station-based validation of every entry point to the OT environment.
+- [Discovery & Assessment](https://www.txone.com/products/discovery-assessment): Passive asset discovery and operational-context risk scoring.
+- [Strategic Governance](https://www.txone.com/products/strategic-governance): Enterprise OT security orchestration across network, endpoint, and inspection.
+
+## Products
+
+- [EdgeIPS Pro](https://www.txone.com/products/network-security/edgeips): Transparent inline industrial IPS with Gen3 hardware bypass on every segment, up to 60 Gbps.
+- [EdgeFire](https://www.txone.com/products/network-security/edgefire): OT-native next-generation firewall with deep packet inspection and industrial-grade hardware.
+- [EdgeOne](https://www.txone.com/products/network-security/edgeone): Centralized management console for EdgeIPS and EdgeFire deployments.
+- [Stellar](https://www.txone.com/products/endpoint-protection/stellar): Prevention-first OT endpoint protection spanning Windows XP through Windows 11.
+- [Stellar Protect](https://www.txone.com/products/endpoint-protection/stellar-protect): Full endpoint prevention in ICS and Kiosk editions with CPSDR.
+- [Stellar Discover](https://www.txone.com/products/endpoint-protection/stellar-discover): User-space endpoint visibility sensor that co-exists with any IT EDR.
+- [StellarOne](https://www.txone.com/products/endpoint-protection/stellarone): Unified management console for every Stellar deployment.
+- [Portable Inspector](https://www.txone.com/products/security-inspection/portable-inspector): Agentless malware scanning and asset discovery from a USB device.
+- [Safe Port](https://www.txone.com/products/security-inspection/safe-port): High-speed USB sanitization station for industrial environments.
+- [ElementOne](https://www.txone.com/products/security-inspection/elementone): Centralized fleet management for Portable Inspector and Safe Port.
+- [SenninRecon](https://www.txone.com/products/discovery-assessment/senninrecon): Passive OT asset discovery appliance with VSAR risk scoring.
+- [SenninOne](https://www.txone.com/products/strategic-governance/senninone): Coordinated OT security across network, endpoint, and inspection from one console.
+- [SageOne](https://www.txone.com/products/strategic-governance/sageone): Enterprise orchestration for 500 to 100,000+ OT assets.
+
+## Capabilities
+
+- [TXOne Complete](https://www.txone.com/capabilities/txone-complete): Integrated OT security architecture unifying networks, endpoints, and entry points under single accountability.
+- [CPSDR](https://www.txone.com/capabilities/cpsdr): Cyber-Physical Systems Detection and Response — OT-native behavioral anomaly detection.
+- [TXODI](https://www.txone.com/capabilities/txodi): One-pass deep packet inspection across 180+ industrial protocols at wire speed.
+- [Hardware Bypass](https://www.txone.com/capabilities/hardware-bypass): Physical-layer fail-safe ensuring inline security never becomes the outage.
+- [Virtual Patching](https://www.txone.com/capabilities/virtual-patching): Mitigate CVEs on systems that cannot be taken offline to patch.
+- [Asset-Centric Auto Rule Learning](https://www.txone.com/capabilities/auto-rule-learning): AI-generated OT policy from observed traffic, deployable in days.
+- [Operation Lockdown](https://www.txone.com/capabilities/operation-lockdown): Prevention-first application control for single-purpose OT endpoints.
+- [VSAR](https://www.txone.com/capabilities/vsar): Vulnerability Situational Awareness Rating — operational-context risk prioritization.
+
+## Solutions
+
+- [Comprehensive OT Security Protection](https://www.txone.com/solutions/comprehensive-protection): One architecture spanning networks, endpoints, and entry points.
+- [Zero-Disruption OT Security](https://www.txone.com/solutions/zero-disruption): Deploy without production downtime or network redesign.
+- [Legacy System Life Extension](https://www.txone.com/solutions/legacy-extension): Protect unsupported Windows, legacy PLCs, and firmware-locked equipment.
+
+## Industries
+
+- [Manufacturing](https://www.txone.com/industries/manufacturing): OT security for production lines, legacy PLCs, and industrial automation.
+- [Semiconductor](https://www.txone.com/industries/semiconductor): Zero-disruption security for fab equipment, process recipes, and cleanrooms.
+- [Automotive](https://www.txone.com/industries/automotive): Security for multi-vendor assembly lines and just-in-time production.
+- [Pharmaceuticals](https://www.txone.com/industries/pharmaceuticals): Agentless security that preserves GxP validation and batch integrity.
+- [Healthcare](https://www.txone.com/industries/healthcare): Protection for legacy medical devices and clinical networks.
+- [Food & Beverage](https://www.txone.com/industries/food-and-beverage): Security for processing, packaging, and cold chain operations.
+- [Oil & Gas](https://www.txone.com/industries/oil-and-gas): Upstream, midstream, and downstream SCADA and control system protection.
+- [Energy & Utilities](https://www.txone.com/industries/energy-utilities): Substation, treatment plant, and distributed grid infrastructure security.
+- [Green Energy](https://www.txone.com/industries/green-energy): Security for inverters, DERMS, and renewable generation assets.
+
+## Compliance
+
+- [ISA/IEC 62443](https://www.txone.com/compliance/isa-iec-62443): Achieve 62443 compliance without operational disruption.
+- [NERC CIP](https://www.txone.com/compliance/nerc-cip): Grid operator CIP requirement support.
+- [NIS2 Directive](https://www.txone.com/compliance/nis2): NIS2 coverage across OT environments in the EU.
+- [SEC Cybersecurity Rules](https://www.txone.com/compliance/sec-cybersecurity): Meet SEC disclosure deadlines with OT governance evidence.
+- [SOCI Act](https://www.txone.com/compliance/soci-act): Australian Security of Critical Infrastructure Act obligations.
+- [TSA Security Directives](https://www.txone.com/compliance/tsa-security): Pipeline and rail TSA cybersecurity directive support.
+
+## Partners
+
+- [Partner Ecosystem](https://www.txone.com/partners): Build your OT security practice with TXOne.
+- [Partner Directory](https://www.txone.com/partners/directory): Browse 128+ certified, channel, distribution, and alliance partners worldwide.
+- [Alliance Partners](https://www.txone.com/partners/category/alliance-partners): Technology and integration alliances.
+- [Certified Partners](https://www.txone.com/partners/category/certified-partners): Trained, credentialed delivery partners.
+- [Channel Partners](https://www.txone.com/partners/category/partners): Resale and solution partners.
+- [Distribution Partners](https://www.txone.com/partners/category/distributors): Regional distributors.
+- [Americas Partners](https://www.txone.com/partners/region/americas)
+- [Europe Partners](https://www.txone.com/partners/region/europe)
+- [Japan Partners](https://www.txone.com/partners/region/japan)
+- [North-East Asia Partners](https://www.txone.com/partners/region/north-east-asia)
+- [South-East Asia Partners](https://www.txone.com/partners/region/south-east-asia)
+
+## Resources
+
+- [Resources Hub](https://www.txone.com/resources): White papers, case studies, webinars, and expert insights on OT security.
+- [White Papers](https://www.txone.com/resources/white-paper): Research and strategic guidance from TXOne experts.
+- [Case Studies](https://www.txone.com/resources/case-study): Deployment outcomes from manufacturing, energy, and semiconductor customers.
+- [Customer Stories](https://www.txone.com/resources/customer-story): How global operators deploy TXOne in production.
+- [Solution Briefs](https://www.txone.com/resources/solution-brief): Focused briefs by capability, compliance target, and industry.
+- [Data Sheets](https://www.txone.com/resources/data-sheet): Technical specifications across the product portfolio.
+- [eBooks](https://www.txone.com/resources/ebook): Long-form guidance on OT security programs.
+- [Webinars](https://www.txone.com/resources/webinar): On-demand and upcoming technical sessions.
+- [Videos](https://www.txone.com/resources/video): Product demos, explainers, and customer interviews.
+- [Podcasts](https://www.txone.com/resources/podcast): Conversations with OT security practitioners.
+- [Security Reports](https://www.txone.com/resources/security-report): Annual threat and cyber-physical systems research.
+- [Events](https://www.txone.com/resources/events): Upcoming conferences and TXOne-hosted sessions.
+- [OT Cybersecurity Glossary](https://www.txone.com/resources/ot-cybersecurity-glossary): 78+ definitions for OT, ICS, and industrial cybersecurity terms.
+
+## Newsroom
+
+- [News](https://www.txone.com/news): Company updates and OT security news from TXOne.
+- [Press](https://www.txone.com/press): Press releases and media resources.
+- [Threat Research](https://www.txone.com/company/ot-threat-research): Zero-day research, OT-targeting malware analysis, and coordinated disclosures from the TXOne Threat Research Team.
+- [PSIRT](https://www.txone.com/psirt): Product Security Incident Response Team — coordinated vulnerability disclosure and advisories.
+
+## Optional
+
+- [Privacy Policy](https://www.txone.com/legal/privacy-policy)
+- [Terms of Use](https://www.txone.com/legal/terms-of-use)
+- [License Agreement (EULA)](https://www.txone.com/legal/license-agreement)
+- [Limited Product Warranty](https://www.txone.com/legal/warranty)
+- [RMA Policy](https://www.txone.com/legal/rma-policy)
+- [Product End-of-Life Disclosure](https://www.txone.com/legal/end-of-life)
+- [Vulnerability Disclosure Policy](https://www.txone.com/legal/disclosure-policy)
+- [Information Security Policy](https://www.txone.com/legal/security-policy)
+- [Legal index](https://www.txone.com/legal): Full index of legal documents, data-collection notices, and CVE advisories.
+- [Full content for LLMs](https://www.txone.com/llms-full.txt): Expanded context document with full page descriptions.

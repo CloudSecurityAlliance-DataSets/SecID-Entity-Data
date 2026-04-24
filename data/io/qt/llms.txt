@@ -1,0 +1,58 @@
+# llms.txt for Qt.io
+# Last updated: 2025-09-30
+# Purpose: Guidance for AI crawlers and assistants on how Qt.io content may be used.
+
+version: 1.0
+
+site: https://www.qt.io
+owner: The Qt Company
+
+policy: allow   # Plain allow; no special licensing conditions
+usage:
+  training: allow
+  inference: allow
+
+# Treat all AI crawlers the same
+user_agents: ["*"]
+
+# Priority sections AI tools should prefer/cite
+priorities:
+  include:
+    - /product/
+    - /blog/
+    - /quality-assurance/
+    - https://doc.qt.io
+    - /success-stories/
+    - /qt-licensing/
+    - /faq/
+    - /pricing/
+    - /pricing/qt-for-small-business/
+    - /download-dev/
+    - /quality-assurance/download/
+    - https://try.qt.io
+    - /industry/
+
+# No exclusions requested
+exclusions:
+  disallow: []
+
+# Crawl guidance (non-binding suggestions)
+crawl:
+  rate: polite
+  refresh:
+    default: 7d
+    daily_paths:
+      - /product/
+      - /blog/
+      - /pricing/
+      - /download-dev/
+      - /quality-assurance/download/
+
+# Contact for licensing requests and notices
+contact: https://www.qt.io/contact-us/
+
+# Optional fallback for bots that parse robots-like directives inside llms.txt
+# (advisory only; robots.txt remains authoritative for conventional bots)
+robots_style:
+  User-agent: "*"
+  Allow: "/"

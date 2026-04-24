@@ -1,0 +1,7 @@
+User-agent: *
+Sitemap: https://www.voting.works/sitemap.xml
+
+
+##############
+#   custom   #
+##############

@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://beskar-openjsf.vercel.app/sitemap.xml

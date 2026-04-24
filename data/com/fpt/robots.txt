@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /search?q=*
+Disallow: /vi/search?q=*
+Disallow: /en/search?q=*
+Disallow: /dang-ky-newsletter?email=*
+Disallow: /vi/dang-ky-newsletter?email=*
+Disallow: /en/dang-ky-newsletter?email=*
+
+Sitemap: https://fpt.com/sitemap.xml

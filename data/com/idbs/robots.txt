@@ -1,0 +1,48 @@
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Sitemap: https://www.idbs.com/sitemap.xml
+Disallow: */2017/06/e-workbook-connect/?utm_source=IDBS&utm_medium=blog&utm_campaign=m&a_data_challenges*
+Disallow: */page/*
+Disallow: /2017/05/are-you-ready-for-electronic-submission/?utm_content=buffer34c44&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer
+Disallow: /*orderby=*
+Disallow: /*order=*
+Disallow: /*term=*
+Disallow: *?add-to-cart*
+Disallow: *add-to-cart=3550*
+Disallow: /*?utm_campaign=
+Disallow: /*&utm_campaign=
+Disallow: /*?utm_content=
+Disallow: /*&utm_content=
+Disallow: /*?utm_source=
+Disallow: /*&utm_source=
+Disallow: /*?utm_medium=
+Disallow: /*&utm_medium=
+Disallow: /*?source=
+Disallow: /*&source=
+
+Disallow: /*?knowledge_center_search=
+Disallow: /*&knowledge_center_search=
+Disallow: /*?knwledge_center_submit=
+Disallow: /*&knwledge_center_submit=
+Disallow: /*?knowledge_center_topic=
+Disallow: /*&knowledge_center_topic=
+Disallow: /*?knowledge_center_industry=
+Disallow: /*&knowledge_center_industry=
+Disallow: /*?knowledge_center_content_type=
+Disallow: /*&knowledge_center_content_type=

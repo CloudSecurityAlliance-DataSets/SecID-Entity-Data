@@ -1,0 +1,3 @@
+Sitemap: https://softiron.com/sitemap.xml
+
+User-agent: *

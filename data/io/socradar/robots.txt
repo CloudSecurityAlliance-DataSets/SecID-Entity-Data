@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: */thank-you/*
+Disallow: */thank-you-3/*
+Disallow: *?__hstc*
+Disallow: /wp-content/
+Disallow: /thank-you-demo/
+Disallow: /thank-you-trial/
+Disallow: /thank-you-cti/
+Disallow: /*.pdf$
+Disallow: /labs/dark-web-report/results?
+
+Allow: /wp-content/uploads*
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://socradar.io/sitemap_index.xml
+Sitemap: https://socradar.io/labs/app/sitemap_index.xml

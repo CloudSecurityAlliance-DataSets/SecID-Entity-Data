@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /buy/managed-mautic/emails
+Allow: /wp-admin/admin-ajax.php
+ 
+Sitemap: https://mautic.org/sitemap_index.xml

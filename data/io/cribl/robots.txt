@@ -1,0 +1,5 @@
+User-agent: *
+Sitemap: https://cribl.io/sitemap.xml
+Disallow: /blog/news-category/
+Disallow: /blog/use-case/
+Disallow: /?resource_category=*

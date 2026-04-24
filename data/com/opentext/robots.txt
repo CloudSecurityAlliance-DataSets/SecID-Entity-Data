@@ -1,0 +1,169 @@
+# Version WebCMS - Reviewed 2026-03-19
+
+# ------------------------------------------------------------------
+# 1. SPECIFIC BOT DIRECTIVES
+# ------------------------------------------------------------------
+
+# --- Aggressive/Low-Value Scrapers & Auditors ---
+User-agent: AwarioBot
+Disallow: /
+
+User-agent: Barkrowler
+Disallow: /
+
+User-agent: BUbiNG
+Disallow: /
+
+User-agent: ContentKing
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: ecoresearchCrawler
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SeznamBot
+Disallow: /
+
+User-agent: Vegi bot
+Disallow: /
+
+# --- Aggressive Non-Search AI/Scrapers ---
+User-agent: Bytedance
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+# --- Throttle Allowed SEO Tools ---
+User-agent: AhrefsBot
+Crawl-delay: 5
+
+User-agent: SemrushBot
+Crawl-delay: 5
+
+User-agent: SemrushBot-BA
+Crawl-delay: 5
+
+# ------------------------------------------------------------------
+# 2. GLOBAL RULES (All other bots, including AI/LLMs)
+# ------------------------------------------------------------------
+User-agent: *
+
+# --- Tracking & Parameter Cleanup ---
+# Added 20240610 per ticket DVI-651
+Disallow: /*?elqTrackId*
+Disallow: /*?_ga*
+Disallow: /*?utm_source*
+Disallow: /*?state*
+Disallow: /*?external_link*
+Disallow: /*?date*
+Disallow: /*?blaid*
+Disallow: /*?articleid*
+
+# Added 20250626 per ticket DMTH-6470 - Fixed syntax to include leading wildcard
+Disallow: /*?__hstc*
+Disallow: /*?Campaign_Medium*
+Disallow: /*?cmpid*
+Disallow: /*?country*
+Disallow: /*?gclid*
+Disallow: /*?id*
+Disallow: /*?lx*
+Disallow: /*?o=mf*
+Disallow: /*?o=vert*
+Disallow: /*?orp-id*
+Disallow: /*?pflpid*
+Disallow: /*?q*
+Disallow: /*?ref*
+Disallow: /*?rid*
+Disallow: /*?snapshotVersion*
+Disallow: /*?tab*
+Disallow: /*?trk*
+Disallow: /*?utm_campaign*
+Disallow: /*?utm_sq*
+Disallow: /*?wptouch_preview_theme*
+Disallow: /*?x*
+Disallow: /*?xcode*
+
+# Added 20240510
+Disallow: /*?searchFilter*
+
+# --- System & Legacy Paths ---
+Disallow: /TrainingRegistry/*
+Disallow: /products-and-solutions/*
+Disallow: /campaigns/*
+
+# GCP Soft Launch Legacy (2021)
+# Kept to prevent crawling of legacy /en/ structure
+Allow: /en/media/
+Disallow: /en/
+Disallow: /smoke-test/
+Disallow: /iw/
+Disallow: /iwov-resources/
+
+# System Generated / Miscellaneous
+Disallow: /*sys_generate=pdf*
+Disallow: /*pdfwriter=yes*
+Disallow: /elqNow/
+Disallow: /sso_download*
+Disallow: /*?sys_generate=*
+Disallow: /dashboard/
+Disallow: /javabinUNUSED/
+Disallow: /prototypeUNUSED/
+Disallow: /redirectasp/
+Disallow: /404/
+Disallow: /error/
+Disallow: /brandcentral/
+
+# URL Cleanups
+Disallow: /livelink*
+Disallow: /Notre-soci%C3%A9t%C3%A9/Press-Releases/*
+Disallow: /Quem-somos/Press-Releases/*
+Disallow: /Wer-wir-sind/Press-Releases*
+Disallow: /connect*
+Disallow: /global*
+Disallow: /espana*
+Disallow: /nordic*
+Disallow: /norden*
+Disallow: /training/*
+Disallow: /portal/site/communities/
+Disallow: /about/contact-us/test-contact-form
+Disallow: /*thank-you
+Disallow: /about/copyright-information/privacy-notice
+
+# Block single digit directories
+Disallow: /2*
+Disallow: /3*
+Disallow: /4*
+
+# Regional Logic
+# Added KD 2025-07-31
+Disallow: /produkte/*
+
+# Added KD 2025-12-18
+Disallow: /produits/*
+
+# ------------------------------------------------------------------
+# 3. SITEMAPS
+# ------------------------------------------------------------------
+Sitemap: https://www.opentext.com/sitemap.xml
+Sitemap: https://www.opentext.com/au/sitemap.xml
+Sitemap: https://www.opentext.com/uk/sitemap.xml
+Sitemap: https://www.opentext.com/fr/sitemap.xml
+Sitemap: https://www.opentext.com/de/sitemap.xml
+Sitemap: https://www.opentext.com/jp/sitemap.xml
+Sitemap: https://www.opentext.com/tw/sitemap.xml
+Sitemap: https://www.opentext.com/cn/sitemap.xml
+Sitemap: https://www.opentext.com/br/sitemap.xml
+Sitemap: https://www.opentext.com/kr/sitemap.xml
+Sitemap: https://www.opentext.com/es/sitemap.xml
+Sitemap: https://www.opentext.com/se/sitemap.xml
+Sitemap: https://www.opentext.com/ca/sitemap.xml
+Sitemap: https://www.opentext.com/ca-fr/sitemap.xml

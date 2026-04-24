@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>https://octopus.com/website.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://octopus.com/devops/sitemap.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://octopus.com/docs/sitemap.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://octopus.com/integrations/sitemap.xml</loc>
+	</sitemap>
+	<sitemap>
+		<loc>https://handbook.octopus.com/sitemap.xml</loc>
+	</sitemap> 
+	<sitemap> 
+		<loc>https://octopus.com/blog/news.xml</loc>
+	</sitemap>
+</sitemapindex>

@@ -1,0 +1,5 @@
+# Hello human!
+User-agent: *
+Disallow: /telefon/
+Disallow: /szukaj/
+Disallow: /en/search/

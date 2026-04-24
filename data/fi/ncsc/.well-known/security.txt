@@ -1,0 +1,35 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+# What's this file? RFC 9116; https://securitytxt.org/
+
+Contact: mailto:cert@traficom.fi
+Contact: tel:+358-29-534-5000
+
+Encryption: https://www.kyberturvallisuuskeskus.fi/sites/default/files/media/file/NCSC-FI_Incident_Response_2025_pub.txt
+Encryption: openpgp4fpr:2724069ede3bef2a5664b5e3cd11287694b90647
+
+Canonical: https://www.kyberturvallisuuskeskus.fi/.well-known/security.txt
+Canonical: https://www.cert.fi/.well-known/security.txt
+Canonical: https://www.ncsc.fi/.well-known/security.txt
+
+Preferred-Languages: fi, sv, en
+
+Expires: 2026-01-31T17:00:00Z
+
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEJyQGnt477ypWZLXjzREodpS5BkcFAme14VIACgkQzREodpS5
+Bke8PRAAm9OXp08pPuNgknYQjh55QDLCIl7YNcZkwYqzP4yBRUcsFukezCYIXUEN
+C0K6qimPk+NLkQ7BKCOZTjHZxDGKY0jxYlmb3I4AA48PCWa4ZMR0pjOovrFnRooB
+DNlCpuPV/cAsZOB+MquFKxHW1PGI1Z0xJ17ilKjtSkJvMSfc2os2hOYvV8UGa8eg
+yFFN/T2t+wVh/UDMXFCjhQv82sYa8J7lRpIS7EYq11D39hojX4rbuiYZr7Fd1gmb
+VMGYLsMKhK31GLFihk88FmJDwIMDU0bPI7/y7QaynAhANvZvJg2nWDK0yjAFgKTN
+TpmwxKVp0auNQ+cud21BVUW0bJzX4Yedd/kcQlJ2f+LfPtLzJ/NltHy/KW97ArFy
+S0viWcyviSpTkol7+clFaYKOBPNqfbzGnivCVCZ2i5Pb8jO8xFLYxj/L6iPPPoSt
+P5U8MHgb0Qbw99552E8qZfBcAZkchxuP77RNObvtXMXz6DBjPf+INBZIr3CETJjF
+taKhFPx1b3EKInTy1cSqN6PhIl0WLsTUFcS7VgJTL7xXCxHaGs46f7bNSSNNo/Sc
+x9/aMJWiCcOhntbeqMGTJ8dOxQfVAJdAGmaQuGoKyJMXU7mgEpEFZ4ud7YlkJQPA
+kCKJ/r+MAVaRuQFBeGh+SM0jQx6IQvrFRl4UMzvyWiT9+yov/mk=
+=vz88
+-----END PGP SIGNATURE-----

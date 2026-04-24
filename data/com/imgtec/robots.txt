@@ -1,0 +1,7 @@
+Sitemap: https://imaginationtech.com/sitemap_index.xml
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /wp-content/plugins/
+Disallow: /wp-includes/
+Allow: /wp-content/uploads/

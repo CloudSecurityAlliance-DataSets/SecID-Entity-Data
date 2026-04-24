@@ -1,0 +1,12 @@
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Disallow specific paths that should not be indexed
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Sitemap location
+# Note: Update this URL based on your environment
+Sitemap: https://www.deltaww.com/sitemap.xml

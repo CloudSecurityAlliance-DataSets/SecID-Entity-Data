@@ -1,0 +1,19 @@
+User-agent: *
+
+Disallow: /vulnerability-advisories/
+Disallow: /thank-you/
+Disallow: /partner/
+Disallow: /partner-type/
+Disallow: /partner-regions/
+Disallow: /categories/
+Disallow: /tag/
+Disallow: /resource-category/
+Disallow: /resource-topics/
+Disallow: /customer-review/
+Disallow: /roles/
+Disallow: /author/
+Disallow: /abm/
+Disallow: /resources/watch-securing-the-infrastructure-that-powers-ai-how-to-build-data-center-resilience
+Disallow: /spark-2025-agenda
+
+Sitemap: https://www.nozominetworks.com/sitemap.xml

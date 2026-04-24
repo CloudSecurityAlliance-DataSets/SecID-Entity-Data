@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: 
+Disallow: /administrator/
+Disallow: /admin/
+Disallow: /system/
+Disallow: /application/config
+Disallow: /application/controllers
+Disallow: /application/views/templates/admin/
+Disallow: /upload/
+Sitemap: https://www.asustor.com/sitemap_20200222.xml

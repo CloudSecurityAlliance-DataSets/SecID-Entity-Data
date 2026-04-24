@@ -1,0 +1,6 @@
+Contact: mailto:security@radiometer.dk
+Expires: 2030-12-31T23:59:59.999Z
+Preferred-Languages: en
+ 
+# Our Coordinated Vulnerability Disclosure Policy
+Policy: https://www.radiometer.com/en/about-radiometer/legal/coordinated-vulnerability-disclosure

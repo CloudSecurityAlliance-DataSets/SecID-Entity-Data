@@ -1,0 +1,26 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Contact: https://cert.pl/en/contact/
+Contact: mailto:info@cert.pl
+
+# CVE Program
+CVD-Contact: mailto:cvd@cert.pl
+CVD-Policy: https://cert.pl/en/cvd/
+CVD-Advisories: https://cert.pl/en/cve/
+
+Preferred-Languages: en, pl
+Encryption: https://cert.pl/en/uploads/misc/pgp-pubkey.asc
+Canonical: https://cert.pl/.well-known/security.txt
+Expires: 2038-01-19T03:14:07Z
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEWY6TcOnDdbCy9NTF9eGe5kOY/b0FAmYOo0AACgkQ9eGe5kOY
+/b3tOQf/ZNlv7NkHLe6JBdeuPvP8d46Rz6l8bY9c5w6rnVmIabtXog/GJY05JZyp
+Q3AYSh6hWqJ/yldYnpwf82dFlQrwmpVJaGjVewo1ZXUGo0fYjYjwLtuSeK/hhABx
+BaXQur14EpnXvuNT1ARxUQktwm77KDTx6dXfhSNZAq+/XaI+xCjxcwJ4/K7EzYtb
+y8FnMqcoliGtvIuY8gownflG1j5Aam2x8uQyUd/BsPnbFU6+ew6D2iRNbWuc9Bhd
+HyIRLareE4djWcCeDJVaOy3w2dGuuQwDjY+I8Kb+R20nzjGil1MslZ8JvditmdFm
+ifGzNbcTiv5MMgaO8ncMKN10v+ct9A==
+=l/hk
+-----END PGP SIGNATURE-----

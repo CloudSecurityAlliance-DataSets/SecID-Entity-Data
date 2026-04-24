@@ -1,0 +1,31 @@
+# Segura®
+
+> Segura® (formerly known as senhasegura) provides Privileged Access Management (PAM) and identity security solutions to protect organizations against cyber threats, ensuring control over privileged accounts, DevOps secrets management, and endpoint security.
+
+---
+
+## Main Pages
+- [Homepage](https://segura.security/): Overview of Segura®'s identity security and privileged access solutions.
+- [About the Company](https://segura.security/company): Learn about the history of Segura®, the evolution from the senhasegura brand, and its differentiators in the cybersecurity market.
+- [Contact](https://segura.security/contact): Information to get in touch with sales, support, or to request a demo.
+- [Demo](https://segura.security/demo): Experience the highest-rated PAM solution, built for IT teams who need speed, simplicity, and control. 
+
+## Services
+- [Deployment and Consulting Services](https://segura.security/services/deployment-and-consulting): Deployment roadmap designed to engage users while prioritizing security throughout the process, enhanced support to security áreas and smoother implementation.
+- [Training and Certifications](https://segura.security/services/training-and-certification): Specialized training courses about PAM solution tailored to sax user category, led by certified instructors.
+
+
+## Products & Solutions
+- [PAM Platform](https://segura.security/products/pam-core): The core solution for managing, monitoring, and protecting all privileged credentials.
+- [DevOps Secrets Management (DSM)](https://segura.security/products/devops-secrets-management): Protection for secrets, keys, and tokens in high-velocity environments like DevOps and cloud.
+- [Cloud Infrastructure Entitlement Management (CIEM)](https://segura.security/products/cloud-ciem): Ensure least privilege and identity security across multi-cloud environments.
+- [Endpoint Privilege Manager](https://segura.security/products/endpoint-privilege-manager): Reduce security threats by removing local administrative rights, enforcing least privilege, and providing just-in-time privileges for your users.
+- [Certificate Manager](https://segura.security/products/certificate-manager): Helps you manage your SSL/TLS certificates and protect and manage your machine identities, all through the same easy-to-use interface.
+- [Domum Remote Access](https://segura.security/products/domum-remote-access): Allows you to secure, manage, and audit vendor and employee remote privileged access.
+- [Personal Password Manager](https://segura.security/products/mysafe): Eliminate the guesswork in password management, shadow IT, infrastructure, and secret sharing so you can keep your people safe and your business moving.
+
+
+## Blog & Resources
+- [Cybersecurity Blog](https://segura.security/blog): Articles, insights, and guides on the latest trends and best practices in information security.
+- [Customer Cases](https://segura.security/customer-cases): Examples of how Segura® has helped companies in various sectors strengthen their security posture.
+- [The Complete Guide to Privileged Access Management (PAM)](https://segura.security/post/privileged-access-management-pam-complete-guide): A detailed article on the importance and components of a PAM strategy.

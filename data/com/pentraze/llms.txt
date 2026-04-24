@@ -1,0 +1,83 @@
+# Pentraze Cybersecurity
+
+> Leading cybersecurity firm delivering penetration testing, red & purple teaming, AI and application security, DFIR, and advanced security research.
+
+Pentraze is a cybersecurity firm specializing in offensive security, vulnerability research, and incident response. We are a CVE Numbering Authority (CNA) authorized to assign CVE IDs for vulnerabilities discovered by our research team.
+
+## About
+
+- [About Us](https://pentraze.com/about/)
+- [CNA (CVE Numbering Authority)](https://pentraze.com/cna/)
+- [Contact](https://pentraze.com/contact/)
+
+## Services
+
+- [AI & LLM Security Testing](https://pentraze.com/services/ai-llm-pentesting/): Specialized penetration testing for Artificial Intelligence and Large Language Model systems
+- [Application Security Testing](https://pentraze.com/services/application-security-testing/): Comprehensive application protection, ensuring robust security throughout the entire software development lifecycle
+- [Digital Forensics & Incident Response](https://pentraze.com/services/incident-response/): Emergency incident response and proactive readiness services for rapid threat containment, investigation, and recovery
+- [Penetration Testing](https://pentraze.com/services/penetration-testing/): Comprehensive penetration testing services to identify security vulnerabilities
+- [Red Team Exercises](https://pentraze.com/services/red-team-exercises/): Simulate and emulate advanced cyber attacks to identify vulnerabilities and test your organization's defense mechanisms
+- [Vulnerability Management](https://pentraze.com/services/vulnerability-management/): A holistic process to manage vulnerabilities, from identification and assessment to prioritizing and mitigation
+
+## Vulnerability Reports (Disclosed CVEs)
+- [CVE-2025-4960](https://pentraze.com/vulnerability-reports/cve-2025-4960/): Local Privilege Escalation via Improper Authorization Handling in EPSON Printer Controller Installer — Vendor: EPSON, CVSS: 7.8, Date: 2025-01-27
+- [CVE-2025-9546](https://pentraze.com/vulnerability-reports/cve-2025-9546/): macOS Jetico Bestcrypt Local Privilege Escalation via Command Injection — Vendor: Jetico Bestcrypt, CVSS: 7.8, Date: 2025-01-22
+- [CVE-2025-4961](https://pentraze.com/vulnerability-reports/cve-2025-4961/): macOS Stash Proxy Unauthorized Manipulation of System Network Preferences via PID Reuse Attack — Vendor: Stash Network Tool, CVSS: 7.8, Date: 2025-01-22
+- [CVE-2024-11128](https://pentraze.com/vulnerability-reports/cve-2024-11128/): macOS Bitdefender Virus Scanner - Transparency, Consent and Control (TCC) Bypass and Configuration Tampering for Defense Evasion — Vendor: Bitdefender, CVSS: 7.8, Date: 2025-01-13
+- [CVE-2024-8272](https://pentraze.com/vulnerability-reports/cve-2024-8272/): macOS UAConnect <= 2.7.0 - Local Privilege Escalation — Vendor: Universal Audio, CVSS: 7.8, Date: 2024-12-11
+- [CVE-2024-8270](https://pentraze.com/vulnerability-reports/cve-2024-8270/): macOS Rocket.Chat- TCC Policy Bypass via Dylib Injection Due to Missing Code Signing Flags and Dangerous Entitlements — Vendor: Rocket.Chat Desktop, CVSS: 5.5, Date: 2024-12-11
+- [CVE-2024-7915](https://pentraze.com/vulnerability-reports/cve-2024-7915/): macOS Sensei Mac Cleaner Local Privilege Escalation via PID Reuse - Race Condition Attack — Vendor: Sensei Mac Cleaner, CVSS: 7.8, Date: 2024-12-11
+- [CVE-2024-9062](https://pentraze.com/vulnerability-reports/cve-2024-9062/): macOS Archify Local Privilege Escalation <= 1.3.1 — Vendor: Archify, CVSS: 7.8, Date: 2024-11-14
+- [CVE-2024-7457](https://pentraze.com/vulnerability-reports/cve-2024-7457/): macOS Stash Proxy Unauthorized Manipulation of System Network Preferences — Vendor: Stash Network Tool, CVSS: 7.8, Date: 2024-08-14
+- [CVE-2024-7062](https://pentraze.com/vulnerability-reports/cve-2024-7062/): macOS Nimble Commander <= v1.6.0 Local Privilege Escalation — Vendor: Nimble Commander, CVSS: 8.8, Date: 2024-07-24
+- [CVE-2024-0916](https://pentraze.com/vulnerability-reports/cve-2024-0916/): Unauthenticated Remote Code Execution in UvDesk Community — Vendor: Webkul, CVSS: 10.0, Date: 2024-04-25
+- [CVE-2024-3120](https://pentraze.com/vulnerability-reports/cve-2024-3120/): Stack Overflow in Content-Length and Warning headers — Vendor: Irontec, CVSS: 9.0, Date: 2024-04-05
+- [CVE-2024-3119](https://pentraze.com/vulnerability-reports/cve-2024-3119/): Stack Overflow in SIP Header Processing — Vendor: Irontec, CVSS: 9.0, Date: 2024-04-04
+- [CVE-2024-1243](https://pentraze.com/vulnerability-reports/cve-2024-1243/): Remote code execution and Local privilege escalation due to NetNTLMv2 hash theft in Wazuh < 4.8.0 — Vendor: Wazuh, CVSS: 8.1, Date: 2024-02-07
+- [CVE-2023-50015](https://pentraze.com/vulnerability-reports/cve-2023-50015/): Improper authorization leads to privilege escalation on Grandstream IP Phone GXP16XX/14XX — Vendor: Grandstream, CVSS: 8.0, Date: 2023-12-04
+- [CVE-2023-49341](https://pentraze.com/vulnerability-reports/cve-2023-49341/): Newland Nquire is Storing Passwords in a Recoverable Format into backup configuration file — Vendor: Newland EMEA, CVSS: 6.5, Date: 2023-11-27
+- [CVE-2023-49340](https://pentraze.com/vulnerability-reports/cve-2023-49340/): Improper Authorization in Newland Nquire web management portal leads authentication bypass — Vendor: Newland EMEA, CVSS: 8.8, Date: 2023-11-27
+- [CVE-2023-2707](https://pentraze.com/vulnerability-reports/cve-2023-2707/): Appointment booking addon for Gravity Forms - Admin + Stored XSS — Vendor: gAppointments, CVSS: 3.5, Date: 2023-10-31
+- [CVE-2023-2705](https://pentraze.com/vulnerability-reports/cve-2023-2705/): Appointment booking addon for Gravity Forms < 1.10.0 - Reflected XSS — Vendor: gAppointments, CVSS: 7.1, Date: 2023-08-21
+- [CVE-2023-24492](https://pentraze.com/vulnerability-reports/cve-2023-24492/): Vendor: Citrix, CVSS: 8.8, Date: 2023-07-11
+- [CVE-2023-24491](https://pentraze.com/vulnerability-reports/cve-2023-24491/): Local Privilege Escalation on Citrix Secure Access client for Windows — Vendor: Citrix, CVSS: 7.8, Date: 2023-07-11
+- [CVE-2023-31990](https://pentraze.com/vulnerability-reports/cve-2023-31990/): Null Pointer Dereference Vulnerability in readNetFromTensorflow function — Vendor: OpenCV, CVSS: 9.0, Date: 2023-07-03
+- [CVE-2023-2858](https://pentraze.com/vulnerability-reports/cve-2023-2858/): Heap Buffer Overflow in nstrace_read_v10 Function — Vendor: Wireshark, CVSS: 9.0, Date: 2023-05-26
+- [CVE-2023-2857](https://pentraze.com/vulnerability-reports/cve-2023-2857/): Heap Buffer Overflow blf_read_apptextmessage Function — Vendor: Wireshark, CVSS: 9.0, Date: 2023-05-26
+- [CVE-2023-2856](https://pentraze.com/vulnerability-reports/cve-2023-2856/): Stack Buffer Overflow in parse_vms_packet Function — Vendor: Wireshark, CVSS: 9.0, Date: 2023-05-26
+- [CVE-2023-2855](https://pentraze.com/vulnerability-reports/cve-2023-2855/): Stack-buffer-overflow in candump_write_packet — Vendor: Wireshark, CVSS: 9.0, Date: 2023-05-26
+- [CVE-2023-2854](https://pentraze.com/vulnerability-reports/cve-2023-2854/): Heap Buffer Overflow blf_read_apptextmessage Function — Vendor: Wireshark, CVSS: 9.0, Date: 2023-05-22
+- [CVE-2023-31137](https://pentraze.com/vulnerability-reports/cve-2023-31137/): Integer Underflow Vulnerability in MaraDNS's DNS Packet Decompression — Vendor: MaraDNS, CVSS: 7.5, Date: 2023-05-09
+- [CVE-2023-31470](https://pentraze.com/vulnerability-reports/cve-2023-31470/): SmartDNS Stack Buffer Overflow in _dns_encode_domain — Vendor: SmartDNS, CVSS: 9.8, Date: 2023-04-21
+- [EDB-16940](https://pentraze.com/vulnerability-reports/edb-16940/): Vendor: Microsoft, CVSS: 9.6, Date: 2011-03-08
+- [CVE-2008-5297](https://pentraze.com/vulnerability-reports/cve-2008-5297/): Vendor: No-IP, CVSS: 7.6, Date: 2008-12-01
+- [CVE-2007-2350](https://pentraze.com/vulnerability-reports/cve-2007-2350/): Vendor: FreePBX, CVSS: 6.5, Date: 2007-04-30
+- [CVE-2007-2191](https://pentraze.com/vulnerability-reports/cve-2007-2191/): Vendor: FreePBX, CVSS: 6.5, Date: 2007-04-24
+
+## Published Techniques
+- [PTRZ-2026-0401](https://pentraze.com/vulnerability-reports/ptrz-2026-0401/): DiskBleed - Universal EDR bypass for credential access — Vendor: Multiple EDRs, Date: 2026-04-01
+- [PTRZ-2024-0306](https://pentraze.com/vulnerability-reports/ptrz-2024-0306/): Process Hypnosis - Debugger assisted control flow hijack — Vendor: Multiple EDRs, Date: 2024-03-06
+- [PTRZ-2024-0225](https://pentraze.com/vulnerability-reports/ptrz-2024-0225/): ShatterLoad - Resurrection of Shatter Attacks for DLL Injection and ROP Chain Execution — Vendor: Microsoft, Date: 2024-02-25
+- [PTRZ-2024-0104](https://pentraze.com/vulnerability-reports/ptrz-2024-0104/): HashiCorp Vault Unauthenticated Memory Secrets Extraction — Vendor: HashiCorp, Date: 2024-01-04
+- [PTRZ-2023-1025](https://pentraze.com/vulnerability-reports/ptrz-2023-1025/): Abusing Data Protection API (DPAPI) as a technique to encrypt the File System - Ransomware — Vendor: Microsoft, Date: 2023-10-25
+- [PTRZ-2023-0425](https://pentraze.com/vulnerability-reports/ptrz-2023-0425/): The House of Enherjar 2 - Heap Exploitation Technique — Vendor: GNU C Library (glibc), Date: 2023-04-25
+
+## News
+- [Academic Collaboration Agreement with UCE](https://pentraze.com/news/uce-colaboracion-academica-2026/): Pentraze Cybersecurity and the Universidad Central del Este (UCE) signed an academic cooperation agreement with the aim of strengthening the connection between academia and industry, promoting new training and development opportunities for students in the technology field, especially in cybersecurity.
+- [UCE Job Fair: Connecting Talents 2025](https://pentraze.com/news/feria-de-empleos-uce-2025/): Pentraze participated in the 2025 “Conectando Talentos” Career Fair at Universidad Central del Este (UCE), an event focused on connecting students with real professional development opportunities.
+- [TechWeek 2025](https://pentraze.com/news/tech-week-2025/): For the second consecutive year, Pentraze took part in TechDay, held this year as part of TechWeek 2025, an international initiative carried out simultaneously across several countries.
+- [SANS Hack & Defend Summit 2025](https://pentraze.com/news/sans-hack-defend-summit-2025/): Pentraze was present at the SANS Hack & Defend Summit 2025, one of the most important cybersecurity events worldwide, organized by the SANS Institute and held in Austin, Texas, USA.
+- [The first Interuniversity CTF of the Dominican Republic](https://pentraze.com/news/ctf-interuniversitario-2025/): Pentraze Cybersecurity, in collaboration with the Instituto Tecnológico de las Américas (ITLA) and as part of the ITLA Security Fest 2025, successfully held the first Interuniversity CTF of the Dominican Republic. An event that brought together students from ten of the country’s leading universities to test their cybersecurity skills.
+- [DEF CON 33](https://pentraze.com/news/def-con-33/): Pentraze ended up as 2nd place @ DEF CON 33
+- [Bug Hunting 2025: Cybersecurity + AI](https://pentraze.com/news/intec-2025/): A talk for INTEC students on bug hunting and AI in cybersecurity
+- [Banking Tech Summit 2025](https://pentraze.com/news/banking-tech-summit-2025/): The Banking Tech Summit 2025, held at the JW Marriott Santo Domingo, brought together leading players from the financial and technology sectors to discuss innovation, trends, and strategic partnerships.
+- [ITLA–Pentraze CTF 2024](https://pentraze.com/news/itla-pentraze-ctf-2024/): En el marco del ITLA Security Fest 2024, se celebró la gran final del ITLA–Pentraze CTF, una competencia que desafió las habilidades y creatividad de los futuros profesionales de la ciberseguridad.
+- [Tech Day 2024](https://pentraze.com/news/tech-day-2024/): Tech Day 2024 brought together technology enthusiasts for learning, networking, and innovation, with Pentraze's standout presence and the Pentraze Coffee Experience.
+- [Cybersecurity Applied to Software Engineering](https://pentraze.com/news/intec-2024/): Pentraze Cybersecurity brought its experience and knowledge to the future cybersecurity professionals at Intec, in a talk that combined life stories, technical lessons, and inspiring messages.
+- [CyberSec Summit 2024](https://pentraze.com/news/cybersec-summit-2024/): CyberSec Summit 2024
+- [Official Launch of Pentraze at Tech Talk Summit 2024](https://pentraze.com/news/tech-talk-summit-2024/): The **Tech Talk Summit 2024: Dominicana Inteligente** was the stage for the official launch of Pentraze Cybersecurity, with the talk “Empowering Cybersecurity with Artificial Intelligence.”
+
+## Optional
+
+- [Privacy Policy](https://pentraze.com/privacy/)
+- [Terms of Use](https://pentraze.com/terms/)

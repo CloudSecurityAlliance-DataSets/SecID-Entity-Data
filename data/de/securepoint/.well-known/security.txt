@@ -1,0 +1,6 @@
+Contact: mailto:security@securepoint.de
+Expires: 2026-09-01T00:00:00.000Z
+Preferred-Languages: de, en
+Canonical: https://www.securepoint.de/.well-known/security.txt
+Policy: https://www.securepoint.de/disclosure-policy
+Hiring: https://www.securepoint.de/jobs

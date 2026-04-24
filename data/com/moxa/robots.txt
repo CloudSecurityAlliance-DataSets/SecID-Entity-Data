@@ -1,0 +1,20 @@
+User-agent:*
+Disallow: /*/assets/
+Disallow: /*/site-content/
+Disallow: /*/membership/
+Disallow: /*/migration/
+Disallow: /*/microsite-builder/
+Disallow: /*/microsite-management-console
+Disallow: /*/demo-poc
+Disallow: /Admin/ 
+Disallow: /CMSMessages/
+Disallow: /Moxa/files/
+Disallow: /*/products/compare-products
+Disallow: /*/rma
+Disallow: /*/solutions/contact-our-experts/thank-you
+Disallow: /*/support/product-support/security-advisory/report-a-vulnerability/thank-you
+Disallow: /*/support/product-support/software-and-documentation/search
+Disallow: /*/support/repair-and-warranty/defect-on-arrival/thank-you
+Disallow: /*/support/repair-and-warranty/product-repair-service/thank-you
+Disallow: /*/membership/wechat-profile
+Sitemap: https://www.moxa.com/en/sitemap.xml

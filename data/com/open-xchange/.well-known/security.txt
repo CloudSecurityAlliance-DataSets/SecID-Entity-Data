@@ -1,0 +1,41 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Canonical: https://www.open-xchange.com/.well-known/security.txt
+Expires: 2026-02-27T12:00:00.000Z
+Preferred-Languages: en
+
+# Generic security contact
+Contact: mailto:security@open-xchange.com
+Encryption: https://documentation.open-xchange.com/appsuite/security/security_mail_public.asc
+
+# Bug bounty
+# If you would like to report a vulnerability in any of our products, please use the related bug bounty program.
+# For reports regarding our infrastructure, website or other organizational assets, please use the VDP.
+Contact: https://yeswehack.com/programs/app-suite
+Contact: https://yeswehack.com/programs/dovecot
+Contact: https://yeswehack.com/programs/powerdns
+Contact: https://vdp.open-xchange.com/
+Policy: https://vdp.open-xchange.com/
+
+# CSAF publications
+CSAF: https://www.open-xchange.com/.well-known/csaf/provider-metadata.json
+
+# Looking for awesome people
+Hiring: https://www.open-xchange.com/about-ox/career/working-for-ox/
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEdqNleQ1aYEJ5ooIXPooue5Xr6u4FAmciOewACgkQPooue5Xr
+6u7cqQ//W7spp1WBmWj+EaEKAAuR4AvaVrueZdia0FO+Ji2HW3Z+jx2XFfU05QoU
+x12aWY3kooKMf+VEvnPdARSTqtB37gj/xBAyLOkDydv798aTh/NasES3q6pk7tzv
+FZn7YwH4wluavCgsCj7JMYLa5sxHRSpMvi+GQSzAgSN18VHNjH36o7ecK34vBqNZ
+unvstqMk7oDM/uomH8eUCztSIlIrct5xvtNAKNXIp8KTs9p0GV6hkBLJlKV1hEau
+QsohriREaQAZqX4K50SKhn6WuK9/JYweOeRj3ZO86toY7BHUFFWy1BU3rK7DJ90q
+B/Ezcl+4fT4haLuMBM8xCNSUC0WrxByOCxw+SkUWRijkfjN9kTxk+pvdv/J6pmRJ
+jYZtIUKsF4IpyyaAAzPETjUQGeFl57WgWZILi/GeFscOX+24QsoM+3ob5YaSWDnl
+AuOZh1AcY3vM7XfdFJ4oKT4ksNU6P/4lfp4awDNG2zOVfFVJq8oAG5Hg1eJNpIQL
+nXRjgL0xWiEJQgIuDENMgWsckUogr4ZvZHFr/lk8W39fA+AGeqvDxmjsBjuXrtaq
+U6P0BCj4BPgeUZPJYiHPzdOJR4A89jhsYr6gXIIdRt1oTu+N0ZS6G6iJnuLmwqy2
+/ghA2X/1jsD6Lw03U59Je2kz4dqgZT77RzxsLTjJV6VVHOvmllw=
+=b78Q
+-----END PGP SIGNATURE-----

@@ -1,0 +1,130 @@
+#proda-web2
+
+# robots.txt for hcl-software.com
+# Last updated: [29-09-2025]
+# Purpose: Control search engine crawling and block unwanted URLs, parameters, and non-SEO pages.
+ 
+User-agent: *
+Disallow: /[Tt]emp/
+Disallow: /wps/wcm/
+Disallow: /wps/portal
+Disallow: /wps/myportal
+Disallow: /home/*ut!
+Disallow: /products-home
+Disallow: /hclsw-home/!ut
+Disallow: /*/*!ut
+Disallow: /*/*ut!
+ 
+# Query parameters
+Disallow: /*?val=*
+Disallow: /*?referrer=*
+Disallow: /*?* 
+Disallow: /*/?*
+Allow: /wps/wcm/connect/*.pdf?*  
+Allow: /wps/wcm/connect/*.jpg?*  
+Allow: /wps/wcm/connect/*.png?*  
+Allow: /wps/wcm/connect/*.webp?*
+Allow: /wps/wcm/connect/*.mp4?*
+Allow: /wps/wcm/connect/*.webm?*
+Allow: /wps/wcm/connect/*.svg?*
+ 
+# Blog Rules
+Disallow: /blog/author
+Disallow: /blog/page
+Disallow: /blog/tag/*
+ 
+# 404 error pages
+Disallow: /404
+ 
+# Thank You pages
+Disallow: */thank-you
+Disallow: */thankyou
+ 
+# Newly added rules
+Disallow: /apps/anon/org/services/
+Disallow: /apps/anon/org/user
+Disallow: /apps/anon/org/notifications
+ 
+# SemrushBot Specific Rules
+User-agent: SemrushBot
+Crawl-delay: 10
+Disallow: /[Tt]emp/
+Disallow: /wps/wcm/
+Disallow: /wps/portal
+Disallow: /wps/myportal
+Disallow: /home/*ut!
+Disallow: /products-home
+Disallow: /hclsw-home/!ut
+Disallow: /*/*!ut
+Disallow: /*/*ut!
+Disallow: /*?val=*
+Disallow: /*?referrer=*
+Disallow: /*?* 
+Disallow: /*/?*
+Allow: /wps/wcm/connect/*.pdf?*  
+Allow: /wps/wcm/connect/*.jpg?*  
+Allow: /wps/wcm/connect/*.png?*  
+Allow: /wps/wcm/connect/*.webp?*
+Allow: /wps/wcm/connect/*.mp4?*
+Allow: /wps/wcm/connect/*.webm?*
+ 
+ 
+# Blog rules for SemrushBot
+Disallow: /blog/author
+Disallow: /blog/page
+Disallow: /blog/tag/*
+ 
+ 
+# Non-SEO / Utility pages for SemrushBot
+Disallow: /404
+Disallow: */thank-you
+Disallow: */thankyou
+Disallow: /apps/anon/org/services/
+Disallow: /apps/anon/org/user
+Disallow: /apps/anon/org/notifications
+
+# ScreamingfrogBot Specific Rules
+User-agent: Screamingfrog
+Crawl-delay: 15
+Disallow: /[Tt]emp/
+Disallow: /wps/wcm/
+Disallow: /wps/portal
+Disallow: /wps/myportal
+Disallow: /home/*ut!
+Disallow: /products-home
+Disallow: /hclsw-home/!ut
+Disallow: /*/*!ut
+Disallow: /*/*ut!
+Disallow: /*?val=*
+Disallow: /*?referrer=*
+Disallow: /*?* 
+Disallow: /*/?*
+Allow: /wps/wcm/connect/*.pdf?*  
+Allow: /wps/wcm/connect/*.jpg?*  
+Allow: /wps/wcm/connect/*.png?*  
+Allow: /wps/wcm/connect/*.webp?*
+Allow: /wps/wcm/connect/*.mp4?*
+Allow: /wps/wcm/connect/*.webm?*
+ 
+ 
+# Blog rules for ScreamingfrogBot
+Disallow: /blog/author
+Disallow: /blog/page
+Disallow: /blog/tag/*
+ 
+ 
+# Non-SEO / Utility pages for ScreamingfrogBot
+Disallow: /404
+Disallow: */thank-you
+Disallow: */thankyou
+Disallow: /apps/anon/org/services/
+Disallow: /apps/anon/org/user
+Disallow: /apps/anon/org/notifications
+
+# Sitemaps
+Sitemap: https://www.hcl-software.com/sitemap_en.xml
+Sitemap: https://www.hcl-software.com/sitemap_blog.xml
+
+# Allow LinkedIn crawler to fetch Open Graph data for link previews
+User-agent: LinkedInBot
+Allow: /

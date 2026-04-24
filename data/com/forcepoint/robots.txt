@@ -1,0 +1,201 @@
+#
+# robots.txt
+#
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+# Directories
+Disallow: /includes/
+Disallow: /misc/
+Disallow: /modules/
+Disallow: /profiles/
+Disallow: /scripts/
+Disallow: /themes/
+# Files
+Disallow: /CHANGELOG.txt
+Disallow: /cron.php
+Disallow: /INSTALL.mysql.txt
+Disallow: /INSTALL.pgsql.txt
+Disallow: /INSTALL.sqlite.txt
+Disallow: /install.php
+Disallow: /INSTALL.txt
+Disallow: /LICENSE.txt
+Disallow: /MAINTAINERS.txt
+Disallow: /update.php
+Disallow: /UPGRADE.txt
+Disallow: /xmlrpc.php
+Allow: /sites/all/themes/custom/fp/assets/css
+Allow: /sites/all/themes/custom/fp/assets/js
+Allow: /sites/all/themes/custom/fp_plus/assets/css
+Allow: /sites/all/themes/custom/fp_plus/assets/js
+# Paths (clean URLs)
+Disallow: /admin/
+Disallow: /comment/reply/
+Disallow: /filter/tips/
+Disallow: /node/add/
+Disallow: /search/
+Disallow: /user/register/
+Disallow: /user/password/
+Disallow: /user/login/
+Disallow: /user/logout/
+Disallow: /taxonomy/
+Disallow: /*/thank-you-*
+# Paths (clean URLs) for Multi-language
+Disallow: /*/admin/
+Disallow: /*/comment/reply/
+Disallow: /*/filter/tips/
+Disallow: /*/node/add/
+Disallow: /*/search/
+Disallow: /*/user/register/
+Disallow: /*/user/password/
+Disallow: /*/user/login/
+Disallow: /*/user/logout/
+Disallow: */users/*
+Disallow: /*/taxonomy/
+# Paths (no clean URLs)
+Disallow: /?q=admin/
+Disallow: /?q=comment/reply/
+Disallow: /?q=filter/tips/
+Disallow: /?q=node/add/
+Disallow: /?q=search/
+Disallow: /?q=user/password/
+Disallow: /?q=user/register/
+Disallow: /?q=user/login/
+Disallow: /?q=user/logout/
+Disallow: /?q=taxonomy/
+# Paths (no clean URLs) for Multi-language
+Disallow: /*/?q=admin/
+Disallow: /*/?q=comment/reply/
+Disallow: /*/?q=filter/tips/
+Disallow: /*/?q=node/add/
+Disallow: /*/?q=search/
+Disallow: /*/?q=user/password/
+Disallow: /*/?q=user/register/
+Disallow: /*/?q=user/login/
+Disallow: /*/?q=user/logout/
+Disallow: /*/?q=taxonomy/
+# Gated Resource Files
+Disallow: /sites/default/files/resources/demos/
+Disallow: /sites/default/files/resources/ebooks/
+Disallow: /sites/default/files/resources/industry_analyst_reports/
+Disallow: /sites/default/files/resources/position_papers/
+Disallow: /sites/default/files/resources/elearning/
+Disallow: /sites/default/files/resources/reports/
+Disallow: /sites/default/files/resources/webcasts/
+Disallow: /sites/default/files/resources/whitepapers/
+# Search pages and queries
+Disallow: /search
+Disallow: /es/search
+Disallow: /fr/search
+Disallow: /de/search
+Disallow: /it/search
+Disallow: /pt-br/search
+Disallow: /zh-hans/search
+Disallow: /zh-hant/search
+Disallow: /ja/search
+Disallow: /jp/search
+Disallow: /ko/search
+Disallow: /tr/search
+Disallow: /ar/search
+Disallow: /en-au/search
+Disallow: /en-in/search
+Disallow: /en-my/search
+Disallow: /en-sg/search
+Disallow: /en-ph/search
+Disallow: /en-hk/search
+Disallow: /?q=search
+# Blog page with random strings on the url
+Disallow: /blog?page=*&*
+Disallow: /es/blog?page=*&*
+Disallow: /fr/blog?page=*&*
+Disallow: /de/blog?page=*&*
+Disallow: /it/blog?page=*&*
+Disallow: /pt-br/blog?page=*&*
+Disallow: /zh-hans/blog?page=*&*
+Disallow: /zh-hant/blog?page=*&*
+Disallow: /ja/blog?page=*&*
+Disallow: /jp/blog?page=*&*
+Disallow: /ko/blog?page=*&*
+Disallow: /tr/blog?page=*&*
+Disallow: /ar/blog?page=*&*
+Disallow: /en-au/blog?page=*&*
+Disallow: /en-in/blog?page=*&*
+Disallow: /en-my/blog?page=*&*
+Disallow: /en-sg/blog?page=*&*
+Disallow: /en-ph/blog?page=*&*
+Disallow: /en-hk/blog?page=*&*
+# Resources page with random strings on the url
+Disallow: /resources?page=*&*
+Disallow: /es/resources?page=*&*
+Disallow: /fr/resources?page=*&*
+Disallow: /de/resources?page=*&*
+Disallow: /it/resources?page=*&*
+Disallow: /pt-br/resources?page=*&*
+Disallow: /zh-hans/resources?page=*&*
+Disallow: /zh-hant/resources?page=*&*
+Disallow: /ja/resources?page=*&*
+Disallow: /jp/resources?page=*&*
+Disallow: /ko/resources?page=*&*
+Disallow: /tr/resources?page=*&*
+Disallow: /ar/resources?page=*&*
+Disallow: /en-au/resources?page=*&*
+Disallow: /en-in/resources?page=*&*
+Disallow: /en-my/resources?page=*&*
+Disallow: /en-sg/resources?page=*&*
+Disallow: /en-ph/resources?page=*&*
+Disallow: /en-hk/resources?page=*&*
+# Blog X-labs pages with AlertID query string and nested "x-labs" (Multi-language).
+Disallow: /blog/x-labs?*AlertID=
+Disallow: /*/blog/x-labs?*AlertID=
+Disallow: /blog/x-labs?*alertid=
+Disallow: /*/blog/x-labs?*alertid=
+Disallow: /blog/x-labs?*alerti_d=
+Disallow: /*/blog/x-labs?*alerti_d=
+Disallow: /blog/x-labs?*AlertI_D=
+Disallow: /*/blog/x-labs?*AlertI_D=
+Disallow: /blog/x-labs?*Al_ertID=
+Disallow: /*/blog/x-labs?*Al_ertID=
+Disallow: /blog/x-labs?*/x-labs
+Disallow: /*/blog/x-labs?*/x-labs
+Disallow: */blog/x-labs?page=*&*
+# Double langcode selector
+Disallow: /*/es/*
+Disallow: /*/fr/*
+Disallow: /*/de/*
+Disallow: /*/it/*
+Disallow: /*/pt-br/*
+Disallow: /*/zh-hans/*
+Disallow: /*/zh-hant/*
+Disallow: /*/ja/*
+Disallow: /*/jp/*
+Disallow: /*/ko/*
+Disallow: /*/tr/*
+Disallow: /*/ar/*
+Disallow: /*/en-au/*
+Disallow: /*/en-in/*
+Disallow: /*/en-my/*
+Disallow: /*/en-sg/*
+Disallow: /*/en-ph/*
+Disallow: /*/en-hk/*
+# Blog pages URLs with ";"
+Disallow /*/blog?*;*
+Disallow /*/blog/tags/*?*;*
+# Blog pages URLs with unknown query string variables
+Disallow /*/blog?sf*=*
+Disallow /*/blog/tags/*?sf*=*
+# Landing pages
+Disallow: /lp/
+# Nodes (not friendly URL)
+Disallow */node/*
+
+Sitemap: https://www.forcepoint.com/sitemap.xml

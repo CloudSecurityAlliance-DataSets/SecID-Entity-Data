@@ -1,0 +1,133 @@
+# openEuler | 开源社区
+
+> openEuler是一个开源、免费的 Linux 发行版平台，通过开放的形式与全球的开发者共同构建一个开放、多元和架构包容的软件生态体系。
+
+## 下载
+
+### 获取openEuler
+
+- [openEuler 24.03 LTS SP3](/zh/download/#openEuler 24.03 LTS SP3): openEuler首个支持超节点的版本正式发布。新版本openEuler 24.03 LTS SP3是基于6.6内核的24.03-LTS版本增强扩展版本，面向服务器、云、AI场景，持续提供更多新特性和功能扩展，包括内核优化、异构协同推理、智能诊断、机密虚机、编译器、RISC-V架构优化、智能开发者桌面、安全加固、灵衢超节点、身份认证、虚拟化等，给开发者和用户带来全新的体验，服务更多的领域和更多的用户。
+- [openEuler 24.03 LTS SP2](/zh/download/#openEuler 24.03 LTS SP2): 基于6.6内核的LTS版本，面向服务器、云、边缘计算和嵌入式场景，提供更多新特性和功能，给开发者和用户带来全新的体验，服务更多的领域和更多的用户。
+- [openEuler 24.03 LTS SP1](/zh/download/#openEuler 24.03 LTS SP1): 基于6.6内核的24.03 LTS版本增强扩展版本，面向服务器、云、边缘计算和嵌入式场景，持续提供更多新特性和功能扩展，给开发者和用户带来全新的体验，服务更多的领域和更多的用户。
+- [其他获取方式](/zh/download/#get-openeuler): 通过公有云、容器镜像等方式获取openEuler版本
+
+### 其他版本
+
+- [商业发行版](/zh/download/commercial-release/): 基于openEuler发布的商业发行版。x86、AArch、LoongArch、sw 、RISC-V
+
+### 获取其他资源
+
+- [软件中心](https://easysoftware.openeuler.org/zh): 查询openEuler社区软件包
+- [镜像仓列表](/zh/mirror/list/): 查询openEuler所有镜像站点
+- [Repo源](https://repo.openeuler.openatom.cn/): 提供openEuler社区版本的repo文件
+
+## 开发
+
+### 贡献
+
+- [SIG中心](/zh/sig/sig-list/): 查询openEuler社区SIG组
+- [CLA签署](https://clasign.osinfra.cn/sign/6983225bdcbb19710248ccf0): 参与贡献前，需签署贡献者许可协议（CLA）
+- [贡献攻略](/zh/community/contribution/): 参与社区贡献的方式
+- [oEEP](/zh/oEEP/?name=oEEP-0000 oEEP  索引): 查看openEuler社区的演进提案
+
+### 构建
+
+- [EulerMaker](https://eulermaker.openeuler.openatom.cn/): 开放式统一构建服务
+- [用户软件仓(EUR)](https://eur.openeuler.openatom.cn/coprs/): 开发者易用的软件包托管分发平台
+- [软件包贡献](https://software-pkg.openeuler.org/zh/package): 简单高效地贡献软件包
+- [License工具门户](https://compliance.openeuler.org): 检测License权利、义务、限制
+
+### 发布
+
+- [EulerPublisher](https://atomgit.com/openeuler/eulerpublisher): openEuler云原生发布工具
+- [EulerLauncher](https://atomgit.com/openeuler/eulerlauncher): 跨平台openEuler虚拟机管理工具
+- [OEPKGS](https://oepkgs.net/zh-CN): OEPKGS软件托管平台
+
+### 分析
+
+- [oecp](https://atomgit.com/openeuler/oecp): 操作系统差异比较分析工具
+- [Pkgship](https://pkgmanage.openeuler.org): 管理操作系统软件包信息和依赖项的查询工具
+
+### 项目
+
+- [A-Tune](/zh/other/projects/atune/): 基于AI开发的智能优化引擎
+- [iSula](/zh/other/projects/isula/): 容器技术方案
+- [secGear](/zh/other/projects/secgear/): 开发安全应用的机密计算框架
+- [NestOS](/zh/nestos): 基于欧拉开源操作系统的云底座操作系统
+- [全部项目](/zh/projects)
+
+## 文档
+
+### 文档
+
+- [文档中心](https://docs.openeuler.org/zh/): 提供各业务场景及工具使用所需的文档手册
+- [新手入门](https://docs.openeuler.org/zh/docs/24.03_LTS_SP3/server/quickstart/quickstart/quick_start.html): 10分钟玩转社区，快速构建与成长
+- [安装指南](https://docs.openeuler.org/zh/docs/24.03_LTS_SP3/server/installation_upgrade/installation/installation_preparations.html): 指导用户顺利完成 openEuler 操作系统安装
+- [常见问题](https://docs.openeuler.org/zh/docs/common/faq/general/general_faq.html): 常见问题解决方法
+- [文档开发指南](https://docs.openeuler.org/zh/docs/common/contribute/directory_structure_introductory.html): 参与文档开发的方式
+
+## 学习
+
+### 课程
+
+- [课程中心](/zh/learn/mooc/): 汇聚openEuler各类课程资源
+
+### 开发者成长
+
+- [高校](/zh/universities/): 了解高校技术小组与实习赛事资讯
+- [人才培养](/zh/talent-assessment/): 帮助企业快速培养openEuler专业生态人才
+- [开源实习](/zh/internship/): 帮助在校学生在项目实践中提升能力，成为优秀的开源人才
+
+## 支持
+
+### 兼容性专区
+
+- [兼容性列表](/zh/compatibility/): 查看openEuler兼容性列表
+- [兼容性技术测评](https://certification.openeuler.org/#/): 帮助企业快速申请兼容性技术测评
+- [OSV技术测评](/zh/approve/): 查看OSV技术测评结果
+
+### 迁移与运维
+
+- [迁移专区](/zh/migration/): 进行操作系统迁移的指南文档
+- [运维专区](/zh/om/): openEuler运维全集和工具
+
+### 安全公告
+
+- [安全中心](/zh/security/security-bulletins/): 查看漏洞管理、安全公告等安全问题
+- [缺陷中心](/zh/security/bug-bulletins/): 查看缺陷相关安全问题
+
+## 社区
+
+### 关于社区
+
+- [组织架构](/zh/community/organization/): 了解openEuler的委员会成员
+- [社区章程](/zh/community/charter/): 了解openEuler的章程、条例、行为准则、License策略
+- [成员单位](/zh/community/member/): 了解openEuler的捐赠单位
+- [社区荣誉](/zh/community/honor/): 了解openEuler的荣誉奖项
+- [城市用户组](/zh/community/user-group/): 区域用户交流圈
+- [贡献看板](https://datastat.openeuler.org/zh/overview): 查看openEuler社区数据
+- [联系我们](/zh/contact-us/): 社区联系方式
+- [用户案例](/zh/showcase/): 了解openEuler在各行业的最佳案例
+- [白皮书](/zh/showcase/technical-white-paper/): 了解openEuler各版本的技术详情及在行业的生态现状、业务场景的应用
+- [市场研究报告](/zh/showcase/market-report/): 了解openEuler在行业的市场研究情况
+
+### 社区交流
+
+- [论坛](https://forum.openeuler.org/?locale=zh_CN): 与开发者讨论openEuler
+- [邮件列表](/zh/community/mailing-list/): 订阅邮件列表，与SIG成员讨论openEuler的技术与进展
+- [线上会议](/zh/meeting/): 查询并参与SIG组例会
+- [QuickIssue](https://quickissue.openeuler.org/zh/issues/): 简易快捷地查询、提交社区Issues
+
+## 动态
+
+### 活动
+
+- [活动日历](/zh/interaction/event-list/): 了解openEuler社区全年活动
+- [峰会](/zh/interaction/summit-list/summit2025/): 查看openEuler年度大会详情
+- [openEuler Call for X计划](/zh/community/program/): 共享openEuler Call for X计划多元化资源
+
+### 资讯
+
+- [新闻](/zh/interaction/news-list/): 查看openEuler社区动态
+- [博客](/zh/interaction/blog-list/): 查看openEuler技术文章分享
+- [月刊与年报](/zh/monthly-bulletins/): 查看openEuler社区运作报告

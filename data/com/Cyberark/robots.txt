@@ -1,0 +1,17 @@
+User-agent: *
+Disallow: /*?s=
+Disallow: /*?query=
+Disallow: /*?*utm_=
+Disallow: /*?*gclid=
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://www.cyberark.com/sitemap_index.xml
+Sitemap: https://www.cyberark.com/ja/resources/sitemap_index.xml
+Sitemap: https://www.cyberark.com/zh-hant/resources/sitemap_index.xml
+Sitemap: https://www.cyberark.com/zh-hans/resources/sitemap_index.xml
+Sitemap: https://www.cyberark.com/it/resources/sitemap_index.xml
+Sitemap: https://www.cyberark.com/fr/resources/sitemap_index.xml
+Sitemap: https://www.cyberark.com/es/resources/sitemap_index.xml
+Sitemap: https://www.cyberark.com/de/resources/sitemap_index.xml
+Sitemap: https://www.cyberark.com/resources/sitemap_index.xml

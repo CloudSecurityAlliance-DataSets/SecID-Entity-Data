@@ -1,0 +1,15 @@
+# robots.txt for securin.io
+# Allow all public pages to be crawled
+
+User-agent: *
+Allow: /
+
+# Block private/internal paths
+Disallow: /api/
+Disallow: /login
+Disallow: /thank-you
+Disallow: /account
+Disallow: /_next/
+
+# Sitemap
+Sitemap: https://www.securin.io/sitemap.xml

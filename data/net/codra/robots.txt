@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-admin/admin-ajax.php
+Disallow: /wp-content/
+Allow: /wp-content/uploads/*
+Disallow : https://fr.codra.net
+Disallow : https://uk.codra.net
+Disallow : */feed/
+
+Sitemap: https://codra.net/sitemap_index.xml

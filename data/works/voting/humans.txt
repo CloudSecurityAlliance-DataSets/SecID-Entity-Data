@@ -1,0 +1,13 @@
+Greetings fellow Human !
+
+This Website was made with love and care by
+Christophe Simonis, Fabien Meghazi, Nicolas Wisniewski,
+Nicolas Vanhoren, Nicoleta Tristan, Christophe Matthieu 
+and Frédéric van der Essen.
+
+We don't have anything else interesting to say so we suggest 
+that you now return to your daily activities.
+
+Cheers,
+
+- OpenERP's Crazy Web Dev Team

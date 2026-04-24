@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+Disallow: /search*
+
+
+Sitemap: https://www.hitachienergy.com/sitemap.xml
+Sitemap: https://www.hitachienergy.com/at/de/sitemap.xml
+Sitemap: https://www.hitachienergy.com/br/pt/sitemap.xml
+Sitemap: https://www.hitachienergy.com/ca/en/sitemap.xml
+Sitemap: https://www.hitachienergy.com/ca/fr/sitemap.xml
+Sitemap: https://www.hitachienergy.com/ch/de/sitemap.xml
+Sitemap: https://www.hitachienergy.com/ch/fr/sitemap.xml
+Sitemap: https://www.hitachienergy.com/ch/it/sitemap.xml
+Sitemap: https://www.hitachienergy.com/cn/zh/sitemap.xml
+Sitemap: https://www.hitachienergy.com/de/de/sitemap.xml
+Sitemap: https://www.hitachienergy.com/es/es/sitemap.xml
+Sitemap: https://www.hitachienergy.com/fr/fr/sitemap.xml
+Sitemap: https://www.hitachienergy.com/in/en/sitemap.xml
+Sitemap: https://www.hitachienergy.com/it/it/sitemap.xml
+Sitemap: https://www.hitachienergy.com/jp/ja/sitemap.xml
+Sitemap: https://www.hitachienergy.com/latam/es/sitemap.xml
+Sitemap: https://www.hitachienergy.com/me/en/sitemap.xml
+Sitemap: https://www.hitachienergy.com/pt/pt/sitemap.xml
+Sitemap: https://www.hitachienergy.com/se/sv/sitemap.xml
+Sitemap: https://www.hitachienergy.com/uk-ie/en/sitemap.xml
+Sitemap: https://www.hitachienergy.com/us/en/sitemap.xml
+Sitemap: https://www.hitachienergy.com/africa/en/sitemap.xml
+Sitemap: https://www.hitachienergy.com/video-sitemap.xml

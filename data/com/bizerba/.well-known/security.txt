@@ -1,0 +1,5 @@
+Contact: mailto:security@bizerba.com
+Encryption: https://www.bizerba.com/.well-known/CSIRT_BIZERBA_public.asc
+Expires: 2030-12-07T23:00:00.000Z
+Policy: https://www.bizerba.com/int/en/family-owned-and-operated-company-since-1866/corporate-governance-acting-responsibly-globally/security-policy
+Preferred-Languages: de, en

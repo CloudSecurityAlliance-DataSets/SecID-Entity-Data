@@ -1,0 +1,24 @@
+# Fluid Attacks
+
+> Fluid Attacks is an all-in-one Application Security (AppSec) and ASPM platform that helps teams secure software across the SDLC using automated scanning, AI-assisted remediation guidance, and expert pentesters. It offers SAST, SCA, DAST, CSPM, SCR, PTaaS, reverse engineering and risk-based vulnerability management.
+
+## Overview
+[Home](https://fluidattacks.com): Main landing page with product and company overview.
+[Solutions](https://fluidattacks.com/solutions): High-level summary of AppSec and ASPM capabilities.
+[Products](https://fluidattacks.com/products): Detailed product pages for SAST, SCA, DAST, CSPM, PTaaS, Secure Code Review, Reverse Engineering.
+[Plans](https://fluidattacks.com/plans): Subscription and plan information.
+
+## Key Resources
+[Continuous Hacking](https://fluidattacks.com/continuous-hacking): Continuous security testing approach explanation.
+[Risk-Based Vulnerability Management](https://fluidattacks.com/solutions/risk-based-vulnerability-management): Prioritization and management overview.
+[Application Security Posture Management](https://fluidattacks.com/solutions/application-security-posture-management): ASPM platform context and benefits.
+[Blog](https://fluidattacks.com/blog): Articles on AppSec best practices, tools, and research.
+
+## Support & Documentation
+[Help Center](https://help.fluidattacks.com): Support articles and user documentation.
+[Talk to a Pentester (Advanced Plan)](https://help.fluidattacks.com/portal/en/kb/articles/talk-to-a-pentester): Guided expert assistance details.
+
+## Company
+[About Us](https://fluidattacks.com/about)
+[Careers](https://fluidattacks.com/careers)
+[Privacy Policy](https://fluidattacks.com/privacy-policy)

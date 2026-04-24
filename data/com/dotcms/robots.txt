@@ -1,0 +1,13 @@
+User-Agent: *
+Allow: /
+Disallow: /utils/
+Disallow: /docs/
+
+Sitemap: https://www.dotcms.com/sitemap.xml
+Sitemap: https://www.dotcms.com/blog/sitemap.xml
+Sitemap: https://www.dotcms.com/videos/sitemap.xml
+Sitemap: https://www.dotcms.com/podcast/sitemap.xml
+Sitemap: https://www.dotcms.com/case-studies/sitemap.xml
+Sitemap: https://www.dotcms.com/news/sitemap.xml
+Sitemap: https://www.dotcms.com/partners/sitemap.xml
+Sitemap: https://www.dotcms.com/resource-library/sitemap.xml

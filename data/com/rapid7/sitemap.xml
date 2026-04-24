@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://www.rapid7.com/main-sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://careers.rapid7.com/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.rapid7.com/db/sitemap.xml</loc>
+  </sitemap>
+  <sitemap>
+    <loc>https://www.rapid7.com/blog/sitemap.xml</loc>
+  </sitemap>
+</sitemapindex>

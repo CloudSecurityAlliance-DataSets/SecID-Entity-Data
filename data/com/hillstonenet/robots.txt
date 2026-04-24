@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /wp-admin/admin-ajax.php
+Disallow: /wp-admin/
+
+User-agent: YisouSpider
+Disallow: /
+
+Sitemap: https://www.hillstonenet.com/sitemap.xml
+Sitemap: https://www.hillstonenet.com/sitemap.rss

@@ -1,0 +1,22 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Contact: mailto:security@liferay.com
+Expires: 2026-12-31T23:59:59.000Z
+Encryption: https://www.liferay.com/.well-known/pgp-key.txt
+Acknowledgments: https://liferay.dev/portal/security/hall-of-fame
+Preferred-Languages: en
+Canonical: https://www.liferay.com/.well-known/security.txt
+Policy: https://liferay.dev/portal/security/reporting
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEkyWmm2ge76falBIz0rVz0opHoP8FAmiIfCEACgkQ0rVz0opH
+oP9ygQf/ZWln5P5BICobiMBoz7+B3tVj7yZf5bxwgclo2DvUteFz/SQtf/P1j4VS
+mZLBZhYJG9/agIZ6OXO/fbPt9Dnt9CqDX1IHajMEFK7etRJNJp32jtFrbw95hjrU
+nG8cKdCNuGFT/9VxDyCnc/ogBXHpJsHMqrvu5GYkvi4MvQlKbgkiCAqZhaM5fN/Q
+BUYPAigjpvl7QCHDFijC5Smi1rRUOez+HY5uIFQqNerXMzkcFvBbOdGvTav7KZ/9
+5dbXUvuQt12KevHGfZYQUPrIA60yP6UUGPdzBhnOM42LabanvnnGtDJKJA8iuVVO
+gYQMZaYACBtFLwpPROMM7nXyhqb48g==
+=lttH
+-----END PGP SIGNATURE-----

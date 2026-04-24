@@ -1,0 +1,23 @@
+# The security team appreciates your interest in the security of Milestone Systems A/S. 
+# Please use the below point of contact for security findings only, if you as a 
+# vendor/salesperson contact us directly on this e-mail we will mark your e-mail as spam.
+# Please send relevant information about your security findings to:
+Contact: mailto:psirt@milestonesys.com
+
+# Please contact us in English
+Preferred-Languages: en
+
+# Our OpenPGP key
+Encryption: https://www.milestonesys.com/.well-known/psirt-public-key.txt
+
+# Bug Bounty / Reward Statement
+# -----------------------------
+# Milestone Systems does not have a bug bounty/reward program and will therefore not offer paid bug/security rewards.
+# We might however offer a token of our appreciation to security researchers who take the time and effort to 
+# investigate and report security vulnerabilities to us.
+#
+# Best regards
+# Milestone Systems PSIRT
+#
+# This information is only valid until:
+Expires: 2027-01-01T11:00:00.000Z

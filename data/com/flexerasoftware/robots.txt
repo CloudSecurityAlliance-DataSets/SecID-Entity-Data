@@ -1,0 +1,154 @@
+#
+# robots.txt
+#
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/robotstxt.html
+ 
+User-agent: *
+# CSS, JS, Images
+Allow: /core/*.css$
+Allow: /core/*.css?
+Allow: /core/*.js$
+Allow: /core/*.js?
+Allow: /core/*.gif
+Allow: /core/*.jpg
+Allow: /core/*.jpeg
+Allow: /core/*.png
+Allow: /core/*.svg
+Allow: /profiles/*.css$
+Allow: /profiles/*.css?
+Allow: /profiles/*.js$
+Allow: /profiles/*.js?
+Allow: /profiles/*.gif
+Allow: /profiles/*.jpg
+Allow: /profiles/*.jpeg
+Allow: /profiles/*.png
+Allow: /profiles/*.svg
+# Directories
+Disallow: /core/
+Disallow: /profiles/
+# Files
+Disallow: /README.txt
+Disallow: /web.config
+# Paths (clean URLs)
+Disallow: /admin/
+Disallow: /comment/reply/
+Disallow: /filter/tips
+Disallow: /node/add/
+Disallow: /search/
+Disallow: /user/register/
+Disallow: /user/password/
+Disallow: /user/login/
+Disallow: /user/logout/
+# Paths (no clean URLs)
+Disallow: /index.php/admin/
+Disallow: /index.php/comment/reply/
+Disallow: /index.php/filter/tips
+Disallow: /index.php/node/add/
+Disallow: /index.php/search/
+Disallow: /index.php/user/password/
+Disallow: /index.php/user/register/
+Disallow: /index.php/user/login/
+Disallow: /index.php/user/logout/
+ 
+Disallow: /search/
+Disallow: /media/pdfs/noindex/
+Disallow: /blog/?s*
+Disallow: /blog/20* 
+Disallow: /search-results.html?search*
+Disallow: *?hsFormKey*
+Disallow: *?__hstc=*
+Disallow: *?cat=*
+Disallow: *?asset_id*
+Disallow: *?C_
+Disallow: *?elq
+Disallow: *?lead
+Disallow: *?replytocom*
+Disallow: *?elqTrackId*
+ 
+ 
+# additions based on Mediative recommendation for bad bots
+ 
+# advertising-related bots:
+User-agent: Mediapartners-Google*
+Disallow: /
+ 
+# Crawlers that are kind enough to obey, but which we'd rather not have
+# unless they're feeding search engines.
+User-agent: UbiCrawler
+Disallow: /
+ 
+User-agent: DOC
+Disallow: /
+ 
+User-agent: Zao
+Disallow: /
+ 
+# Some bots are known to be trouble, particularly those designed to copy
+# entire sites. Please obey robots.txt.
+User-agent: sitecheck.internetseer.com
+Disallow: /
+ 
+User-agent: Zealbot
+Disallow: /
+ 
+User-agent: MSIECrawler
+Disallow: /
+ 
+User-agent: SiteSnagger
+Disallow: /
+ 
+User-agent: WebStripper
+Disallow: /
+ 
+User-agent: WebCopier
+Disallow: /
+ 
+User-agent: Fetch
+Disallow: /
+ 
+User-agent: Offline Explorer
+Disallow: /
+ 
+User-agent: Teleport
+Disallow: /
+ 
+User-agent: TeleportPro
+Disallow: /
+ 
+User-agent: WebZIP
+Disallow: /
+ 
+User-agent: linko
+Disallow: /
+ 
+User-agent: Microsoft.URL.Control
+Disallow: /
+ 
+User-agent: larbin
+Disallow: /
+ 
+User-agent: libwww
+Disallow: /
+ 
+User-agent: ZyBORG
+Disallow: /
+ 
+User-agent: Download Ninja
+Disallow: /
+ 
+# Misbehaving: requests much too fast:
+User-agent: fast
+Disallow: /
+ 
+sitemap:  https://www.revenera.com/sitemap.xml
+sitemap:  https://www.revenera.com/blog/sitemap.xml

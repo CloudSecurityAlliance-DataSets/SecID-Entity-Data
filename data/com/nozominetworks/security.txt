@@ -1,0 +1,27 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Contact: mailto:prodsec@nozominetworks.com
+Encryption: https://security.nozominetworks.com/csaf/psirt.asc
+Preferred-Languages: en
+Canonical: https://security.nozominetworks.com/.well-known/security.txt
+Policy: https://security.nozominetworks.com/psirt
+CSAF: https://csaf.data.security.nozominetworks.com/provider-metadata.json
+Hiring: https://www.nozominetworks.com/company/careers/
+Expires: 2026-06-30T23:00:00.000Z
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEYiJpLqi49PuMn2pCOh4Pa88ccv8FAmim8AkACgkQOh4Pa88c
+cv8IZBAAnOCkULiPqMGO3w/iC1SodBfEyLJjlY94CiI6En0YciehKxg7kghacliI
+0Ho/JfoCTfWmIOSpiuB+nN1t/2LvLVX1YdHz50D1gb4qZGoD9w3Q+g38r/Sptni8
+lxb4ojS01xnohoFObvBQocMtK1Y2hqKFpTRy6+XFaARoCb9gPRZIsvTXd0B4mZCT
+Au6RP0QS8aDwNvmrl5T2RcRT4W/sfkXL/pJ6CstN6Ip6c/HttCTWgJ3lQKf8k+pW
+IjKmHKROFCTDfYON0O1ekdFD+I5vczYBP+vOQk7+5iIp/zRbl8ZFXM++QVj5/GND
+UYU3vKNa3D31irtY2zKgTMfMYRaEf7diHNxUZB6PC8gCHaeKVjN//73cvEe6gIWf
+VTEVsmCjhfP+Jd69QRcITdhGkUu673VZ5UX7ypMVF6zb7ksK868vRMJkKNgPCAws
+xntI2SnRZdTP15hkGzHXjjCh+xoES0WuOulPgrPmgTMGTy94vUxc2nN1zDQ5QpTj
+AVTfF4OlpmOIVDlLItcnpk35JjucvHh9HnzBvbsm8/geUmm10MYGpeCp1bphkExn
+8aSA+X4VlyG2lnIC7l/C24OyIn6X3cgpKgqOtUWBsK48C+eBaq9o7MMIEZ01dItV
+dSDpLFoxw/m+6rDD0iBXK8xeC6g1mQsyyDWHbi6WsNlwdtTHwMs=
+=S6C9
+-----END PGP SIGNATURE-----

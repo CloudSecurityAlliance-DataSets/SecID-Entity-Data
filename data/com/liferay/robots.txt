@@ -1,0 +1,52 @@
+User-Agent: *
+
+Disallow: */control_panel
+Disallow: *browserId=
+Disallow: /osb-partnership-portlet/partnership/partnership_entries
+Disallow: /documents/d/guest/liferay-professional-services-appendix-2_1402410_*
+
+Disallow: /c/portal/update_language
+Disallow: /c/portal/login
+
+Disallow: /*p_p_auth*
+Disallow: /*p_p_id*
+Disallow: /*p_p_lifecycle*
+Disallow: /*p_p_state*
+
+Disallow: /*p_l_back_url*
+Disallow: /*p_l_back_url_title*
+Disallow: /*p_l_mode*
+Disallow: /*p_r_p_selPlid*
+Disallow: /*layoutId*
+Disallow: /*groupId*
+Disallow: /*privateLayout*
+
+Disallow: /*q=*
+Disallow: /*keywords*
+Disallow: /*highlight*
+Disallow: /*filter_keywords_*
+Disallow: /*filter_category_*
+Disallow: /*f0*
+
+Disallow: /*delta*
+Disallow: /*start*
+Disallow: /*page_number_*
+
+Disallow: /*category*
+Disallow: /*languageId*
+Disallow: /*contentType*
+Disallow: /*productModule*
+Disallow: /*industry*
+Disallow: /*topic*
+Disallow: /*capability*
+Disallow: /*solution=*
+
+Disallow: /osb-partnership-portlet/partnership/partnership_entries
+Disallow: /documents/d/guest/liferay-professional-services-appendix-2_1402410_latam
+Disallow: /documents/d/guest/liferay-professional-services-appendix-2_1402410_gl
+Disallow: /documents/d/guest/liferay-professional-services-appendix-2_1402410_es
+Disallow: /documents/d/guest/liferay-professional-services-appendix-2_1402410_de
+Disallow: /documents/d/guest/liferay-professional-services-appendix-2_1402410_br
+Disallow: /documents/d/guest/liferay-professional-services-appendix-2_1402410_fr
+
+Sitemap: https://www.liferay.com/sitemap.xml

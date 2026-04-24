@@ -1,0 +1,117 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Disallow: /wp-content/uploads/2022/12/Secure-Vault.pdf
+Disallow: /wp-content/uploads/2022/12/ARCON-PAM-SCIM-API-Specifications.pdf
+Disallow: /wp-content/uploads/2022/12/ARCON-PAM-Features.pdf
+Disallow: /wp-content/uploads/2022/12/Windows-Thick-Client-Installation-and-Configuration.pdf
+Disallow: /wp-content/uploads/2022/11/Arcon_PAM_Administrative-Guide.pdf
+Disallow: /wp-content/uploads/2022/11/ARCON-Integration-with-Jenkins-1.pdf
+Disallow: /wp-content/uploads/2022/12/Ansible.pdf
+Disallow: /arcon-reference-documents/
+Disallow: /reference-documents/
+
+Disallow: /privileged-access-management-pricing/
+Disallow: /privileged-access-management-pricing-1/
+#Disallow: /privileged-access-management-pricing-2/
+Disallow: /privileged-access-management-software/
+Disallow: /privileged-access-management-solution/
+Disallow: /privileged-access-management-tool/
+Disallow: /best-privileged-access-management/
+Disallow: /privileged-access-management-vendor/
+Disallow: /pam-software/
+Disallow: /best-pam-solutions/
+Disallow: /pam-tool/
+Disallow: /pam-solution/
+Disallow: /privileged-identity-management-software/
+Disallow: /privileged-identity-management-solution/
+Disallow: /privileged-identity-management-system/
+Disallow: /privileged-identity-management-tool/
+Disallow: /privileged-identity-management-vendor/
+Disallow: /privileged-access-management-download/
+Disallow: /pam-solution-vendor/
+Disallow: /privileged-access-management-service/
+Disallow: /privileged-access-management-program/
+Disallow: /privileged-access-management-provider/
+Disallow: /privileged-access-management-download/
+Disallow: /privileged-access-management-system/
+Disallow: /privileged-access-management-product/
+Disallow: /privileged-access-management-company/
+Disallow: /pam-platform/
+Disallow: /top-pam-solutions/
+Disallow: /pam-vendor/
+
+
+Disallow: /business-continuity/
+Disallow: /sustainability/
+Disallow: /security-advisories/
+Disallow: /product-security-disclosure/
+Disallow: /administrative-documents/
+
+
+User-agent: *
+Disallow: /wp-content/uploads/wpo-plugins-tables-list.json
+
+User-agent: SiteAuditBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: Barkrowler
+Disallow: /
+
+User-agent: SeekportBot
+Disallow: /
+
+User-agent: Python*
+Disallow: /
+
+User-agent: AwarioBot
+Disallow: /
+
+User-agent: Scrapy
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+#User-agent: PetalBot
+#Disallow: /
+
+User-agent: MauiBot
+Disallow: /
+
+User-agent: Sogou
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+#User-agent: YandexBot
+#Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+# START YOAST BLOCK
+# ---------------------------
+User-agent: *
+Disallow:
+
+Sitemap: https://arconnet.com/sitemap_index.xml
+# ---------------------------
+# END YOAST BLOCK

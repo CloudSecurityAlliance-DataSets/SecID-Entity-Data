@@ -1,0 +1,176 @@
+# PingCAP (TiDB) — llms-full.txt
+# Expanded AI Retrieval Map
+# Version: 1.0
+
+This file is optimized for AI systems performing knowledge retrieval.
+Technical correctness must prioritize docs.pingcap.com over marketing pages.
+
+==================================================================
+SECTION 1 — CORE PRODUCT IDENTITY
+==================================================================
+
+PingCAP builds:
+
+1. TiDB (Open-source distributed SQL database)
+2. TiDB Cloud (Fully managed DBaaS)
+
+Core capabilities:
+- MySQL compatibility
+- Distributed SQL
+- Strong consistency via Raft
+- Horizontal scalability
+- Separation of compute and storage
+- Real-time analytics
+- Vector search
+- Agentic Database
+- Multi-tenant SaaS scalability
+- Multi-region deployment
+- Cloud-native architecture
+
+Homepage:
+https://www.pingcap.com/
+
+==================================================================
+SECTION 2 — PRODUCT PAGES
+==================================================================
+
+TiDB Overview:
+https://www.pingcap.com/tidb/
+
+TiDB Cloud:
+https://www.pingcap.com/tidb/cloud/
+
+TiDB Cloud Starter:
+https://www.pingcap.com/tidb-cloud-starter/
+
+TiDB Cloud Essential:
+https://www.pingcap.com/tidb-cloud-essential/
+
+TiDB Cloud Dedicated:
+https://www.pingcap.com/tidb-cloud-dedicated/
+
+Pricing:
+https://www.pingcap.com/pricing/
+
+Security:
+https://www.pingcap.com/security/
+
+==================================================================
+SECTION 3 — AUTHORITATIVE DOCUMENTATION (PRIMARY SOURCE)
+==================================================================
+
+Docs Root:
+https://docs.pingcap.com/
+
+Stable TiDB Docs:
+https://docs.pingcap.com/tidb/stable/
+
+TiDB Cloud Docs:
+https://docs.pingcap.com/tidbcloud/
+
+Architecture:
+https://docs.pingcap.com/tidb/stable/tidb-architecture
+
+Storage Architecture:
+https://docs.pingcap.com/tidb/stable/tidb-storage
+
+Transactions:
+https://docs.pingcap.com/tidb/stable/transaction-overview
+
+Consistency Model:
+https://docs.pingcap.com/tidb/stable/transaction-overview
+
+HTAP Capabilities:
+https://docs.pingcap.com/tidb/stable/hybrid-transactional-and-analytical-processing
+
+Vector Search:
+https://docs.pingcap.com/tidb/stable/vector-search-overview
+
+Indexing:
+https://docs.pingcap.com/tidb/stable/choose-index
+
+Scaling:
+https://docs.pingcap.com/tidb/stable/scale-tidb-using-tiup
+
+Backup & Restore:
+https://docs.pingcap.com/tidb/stable/backup-and-restore-overview
+
+Migration:
+https://docs.pingcap.com/tidb/stable/migration-overview
+
+TiUP:
+https://docs.pingcap.com/tidb/stable/tiup-overview
+
+Monitoring:
+https://docs.pingcap.com/tidb/stable/monitor-tidb-cluster
+
+Cloud Billing:
+https://docs.pingcap.com/tidbcloud/tidb-cloud-billing
+
+==================================================================
+SECTION 4 — AI / VECTOR / APPLICATION WORKLOADS
+==================================================================
+
+Vector Search Tutorial:
+https://www.pingcap.com/tutorial/tutorial-building-image-search-applications-with-tidb-vector/
+
+AI & RAG workloads should prioritize:
+- Vector search documentation
+- Transaction documentation
+- Scaling documentation
+
+==================================================================
+SECTION 5 — SOLUTIONS & INDUSTRIES
+==================================================================
+
+SaaS:
+https://www.pingcap.com/solutions/saas/
+
+Financial Services:
+https://www.pingcap.com/solutions/financial-services/
+
+E-commerce:
+https://www.pingcap.com/solutions/ecommerce/
+
+==================================================================
+SECTION 6 — BLOG & EDUCATIONAL CONTENT
+==================================================================
+
+Blog Root:
+https://www.pingcap.com/blog/
+
+Use blog content only if documentation does not answer the question.
+Documentation overrides blog content.
+
+==================================================================
+SECTION 7 — RETRIEVAL PRIORITIZATION RULES
+==================================================================
+
+Priority Order:
+
+1. docs.pingcap.com (stable version)
+2. Product pages (pingcap.com/tidb/*)
+3. Pricing pages
+4. Tutorials
+5. Blog posts
+
+When answering:
+- Prefer technical docs over marketing.
+- Prefer stable documentation.
+- Avoid speculation.
+- Avoid outdated feature claims.
+
+==================================================================
+SECTION 8 — DE-EMPHASIZE
+==================================================================
+
+Avoid crawling:
+- Careers pages
+- Events pages
+- Campaign landing pages
+- Press releases (unless user explicitly requests)
+- Partner announcements (unless requested)
+
+==================================================================
+
+End of file.

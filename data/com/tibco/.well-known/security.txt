@@ -1,0 +1,28 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Canonical: https://www.tibco.com/.well-known/security.txt
+Contact: https://www.tibco.com/security
+Contact: mailto:security@tibco.com
+Preferred-Languages: en
+Encryption: https://keys.openpgp.org/search?q=security%40tibco.com
+Encryption: https://www.tibco.com/security/pgp-keys.asc
+Policy: https://www.tibco.com/security/vulnerability-disclosure-policy
+Acknowledgments: https://www.tibco.com/security/disclosure-hall-fame
+CSAF: https://www.tibco.com/.well-known/csaf/provider-metadata.json
+-----BEGIN PGP SIGNATURE-----
+iQJHBAEBCAAxFiEEA1tvxkWUGZQWIdpd7p6Vxm/y3HgFAmLIiDQTHHNlY3VyaXR5
+QHRpYmNvLmNvbQAKCRDunpXGb/LceG5pD/sH6CzZHQfkbTCecmdwbyAt+izlU7ou
+AexCoscaFom0CxgBysgN6f/AtNsF2nhOFFCEAOrvxaXg3s8re44f9B2meOgv7I//
+hZzvO8ylb8W2nEW94w+Gf1QgpiySOirvB3E+OGoKvgyYL5XuSMRfuef0WMeYcheG
+CVhNhMhp12SjgU64Olq7gHhfXr513ts46QfbxL68MT1EUYnOXzOJOM2gO7JfcN1U
+ZYEZHTv56L7wPfn9eQb+i2k+yHwhVHgym/OdvPo2Tf9nn0Ss9D1KwLK2+pcq1AOT
+bqWRlzKQ99JhEiA9hBtFnrR14D9C9fWRMrgeFos2f10opB3YKiYNXGsz0BrJ/GFO
+AJ8NhFFeCJjAg7W8OUwsFUuAoAk1T/gEAgB6YF8T707cW8Ibkd8ZyvRFKhFuvpdU
+LFYc/rcGrKPeLcM99NxVkw5VbZ1KAaAhdiBpVr5URWp4f/+1HilIu4z85/duL2mO
+DLoh0YAcgvcEeeC3BBdk3F1S+IfvJ5+/le3CoCEoC0hoxtbsvcFAVqk9P+0JwHKp
+rmODjkmi6HYcSFaZvCfazYXq4LPO6GMDrw7UvTMP5ss2bcXj0k4xfwcNSiHBggnH
+biuPexqm5VMxk+rBnzkKsRlmWiTy6nh7AF4myUdMgAFAfofIMF+8KbYtsAcFncMv
+abSCBUEs1eA5dg==
+=fqQi
+-----END PGP SIGNATURE-----

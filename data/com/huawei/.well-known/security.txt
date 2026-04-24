@@ -1,0 +1,41 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+# Canonical URI
+Canonical: https://www.huawei.com/.well-known/security.txt
+
+# Huawei PSIRT email address
+Contact: mailto:psirt@huawei.com
+
+# Huawei PSIRT OpenPGP public key for psirt@huawei.com
+Encryption: https://www.huawei.com/minisite/media/download/Huawei_PSIRT_PGP_Public_Key.asc
+
+Preferred-Languages: zh,en
+
+# Huawei's security vulnerability policy
+Policy: https://www.huawei.com/cn/psirt/vul-response-process
+
+# Huawei's bug bounty program
+Acknowledgements: https://bugbounty.huawei.com/hbp
+
+# Huawei's Common Security Advisory Framework (CSAF) publications
+CSAF: https://securitybulletin.huawei.com/.well-known/csaf/provider-metadata.json
+
+Expires: 2026-07-26T01:00:16+08:00
+
+-----BEGIN PGP SIGNATURE-----
+
+wsFzBAEBCgAdBQJog7ghFiEE0NhiNAjP7X45uBxxIaIzVQWPvfwACgkQIaIzVQWP
+vfwEqg/+KUecP8LbBHwEUUxWaUS8Vx4xI6rPx8ru8x/TByMrM4Huo5bQO5BjDRpL
+8a5XC+057nld/7zlvMV7LDQkBk+1oSaabTsS9Q7l0Zctzyv3yt9mitnvhxqnr+XT
+8+PXKQ1fFhRCuJefDI4wP8jWECesYUUbZeLMEU6g278dO2JieZSUk5RspwdOtnox
+7z3QCaMgpqIST/UopQ1S4U7EalBFKZJH+I/3N8pv41nSwhib13nxnxl0z4fcFesn
+/gdYd70TnWxEL8jsxeH1PF/mqnTR1Wmd/qLIyE0Y2tdbTeKLEA6XMoClXFvQdnI9
+2Fz7l/XA4gNRDjkia+Va02ana1Wkln7tIWpMzCN19YqLntDtbvawyf16wYRcvjum
+9HdhvfZGuYzRICS1g9KGv824EC42aZrGCrwIwm92j7UmQ0QMap9mQCY5ZzW35BHM
+3WnCU2yb0GWvSnUIzwqhoDWbvoVBUghRS332h/cfEozFgwxQuG+oLimBoN2h2Umq
+SdQl2WV/s//gvXgdnxbgnCIrOI43Yss+58sc6rJPDi9cen9Yn6MuLsOPe9Op3qA/
+5bWa+z5Js2Q6cq3LPp+RkpaNBwNzJYNVJgOmzQKUERRT9yrrvsX7E+PM05S7SoUV
+JgNPoMS1FV2enoR9IzVhW+z5jZAk4Uf8w/4PJBtNeY+D84Gr5mw=
+=kyl+
+-----END PGP SIGNATURE-----

@@ -1,0 +1,4 @@
+User-agent: *
+Host: https://www.software.com
+
+Sitemap: https://www.software.com/sitemap.xml

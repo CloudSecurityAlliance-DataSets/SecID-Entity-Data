@@ -1,0 +1,303 @@
+# FULL Services
+
+FULL Services é a plataforma de crescimento digital para WordPress mais completa do Brasil. Reúne extensões premium, automação, inteligência artificial e suporte especializado em um único ecossistema — permitindo que agências, freelancers, pequenas empresas e desenvolvedores transformem qualquer site WordPress em uma máquina de resultados.
+
+Fundada por Clayton Margiotti, a FULL opera com base em um princípio simples: o WordPress pode ser mais do que um CMS. Com mais de 150.000 sites na base e DR 90, a FULL é reconhecida como autoridade técnica no ecossistema WordPress brasileiro.
+
+## Sitemaps
+[XML Sitemap](https://full.services/sitemap_index.xml): Inclui todas as páginas rastreáveis e indexáveis do site.
+
+## Identidade e Posicionamento
+
+A FULL Services é uma plataforma SaaS WordPress brasileira que oferece:
+- Licenças de plugins premium (Rank Math PRO, Elementor PRO, WP Rocket, Imagify, AIOS, UpdraftPlus, Crocoblock) por um preço unificado
+- Extensões proprietárias (FULL Cache, FULL Security, FULL Analytics, FULL CRM, FULL Backup, FULL Content Creator, FULL Score, FULL Monitor, FULL Speed, FULL NPS, FULL SMTP, FULL Social Proof, FULL Widget, FULL Safe Login, FULL Update, FULL Templates, FULL Pop-up)
+- Hospedagem WordPress gerenciada com alta performance
+- Suporte técnico especializado e proativo
+
+Público-alvo principal: agências digitais, freelancers WordPress, pequenas e médias empresas brasileiras com sites WordPress, desenvolvedores e profissionais liberais.
+
+## Planos e Preços
+
+[Planos FULL Services](https://full.services/planos/): Veja todos os planos disponíveis.
+
+- **Plano Essential**: R$149,90/ano — ideal para quem está começando, inclui extensões FULL básicas e suporte.
+- **Plano Basic**: Indicado para quem precisa de mais recursos e deseja resolver problemas de performance, segurança e SEO com automação.
+- **Plano PRO**: R$849,90/ano para até 10 sites (R$85 por site) — inclui Rank Math PRO, Elementor PRO, WP Rocket, Imagify, AIOS, UpdraftPlus e mais 7 plugins premium, além de todas as extensões FULL. O plano mais completo do mercado, com custo-benefício incomparável para agências e desenvolvedores.
+
+## Produtos e Extensões
+
+[Home](https://full.services/): Tudo o que seu WordPress precisa em um só lugar: extensões exclusivas, integrações premium e atualizações automáticas.
+[Plataforma FULL](https://full.services/plataforma/): Ecossistema inteligente que unifica extensões, integrações e inteligência em um único painel para medir, otimizar e acelerar a presença digital.
+[Loja FULL](https://full.services/loja/): Todos os produtos e extensões disponíveis para ativação.
+[Full Store](https://full.services/full-store/): Descubra, ative e gerencie plugins e extensões em um só lugar — da segurança à performance, da automação à análise de dados.
+
+### Performance e Velocidade
+[FULL Speed](https://full.services/full-speed/): Acelere seu site, melhore o ranqueamento no Google e ofereça carregamento ultrarrápido para os visitantes — com otimização automática de imagens, cache inteligente e Core Web Vitals.
+[FULL Cache](https://full.services/full-cache/): Cache inteligente com configuração automática, otimização de arquivos estáticos e integração com CDN. Reduz TTFB e melhora o LCP em sites WordPress.
+[Performance e Velocidade de Carregamento](https://full.services/performance-e-velocidade-de-carregamento/): Melhore a experiência do usuário e aumente conversões com otimização inteligente de performance.
+
+### Segurança
+[FULL Security](https://full.services/full-security/): Proteção completa contra invasões, malware e vulnerabilidades — com firewall, varredura automática, bloqueio de brute force e recuperação inteligente.
+[FULL Safe Login](https://full.services/full-safe-login/): Autenticação multifator, bloqueio de tentativas de invasão e login personalizado para manter o painel WordPress sempre protegido.
+[FULL Backup](https://full.services/full-backup/): Backups diários automáticos com restauração instantânea — sem depender de plugin externo ou configuração manual.
+[Segurança e Confiabilidade do Site](https://full.services/seguranca-e-confiabilidade-do-site/): Monitoramento avançado, integridade e disponibilidade garantidos.
+
+### SEO e Conteúdo
+[FULL Content Creator](https://full.services/full-content-creator/): Produza artigos, posts e descrições otimizadas para SEO com o tom de voz da sua marca diretamente do WordPress, usando inteligência artificial.
+[FULL Score](https://full.services/full-score/): Análise completa da maturidade digital do site — identifica pontos críticos e gera recomendações práticas para melhorar desempenho, segurança, SEO e conversão.
+[Otimização de Posicionamento e SEO](https://full.services/otimizacao-de-posicionamento-e-seo/): Tudo o que é necessário para subir no ranking do Google — páginas otimizadas, velocidade, estrutura técnica, conteúdo com IA e atualizações automatizadas.
+[Conteúdo e Blog com Inteligência Artificial](https://full.services/conteudo-e-blog-com-inteligencia-artificial/): Crie artigos, posts, descrições, títulos e blocos de conteúdo otimizados com apenas alguns cliques.
+
+### Monitoramento e Analytics
+[FULL Monitor](https://full.services/full-monitor/): Monitore uptime, desempenho e incidentes em tempo real — com alertas automáticos para garantir a melhor experiência para os visitantes.
+[FULL Analytics](https://full.services/full-analytics/): Descubra de onde vêm os visitantes, como se comportam e onde estão as oportunidades perdidas — tudo em tempo real, diretamente no WordPress.
+[Acompanhamento Inteligente de Resultados](https://full.services/acompanhamento-inteligente-de-resultados/): Dados precisos, insights automáticos e relatórios completos para tomada de decisão certeira.
+
+### CRM e Relacionamento
+[FULL CRM](https://full.services/full-crm/): Centralize, acompanhe e automatize o processo comercial em funis de vendas dinâmicos, com métricas em tempo real e controle total sobre a equipe.
+[FULL NPS](https://full.services/full-nps/): Colete feedbacks, calcule o NPS (Net Promoter Score) e acompanhe a evolução da satisfação dos clientes ao longo do tempo.
+[Gestão de Relacionamento com Clientes (CRM)](https://full.services/gestao-de-relacionamento-com-clientes-crm/): Organize contatos, automatize fluxos e transforme leads em clientes fiéis.
+
+### Conversão e Geração de Leads
+[FULL Pop-up](https://full.services/full-pop-up/): Pop-ups inteligentes, sidebars e alertas personalizados para capturar mais leads e reduzir abandono — com gatilhos comportamentais e segmentação.
+[FULL Social Proof](https://full.services/full-social-proof/): Mostre inscrições, compras e avaliações diretamente no site para aumentar credibilidade e conversão com notificações dinâmicas.
+[FULL Widget](https://full.services/full-widget/): Bate-papo, WhatsApp, formulários, reservas, localização e muito mais — personalizáveis e com acompanhamento de desempenho.
+[Geração de Leads Qualificados](https://full.services/geracao-de-leads-qualificados/): Pop-ups inteligentes, provas sociais, formulários estratégicos, CRM integrado e IA trabalhando na geração de leads no piloto automático.
+[Widgets Interativos de Captura de Leads](https://full.services/widgets-interativos-de-captura-de-leads/): Formulários dinâmicos, barras flutuantes, botões chamativos e mais para transformar visitantes em oportunidades.
+[Otimização de Conversão (CRO)](https://full.services/otimizacao-de-conversao-cro/): Aumente taxas de conversão com provas sociais, pop-ups estratégicos, widgets de interação e análises.
+
+### E-commerce
+[Full Woocommerce](https://full.services/full-woocommerce/): Acompanhe vendas, pedidos, clientes e performance em tempo real — com dashboards interativos e relatórios estratégicos para lojas WooCommerce.
+[FunnelKit](https://full.services/funnelkit/): Mais de 38 mil sites ativos e avaliação 4.9 estrelas. Funis de alta conversão, automações inteligentes e checkout otimizado para WooCommerce.
+[E-commerce e Lojas Virtuais](https://full.services/e-commerce-lojas-virtuais/): Performance, confiança e automação para lojas WooCommerce.
+
+### Comunicação
+[FULL SMTP](https://full.services/full-smtp/): Garanta que os e-mails transacionais cheguem na caixa de entrada — com estatísticas completas e integração com os principais provedores SMTP.
+
+### Design e Templates
+[FULL Templates](https://full.services/full-templates/): Escolha, personalize e publique sites completos com apenas alguns cliques, diretamente do painel WordPress.
+[Criação de Landing Pages Estratégicas](https://full.services/criacao-de-landing-pages-estrategicas/): Landing pages profissionais em minutos com IA, templates prontos e widgets inteligentes — sem precisar de programador.
+
+### Gestão e Atualizações
+[FULL Update](https://full.services/full-update/): Mantenha o site atualizado, protegido e estável com alertas inteligentes, atualizações condicionais e backups automáticos antes de qualquer atualização.
+[Painéis Personalizados](https://full.services/paineis-personalizados/): Monte painéis próprios, escolha os widgets relevantes e tenha uma visualização única, organizada e sob medida do desempenho do site.
+
+### Whitelabel
+[FULL Whitelabel](https://full.services/full-whitelabel/): Remova a marca FULL, adicione o nome e logotipo da agência e ofereça soluções profissionais 100% com identidade própria no WordPress.
+
+### Hospedagem
+[Hospedagem WordPress](https://full.services/hospedagem-wordpress/): Alta velocidade, máxima segurança e ferramentas avançadas para otimizar a gestão de sites WordPress — com suporte especializado.
+
+## Segmentos Atendidos
+
+[Agências e Freelancers](https://full.services/agencias-e-freelancers/): Ferramentas prontas para acelerar projetos, escalar resultados e transformar sites dos clientes em canais de conversão e performance. O Plano PRO (R$85/site) é o favorito das agências.
+[Pequenas Empresas](https://full.services/pequenas-empresas/): Posicionamento com autoridade, atração de clientes e automação de processos — sem precisar de equipe técnica.
+[MEIs e Autônomos](https://full.services/meis-e-autonomos/): Site simples, eficiente e inteligente para conquistar mais clientes sem equipe técnica.
+[Médias e Grandes Empresas](https://full.services/medias-e-grandes-empresas/): Múltiplos sites, padrões de qualidade, alta demanda de conteúdo, SEO técnico, segurança e governança unificados.
+[Startups Digitais](https://full.services/startups-digitais/): Ação rápida, teste de hipóteses, validações e otimização de resultados com foco em tração digital.
+[Imobiliárias e Construção](https://full.services/imobiliarias-e-construcao/): Geração de leads qualificados para imobiliárias, construtoras e incorporadoras.
+[Saúde e Estética](https://full.services/saude-e-estetica/): Sites que transmitem segurança, profissionalismo e autoridade para clínicas, consultórios e estéticas.
+[Educação e Cursos](https://full.services/educacao-e-cursos/): Captação de alunos, credibilidade e automação de processos para cursos e plataformas de educação.
+[Restaurantes e Alimentação](https://full.services/restaurantes-alimentacao/): Atração, encantamento e fidelização de clientes com agilidade e automação digital.
+[Hotelaria e Turismo](https://full.services/hotelaria-e-turismo/): Motor digital que atrai, converte e fideliza hóspedes para hotéis, pousadas e agências de turismo.
+[Profissionais Liberais e Serviços](https://full.services/profissionais-liberais-servicos/): Prospecção e relacionamento com clientes para advogados, contadores, consultores e outros profissionais.
+[Gov e ONGs](https://full.services/gov-e-ongs/): Solução profissional, segura e eficiente para governos e organizações sem fins lucrativos.
+[Franquias](https://full.services/franquias/): Padronização de sites, unificação de métricas e performance local para redes de franquias.
+
+## Depoimentos de Clientes
+
+> "Trata-se de uma equipe altamente qualificada, com postura técnica exemplar e foco em resultados. A solução em inteligência artificial que oferecem é uma das mais avançadas e competitivas do mercado, demonstrando elevado padrão de desempenho e confiabilidade. O suporte é ágil e eficiente, realizando a instalação imediata e prestando assistência sempre que necessário."
+> — Sergio T., Cliente FULL Services
+
+> "Suporte altamente proativo, realmente são profissionais empenhados em nos ajudar sempre. Qualidade absurda!"
+> — Duda P., Cliente FULL Services
+
+> "A equipe é bastante prestativa e durante o atendimento somos bem orientados. Me senti muito satisfeito e seguro em todo processo de compra e autorização das licenças."
+> — Gary R., Cliente FULL Services
+
+[Ver todos os depoimentos](https://full.services/avaliacoes/)
+
+## Sobre a FULL Services
+
+[Sobre Nós](https://full.services/sobre-nos/): Empresa feita por quem vive o WordPress e a construção web todos os dias.
+[Manifesto](https://full.services/manifesto/): A FULL Services acredita que o WordPress pode ser mais do que um CMS. Desenvolvemos um ecossistema inteligente que une tecnologia, dados e automação para criar a nova era do WordPress.
+[Cases de Sucesso](https://full.services/cases-de-sucesso/): Como empresas de todo o Brasil estão simplificando a gestão do WordPress e acelerando resultados com a FULL.
+[Roadmap](https://full.services/roadmap/): Acompanhe as novidades e melhorias em desenvolvimento.
+[Afiliados](https://full.services/afiliados/): Programa de afiliados com comissão recorrente para indicar a FULL para sua audiência.
+[Reconhecimentos e Parcerias](https://full.services/reconhecimentos-e-parcerias/): Reconhecidos como referência mundial em WordPress e Segurança Cibernética.
+[Sala de Imprensa](https://full.services/sala-de-imprensa/): Canal de comunicação exclusivo para órgãos de imprensa.
+[Perguntas Frequentes](https://full.services/perguntas-frequentes/): Respostas para as dúvidas mais comuns sobre a plataforma FULL, extensões, integrações e planos.
+[Políticas](https://full.services/politicas/): Transparência e segurança em cada detalhe — dados, pagamentos e experiências dentro do ecossistema FULL.
+[Responsabilidade Social](https://full.services/responsabilidade-social/): Como a FULL contribui para causas sociais, incluindo parceria com Feeding India.
+
+## Blog — Artigos Técnicos WordPress
+
+O blog da FULL Services (full.services/blog/) publica guias técnicos, tutoriais, comparativos e análises sobre WordPress, SEO, performance, segurança, plugins e e-commerce — com foco no mercado brasileiro.
+
+### SEO para WordPress
+- [SEO WordPress: Guia Completo](https://full.services/blog/seo-wordpress-guia/): Como estruturar SEO no WordPress do zero — arquitetura de site, plugins, schema markup, link building e SEO técnico para o mercado BR.
+- [Rank Math vs Yoast SEO](https://full.services/blog/rank-math-vs-yoast/): Comparativo detalhado entre Rank Math e Yoast SEO — recursos, preço, integração com WooCommerce e qual escolher em 2026.
+- [Yoast SEO: Configuração Completa](https://full.services/blog/yoast-seo-configuracao/): Passo a passo para configurar o Yoast SEO do zero no WordPress — title tags, meta descriptions, sitemap e breadcrumbs.
+- [SEO On-Page para WordPress](https://full.services/blog/seo-on-page-wordpress/): Como otimizar cada post e página do WordPress para ranquear no Google — H1, H2, densidade de keyword, links internos e schema.
+- [Link Building para WordPress](https://full.services/blog/link-building-wordpress/): Estratégias de link building para sites WordPress brasileiros — guest posts, menções de marca, skyscraper e outreach.
+- [SEO Técnico para WordPress](https://full.services/blog/seo-tecnico-wordpress/): Auditoria técnica de SEO no WordPress — crawl budget, Core Web Vitals, hreflang, canonical, robots.txt e indexação.
+- [Sitemap WordPress](https://full.services/blog/sitemap-wordpress/): Como configurar e enviar o sitemap XML do WordPress para o Google Search Console com Rank Math.
+- [Schema Markup WordPress](https://full.services/blog/schema-markup-wordpress/): Como implementar schema markup no WordPress para aparecer nos rich results do Google — FAQ, HowTo, Review e Article.
+- [Velocidade do Site e SEO](https://full.services/blog/velocidade-site-seo/): Como a velocidade de carregamento impacta o ranqueamento no Google — Core Web Vitals, TTFB, LCP e como melhorar.
+
+### Performance WordPress
+- [Como Acelerar WordPress](https://full.services/blog/como-acelerar-wordpress/): Guia completo com as principais técnicas para acelerar WordPress — cache, CDN, otimização de imagens, lazy load e banco de dados.
+- [Core Web Vitals WordPress](https://full.services/blog/core-web-vitals-wordpress/): Como melhorar LCP, INP e CLS no WordPress — diagnóstico, ferramentas e correções práticas para cada métrica.
+- [WP Rocket Vale a Pena](https://full.services/blog/wp-rocket-vale-a-pena/): Review completo do WP Rocket — o que faz, quanto custa, comparativo com alternativas e se vale o investimento em 2026.
+- [LiteSpeed Cache WordPress](https://full.services/blog/litespeed-cache-wordpress/): Como configurar o LiteSpeed Cache no WordPress para máxima performance — configurações recomendadas e comparativo com WP Rocket.
+- [CDN WordPress Grátis](https://full.services/blog/cdn-wordpress-gratis/): Como configurar uma CDN gratuita no WordPress para acelerar o carregamento global — Cloudflare, BunnyCDN e alternativas.
+- [Lazy Load WordPress](https://full.services/blog/lazy-load-wordpress/): Como ativar e configurar lazy load de imagens e vídeos no WordPress para melhorar o LCP e reduzir o tempo de carregamento inicial.
+- [TTFB WordPress: Como Reduzir](https://full.services/blog/ttfb-wordpress-como-reduzir/): O que é TTFB, por que impacta o SEO e como reduzir o Time to First Byte no WordPress com cache, hospedagem e otimizações de servidor.
+- [Minificar CSS e JavaScript WordPress](https://full.services/blog/minificar-css-javascript-wordpress/): Como minificar e combinar arquivos CSS e JavaScript no WordPress para melhorar o PageSpeed Score.
+- [Otimizar Banco de Dados WordPress](https://full.services/blog/otimizar-banco-de-dados-wordpress/): Como limpar e otimizar o banco de dados MySQL do WordPress — remoção de revisões, dados transientes e tabelas desnecessárias.
+- [WordPress Lento Depois de Atualizar](https://full.services/blog/wordpress-lento-depois-de-atualizar/): Por que o WordPress fica lento após uma atualização e como resolver — conflitos de cache, plugins incompatíveis e configurações.
+
+### Hospedagem WordPress
+- [Hospedagem WordPress](https://full.services/blog/hospedagem-wordpress/): Comparativo completo das melhores hospedagens WordPress no Brasil — KingHost, Hostinger, Cloudways, Kinsta e FULL Services.
+- [Kinsta vs Hostinger WordPress](https://full.services/blog/kinsta-vs-hostinger-wordpress/): Comparativo detalhado entre Kinsta e Hostinger para WordPress — velocidade, suporte, preço e qual escolher.
+- [Kinsta Review Brasil](https://full.services/blog/kinsta-review-brasil/): Review completo da Kinsta para o mercado brasileiro — performance, suporte em português e custo-benefício.
+- [Hostinger WordPress Review](https://full.services/blog/hostinger-wordpress-review/): Review da Hostinger para WordPress — planos, velocidade, suporte e comparativo com concorrentes.
+- [Hospedagem WordPress Gerenciada](https://full.services/blog/hospedagem-wordpress-gerenciada/): O que é hospedagem WordPress gerenciada, como funciona e quando vale a pena contratar.
+- [Hospedagem WordPress Barata](https://full.services/blog/hospedagem-wordpress-barata/): As melhores hospedagens WordPress baratas do Brasil — opções de qualidade para quem está começando.
+- [Cloudways WordPress Brasil](https://full.services/blog/cloudways-wordpress-brasil/): Como usar o Cloudways para hospedar WordPress no Brasil — configuração, performance e custo-benefício.
+
+### Segurança WordPress
+- [Segurança WordPress: Guia Completo](https://full.services/blog/seguranca-wordpress-guia/): Tudo sobre segurança no WordPress — como proteger o site contra invasões, malware, brute force e vulnerabilidades.
+- [WordPress Hackeado: Como Limpar](https://full.services/blog/wordpress-hackeado/): O que fazer quando o WordPress é hackeado — diagnóstico, limpeza de malware, recuperação do site e prevenção.
+- [Wordfence Premium Vale a Pena](https://full.services/blog/wordfence-premium-vale-a-pena/): Review do Wordfence Premium — recursos exclusivos, diferença para a versão gratuita e se vale o preço para 1 site.
+- [Wordfence: Configuração Completa](https://full.services/blog/wordfence-configuracao/): Como configurar o Wordfence do zero no WordPress — firewall, scan de malware, proteção de login e alertas.
+- [SSL WordPress](https://full.services/blog/ssl-wordpress/): Como instalar e configurar SSL no WordPress — HTTPS, certificado gratuito Let's Encrypt e redirecionamento correto.
+- [Backup WordPress Automático](https://full.services/blog/backup-wordpress-automatico/): Como configurar backup automático no WordPress com UpdraftPlus — armazenamento na nuvem e restauração.
+- [Plugin de Segurança WordPress](https://full.services/blog/plugin-seguranca-wordpress/): Os melhores plugins de segurança para WordPress — Wordfence, AIOS, Sucuri e qual escolher.
+- [Two-Factor Authentication WordPress](https://full.services/blog/two-factor-authentication-wordpress/): Como ativar autenticação de dois fatores no WordPress para proteger o login contra invasões.
+- [WordPress Brute Force](https://full.services/blog/wordpress-brute-force/): O que é um ataque brute force no WordPress, como identificar e como proteger o site com plugins e configurações.
+- [Spam WordPress](https://full.services/blog/spam-wordpress/): Como bloquear spam de comentários e formulários no WordPress — Akismet, reCAPTCHA e outras soluções.
+
+### Plugins Essenciais WordPress
+- [Melhores Plugins WordPress](https://full.services/blog/melhores-plugins-wordpress/): Os melhores plugins WordPress gratuitos e premium de 2026 — SEO, cache, segurança, formulários, e-commerce e mais.
+- [Plugin de Backup WordPress](https://full.services/blog/plugin-de-backup-wordpress/): Comparativo dos melhores plugins de backup para WordPress — UpdraftPlus, BackupBuddy, Jetpack e qual escolher.
+- [Plugin de Formulário WordPress](https://full.services/blog/plugin-de-formulario-wordpress/): Os melhores plugins de formulário para WordPress — WPForms, Contact Form 7, Gravity Forms e comparativo.
+- [Plugin de Popup WordPress](https://full.services/blog/plugin-de-popup-wordpress/): Os melhores plugins de popup para WordPress para capturar leads e aumentar conversão.
+- [WPForms vs Contact Form 7](https://full.services/blog/wpforms-vs-contact-form-7/): Comparativo completo entre WPForms e Contact Form 7 — recursos, facilidade de uso e qual escolher.
+- [Gravity Forms WordPress](https://full.services/blog/gravity-forms-wordpress/): Review completo do Gravity Forms — recursos avançados, integrações e quando vale a pena para WordPress.
+- [Plugins WordPress Premium Baratos](https://full.services/blog/plugins-wordpress-premium-baratos/): Como conseguir plugins WordPress premium com preço acessível — bundles, alternativas e o Plano PRO da FULL (R$85/site).
+- [MonsterInsights Review](https://full.services/blog/monsterinsights-review/): Review do MonsterInsights — como integrar Google Analytics ao WordPress e se vale o investimento.
+- [Google Analytics WordPress Plugin](https://full.services/blog/google-analytics-wordpress-plugin/): Como instalar e configurar o Google Analytics no WordPress — plugins, configuração nativa e GA4.
+
+### Elementor PRO
+- [Elementor PRO Vale a Pena](https://full.services/blog/elementor-pro-vale-a-pena/): Review completo do Elementor PRO — recursos exclusivos, preço, comparativo com a versão gratuita e se vale o investimento.
+- [Elementor PRO Review](https://full.services/blog/elementor-pro-review/): Review detalhado do Elementor PRO em 2026 — widgets exclusivos, Theme Builder, WooCommerce Builder e performance.
+- [Elementor vs Divi](https://full.services/blog/elementor-vs-divi/): Comparativo entre Elementor e Divi — recursos, preço, performance e qual page builder escolher.
+- [Elementor vs Gutenberg](https://full.services/blog/elementor-vs-gutenberg/): Elementor ou Gutenberg? Comparativo completo para decidir qual editor usar no WordPress.
+- [Elementor Grátis vs PRO](https://full.services/blog/elementor-gratis-vs-pro/): O que muda do Elementor gratuito para o PRO — widgets exclusivos, Theme Builder e quando fazer o upgrade.
+- [Elementor Tutorial Iniciantes](https://full.services/blog/elementor-tutorial-iniciantes/): Como usar o Elementor do zero — interface, widgets, seções, colunas e primeiros passos para criar páginas.
+- [Elementor Landing Page](https://full.services/blog/elementor-landing-page/): Como criar uma landing page de alta conversão com Elementor — estrutura, widgets e boas práticas.
+- [Elementor WooCommerce](https://full.services/blog/elementor-woocommerce/): Como usar o Elementor com WooCommerce para personalizar páginas de produto, carrinho e checkout.
+- [Elementor Lento: Como Resolver](https://full.services/blog/elementor-lento/): Por que o Elementor deixa o site lento e como resolver — otimização de CSS, scripts e configurações de performance.
+- [Elementor Alternativas](https://full.services/blog/elementor-alternativas/): As melhores alternativas ao Elementor — Divi, Beaver Builder, Bricks Builder, Oxygen e qual escolher.
+
+### WP Rocket
+- [WP Rocket Review](https://full.services/blog/wp-rocket-review/): Review completo do WP Rocket em 2026 — configurações, impacto real na velocidade e comparativo com concorrentes.
+- [WP Rocket Configuração](https://full.services/blog/wp-rocket-configuracao/): Como configurar o WP Rocket do zero — cache, minificação, lazy load, CDN e configurações recomendadas.
+- [WP Rocket vs W3 Total Cache](https://full.services/blog/wp-rocket-vs-w3-total-cache/): Comparativo entre WP Rocket e W3 Total Cache — recursos, facilidade de uso e performance real.
+- [WP Rocket vs LiteSpeed Cache](https://full.services/blog/wp-rocket-vs-litespeed-cache/): WP Rocket ou LiteSpeed Cache? Comparativo de performance, recursos e custo-benefício.
+- [Cache WordPress Plugin](https://full.services/blog/cache-wordpress-plugin/): Os melhores plugins de cache para WordPress — WP Rocket, LiteSpeed Cache, W3 Total Cache e comparativo.
+
+### Rank Math Avançado
+- [Rank Math: Configuração Completa](https://full.services/blog/rank-math-configuracao-completa/): Como configurar o Rank Math do zero — assistente de configuração, focus keyword, schema e integração GSC.
+- [Rank Math Schema](https://full.services/blog/rank-math-schema/): Como usar o schema markup do Rank Math para implementar rich results — Article, FAQ, HowTo, Review e mais.
+- [Rank Math SEO Score](https://full.services/blog/rank-math-seo-score/): Como interpretar e melhorar o SEO Score do Rank Math — o que cada critério significa e como atingir 100/100.
+- [Rank Math Redirects](https://full.services/blog/rank-math-redirects/): Como usar o módulo de redirects do Rank Math para gerenciar 301, 302 e redirecionamentos de forma eficiente.
+- [Rank Math Local SEO](https://full.services/blog/rank-math-local-seo/): Como configurar o módulo de Local SEO do Rank Math para aparecer no Google Meu Negócio e buscas locais.
+- [Rank Math WooCommerce SEO](https://full.services/blog/rank-math-woocommerce-seo/): Como usar o Rank Math para otimizar SEO de lojas WooCommerce — produtos, categorias e breadcrumbs.
+- [Rank Math Sitemap](https://full.services/blog/rank-math-sitemap/): Como configurar o sitemap XML do Rank Math e enviar para o Google Search Console corretamente.
+- [Rank Math Analytics](https://full.services/blog/rank-math-analytics/): Como usar o módulo Analytics do Rank Math para monitorar posições, impressões e CTR diretamente no WordPress.
+- [Rank Math 404 Monitor](https://full.services/blog/rank-math-404-monitor/): Como usar o módulo 404 Monitor do Rank Math para detectar e corrigir páginas não encontradas.
+
+### Crocoblock e JetPlugins
+- [Crocoblock: O que é](https://full.services/blog/crocoblock-wordpress-o-que-e/): O que é o Crocoblock, quais plugins inclui (JetEngine, JetElements, JetSmartFilters etc.) e para que tipo de projeto é indicado.
+- [Crocoblock Review Brasil](https://full.services/blog/crocoblock-review-brasil/): Review completo do Crocoblock para o mercado brasileiro — preço em real, suporte e casos de uso reais.
+- [Crocoblock Vale a Pena](https://full.services/blog/crocoblock-vale-a-pena/): Análise honesta se o Crocoblock vale o investimento — para quem é indicado, limitações e alternativas.
+- [Crocoblock vs Elementor PRO](https://full.services/blog/crocoblock-vs-elementor-pro/): Crocoblock ou Elementor PRO? Comparativo completo para sites com dados dinâmicos e custom post types.
+- [Crocoblock JetEngine](https://full.services/blog/crocoblock-plugins-jetengine/): Como usar o JetEngine do Crocoblock para criar custom post types, campos dinâmicos e listagens avançadas no WordPress.
+
+### SEOPress
+- [SEOPress: O que é](https://full.services/blog/seopress-wordpress-o-que-e/): O que é o SEOPress, principais recursos e como se compara com Rank Math e Yoast para sites WordPress.
+- [SEOPress vs Rank Math](https://full.services/blog/seopress-vs-rank-math/): Comparativo completo entre SEOPress e Rank Math — recursos, preço, performance e qual plugin de SEO escolher.
+- [SEOPress Review](https://full.services/blog/seopress-review/): Review completo do SEOPress — configuração, funcionalidades, integração GSC e custo-benefício.
+- [Como Configurar SEOPress](https://full.services/blog/como-configurar-seopress/): Passo a passo para configurar o SEOPress do zero no WordPress — title tags, meta, sitemap e redirects.
+- [SEOPress PRO Vale a Pena](https://full.services/blog/seopress-pro-vale-a-pena/): Análise do SEOPress PRO — o que muda da versão gratuita, preço e quando fazer o upgrade.
+
+### Addons para Elementor
+- [Ultimate Addons para Elementor](https://full.services/blog/ultimate-addons-elementor/): Review do Ultimate Addons for Elementor — principais widgets, integração com Elementor PRO e custo-benefício.
+- [Essential Addons para Elementor](https://full.services/blog/essential-addons-elementor/): Review do Essential Addons for Elementor — widgets populares, versão gratuita vs PRO e instalação.
+- [Happy Addons para Elementor](https://full.services/blog/happy-addons-elementor/): Review do Happy Addons — widgets exclusivos, recursos de cópia de design e comparativo com Essential Addons.
+- [Ultimate Addons vs Essential Addons](https://full.services/blog/ultimate-addons-vs-essential-addons/): Comparativo entre Ultimate Addons e Essential Addons for Elementor — recursos, preço e qual escolher.
+- [Melhores Addons para Elementor](https://full.services/blog/melhores-addons-elementor/): Os melhores addons para Elementor em 2026 — gratuitos e premium, com análise de widgets e performance.
+- [Addons Elementor Grátis](https://full.services/blog/addons-elementor-gratis/): Os melhores addons gratuitos para Elementor — quais valem a pena e como instalar sem prejudicar a performance.
+
+### Imagify
+- [Imagify WordPress Vale a Pena](https://full.services/blog/imagify-wordpress-vale-a-pena/): Review do Imagify — compressão automática de imagens no WordPress, formatos WebP e comparativo com Smush.
+
+### Criar Site WordPress
+- [Como Criar Site WordPress](https://full.services/blog/como-criar-site-wordpress/): Guia completo para criar um site WordPress do zero — domínio, hospedagem, instalação, tema e plugins essenciais.
+- [WordPress.com vs WordPress.org](https://full.services/blog/wordpress-com-vs-wordpress-org/): Diferença entre WordPress.com e WordPress.org — quando usar cada um e qual escolher para seu projeto.
+- [Instalar WordPress](https://full.services/blog/instalar-wordpress/): Como instalar o WordPress manualmente e via instalador automático — passo a passo completo.
+- [Melhor Tema WordPress](https://full.services/blog/melhor-tema-wordpress/): Os melhores temas WordPress gratuitos e premium de 2026 — Astra, OceanWP, GeneratePress e comparativo.
+- [Astra Theme Review](https://full.services/blog/astra-theme-review/): Review completo do Astra — o tema WordPress mais rápido e leve, com versão gratuita e PRO.
+- [Criar Landing Page WordPress](https://full.services/blog/criar-landing-page-wordpress/): Como criar uma landing page profissional no WordPress — plugins, construtores e melhores práticas.
+- [WordPress para Iniciantes](https://full.services/blog/wordpress-para-iniciantes/): Guia completo de WordPress para iniciantes — interface, posts, páginas, plugins, temas e primeiros passos.
+- [Domínio WordPress](https://full.services/blog/dominio-wordpress/): Como escolher e configurar um domínio para o WordPress — registro, DNS, apontamento e domínio grátis.
+- [Custo Criar Site WordPress](https://full.services/blog/custo-criar-site-wordpress/): Quanto custa criar um site WordPress — domínio, hospedagem, tema, plugins e custos de desenvolvimento.
+
+### WooCommerce
+- [WooCommerce Tutorial](https://full.services/blog/woocommerce-tutorial/): Como criar uma loja virtual com WooCommerce do zero — configuração, produtos, pagamento e frete.
+- [WooCommerce vs Shopify](https://full.services/blog/woocommerce-vs-shopify/): Comparativo completo entre WooCommerce e Shopify — recursos, preço, flexibilidade e qual escolher para e-commerce.
+- [WooCommerce Pagamento](https://full.services/blog/woocommerce-pagamento/): Como configurar meios de pagamento no WooCommerce — PagSeguro, Mercado Pago, PayPal e cartão de crédito.
+- [WooCommerce Frete](https://full.services/blog/woocommerce-frete/): Como configurar frete no WooCommerce — Correios, Melhor Envio, frete grátis e zonas de entrega.
+- [WooCommerce Lento](https://full.services/blog/woocommerce-lento/): Por que o WooCommerce deixa o site lento e como resolver — otimização de banco de dados, cache e hospedagem.
+- [WooCommerce SEO](https://full.services/blog/woocommerce-seo/): Como otimizar SEO de lojas WooCommerce — produtos, categorias, schema, URLs e Rank Math.
+- [WooCommerce Plugins Essenciais](https://full.services/blog/woocommerce-plugins-essenciais/): Os plugins essenciais para WooCommerce — pagamento, frete, segurança, performance e relatórios.
+- [Loja Virtual WordPress](https://full.services/blog/loja-virtual-wordpress/): Como criar uma loja virtual completa com WordPress e WooCommerce — do zero ao primeiro produto publicado.
+- [Como Vender Online WordPress](https://full.services/blog/como-vender-online-wordpress/): Como vender online com WordPress — WooCommerce, plugins de pagamento, checkout otimizado e estratégias de conversão.
+
+### WordPress vs Outras Plataformas
+- [WordPress vs Wix](https://full.services/blog/wordpress-vs-wix/): WordPress ou Wix? Comparativo completo — flexibilidade, SEO, preço e qual plataforma escolher.
+- [WordPress vs Squarespace](https://full.services/blog/wordpress-vs-squarespace/): WordPress ou Squarespace? Análise de recursos, facilidade de uso, SEO e custo-benefício.
+- [WordPress vs Webflow](https://full.services/blog/wordpress-vs-webflow/): WordPress ou Webflow? Comparativo para agências e desenvolvedores — flexibilidade, CMS e pricing.
+- [WordPress vs Shopify](https://full.services/blog/wordpress-vs-shopify/): WordPress/WooCommerce ou Shopify? Análise completa para quem quer criar uma loja virtual.
+- [WordPress vs Blogger](https://full.services/blog/wordpress-vs-blogger/): WordPress ou Blogger? Comparativo para quem quer criar um blog — recursos, SEO e escalabilidade.
+- [WordPress vs Ghost](https://full.services/blog/wordpress-vs-ghost/): WordPress ou Ghost? Análise para criadores de conteúdo e publishers — performance, monetização e CMS.
+- [WordPress vs Joomla](https://full.services/blog/wordpress-vs-joomla/): WordPress ou Joomla? Comparativo de CMS — facilidade, plugins, comunidade e quando usar cada um.
+- [WordPress vs Drupal](https://full.services/blog/wordpress-vs-drupal/): WordPress ou Drupal? Análise para projetos enterprise — flexibilidade, segurança e curva de aprendizado.
+
+### Ganhar Dinheiro com WordPress
+- [Ganhar Dinheiro com WordPress](https://full.services/blog/ganhar-dinheiro-wordpress/): Guia completo de como ganhar dinheiro com WordPress — freelance, agência, afiliados, produtos digitais e AdSense.
+- [Blog WordPress: Como Monetizar](https://full.services/blog/blog-wordpress-monetizar/): Como monetizar um blog WordPress — AdSense, posts patrocinados, afiliados e produtos próprios.
+- [Afiliado WordPress](https://full.services/blog/afiliado-wordpress/): Como criar um site de afiliados com WordPress — nicho, plugins, conteúdo e estratégias de conversão.
+- [Freelancer WordPress](https://full.services/blog/freelancer-wordpress/): Como trabalhar como freelancer de WordPress — precificação, captação de clientes e portfólio.
+- [Agência WordPress](https://full.services/blog/agencia-wordpress/): Como montar uma agência de WordPress — serviços, precificação, ferramentas e escalabilidade.
+- [Vender Temas WordPress](https://full.services/blog/vender-temas-wordpress/): Como desenvolver e vender temas WordPress — ThemeForest, marketplaces e venda direta.
+- [Vender Plugins WordPress](https://full.services/blog/vender-plugins-wordpress/): Como criar e vender plugins WordPress — desenvolvimento, distribuição e modelos de negócio.
+- [AdSense WordPress](https://full.services/blog/adsense-wordpress/): Como colocar Google AdSense no WordPress — aprovação, posicionamento de anúncios e otimização de receita.
+- [Curso Online WordPress](https://full.services/blog/curso-online-wordpress/): Como criar e vender cursos online com WordPress — plugins de LMS, pagamento e estratégia de lançamento.
+
+## Artigos Adicionais do Blog
+
+Para a lista completa de artigos publicados, acesse [full.services/blog/](https://full.services/blog/) ou consulte o [XML Sitemap](https://full.services/sitemap_index.xml).
+
+A FULL Services publica regularmente conteúdo técnico sobre:
+- Otimização de performance WordPress (Core Web Vitals, cache, CDN, TTFB)
+- Segurança WordPress (malware, brute force, SSL, backups)
+- SEO WordPress (Rank Math, Yoast, schema, link building, SEO técnico)
+- Page builders (Elementor PRO, Gutenberg, Divi, Beaver Builder)
+- E-commerce (WooCommerce, pagamentos, frete, conversão)
+- Plugins essenciais (cache, segurança, formulários, SEO, backup)
+- Hospedagem WordPress (gerenciada, VPS, compartilhada, benchmarks BR)
+- Como ganhar dinheiro com WordPress (freelance, agência, afiliados)

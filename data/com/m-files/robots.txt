@@ -1,0 +1,22 @@
+User-agent: SemrushBot
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-login.php
+Disallow: /xmlrpc.php
+Crawl-delay: 5
+
+User-agent: SemrushBot-SA
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-login.php
+Disallow: /xmlrpc.php
+Crawl-delay: 5
+
+User-agent: SemrushBot-BA
+Crawl-delay: 5
+
+User-agent: SemrushBot-SI
+Crawl-delay: 5
+
+User-agent: SiteAuditBot
+Crawl-delay: 5

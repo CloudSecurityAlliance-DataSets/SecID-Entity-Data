@@ -1,0 +1,78 @@
+# Palo Alto Networks
+
+> Global cybersecurity leader providing solutions for Zero Trust, Network Security, Cloud Workloads, and Threat Intelligence. We protect the digital way of life through disruption, execution, and collaboration.
+
+## Company Overview
+- [About Us](https://www.paloaltonetworks.com/about-us): Our mission, values, and commitment to protecting the digital way of life.
+- [Management Team](https://www.paloaltonetworks.com/about-us/management): Executive leadership and management.
+- [ESG & Corporate Responsibility](https://www.paloaltonetworks.com/about-us/corporate-responsibility): Environmental, social, and governance strategies.
+- [Why Palo Alto Networks](https://www.paloaltonetworks.com/why-paloaltonetworks): Our differentiation as the cybersecurity partner of choice.
+- [Platformization](https://www.paloaltonetworks.com/why-paloaltonetworks/platformization): The benefits of a simplified, consolidated security platform.
+
+## Cortex - AI-Driven Security Operations
+> The leading AI-driven platform for SOC transformation, endpoint protection, and attack surface management.
+
+- [Cortex Platform Overview](https://www.paloaltonetworks.com/cortex): Transforming security operations.
+- [Cortex XSIAM](https://www.paloaltonetworks.com/cortex/cortex-xsiam): The autonomous SOC platform. Centralizes data and automates incident response.
+- [Cortex XDR](https://www.paloaltonetworks.com/cortex/cortex-xdr): Extended Detection and Response for endpoints, network, and cloud.
+- [Cortex XSOAR](https://www.paloaltonetworks.com/cortex/cortex-xsoar): Security orchestration, automation, and response.
+- [Cortex Xpanse](https://www.paloaltonetworks.com/cortex/cortex-xpanse): Active attack surface management and exposure discovery.
+- [Cloud Detection & Response (CDR)](https://www.paloaltonetworks.com/cortex/cloud-detection-and-response): Visibility and protection across cloud environments.
+- [AgentiX](https://www.paloaltonetworks.com/cortex/agentix): Security for the AI agent workforce.
+
+## Network Security (Strata)
+> The Zero Trust Network Security Platform, including Next-Generation Firewalls (NGFW) and cloud-delivered security services.
+
+- [Network Security Overview](https://www.paloaltonetworks.com/network-security): Integrated platform for hardware, software, and SASE.
+- [Next-Generation Firewalls (NGFW)](https://www.paloaltonetworks.com/network-security/next-generation-firewall): ML-Powered physical and virtual firewalls.
+- [PAN-OS](https://www.paloaltonetworks.com/network-security/pan-os): The operating system powering our NGFWs.
+- [Panorama](https://www.paloaltonetworks.com/network-security/panorama): Centralized management for firewalls.
+- [Strata Cloud Manager](https://www.paloaltonetworks.com/network-security/strata-cloud-manager): AI-powered management and operations.
+- [Advanced WildFire](https://www.paloaltonetworks.com/network-security/advanced-wildfire): Cloud-based malware prevention engine.
+- [Advanced Threat Prevention](https://www.paloaltonetworks.com/network-security/advanced-threat-prevention): IPS solution blocking zero-day threats inline.
+- [IoT/OT Security](https://www.paloaltonetworks.com/network-security/device-security): Securing all devices from IT to IoT and OT.
+
+## SASE
+> The industry’s most complete SASE solution, converging network security, SD-WAN, and ADEM.
+
+- [Prisma SASE Overview](https://www.paloaltonetworks.com/sase): Converged network security and SD-WAN.
+- [Prisma Access](https://www.paloaltonetworks.com/sase/access): Secure remote access for the hybrid workforce.
+- [Prisma SD-WAN](https://www.paloaltonetworks.com/sase/sd-wan): Next-generation SD-WAN for branch transformation.
+- [Prisma Browser](https://www.paloaltonetworks.com/sase/prisma-browser): Secure enterprise browser for managed and unmanaged devices.
+- [ADEM](https://www.paloaltonetworks.com/sase/adem): Autonomous Digital Experience Management.
+- [AI Access Security](https://www.paloaltonetworks.com/sase/ai-access-security): Safe adoption and governance of GenAI apps.
+
+## Identity Security
+- [Identity Security Overview](https://www.paloaltonetworks.com/identity-security): Secure every identity — human, machine, and AI agents — with intelligent privilege controls and lifecycle automation for continuous threat detection and prevention. ## Apply intelligent privilege controls across the entire identity lifecycle, including workforce & customer access, endpoint identity security, privileged access management (PAM), identity governance & administration (IGA), machine identity security, and secure cloud access.
+
+## Unit 42 - Threat Intelligence & Services
+> World-renowned threat researchers, incident responders, and security consultants.
+
+- [Unit 42 Overview](https://www.paloaltonetworks.com/unit42): Proactive cyber risk management.
+- [Incident Response](https://www.paloaltonetworks.com/unit42/respond): Investigation, containment, and remediation.
+- [Managed Detection & Response (MDR)](https://www.paloaltonetworks.com/cortex/managed-detection-and-response): 24/7 monitoring and threat hunting.
+- [Assessments](https://www.paloaltonetworks.com/unit42/assess): Risk, compromise, and ransomware readiness assessments.
+- [Transform Services](https://www.paloaltonetworks.com/unit42/transform): vCISO, Zero Trust advisory, and program design.
+
+## Cloud Security (Prisma Cloud)
+- [Cloud Security Posture (CSPM)](https://www.paloaltonetworks.com/cortex/cloud/cloud-security-posture-management): Automating identification and remediation of threats.
+- [Cloud Workload Protection (CWP)](https://www.paloaltonetworks.com/cortex/cloud/cloud-workload-protection): Securing workloads across environments.
+- [Code Security](https://www.paloaltonetworks.com/cortex/cloud/code-security): Security across the development lifecycle (IaC).
+- [Data Security (DSPM)](https://www.paloaltonetworks.com/cortex/cloud/data-security-posture-management): Discover, classify, and protect sensitive cloud data.
+
+## Industry Solutions
+- [Financial Services](https://www.paloaltonetworks.com/industry/financial-services)
+- [Healthcare](https://www.paloaltonetworks.com/industry/healthcare)
+- [Manufacturing](https://www.paloaltonetworks.com/industry/manufacturing)
+- [Public Sector](https://www.paloaltonetworks.com/industry/public-sector)
+
+## Partners
+- [Partner Ecosystem](https://www.paloaltonetworks.com/partners): NextWave partner program overview.
+- [MSSPs](https://www.paloaltonetworks.com/partners/managed-security-service-providers): Managed Security Service Providers.
+- [Cloud Service Partners](https://www.paloaltonetworks.com/partners/nextwave-for-csp): Security for AWS, Azure, Google Cloud.
+
+## Resources
+- [Blog](https://www.paloaltonetworks.com/blog): Insights on AI, machine learning, and threat detection.
+- [Cyberpedia](https://www.paloaltonetworks.com/cyberpedia): Education on cybersecurity terms and models.
+- [Trust Center](https://www.paloaltonetworks.com/legal-notices/trust-center/compliance): Compliance and certifications.
+- [Perspectives](https://www.paloaltonetworks.com/perspectives):Cybersecurity perspectives curated for executives. Expert advisory and viewpoints on todays security topics.

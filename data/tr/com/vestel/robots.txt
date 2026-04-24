@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /*ReturnUrl=
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /search?
+Disallow: /search?
+Disallow: /api/
+Disallow: /*?commentId=
+Sitemap: https://statics.vestel.com.tr/vstlsitemap/sitemap.xml

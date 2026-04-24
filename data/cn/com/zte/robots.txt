@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /china/about/press-center/videos/
+Disallow:/index.jsp
+Disallow:/zte-en/
+Disallow:/main/
+Disallow:/Magazine_upload/
+Disallow:/invest/
+Disallow:/English/
+Disallow:/layout/
+Disallow:/Events/
+Disallow:/china$

@@ -1,0 +1,11 @@
+User-agent: *
+Disallow:  /_hcms/preview/
+Disallow: /_hcms/rss/
+Disallow: /_hcms/postlisting
+Disallow: /hs/manage-preferences/
+
+Sitemap: https://www.rti.com/sitemap.xml
+Disallow: /_hcms/preview/
+Disallow: /hs/preferences-center/
+Disallow: /*?*hs_preview=*
+Disallow: /*?*hsCacheBuster=*

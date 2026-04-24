@@ -1,0 +1,3 @@
+Contact: mailto:security@knime.com
+Expires: 2027-03-20T19:00:00.000Z
+Policy: https://www.knime.com/security/policy

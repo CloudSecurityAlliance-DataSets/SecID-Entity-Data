@@ -1,0 +1,54 @@
+# llms.txt for socradar.io
+## Site Name: SOCRadar
+## Homepage: https://socradar.io/
+---
+## Modules
+- [Modules](https://socradar.io/modules/)
+  Overview of SOCRadar's core modules: Cyber Threat Intelligence, Attack Surface Management, Brand Protection, and Supply Chain Intelligence.
+---
+## Products
+- [Advanced Dark Web Monitoring](https://socradar.io/products/dark-web-monitoring/)
+  Real-time monitoring of dark and deep web to detect data leaks and potential breaches.
+- [Cyber Threat Intelligence](https://socradar.io/products/cyber-threat-intelligence/)
+  Provides actionable insights to understand and mitigate cyber threats and attacks.
+- [Attack Surface Management](https://socradar.io/products/attack-surface-management/)
+  Identifies and monitors digital assets to protect against cyber attacks.
+- [Brand Protection](https://socradar.io/products/brand-protection/)
+  Monitors and mitigates digital risks affecting brand reputation and security.
+- [Supply Chain Intelligence](https://socradar.io/products/supply-chain-intelligence/)
+  Assesses and manages risks within the supply chain using advanced scoring systems.
+---
+## Plans & Pricing
+- [Plans & Pricing](https://socradar.io/plans-and-pricing/)
+  Details of available subscription plans and pricing for SOCRadar's services.
+---
+## Labs
+- [Labs](https://socradar.io/labs)
+  Access a suite of free cybersecurity tools and resources for threat intelligence and analysis.
+- [IOC Radar](https://socradar.io/labs/app/ioc-radar)
+  Advanced threat intelligence search engine for analyzing Indicators of Compromise (IOCs) with real-time risk assessment.
+- [CVE Radar](https://socradar.io/labs/app/cve-radar/)
+  Real-time CVE intelligence and vulnerability management platform for monitoring and analyzing security vulnerabilities.
+---
+## Resources
+- [Reports](https://socradar.io/resources/reports/)
+  Access to in-depth research reports on industry, sector, and regional cyber threats.
+- [Whitepapers](https://socradar.io/resources/whitepapers/)
+  Downloadable whitepapers offering strategic insights on cybersecurity and threat intelligence.
+- [Events & Webinars](https://socradar.io/resources/on-demand-webinars/)
+  On-demand webinars and upcoming events related to cybersecurity.
+- [Blog](https://socradar.io/blog/)
+  Latest insights and updates on cybersecurity trends and news.
+---
+## Company
+- [About Us](https://socradar.io/company/about-us/)
+  Information about SOCRadar's mission, history, and team.
+- [Partners](https://socradar.io/company/partners/)
+  Details on partnership opportunities and existing partners.
+- [Contact Us](https://socradar.io/contact-us/)
+  Contact information and inquiry form for reaching out to SOCRadar.
+---
+## Notes
+- All links are directed to official SOCRadar pages.
+- Descriptions are optimized to preserve the brand integrity of the services.
+- This document is intended for semantic classification purposes for LLM systems and content matching applications.

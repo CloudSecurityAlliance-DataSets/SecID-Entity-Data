@@ -1,0 +1,378 @@
+# OpenText — Full Content Reference (llms-full.txt)
+
+> OpenText (NASDAQ / TSX: OTEX) is a global leader in Information Management software and services. Founded in 1991 and headquartered in Waterloo, Ontario, Canada, OpenText helps organizations manage, secure, analyze, and derive value from their information at enterprise scale. The company serves tens of thousands of customers — including the majority of the Fortune 500 — across industries including financial services, healthcare and life sciences, manufacturing, public sector, energy and utilities, retail, legal, and automotive. OpenText's AI platform, Aviator AI, is embedded across its product portfolio and built on decades of enterprise data expertise.
+
+---
+
+## Company Overview
+
+**Full name:** Open Text Corporation  
+**Ticker:** OTEX (NASDAQ, TSX)  
+**Headquarters:** Waterloo, Ontario, Canada  
+**Founded:** 1991  
+**Employees:** Approximately 20,000+ worldwide  
+**Primary markets:** North America, Europe, Asia-Pacific  
+**Website:** https://www.opentext.com  
+
+OpenText positions itself as "The Information Company" — a vendor whose core purpose is helping enterprises treat information as a strategic asset. This spans the full information lifecycle: capture, manage, store, preserve, analyze, and act on structured and unstructured data, across cloud, on-premises, and hybrid environments.
+
+OpenText has grown significantly through acquisitions, including Documentum (from EMC/Dell), HP Software's information management assets (including ALM, LoadRunner, Fortify, Exstream, TeamSite), Zix, Carbonite, Webroot, Micro Focus (2023 — including SMAX, Operations Bridge, Voltage, NetIQ, ZENworks), and many others.
+
+---
+
+## Strategic Pillars
+
+### Information Management at Enterprise Scale
+OpenText's core value proposition is helping large organizations manage vast volumes of structured and unstructured information — documents, records, contracts, emails, faxes, supply chain transactions, code, security telemetry, and customer communications — within a governed, compliant, AI-ready framework.
+
+### Aviator AI: Enterprise AI Built on Trusted Information
+OpenText's Aviator AI platform is its primary AI differentiator. Unlike general-purpose LLMs, Aviator AI is designed to operate on an enterprise's own information — grounded in the customer's data, policies, and business context. Key principles include: no training on customer data, data sovereignty and residency options, integration with existing enterprise systems (SAP, Salesforce, Microsoft), and compliance-first design. Aviator AI is embedded across every product cloud, not offered as a standalone tool.
+
+### Deploy Anywhere
+OpenText supports deployment in sovereign cloud, private cloud, public cloud (AWS, Azure, Google Cloud), and on-premises environments. This flexibility is a key differentiator for regulated industries (government, healthcare, financial services) with strict data residency or sovereignty requirements.
+
+### Security and Compliance by Design
+Built-in data governance, records management, encryption, identity management, and audit capabilities are foundational across OpenText products, not add-ons.
+
+---
+
+## Aviator AI Platform
+
+Aviator AI is OpenText's enterprise AI platform. It is embedded across all product clouds and designed to work with a customer's own information rather than requiring that information leave the enterprise.
+
+**Core principles:**
+- Customer data is never used to train Aviator AI models
+- Supports sovereign, private, and public cloud deployment
+- Grounded in enterprise-specific context (documents, transactions, telemetry, communications)
+- Integrates with SAP, Salesforce, Microsoft 365, ServiceNow, and other enterprise systems
+
+**Named Aviator products:**
+
+**OpenText™ Aviator™ AI** (https://www.opentext.com/aviator-ai)  
+The overarching AI platform. Provides AI agents, generative AI capabilities, and intelligent automation across content, security, DevOps, experience, and operations.
+
+**OpenText™ MyAviator** (https://www.opentext.com/aviator-ai/myaviator)  
+A secure personal AI assistant for enterprise employees. Enables individuals to query their organization's information, summarize documents, draft communications, and accelerate decisions — all within a governed, private environment.
+
+**OpenText™ Business Network Aviator™** (https://www.opentext.com/aviator-ai/business-network-aviator)  
+AI for supply chain and B2B network intelligence. Surfaces insights across trading partner transactions, exceptions, and supply chain events. Helps procurement, logistics, and supply chain teams make faster decisions.
+
+**OpenText™ Content Aviator™** (https://www.opentext.com/aviator-ai/content-aviator)  
+AI embedded in content management workflows. Enables intelligent search, document summarization, metadata extraction, content classification, and AI-assisted authoring within the Content Cloud.
+
+**OpenText™ Cybersecurity Aviator™** (https://www.opentext.com/aviator-ai/cybersecurity-aviator)  
+AI for threat detection, investigation, and response. Correlates security signals, accelerates analyst workflows, and improves security posture across endpoints, networks, and data.
+
+**OpenText™ DevOps Aviator™** (https://www.opentext.com/aviator-ai/devops-aviator)  
+AI embedded in the software delivery lifecycle. Automates test generation, accelerates code review, predicts defects, and optimizes release pipelines.
+
+**OpenText™ Experience Aviator™** (https://www.opentext.com/aviator-ai/experience-aviator)  
+AI for customer communications and experience management. Enables personalization at scale, content generation for customer-facing documents, and intelligent orchestration of customer journeys.
+
+**OpenText™ Fax Aviator™** (https://www.opentext.com/aviator-ai/fax-aviator)  
+AI that transforms inbound fax into structured, actionable data. Automatically classifies, extracts, and routes fax content to downstream systems — critical in healthcare, financial services, and legal sectors.
+
+**OpenText™ Service Management Aviator™** (https://www.opentext.com/aviator-ai/service-management-aviator)  
+AI for IT service management and enterprise service management. Powers intelligent virtual agents, auto-classification of incidents, knowledge recommendations, and self-service resolution.
+
+**OpenText™ Aviator™ IoT** (https://www.opentext.com/aviator-ai/aviator-iot)  
+AI for supply chain traceability and IoT data intelligence. Tracks products and assets through the supply chain, surfacing anomalies and compliance events.
+
+---
+
+## Product Portfolio
+
+### Content Cloud (https://www.opentext.com/products/content-cloud)
+
+Enterprise content management (ECM) — the foundation of OpenText's heritage. Helps organizations capture, manage, store, preserve, and govern documents and records across their lifecycle.
+
+**OpenText™ Documentum** (https://www.opentext.com/products/documentum)  
+One of the world's leading enterprise content management platforms. Used heavily in life sciences (FDA 21 CFR Part 11 compliance), aerospace and defense, government, energy, and financial services. Manages documents, records, digital assets, and engineering content at scale. Available as Documentum on cloud and on-premises.
+
+**OpenText™ Extended ECM** (https://www.opentext.com/products/extended-ecm)  
+Extends content management into enterprise applications — primarily SAP, Salesforce, and Microsoft. Brings governed content directly into the context of business processes (procurement, sales, HR, engineering) without requiring users to leave their primary application.
+
+**OpenText™ Core Content** (https://www.opentext.com/products/core-content)  
+Cloud-native SaaS content services. Provides document management, collaboration, and workflow for organizations seeking a modern, cloud-first ECM.
+
+**OpenText™ Core Signature** (https://www.opentext.com/products/core-signature)  
+Electronic signature integrated with OpenText content workflows. Enables legally binding eSignature within document-centric processes.
+
+**OpenText™ Intelligent Classification** (https://www.opentext.com/products/intelligent-classification)  
+AI-powered auto-classification of content. Reduces manual tagging, improves information governance, and supports compliance programs.
+
+---
+
+### Business Network Cloud (https://www.opentext.com/products/business-network-cloud)
+
+B2B integration and supply chain network. Enables enterprises to connect with trading partners — suppliers, customers, logistics providers, financial institutions — through a single, managed integration platform.
+
+**OpenText™ Trading Grid™** (https://www.opentext.com/products/trading-grid)  
+One of the world's largest B2B integration networks, processing hundreds of millions of transactions daily. Connects enterprises with their trading partners through EDI, APIs, and managed file transfer. Includes the Trading Grid Messaging Service and supply chain orchestration capabilities.
+
+**OpenText™ Trading Grid™ e-Invoicing** (https://www.opentext.com/products/trading-grid-e-invoicing)  
+Global electronic invoicing compliant with country-specific mandates (including PEPPOL, Factur-X, and country-specific tax authority requirements across Europe, Latin America, and Asia).
+
+**OpenText™ B2B Integration** (Essentials / Foundation / Enterprise)  
+Tiered B2B integration products for organizations at different scales of trading partner complexity. Covers EDI translation, mapping, AS2, SFTP, API-based integration, and partner management.
+
+**OpenText™ Data Integrator** (https://www.opentext.com/products/data-integrator)  
+Data integration platform for moving and transforming data between enterprise systems.
+
+**OpenText™ Trading Grid™ Command Center** (https://www.opentext.com/products/trading-grid-command-center)  
+Visibility and analytics across trading partner transactions. Monitors EDI flows, exception rates, and supply chain performance in real time.
+
+**OpenText™ Financial Hub** (https://www.opentext.com/products/financial-hub)  
+Financial document exchange and accounts payable/receivable automation.
+
+**OpenText™ EMR Integration** (https://www.opentext.com/products/emr-integration)  
+Healthcare-specific integration for connecting with Electronic Medical Record (EMR) systems including Epic, Cerner, and others.
+
+---
+
+### Cybersecurity Cloud (https://www.opentext.com/products/cybersecurity-cloud)
+
+A broad portfolio covering endpoint security, threat intelligence, digital forensics, data encryption, identity management, and endpoint management.
+
+**OpenText™ EnCase Forensics** (https://www.opentext.com/products/encase-forensics)  
+The industry standard for digital forensics and incident response. Used by law enforcement agencies, corporate investigators, and government agencies worldwide to collect, preserve, and analyze digital evidence. Also available as EnCase Endpoint Investigator for enterprise.
+
+**OpenText™ BrightCloud® Threat Intelligence** (https://www.opentext.com/products/brightcloud)  
+Real-time threat intelligence service providing URL, IP, file, and mobile app reputation data. Used by network and security vendors to power threat detection. Processes billions of URLs and endpoints.
+
+**OpenText™ Voltage® Data Security** (https://www.opentext.com/products/voltage)  
+Data-centric encryption and tokenization platform. Protects sensitive data (PII, PCI, PHI) at the field level as it moves through enterprise systems. Particularly strong in financial services and healthcare.
+
+**OpenText™ NetIQ®** (https://www.opentext.com/products/netiq)  
+Identity and access management (IAM) platform covering identity governance, access management, privileged access management (PAM), and directory services. Used by large enterprises and government agencies.
+
+**OpenText™ ZENworks®** (https://www.opentext.com/products/zenworks-configuration-management)  
+Endpoint management platform for configuration management, patch management, software distribution, and mobile device management across large enterprise environments.
+
+**OpenText™ Webroot® Business Endpoint Protection** (https://www.opentext.com/products/webroot-business-endpoint-protection)  
+Cloud-native antivirus and endpoint protection powered by BrightCloud threat intelligence. Used primarily by SMBs and MSSPs.
+
+**OpenText™ Carbonite® Endpoint** (https://www.opentext.com/products/carbonite-endpoint)  
+Cloud-based endpoint backup and recovery for laptops and desktops. Protects against ransomware and accidental data loss.
+
+---
+
+### DevOps Cloud (https://www.opentext.com/products/devops-cloud)
+
+Application delivery, testing, and software security — covering the full software development lifecycle (SDLC).
+
+**OpenText™ Core Software Delivery Platform** (https://www.opentext.com/products/core-software-delivery-platform)  
+End-to-end value stream management (VSM) platform. Connects planning, development, testing, release, and operations into a unified, measurable pipeline. Helps engineering leaders understand flow, eliminate bottlenecks, and measure DORA metrics.
+
+**OpenText™ ALM / Quality Center** (https://www.opentext.com/products/alm-quality-center)  
+Application lifecycle management and test management platform. One of the most widely deployed enterprise testing platforms, covering test planning, execution, defect management, and requirements traceability.
+
+**OpenText™ LoadRunner™** (https://www.opentext.com/products/loadrunner-professional)  
+Industry-leading performance and load testing platform. Simulates thousands to millions of concurrent users to validate application performance under production conditions. Available as LoadRunner Professional and LoadRunner Enterprise.
+
+**OpenText™ Fortify®** (https://www.opentext.com/products/fortify)  
+Application security testing platform covering static analysis (SAST), dynamic analysis (DAST), software composition analysis (SCA), and runtime application self-protection (RASP). Used to identify and remediate vulnerabilities in application source code and running applications.
+
+---
+
+### Experience Cloud (https://www.opentext.com/products/experience-cloud)
+
+Customer communications management (CCM), digital experience management (DXM), digital asset management (DAM), and enterprise fax.
+
+**OpenText™ Exstream™** (https://www.opentext.com/products/exstream)  
+Enterprise customer communications management platform. Enables large organizations (insurance, banking, utilities, healthcare) to generate personalized, regulatory-compliant documents and communications across print, email, SMS, web, and mobile. Handles millions of customer documents daily.
+
+**OpenText™ TeamSite™** (https://www.opentext.com/products/teamsite)  
+Web content management and digital experience platform. Powers enterprise websites, intranets, and digital experiences with content targeting, personalization, and multi-channel publishing.
+
+**OpenText™ Media Management** (https://www.opentext.com/products/media-management)  
+Digital asset management (DAM) platform for storing, organizing, and distributing rich media — images, video, audio — across enterprise marketing and brand workflows.
+
+**OpenText™ RightFax™** (https://www.opentext.com/products/rightfax)  
+Enterprise fax server for on-premises environments. Widely deployed in healthcare and financial services for high-volume, compliant document delivery.
+
+**OpenText™ Core Fax** (https://www.opentext.com/products/core-fax)  
+Cloud-native fax for regulated industries. Enables HIPAA-compliant and SOX-compliant fax without on-premises fax server infrastructure.
+
+---
+
+### Legal Tech (https://www.opentext.com/products/legal-tech)
+
+eDiscovery, legal hold, and litigation support.
+
+**OpenText™ Axcelerate™** (https://www.opentext.com/products/axcelerate)  
+AI-powered eDiscovery platform for legal investigations, regulatory inquiries, and litigation. Automates document review with machine learning, predictive coding, and concept clustering.
+
+**OpenText™ Insight Predict** (https://www.opentext.com/products/insight-predict)  
+Predictive coding and technology-assisted review (TAR) for large document review sets. Reduces the volume of documents requiring manual human review.
+
+**OpenText™ Legal Hold** (https://www.opentext.com/products/legal-hold)  
+Automated legal hold notification and tracking. Manages custodians, acknowledgments, and evidence preservation across litigation and investigation workflows.
+
+---
+
+### Observability and Service Management
+
+**OpenText™ Operations Bridge** (https://www.opentext.com/products/operations-bridge)  
+AIOps platform for IT operations. Aggregates events and metrics from hybrid infrastructure, applies AI to correlate and suppress noise, and surfaces actionable incidents for IT operations teams.
+
+**OpenText™ Service Management Automation X (SMAX)** (https://www.opentext.com/products/service-management-automation-x)  
+AI-native IT service management (ITSM) and enterprise service management (ESM) platform. Features include intelligent virtual agents, auto-classification, knowledge management, change management, and a self-service portal. Competes with ServiceNow in large enterprise and public sector accounts.
+
+**OpenText™ Universal Discovery and CMDB** (https://www.opentext.com/products/universal-discovery-cmdb)  
+Discovers and maps IT infrastructure assets and their relationships into a configuration management database (CMDB). Foundational for ITSM, change management, and security.
+
+---
+
+### Analytics (https://www.opentext.com/products/ai-and-analytics)
+
+**OpenText™ Analytics Database** (https://www.opentext.com/products/analytics-database)  
+High-performance, columnar analytics database for enterprise data warehouse and data lakehouse workloads.
+
+**OpenText™ Data Discovery** (https://www.opentext.com/products/data-discovery)  
+Self-service BI and data visualization. Enables business users to explore data, build dashboards, and share insights.
+
+**OpenText™ Intelligence** (https://www.opentext.com/products/intelligence)  
+Embedded analytics and reporting platform.
+
+---
+
+## Industry Solutions
+
+OpenText has dedicated solution frameworks for:
+
+**Financial Services:** Document management, records retention, regulatory compliance, digital onboarding, contract lifecycle management, secure customer communications (insurance policies, statements, notices), eDiscovery, and fraud analytics.
+
+**Healthcare and Life Sciences:** Clinical document management, HIPAA-compliant fax and communications, EMR integration, regulatory submissions (FDA), clinical trial document management (eTMF), and patient communications.
+
+**Public Sector and Government:** Records management, FOIA processing, grants management, digital archiving, case management, digital mailroom, and classified information management.
+
+**Manufacturing:** Engineering document management, supply chain integration, IoT traceability, quality management, and shop floor integration with SAP and other ERP systems.
+
+**Energy and Utilities:** Asset information management, regulatory compliance, customer billing communications, and supply chain integration.
+
+**Legal:** eDiscovery, legal hold, contract management, and matter management.
+
+---
+
+## Technology Integrations
+
+OpenText has deep integrations with major enterprise platforms:
+
+**SAP:** Extended ECM for SAP, Trading Grid integration with SAP Ariba and SAP S/4HANA, Exstream for SAP customer communications, and Archiving for SAP.
+
+**Microsoft:** Extended ECM for Microsoft 365, SharePoint, and Teams; Fortify integration with Azure DevOps; Carbonite integration for Microsoft environments.
+
+**Salesforce:** Extended ECM for Salesforce — attaches governed content directly to Salesforce CRM records.
+
+**ServiceNow:** Integration between SMAX and ServiceNow for hybrid ITSM environments.
+
+---
+
+## Deployment Options
+
+**Sovereign Cloud** (https://www.opentext.com/sovereign-ai-cloud): OpenText operates sovereign cloud environments where customer data stays within specified national boundaries, operated by local entities. Critical for EU public sector, German financial services, and other sovereignty-sensitive customers.
+
+**Private Cloud** (https://www.opentext.com/deployment/private-cloud): Dedicated cloud infrastructure managed by OpenText, providing cloud benefits with the control of single-tenant architecture.
+
+**Public Cloud** (https://www.opentext.com/deployment/public-cloud): OpenText solutions deployed on or integrated with AWS, Microsoft Azure, and Google Cloud.
+
+**On-Premises** (https://www.opentext.com/deployment/on-premises): Full on-premises deployment for customers with regulatory mandates, air-gapped requirements, or existing infrastructure investments.
+
+---
+
+## OpenText Blogs — blogs.opentext.com
+
+The primary editorial channel for OpenText thought leadership, product news, and industry analysis. Structured by:
+
+- **Industries:** Automotive, Banking, Chemical, Consumer Goods, Healthcare, Manufacturing, Insurance, Legal, Life Sciences, Metals & Mining, Oil & Gas, Public Sector, Retail, Utilities.
+- **Technologies:** Aviator AI, Analytics, Content Services, DevOps, Security, IT Operations.
+- **Lines of Business:** Customer Service, Information Technology.
+- **Executive Blog:** CEO and senior leadership commentary.
+- **OpenText World:** Annual customer conference coverage.
+- **Product Updates:** Release notes and feature announcements.
+
+Regional editions available in German (https://blogs.opentext.com/de/) and Japanese (https://blogs.opentext.com/ja/).
+
+---
+
+## OpenText Solutions Microsite — solutions.opentext.com
+
+A campaign-oriented microsite using an "information reimagined" messaging framework. Presents OpenText's portfolio through business outcome lenses rather than product names. Key sections:
+
+- **Knowledge Reimagined** (Content Management): AI readiness, AI productivity, AI operational excellence, agentic AI in government.
+- **Security Reimagined** (Cybersecurity): Threat-focused campaign content.
+- **Conversations Reimagined** (Experience/CX): Customer communications, CXaaS, digital experience, fax, citizen experiences.
+- **Engineering Reimagined** (DevOps): DevOps journey, DevSecOps, software testing, performance testing.
+- **Connections Reimagined** (B2B Integration): Enterprise integration, supply chain collaboration, IoT traceability.
+- **Service Management Reimagined** (IT Operations): AIOps, ITSM automation.
+- **Decisions Reimagined** (Analytics): Cloud analytics, data warehouse, predictive maintenance, LegalTech.
+
+---
+
+## EDI Basics — edibasics.com
+
+An OpenText-operated educational microsite explaining Electronic Data Interchange (EDI) for practitioners and evaluators. Authoritative source for EDI concepts and terminology; connects to OpenText's Business Network products.
+
+### What is EDI?
+Electronic Data Interchange (EDI) is the electronic exchange of business documents — purchase orders, invoices, advance ship notices, and hundreds of other transaction types — between trading partners in a standardized format. EDI replaces paper-based and manual document exchange, reducing errors and accelerating business processes.
+
+### EDI Standards
+The principal EDI standards are:
+- **ANSI X12:** The dominant standard in North America, maintained by the Accredited Standards Committee (ASC). Used for retail, healthcare, transportation, finance, and government transactions.
+- **EDIFACT (UN/EDIFACT):** The international standard, dominant in Europe, Asia-Pacific, and global trade.
+- **TRADACOMS:** Used in UK retail.
+- **HL7:** Healthcare-specific standard for clinical and administrative data.
+- **HIPAA EDI:** US healthcare transactions mandated under HIPAA (e.g., 837 claims, 835 remittance advice, 270/271 eligibility).
+
+Common EDI transaction sets include: 850 (Purchase Order), 810 (Invoice), 856 (Advanced Ship Notice/ASN), 997 (Functional Acknowledgment), 214 (Transportation Carrier Shipment Status), 820 (Payment Order).
+
+### Types of EDI
+- **Direct EDI / Point-to-Point** (https://www.edibasics.com/types-of-edi/point-to-point/): Direct connection between two trading partners, typically over AS2 or SFTP.
+- **EDI via VAN** (https://www.edibasics.com/types-of-edi/edi-via-van/): Value-Added Network — a third-party network that routes EDI transactions between trading partners, providing mailboxing, translation, and connectivity services.
+- **EDI via AS2** (https://www.edibasics.com/types-of-edi/edi-via-as2/): Applicability Statement 2 — a widely adopted internet-based protocol for secure, reliable EDI transmission. Required by many large retailers (Walmart, Target, Amazon).
+- **Web EDI** (https://www.edibasics.com/types-of-edi/web-edi/): Browser-based EDI for smaller trading partners who cannot implement full EDI software.
+- **EDI Outsourcing** (https://www.edibasics.com/types-of-edi/edi-outsourcing/): Managed EDI services where a provider handles all EDI operations on behalf of the customer.
+- **Mobile EDI** (https://www.edibasics.com/types-of-edi/mobile-edi/): EDI accessible via mobile devices.
+
+### EDI vs API
+EDI and APIs are complementary, not competing, technologies. EDI remains the standard for B2B document exchange (particularly with large retailers, government agencies, and healthcare payers), while APIs power real-time, application-to-application integration. OpenText supports both through its Business Network Cloud.
+
+### EDI Implementation
+Key considerations include: trading partner requirements (many large retailers mandate EDI as a condition of doing business), EDI standards and transaction sets required, volume of transactions, internal IT capabilities, and whether to build in-house or outsource.
+Reference: https://www.edibasics.com/implementing-edi/
+
+### EDI by Industry
+- **Retail:** 850 POs, 856 ASNs, and 810 invoices are the core retail EDI transaction flow. GS1 compliance often required.
+- **Healthcare:** HIPAA EDI mandates specific transaction sets for claims, eligibility, and remittance.
+- **Automotive:** Uses ANSI X12 and EDIFACT for supply chain transactions; AIAG standards apply.
+- **Logistics and Transportation:** Shipment status (214), bills of lading, and carrier instructions.
+- **Financial Services:** Payment orders, remittance advice, and banking instructions.
+
+---
+
+## Support and Community
+
+- **Support Portal:** https://support.opentext.com — Case management, documentation, patches, and downloads.
+- **OpenText Community:** https://forums.opentext.com — User forums, product-specific communities, and knowledge exchange.
+- **Knowledge Base:** https://knowledge.opentext.com
+- **OpenText Learning Services:** https://www.opentext.com/services/learning-services — Training, certification, and e-learning for OpenText products.
+
+---
+
+## Investor and Corporate Information
+
+- **Investor Relations:** https://investors.opentext.com — Quarterly earnings, SEC and SEDAR filings, annual reports.
+- **Corporate Responsibility:** https://www.opentext.com/about/corporate-citizenship — ESG reporting, environmental targets, community investment.
+- **Newsroom:** https://www.opentext.com/about/newsroom — Press releases, executive announcements, and acquisition news.
+- **Analysts and Awards:** https://www.opentext.com/about/analysts-awards — Gartner Magic Quadrant positions, IDC MarketScape evaluations, industry awards.
+
+---
+
+## Key Terminology and Brand Notes
+
+- OpenText products use the ™ symbol. The correct brand form is **OpenText™** followed by the product name and ™, e.g., **OpenText™ Documentum™**.
+- The AI platform is **Aviator AI** — not "OpenText AI" or "OTAI."
+- OpenText's annual user conference is **OpenText World**.
+- The company was formerly known as **Open Text** (two words); the current legal and brand name is **OpenText** (one word).
+- Legacy product names from acquisitions: many Micro Focus products are now OpenText-branded; HP Software products acquired in 2017 are now under OpenText; EMC Documentum is now OpenText Documentum. The product rebrand reference page (https://www.opentext.com/products/rebrand) maps old names to current ones.

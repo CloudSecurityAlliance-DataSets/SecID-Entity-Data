@@ -1,0 +1,8 @@
+# Cribl Secure Vulnerability Disclosure
+Contact: https://cribl.io/vulnerability-disclosure-program/
+Contact: mailto:security@cribl.io
+Encryption: https://cribl.io/.well-known/cribl_security_pgp.asc
+Preferred-Languages: en
+Canonical: https://cribl.io/.well-known/security.txt
+Policy: https://cribl.io/vulnerability-disclosure-program/
+Hiring: https://cribl.io/careers/

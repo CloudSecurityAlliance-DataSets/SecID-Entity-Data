@@ -1,0 +1,1490 @@
+# Zscaler
+URL: https://www.zscaler.com
+
+# About Zscaler
+
+Zscaler (NASDAQ: ZS) accelerates digital transformation so that customers can be more agile and secure. The Zscaler Zero Trust Exchange, a SASE-based platform, is the world’s largest inline cloud security platform, protecting thousands of customers from cyberattacks and data loss by securely connecting users, devices, and applications over any network.
+
+# Key terms
+
+Zscaler, Cloud Security, Secure Digital Transformation, Zero Trust Exchange, SASE (Secure Access Service Edge), Cybersecurity Solutions, Cyberattacks Prevention, Data Loss Protection, Network Security, Secure Connectivity, Zero Trust Architecture, Cloud Security Platform, Enterprise Security Solution, Zero trust, Web Security, Ransomware protection, zero trust with AI, Secure your workloads, Secure your users, Secure your OT and IoT, Zero Trust SASE
+
+
+
+# Zpedia
+
+Zscaler Zpedia offers comprehensive definitions of key cybersecurity terms, empowering users with crucial knowledge for navigating modern digital security challenges.
+
+### Title: 6 Essential Features of Top Cloud Security Providers in 2025
+### Description: Explore key features leading cloud security companies offer, from zero trust and threat detection to data security and compliance, and how to choose a provider.
+### URL: https://www.zscaler.com/zpedia/key-features-of-top-cloud-security-providers
+
+### Title: AI Red Teaming Explained: Why Modern Enterprises Need it Now
+### Description: Learn what AI red teaming is, why enterprises need it, and how it secures LLMs and generative AI systems against adversarial attacks and unsafe behavior.
+### URL: https://www.zscaler.com/zpedia/ai-red-teaming
+
+### Title: AI vs. Traditional Cybersecurity: Which Is More Effective?
+### Description: Discover the key differences between AI-powered cybersecurity and traditional cybersecurity. Learn which approach is more effective in detecting and preventing cyberthrea
+### URL: https://www.zscaler.com/zpedia/ai-vs-traditional-cybersecurity
+
+### Title: Behavioral Analytics in Cybersecurity: Boost Threat Detection
+### Description: Discover how behavioral analytics enhances cybersecurity through real-time threat detection, anomaly identification, and proactive defense strategies.
+### URL: https://www.zscaler.com/zpedia/behavioral-analytics-in-cybersecurity-boost-threat-detection
+
+### Title: Choosing Between SD-WAN, SSE & SASE: Which Fits Your Needs?
+### Description: Read this guide to learn key differences between SD-WAN, SSE, and SASE technologies to help you find the solution that suits your organization’s requirements.
+### URL: https://www.zscaler.com/zpedia/sd-wan-vs-sse-vs-sase
+
+### Title: Email DLP Explained: What It Is and How It Works
+### Description: Email DLP is a critical cybersecurity measure focused on securing sensitive information by preventing it from leaving an organization’s email environment.
+### URL: https://www.zscaler.com/zpedia/email-data-loss-prevention-dlp
+
+### Title: Endpoint Security vs. Network Security: Why You Need Both
+### Description: Understand key differences between endpoint security and network security, and how to strengthen your security posture with a unified zero trust approach.
+### URL: https://www.zscaler.com/zpedia/endpoint-security-vs-network-security
+
+### Title: Generative AI: Revolutionizing Cybersecurity and Threat Response
+### Description: Discover how GenAI enhances threat intelligence, automates incident response, and strengthens cybersecurity with real-time insights and proactive defenses.
+### URL: https://www.zscaler.com/zpedia/generative-ai-revolutionizing-cybersecurity-and-threat-response
+
+### Title: How Cloud Native Solutions Support Data Privacy Regulations
+### Description: Explore how cloud native solutions help organizations navigate GDPR, CCPA, and other privacy laws, tackling data sprawl, evolving threats, and complex environments.
+### URL: https://www.zscaler.com/zpedia/how-cloud-natuve-solutions-support-data-privacy
+
+### Title: How to Implement Zero Trust | Zscaler
+### Description: Implementing zero trust is about enacting secure transformation that starts with empowering and securing your workforce. Get started with zero trust.
+### URL: https://www.zscaler.com/zpedia/how-to-implement-zero-trust
+
+### Title: How Digital Experience Monitoring Enhances Employee Productivity
+### Description: Learn how digital experience monitoring (DEM), DEX, and EUEM improve employee productivity with real‑time visibility, faster troubleshooting, and better app performance.
+### URL: https://www.zscaler.com/zpedia/how-does-dem-enhance-employee-productivity
+
+### Title: How Does Microsegmentation Support Cloud Workload Security?
+### Description: Discover how microsegmentation boosts cloud workload security, prevents lateral movement, ensures compliance, and enables zero trust in modern environments.
+### URL: https://www.zscaler.com/zpedia/how-does-microsegmentation-support-cloud-workload-security
+
+### Title: How Zero Trust Architecture Supports Regulatory Compliance
+### Description: Discover how zero trust strengthens regulatory compliance by securing sensitive data, enforcing access controls, and aligning with global frameworks like GDPR.
+### URL: https://www.zscaler.com/zpedia/zero-trust-architecture-compliance
+
+### Title: How Does ZTNA Replace Traditional VPN Solutions? | Zpedia
+### Description: Discover how ZTNA eliminates the limitations of VPNs by delivering secure, scalable, user-aware access to applications–without exposing the network.
+### URL: https://www.zscaler.com/zpedia/how-does-ztna-replace-traditional-vpn-solutions
+
+### Title: How Much Does SD-WAN Cost? | Zpedia
+### Description: Discover the ins and outs of SD-WAN cost, and learn how it can optimize your network efficiency and reduce expenses without compromising on security or performance.
+### URL: https://www.zscaler.com/zpedia/how-much-does-sd-wan-cost
+
+### Title: Secure Third-Party Access With Zero Trust | Zscaler
+### Description: Learn how to replace VPN-based third-party access with zero trust: least privilege, continuous verification, and ZTNA—powered by Zscaler.
+### URL: https://www.zscaler.com/zpedia/how-organizations-achieve-zero-trust-third-party-contractor-access
+
+### Title: How to Conduct Effective Vulnerability Assessments | Zpedia
+### Description: Vulnerability assessments are a critical pillar within a broader vulnerability management program, learn about best practices and the most effective approach for your org
+### URL: https://www.zscaler.com/zpedia/how-to-conduct-effective-vulnerability-assessments
+
+### Title: How to Enhance Digital Experiences for Remote Teams? | ZScaler
+### Description: Discover strategies and tools to optimize remote team collaboration, improve employee engagement, and streamline digital workflows for better productivity.
+### URL: https://www.zscaler.com/zpedia/how-to-enhance-digital-experiences-for-remote-teams
+
+### Title: How to Migrate from VPN to the Zscaler Zero Trust Exchange
+### Description: Move beyond VPNs and firewalls with the Zscaler Zero Trust Exchange. Learn benefits, best practices, and a step-by-step migration to zero trust access.
+### URL: https://www.zscaler.com/zpedia/how-to-migrate-from-vpn-firewall-to-zscaler-zero-trust-exchange
+
+### Title: How to Secure AI Agents: Models & Risks Explained | Zscaler
+### Description: Learn how to secure AI agents, manage risks like data leakage & shadow AI, and implement best practices to safely unlock AI-driven productivity & innovation.
+### URL: https://www.zscaler.com/zpedia/how-to-secure-ai-agents
+
+### Title: How to Simplify Compliance Across Multi-Cloud Environments
+### Description: Discover strategies to simplify multi-cloud compliance, reduce risks, and ensure consistent security with tools like Zscaler DSPM and AI-SPM.
+### URL: https://www.zscaler.com/zpedia/how-to-simplify-multi-cloud-compliance
+
+### Title: Comparison: IT vs. OT Security: Understanding Key Differences
+### Description: Learn the essentials of IT vs. OT security, including risks, strategies, and the role of Zero Trust in protecting converged infrastructures
+### URL: https://www.zscaler.com/zpedia/it-vs-ot-security-understanding-key-differences
+
+### Title: Microsegmentation in Zero Trust: Reduce Blast Radius of Breaches
+### Description: Explore how microsegmentation supports zero trust by stopping lateral movement, protecting sensitive data, and reducing breach impact—with actionable best practices.
+### URL: https://www.zscaler.com/zpedia/microsegmentation-zero-trust
+
+### Title: Navigating Multi-Cloud Security Challenges with Zero Trust
+### Description: Navigate multi-cloud security challenges in cloud environments with our concise guide. Learn how to tackle risks, manage security issues, and protect data efficiently.
+### URL: https://www.zscaler.com/zpedia/navigating-multi-cloud-security-challenges
+
+### Title: Network Firewall vs. NGFW vs. Zero Trust Firewall
+### Description: Discover key differences between network firewalls, next-generation firewalls (NGFW) and Zero Trust Firewall, with use cases to protect against cyberthreats.
+### URL: https://www.zscaler.com/zpedia/traditional-firewall-vs-zero-trust-firewall
+
+### Title: On-Premises vs. Cloud SWGs: Choosing the Best for Security
+### Description: Explore the pros and cons of on-premises and cloud secure web gateways (SWGs). Discover what makes cloud SWGs more scalable, cost-effective, and secure.
+### URL: https://www.zscaler.com/zpedia/on-premises-vs-cloud-swg
+
+### Title: SASE vs. CASB Explained: Building a Unified Security Architecture
+### Description: Secure access service edge (SASE) and cloud access security broker (CASB) unify cloud native controls for borderless environments while confronting threats.
+### URL: https://www.zscaler.com/zpedia/sase-vs-casb
+
+### Title: SASE vs. VPN: Which Is Better for Secure Remote Work?
+### Description: Does secure access service edge (SASE) or virtual private network (VPN) offer a better path forward? Let's take a closer look at the question of SASE vs. VPN.
+### URL: https://www.zscaler.com/zpedia/sase-vs-vpn
+
+### Title: SASE vs. Zero Trust: Understanding Security Differences
+### Description: Explore the differences between SASE and zero trust in modern security. Learn how they align to reduce threats, improve user experience, and boost scalability.
+### URL: https://www.zscaler.com/zpedia/sase-vs-zero-trust
+
+### Title: SASE vs. ZTNA: How ZTNA Fits Within SASE
+### Description: Discover how zero trust fits into the SASE framework and why modern enterprises need both for secure, scalable cloud security.
+### URL: https://www.zscaler.com/zpedia/sase-vs-ztna
+
+### Title: SD-WAN vs MPLS: Cost, Performance & Security Breakdown
+### Description: Understand the differences between SD-WAN and MPLS, including costs, flexibility, performance, security, and scalability. Learn which solution is ideal for your company.
+### URL: https://www.zscaler.com/zpedia/sd-wan-vs-mpls
+
+### Title: Secure SaaS Apps: AWS, SAP, & Salesforce Migration Strategies
+### Description: Learn to secure AWS, SAP, and Salesforce during SaaS migration with zero trust, identity-based security, and streamlined risk management tactics.
+### URL: https://www.zscaler.com/zpedia/secure-saas-migration-aws-sap-salesforce
+
+### Title: SSE vs. SWG: Why SWG Is Essential for SSE Solutions
+### Description: Secure web gateway (SWG) is foundational to security service edge (SSE), enabling encrypted traffic inspection and consistent policy for safe, scalable access.
+### URL: https://www.zscaler.com/zpedia/sse-vs-swg
+
+### Title: SWG vs CASB Explained: Differences, Use Cases & Security Benefits
+### Description: Compare SWG vs. CASB to understand their unique strengths in web and cloud security. Explore use cases, benefits, and expert IT strategy recommendations.
+### URL: https://www.zscaler.com/zpedia/swg-vs-casb
+
+### Title: SWG vs. Firewall: Key Differences and Use Cases
+### Description: Discover key differences between SWG and firewall solutions. Understand how each works, their advantages, and when to use them for optimal network security.
+### URL: https://www.zscaler.com/zpedia/swg-vs-firewall
+
+### Title: Threat Hunting vs. Red Teaming: Differences and Best Practices
+### Description: While threat hunting focuses on threats that have bypassed security measures, red teaming involves simulating real-world attacks to gauge vulnerabilities.
+### URL: https://www.zscaler.com/zpedia/threat-hunting-vs-red-teaming
+
+### Title: Understanding SOC as a Service (SOCaaS): Benefits & Components
+### Description: Explore SOCaaS—cloud-based security operations that unify threat detection, monitoring, and incident response. Compare SOCaaS to in-house SOC and discover key advantages.
+### URL: https://www.zscaler.com/zpedia/understanding-socaas
+
+### Title: SASE Implementation Basics: Secure Networking for Modern Workforc
+### Description: Learn the essentials of SASE implementation. Discover how cloud-delivered networking and security simplify hybrid environments and boost efficiency for distributed teams.
+### URL: https://www.zscaler.com/zpedia/understanding-basics-sase-implementation
+
+### Title: The Role of DLP in SASE: Protecting Data in Cloud-First Networks
+### Description: Explore how DLP enhances SASE deployments by safeguarding sensitive data. Ensure scalable, consistent, and effective protection for decentralized networks and users.
+### URL: https://www.zscaler.com/zpedia/protect-data-with-dlp-sase
+
+### Title: Understanding the Importance of IoMT Security
+### Description: Discover what IoMT security is and its key role in protecting healthcare data and devices. Learn strategies to mitigate risks in the internet of medical things.
+### URL: https://www.zscaler.com/zpedia/understanding-iomt-security
+
+### Title: VPN Security: Are VPNs Safe?
+### Description: With scalability issues, limited controls, and inherent vulnerabilities, VPNs are increasingly being replaced by zero trust solutions for enterprise security.
+### URL: https://www.zscaler.com/zpedia/vpn-security
+
+### Title: Advanced Persistent Threats: Characteristics & Defense | Zscaler
+### Description: Learn about APTs: traits, examples, and strategies to detect and defend against them using Zscaler's advanced security solutions.
+### URL: https://www.zscaler.com/zpedia/what-are-advanced-persistent-threats-apts
+
+### Title: What Are DLP Policies? How They Secure Data Across Clouds
+### Description: Learn how DLP policies protect sensitive data in multicloud setups with classification, monitoring, encryption, and compliance best practices.
+### URL: https://www.zscaler.com/zpedia/what-are-dlp-policies
+
+### Title: What Are Insider Threats? | Define, Types, and Mitigation
+### Description: Learn about insider threats, their types, and the best practices to mitigate them. Discover effective strategies to protect your business from insider attacks.
+### URL: https://www.zscaler.com/zpedia/what-are-insider-threats
+
+### Title: What Are the Fundamental Steps of SASE Adoption?
+### Description: Your complete SASE adoption guide: definitions, examples, and proven steps to enable zero trust SASE and accelerate your digital transformation.
+### URL: https://www.zscaler.com/zpedia/what-are-fundamental-steps-sase-adoption
+
+### Title: Key Components of Secure Branch Connectivity | Zscaler
+### Description: Discover the key components of secure branch connectivity, how zero trust strategies reduce risks, and how Zscaler delivers scalable, cloud-driven solutions.
+### URL: https://www.zscaler.com/zpedia/key-components-secure-branch-connectivity
+
+### Title: SEC Cybersecurity Disclosure Rules: Key Details & Compliance Tips
+### Description: Learn about the SEC’s new cybersecurity disclosure rules, effective September 2023. Discover requirements for timely incident reporting, annual risk management disclosure
+### URL: https://www.zscaler.com/zpedia/new-sec-cybersecurity-disclosure-rules
+
+### Title: What Does Migrating to a Cloud Native Security Platform Involve?
+### Description: Moving to a cloud native security platform? Explore benefits, challenges, and best practices for a smooth migration to modern cloud protection.
+### URL: https://www.zscaler.com/zpedia/migrating-to-a-cloud-native-security-platform
+
+### Title: What is 5G Security? | Future & Benefits - Zscaler
+### Description: Secure your 5G network and devices against cyberthreats. Shield infrastructure from data loss, hackers, and malware with advanced security technologies.
+### URL: https://www.zscaler.com/zpedia/what-is-5g-security
+
+### Title: What Is a Botnet? | Botnet Uses, Examples, and Protection Tips
+### Description: Learn what a botnet is, how it works, examples like Mirai, Gafgyt, Mozi, and tips to protect against botnet attacks using advanced cybersecurity solutions.
+### URL: https://www.zscaler.com/zpedia/what-is-a-botnet
+
+### Title: What Is a Business Continuity Plan? | Zpedia
+### Description: A business continuity plan (BCP) is a strategy that outlines how an organization will continue operating during and after disruptive events, such as cyber incidents.
+### URL: https://www.zscaler.com/zpedia/what-is-a-business-continuity-plan
+
+### Title: Data Breach Guide: Causes, Impact, Prevention & Recovery Steps
+### Description: Learn everything about data breaches: how they occur, their impact, key prevention strategies, and effective recovery steps. Protect sensitive data with Zscaler DSPM.
+### URL: https://www.zscaler.com/zpedia/what-data-breach
+
+### Title: What Is a Data Center? | Importance & Types - Zscaler
+### Description: A data center is a physical facility containing high-performance servers, storage systems, networking equipment, and other components.
+### URL: https://www.zscaler.com/zpedia/what-is-data-center
+
+### Title: What Is a Data Fabric? | Zpedia
+### Description: A data fabric is a unified framework that seamlessly connects disparate data sources, tools, and technologies across an organization’s ecosystem.
+### URL: https://www.zscaler.com/zpedia/what-is-data-fabric
+
+### Title: What is a Data Lake? Architecture, Benefits, & Use Cases
+### Description: A data lake is a centralized repository designed to store vast amounts of data at scale. Discover how they work, why they are used, and their use cases.
+### URL: https://www.zscaler.com/zpedia/what-is-a-data-lake
+
+### Title: What Is a Disaster Recovery Plan (DRP)? Steps & Benefits
+### Description: A disaster recovery plan (DRP) is a structured approach that outlines procedures and tools to restore critical IT systems, data, and operations. Learn more!
+### URL: https://www.zscaler.com/zpedia/what-is-a-disaster-recovery-plan
+
+### Title: What is a Hybrid Workforce? | Factors and Models | Zscaler
+### Description: Discover the different hybrid workforce models, factors and advantages. Learn the specific steps of building and securing a hybrid workforce.
+### URL: https://www.zscaler.com/zpedia/what-is-hybrid-workforce
+
+### Title: What Is a Man-in-the-Middle (MiTM) Attack? Types & Prevention
+### Description: A man-in-the-middle (MiTM) attack is when an attacker secretly intercepts and potentially alters communication between two parties. Learn how to prevent these attacks.
+### URL: https://www.zscaler.com/zpedia/what-is-a-man-in-the-middle-attack
+
+### Title: Managed Security Service Provider (MSSP) Explained
+### Description: Discover how managed security service providers (MSSP) enhance cybersecurity with continuous monitoring, threat detection, and proactive incident response.
+### URL: https://www.zscaler.com/zpedia/what-is-a-managed-security-service-provider-mssp
+
+### Title: What is a Proxy Server: Use Cases, Best Practices & Challenges
+### Description: A proxy server is a specialized system or application that acts as an intermediary between a user and resources on the internet.
+### URL: https://www.zscaler.com/zpedia/what-is-a-proxy-server
+
+### Title: What Is a Security Operations Center (SOC)? Benefits & Features
+### Description: Learn about Security Operations Centers (SOC): functions, importance, and tools used to protect organizations from cyber threats. Explore Zscaler's insights!
+### URL: https://www.zscaler.com/zpedia/what-is-a-security-operations-center-soc
+
+### Title: What Is a Threat Actor? Motives, Techniques & Real-World Examples
+### Description: A threat actor is anyone who attempts to extort or compromise an individual or organization for financial gain or more. Learn how they work and how to defend against them
+### URL: https://www.zscaler.com/zpedia/what-is-a-threat-actor
+
+### Title: What Is a VPN Gateway? Definition, Risks & Better Alternatives
+### Description: Discover how VPN gateways work, their security limitations, and why enterprises are replacing them with identity-centric zero trust solutions like Zscaler.
+### URL: https://www.zscaler.com/zpedia/what-is-a-vpn-gateway
+
+### Title: What Is a VPN? - How It Works & Types | Zscaler
+### Description: Virtual private networks (VPNs) allow clients to connect to servers without exposing themselves to Internet traffic.
+### URL: https://www.zscaler.com/zpedia/what-is-a-vpn
+
+### Title: What Is AI Asset Management and Why Does It Matter?
+### Description: Discover how AI asset management enhances data security. Learn strategies for protecting AI assets, ensuring compliance, and fostering innovation in the AI age.
+### URL: https://www.zscaler.com/zpedia/ai-asset-management
+
+### Title: What Is AI Security Posture Management (AI-SPM)? | Zpedia
+### Description: Artificial intelligence (AI) security posture management (SPM) is a strategic approach designed to ensure AI models, data, and resources are secure.
+### URL: https://www.zscaler.com/zpedia/what-is-ai-security-posture-management-aispm
+
+### Title: AI Security Explained: Risks, Frameworks, & Enterprise Protection
+### Description: Understand AI security, key risks, governance frameworks, and best practices to protect generative AI, models, and enterprise data.
+### URL: https://www.zscaler.com/zpedia/what-is-ai-security
+
+### Title: Boosting AI Visibility for a Strategic Advantage
+### Description: Unlock AI’s potential with strategic visibility in modern apps—transparent, accountable, and business-aligned for innovation and lasting advantage.
+### URL: https://www.zscaler.com/zpedia/ai-visibility
+
+### Title: What Is AI-Powered SASE? Benefits, Use Cases & More
+### Description: AI-powered SASE is a next-gen framework that integrates AI with SASE. Discover how this works and what role AI is playing. In addition to, the benefits and use cases.
+### URL: https://www.zscaler.com/zpedia/what-is-ai-powered-sase
+
+### Title: What Is AIOps? Transforming IT Ops with AI & Real-Time Insights
+### Description: Discover how AIOps leverages AI, machine learning, and automation to optimize IT operations, accelerate incident resolution, and enhance performance monitoring.
+### URL: https://www.zscaler.com/zpedia/what-is-aiops
+
+### Title: Attack Surface: Definition, Risks, and How to Reduce It
+### Description: An attack surface includes all vulnerabilities attackers exploit. Learn its risks, examples, and how to reduce it with zero trust strategies.
+### URL: https://www.zscaler.com/zpedia/what-is-an-attack-surface
+
+### Title: What Is an Attack Vector? | Zpedia
+### Description: An attack vector is any path or method threat actors use to gain unauthorized access to a target system, network, or application.
+### URL: https://www.zscaler.com/zpedia/what-is-an-attack-vector
+
+### Title: What Is an Intrusion Prevention System (IPS)? | Zscaler
+### Description: Discover how an intrusion prevention system (IPS) detects, blocks, and prevents cyberthreats as well as types and benefits.
+### URL: https://www.zscaler.com/zpedia/what-is-an-intrusion-prevention-system-ips
+
+### Title: What Is API Security? | Importance, Types & Best Practices
+### Description: Discover how API security is the practice of safeguarding the integrity, availability, and confidentiality of interfaces enabling communication between software apps.
+### URL: https://www.zscaler.com/zpedia/what-is-api-security
+
+### Title: What Is Artificial Intelligence (AI) in Cybersecurity? | Zpedia
+### Description: AI in Cybersecurity is a game-changing innovation that is revolutionizing how organizations protect themselves. Learn about the uses, benefits and more.
+### URL: https://www.zscaler.com/zpedia/what-is-artificial-intelligence-ai-in-cybersecurity
+
+### Title: What Is Continuous Threat Exposure Management (CTEM)? | Zpedia
+### Description: CTEM is an ongoing cybersecurity program that identifies, prioritizes, and mitigates potential threats. Learn about the benefits, challenges and more.
+### URL: https://www.zscaler.com/zpedia/what-is-continuous-threat-exposure-management
+
+### Title: What Is Cryptojacking & How Does It Work? Examples, Signs & More
+### Description: Cryptojacking is a type of cyberattack in which a cybercriminal hijacks a computer or mobile device to mine cryptocurrency. Learn about examples, signs and prevention.
+### URL: https://www.zscaler.com/zpedia/what-is-cryptojacking
+
+### Title: What Is Cyber Asset Attack Surface Management (CAASM)? | Zpedia
+### Description: CAASM is a cybersecurity approach that provides visibility into an organization’s cyber assets. Learn about the use cases, features, criticality and more.
+### URL: https://www.zscaler.com/zpedia/what-is-cyber-asset-attack-surface-management-caasm
+
+### Title: Cyber Resilience: Definition and Best Practices | Zscaler
+### Description: Discover how cyber resilience helps enterprises prevent, detect, and recover from cyberattacks. Learn best practices, frameworks, and the role of zero trust.
+### URL: https://www.zscaler.com/zpedia/what-is-cyber-resilience
+
+### Title: What Is Dark Web Monitoring? Benefits, the Importance & Threats
+### Description: Dark web monitoring is the proactive practice of searching hidden online marketplaces, forums, and communities for compromised data. Learn why this is so important.
+### URL: https://www.zscaler.com/zpedia/what-is-dark-web-monitoring
+
+### Title: What Is Data Leakage? Risks & Prevention
+### Description: Learn what data leakage means, discover common causes, types of data at risk, consequences, and proven solutions to prevent data leakage.
+### URL: https://www.zscaler.com/zpedia/what-is-data-leakage
+
+### Title: What Is Data Loss Prevention (DLP) & Why Is It Vital? | Zscaler
+### Description: Learn how Data Loss Prevention (DLP) safeguards sensitive data against breaches, insider threats, and compliance risks in today’s evolving threat landscape.
+### URL: https://www.zscaler.com/zpedia/what-is-data-loss-prevention-dlp
+
+### Title: What Is Data Security Posture Management (DSPM)? | Best Practices
+### Description: DSPM is designed to help protect an organization’s data. Learn about DSPM best practices, how it works, why it's needed and more.
+### URL: https://www.zscaler.com/zpedia/what-is-data-security-posture-management
+
+### Title: What Is Data Security? | Risks & Solutions | Zscaler
+### Description: Defining data security as the protection of sensitive data from security risks such as data breaches is important in the context of information security.
+### URL: https://www.zscaler.com/zpedia/what-is-data-security
+
+### Title: What Is DNS? How it Works & Why DNS Security Matters
+### Description: Understand how DNS works, why it’s vulnerable, and how to prevent DNS attacks with filtering, DNSSEC, DoH, and zero trust security controls.
+### URL: https://www.zscaler.com/zpedia/what-is-dns
+
+### Title: What Is Endpoint Detection & Response (EDR)? | Why it's Important
+### Description: Endpoint detection and response (EDR) solutions are designed to protect endpoint devices from cyberthreats. Learn why this is important, the limitations, and how it works
+### URL: https://www.zscaler.com/zpedia/what-is-endpoint-detection-response-edr
+
+### Title: What Is External Attack Surface Management? And How it Works
+### Description: External attack surface management (EASM) is the continuous process of identifying, monitoring, and mitigating exposed digital assets. Learn more about how it works.
+### URL: https://www.zscaler.com/zpedia/what-is-external-attack-surface-management
+
+### Title: Generative AI in Cybersecurity: Benefits, Risks, Applications
+### Description: Discover how generative AI is transforming cybersecurity. Learn its benefits, challenges, risks, and applications for organizations, while securing AI tools like ChatGPT.
+### URL: https://www.zscaler.com/zpedia/what-generative-ai-cybersecurity
+
+### Title: What Is Healthcare Cybersecurity? Risks, Best Practices & More
+### Description: Healthcare cybersecurity protects data for healthcare organizations, patients, and medical devices. Learn about the importance, the future and key challenges.
+### URL: https://www.zscaler.com/zpedia/what-is-healthcare-cybersecurity
+
+### Title: What Is Identity & Access Management (IAM)? Components & Benefits
+### Description: Identity and access management (IAM) is a framework of policies, processes, and technologies. Learn how it works, the components, top benefits and how to implement.
+### URL: https://www.zscaler.com/zpedia/what-is-identity-and-access-management
+
+### Title: What Is IEC 62443? Definition, Breakdown & Methodology
+### Description: Learn how IEC 62443 is used as a series of international standards that provide guidelines for securing ICS and OT networks, why it is important and more.
+### URL: https://www.zscaler.com/zpedia/what-is-iec-62443
+
+### Title: What Is IoT Security? Solutions to Secure IoT Devices | Zscaler
+### Description: Learn what IoT security is, the challenges organizations face, and solutions for protecting IoT devices. Empower your enterprise with Zscaler IoT Security.
+### URL: https://www.zscaler.com/zpedia/what-iot-security
+
+### Title: What is Lateral Movement? | Prevention & Detection - Zscaler
+### Description: Lateral movement is a technique cybercriminals use after they have compromised an endpoint to gain access to other devices, apps, or assets. Discover more.
+### URL: https://www.zscaler.com/zpedia/what-is-lateral-movement
+
+### Title: What Is LLM Security? Risks, Threats, and Best Practices
+### Description: Learn what LLM security is, emerging AI threats like prompt injection and data poisoning, and how to secure large language models with zero trust.
+### URL: https://www.zscaler.com/zpedia/what-is-llm-security
+
+### Title: What Is Managed Detection and Response (MDR)?
+### Description: Discover what managed detection and response (MDR) is, how MDR works, key benefits, and why it’s essential for cybersecurity. Learn more in our Zscaler guide.
+### URL: https://www.zscaler.com/zpedia/what-is-managed-detection-and-response
+
+### Title: What Is Managed SD-WAN Solutions? | Benefits, Features & Insights
+### Description: Learn what managed SD-WAN is, its benefits, and how Zscaler empowers IT with secure, optimized network solutions for your business success.
+### URL: https://www.zscaler.com/zpedia/what-is-managed-sd-wan
+
+### Title: What Is Microsegmentation, and Why Do Organizations Need It?
+### Description: Microsegmentation is a way to provide granular access controls that eliminates overprivileged access to applications by unauthorized users.
+### URL: https://www.zscaler.com/zpedia/what-is-microsegmentation
+
+### Title: What Is Mobile Threat Defense (MTD)? Common Threats & Benefits
+### Description: Learn how mobile threat defense (MTD) is designed to protect mobile devices from a range of threats, such as malicious apps and phishing attempts.
+### URL: https://www.zscaler.com/zpedia/what-is-mobile-threat-defense-mtd
+
+### Title: What Is Multifactor Authentication (MFA)? Benefits & Challenges
+### Description: Discover multifactor authentication's (MFA), a security mechanism requiring users to verify their identity, robust protection, why it is critical, and more.
+### URL: https://www.zscaler.com/zpedia/what-is-multifactor-authentication-mfa
+
+### Title: Passwordless Authentication: Methods, Benefits & Setup
+### Description: Explore passwordless authentication types, benefits, and best practices to reduce phishing risk, improve UX, and support zero trust access.
+### URL: https://www.zscaler.com/zpedia/what-is-passwordless-authentication
+
+### Title: Post-Quantum Cryptography (PQC): Why It Matters Now
+### Description: Learn why PQC is critical for stopping “harvest now, decrypt later,” preparing for Q-Day, and migrating from RSA/ECC using NIST standards.
+### URL: https://www.zscaler.com/zpedia/what-is-post-quantum-cryptography-pqc
+
+### Title: What Is Pretexting? Definition, Examples, Attacks & More
+### Description: Pretexting is a type of social engineering scam that aims gain knowledge, money or access. Learn how to defend against these attacks and protect your organization.
+### URL: https://www.zscaler.com/zpedia/what-is-pretexting
+
+### Title: What Is Privileged Remote Access (PRA)? Features, Benefits & More
+### Description: Learn how privileged remote access (PRA) is a clientless remote desktop gateway that enables end users to securely connect to servers and why it is important.
+### URL: https://www.zscaler.com/zpedia/what-is-privileged-remote-access
+
+### Title: Ransomware as a Service (RaaS): Risks & Protection Strategies
+### Description: Ransomware-as-a-Service (RaaS) lets criminals use rented ransomware for attacks. Learn risks, impacts, and how Zscaler's zero trust protects your organization.
+### URL: https://www.zscaler.com/zpedia/what-is-ransomware-as-a-service
+
+### Title: What Is Responsible AI? Ethics, Governance, and Core Principles
+### Description: Learn how responsible AI and strong AI governance build trust, ensure compliance, and enable ethical innovation across the AI lifecycle.
+### URL: https://www.zscaler.com/zpedia/what-is-responsible-ai
+
+### Title: What Is Risk Management? The Importance, Types of Risk, and More
+### Description: Learn how risk management  identifies, assesses, and mitigates potential threats that could compromise an organization in a cyber environment.
+### URL: https://www.zscaler.com/zpedia/what-is-risk-management
+
+### Title: What Is SaaS Security Posture Management (SSPM)? | Zscaler.
+### Description: SaaS security posture management (SSPM) combines continuous cybersecurity risk assessment and compliance monitoring with detection, enforcement, and remediation.
+### URL: https://www.zscaler.com/zpedia/what-saas-security-posture-management-sspm
+
+### Title: What Is SaaS Security? Challenges, Best Practices & Technologies
+### Description: Learn about the importance of SaaS security, its challenges, best practices, and key technologies. Along with, how to enhance security for your SaaS platform.
+### URL: https://www.zscaler.com/zpedia/what-is-saas-security
+
+### Title: What Is Security Information and Event Management (SIEM)?
+### Description: Discover how SIEM empowers your SOC with advanced security monitoring, analytics, and response. Learn about its features, benefits, and more.
+### URL: https://www.zscaler.com/zpedia/what-is-security-information-event-management-siem
+
+### Title: Sensitive Data Exposure: Risks, Causes, and How to Prevent It
+### Description: Discover causes and risks of sensitive data exposure. Learn practical strategies like DSPM and zero trust to stop breaches and protect critical assets.
+### URL: https://www.zscaler.com/zpedia/what-is-sensitive-data-exposure
+
+### Title: What Is SEO Poisoning? Signs, Risks & Prevention Strategies
+### Description: SEO poisoning manipulates search engines to spread malware and steal credentials. Learn how it works, its impact, and ways to protect yourself.
+### URL: https://www.zscaler.com/zpedia/what-is-seo-poisoning
+
+### Title: Shadow AI Explained: Meaning, Examples, and How to Manage It
+### Description: Discover what Shadow AI is, why it matters, common risks, and how organizations can detect and manage unsanctioned AI tools.
+### URL: https://www.zscaler.com/zpedia/what-is-shadow-ai
+
+### Title: What Is Smishing (SMS Phishing)? Types, Examples & Defense
+### Description: Learn how to defend against smishing and keep your sensitive data secure by understanding the tactics used in these fraudulent text message scams.
+### URL: https://www.zscaler.com/zpedia/what-is-smishing-sms-phishing
+
+### Title: What Is Social Engineering? Definition & Types Explained
+### Description: Social engineering is the art of manipulating human emotion and trust to gain unauthorized access to information or systems in various ways. Read more.
+### URL: https://www.zscaler.com/zpedia/what-is-social-engineering
+
+### Title: CIA Triad: Confidentiality, Integrity, and Availability Explained
+### Description: Learn about the CIA Triad in cybersecurity—Confidentiality, Integrity, and Availability—and why it's essential for protecting critical data and systems.
+### URL: https://www.zscaler.com/zpedia/what-is-the-cia-triad-in-cybersecurity
+
+### Title: What Is the HIPAA Security Rule? | Zscaler
+### Description: The HIPAA Security Rule protects electronic health data in the US. It includes legal guidelines for maintaining confidentiality, accuracy, and accessibility.
+### URL: https://www.zscaler.com/zpedia/what-is-hipaa-security-rule
+
+### Title: What Is the MITRE ATT&CK Framework? Benefits, Challenges & More
+### Description: In this article, learn how MITRE ATT&CK framework is a globally recognized cybersecurity framework that categorizes and details how threat actors behave with TTPs.
+### URL: https://www.zscaler.com/zpedia/what-is-mitre-attack-framework
+
+### Title: What Is the Monte Carlo Simulation & Why You Should Know It?
+### Description: Discover the fundamentals of Monte Carlo Simulation, it’s benefits, limitations and how it helps risk analysis, predictive modeling and decision making across industries.
+### URL: https://www.zscaler.com/zpedia/what-is-the-monte-carlo-simulation
+
+### Title: What Is Threat Hunting? How It Works, Why It's Important & Types
+### Description: In this guide on Threat hunting, we explain the methodology, the way it works, advantages and disadvantages, and the tools used to find threats.
+### URL: https://www.zscaler.com/zpedia/what-is-threat-hunting
+
+### Title: What Is Threat Intelligence? Main Types, Benefits & Use Cases
+### Description: Discover all the features of threat intelligence, including the importance, different types, major benefits, various tools used, and use cases.
+### URL: https://www.zscaler.com/zpedia/what-is-threat-intelligence
+
+### Title: What Is Trusted Internet Connections (TIC) 3.0 | Zscaler
+### Description: This comprehensive overview on Trusted Internet Connection (TIC) 3.0 explains the objectives, requirements and use cases for TIC 3.0.
+### URL: https://www.zscaler.com/zpedia/what-is-trusted-internet-connections-tic-3
+
+### Title: What Is Unified Threat Management? Features, Challenges & More
+### Description: Read this article to explore what is unified threat management, how it works, its challenges, and how Zscaler provides a better solution.
+### URL: https://www.zscaler.com/zpedia/what-unified-threat-management
+
+### Title: What Is Universal ZTNA? | Zpedia
+### Description: Learn how UZTNA helps keep your users and workloads protected from today's modern threats.
+### URL: https://www.zscaler.com/zpedia/what-is-universal-ztna
+
+### Title: What is URL Filtering? | Benefits & Features | Zscaler
+### Description: URL filtering prevents access to certain web content through an organization's network. Cyberattacks can be prevented by blocking malicious websites.
+### URL: https://www.zscaler.com/zpedia/what-is-url-filtering
+
+### Title: What Is Vishing? How It Works, Precautions & a Zero Trust Method
+### Description: Vishing, or voice phishing, is a form of social engineering used to impersonate trusted individuals or organizations. Read this article to learn more.
+### URL: https://www.zscaler.com/zpedia/what-is-vishing
+
+### Title: What Is Vulnerability Management? Best Practices & Challenges
+### Description: Vulnerability management is the systematic approach of identifying, assessing, and monitoring cybersecurity vulnerabilities across an company’s infrastructure.
+### URL: https://www.zscaler.com/zpedia/what-is-vulnerability-management
+
+### Title: What Is Extended Detection and Response (XDR)? | Zscaler
+### Description: XDR (extended detection and response) is a category of cybersecurity solutions that combines previously disconnected threat detection and response tools.
+### URL: https://www.zscaler.com/zpedia/what-is-xdr
+
+### Title: What Is Zero Trust Application Access? | Zpedia
+### Description: Zero trust application access (ZTAA) is a cutting-edge approach to application access that addresses the security needs of a modern IT environment.
+### URL: https://www.zscaler.com/zpedia/what-is-zero-trust-application-access-ztaa
+
+### Title: What Is Zero Trust Data Protection? Benefits & Implementation
+### Description: Discover how zero trust data protection secures sensitive data in hybrid and cloud-first environments. Learn its core principles, benefits, and implementation.
+### URL: https://www.zscaler.com/zpedia/what-is-zero-trust-data-protection
+
+### Title: What Is Zero Trust for the Department of Defense? | Zscaler
+### Description: Zero trust for the Department of Defense is referring to zero trust security and how the DoD can benefit from zero trust enablement.
+### URL: https://www.zscaler.com/zpedia/what-zero-trust-department-defense
+
+### Title: What’s the Difference Between SDP and VPN? | Zpedia
+### Description: This article covers the main differences between a software-defined perimeter (SDP) and a virtual private network (VPN).
+### URL: https://www.zscaler.com/zpedia/what-s-difference-between-sdp-and-vpn
+
+### Title: Why Cyber Risk Management Is Critical in Regulated Industries
+### Description: Explore how a risk management plan ensures compliance, operational resilience, and data protection in regulated industries. Learn actionable strategies.
+### URL: https://www.zscaler.com/zpedia/cyber-risk-management-plan
+
+### Title: Why Zero Trust Is Critical for IoT Security | Zscaler
+### Description: Discover how zero trust enhances IoT security by isolating devices, enforcing least-privileged access, and blocking lateral threats.
+### URL: https://www.zscaler.com/zpedia/why-zero-trust-is-critical-for-iot-security
+
+### Title: XDR vs. EDR: Key Differences, Benefits, and Use Cases
+### Description: Read this article to explore XDR vs. EDR and understand their differences, benefits, and real-world applications to inform the best possible security approach.
+### URL: https://www.zscaler.com/zpedia/xdr-vs-edr
+
+### Title: Zero Trust vs. Traditional Data Security: Modern Strategies
+### Description: Learn zero trust vs. traditional data security models. Discover modern strategies to safeguard sensitive data in remote, cloud, and hybrid environments.
+### URL: https://www.zscaler.com/zpedia/zero-trust-data-security-vs-traditional
+
+### Title: Zero Trust vs. Traditional Security: The Future of Cybersecurity
+### Description: Explore how zero trust security outperforms legacy models in tackling modern cyberthreats, protecting cloud-first organizations with continuous verification.
+### URL: https://www.zscaler.com/zpedia/zero-trust-policy-vs-traditional-security
+
+### Title: Zero Trust SASE vs. SD-WAN: Convergence in Enterprise Networking
+### Description: Understand how integrating SASE and SD-WAN within a complete zero trust architecture enables optimized, secure enterprise connectivity.
+### URL: https://www.zscaler.com/zpedia/zero-trust-sase-vs-sdwan
+
+### Title: What Are Zero-Day Vulnerabilities, Exploits, and Attacks?
+### Description: Understand the lifecycle of zero-day threats, from discovery of a flaw through compromise, and effective strategies and tools organizations can use for defense.
+### URL: https://www.zscaler.com/zpedia/what-is-a-zero-day-vulnerability
+
+### Title: Zscaler vs. Legacy Firewalls: Securing Hybrid Infrastructure
+### Description: Learn how traditional firewall appliances fail to effectively secure modern hybrid infrastructure, and why you need a cloud firewall built on zero trust.
+### URL: https://www.zscaler.com/zpedia/zscaler-vs-legacy-firewalls
+
+### Title: What Are Local Internet Breakouts? | Zscaler
+### Description: Local breakouts enable orgs to offload internet-bound traffic from local branches and remote offices, and route it directly to the internet via a local ISP.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-are-local-internet-breakouts
+
+### Title: What Are Ransomware Attacks? Prevention & Guidance | Zscaler
+### Description: Ransomware attacks are malicious software attacks where files are encrypted or stolen, coercing victims to pay a ransom for decryption or to prevent data loss.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-are-ransomware-attacks
+
+### Title: What Is a CASB? Cloud Access Security Broker - Zscaler
+### Description: Learn how cloud access security brokers secure cloud apps by protecting data, enabling compliance, and controlling shadow IT.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-cloud-access-security-broker
+
+### Title: What Is CNAPP? | Components, Benefits & Importance | Zscaler
+### Description: CNAPPs empower teams to develop, deploy, and operate secure cloud native applications in today's highly automated, dynamic environments. Read more.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-cloud-native-application-protection-platform-cnapp
+
+### Title: Cloud Proxy | What It Is & How It Works | Zscaler
+### Description: A cloud proxy is a proxy server based in the cloud instead of in a hardware appliance residing in a data center. Learn all about cloud-based proxies here.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-cloud-proxy
+
+### Title: What Is a Cloud Security Gateway? | Zscaler
+### Description: Cloud security gateways filter malware from user-initiated internet traffic to prevent user device infection and organizational network compromise. Read more.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-cloud-security-gateway
+
+### Title: Cloud Workload Protection Platform (CWPP) | Zscaler
+### Description: A cloud workload protection platform (CWPP) is a workload-centric security solution with protections for hybrid cloud, multicloud and data center architectures.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-cloud-workload-protection-platform-cwpp
+
+### Title: What Is a Denial-of-Service (DoS) Attack? | Zscaler
+### Description: DoS (denial-of-service) attacks occur when cybercriminals disrupt an internet-connected host's service so that its intended users cannot access it. Explore more.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-a-denial-of-service-attack
+
+### Title: What Is a Forward Proxy? | Key Concepts & Definitions |Zscaler
+### Description: Forward proxy stands between one or more users' devices & the internet. Requests are evaluated by forward proxy servers instead of sent directly to web servers.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-forward-proxy
+
+### Title: What Is a Multitenant Cloud? | Zscaler
+### Description: Multitenant clouds are single clouds and infrastructures that enable multiple cloud customers (tenants) to efficiently share scalable computing resources.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-multitenant-cloud-architecture
+
+### Title: What Is a Next-Generation Firewall (NGFW)? | Zscaler
+### Description: A next-generation firewall (NGFW) is a part of the third generation of firewall technology, combining a traditional firewall with network filtering functions.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-next-generation-firewall
+
+### Title: What Is a Remote Access VPN? | Zscaler
+### Description: A remote access VPN provides users access to applications & data residing in the corporate data center or cloud, often securing user traffic through encryption.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-remote-access-vpn
+
+### Title: What Is a Reverse Proxy? | Core Concepts and Definition
+### Description: Reverse proxies sit in front of web servers, intercepting requests from clients to intermediate traffic and secure access to sanctioned resources.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-reverse-proxy
+
+### Title: What Is a Secure Web Gateway (SWG)? | Benefits & Solutions
+### Description: Discover what a secure web gateway (SWG) is, how it works, and the key benefits for modern businesses. Learn about essential features, use cases, and trends.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-secure-web-gateway
+
+### Title: What Is a Shared Responsibility Model? | Zscaler
+### Description: A shared responsibility model identifies which cybersecurity processes and responsibilities belong to customers and to cloud service providers. Explore more.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-shared-responsibility-model
+
+### Title: What Is a Software Defined Perimeter (SDP)? | Zscaler
+### Description: Software-defined perimeter (SDP) is delivered by the cloud and uses business policy to determine who gets access to what resources.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-software-defined-perimeter
+
+### Title: What Is a Supply Chain Attack? | Zscaler
+### Description: A supply chain attack is an attack against an organization’s third-party suppliers or vendors, generally carried out to gain access to a downstream target.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-a-supply-chain-attack
+
+### Title: What Is Advanced Threat Protection? (ATP) | Zscaler
+### Description: Advanced threat protection (ATP) solutions are built to defend data against complex cyberattacks, including malware & phishing campaigns. Learn more about it!
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-advanced-threat-protection
+
+### Title: What Is Cloud Enclaving? | Core Concepts & Benefits |Zscaler
+### Description: Cloud Enclaving prevents overprivileged access to internal resources and protects cloud infrastructure, apps, and sensitive data. See what's new.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-cloud-enclaving
+
+### Title: What Is Cloud Encryption? Encrypted Cloud Storage Benefits
+### Description: Learn the basics of cloud encryption and the benefits of encrypted cloud storage against cyberthreats.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-cloud-encryption
+
+### Title: What Is CIEM? - Cloud Infrastructure Entitlement Management
+### Description: CIEM is a category of automated cloud security solutions that mitigate the risk of data breaches in public cloud environments. Discover more!
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-ciem
+
+### Title: What Is Cloud Security Posture Management (CSPM)? - Zscaler
+### Description: Cloud security posture management (CSPM) scours cloud environments and alerts staff to configuration vulnerabilities. Learn more from the experts at Zscaler.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-cloud-security-posture-management-cspm
+
+### Title: What Is Cloud Security? | Defining The 6 Pillars & Benefits
+### Description: Cloud security refers to policies, tools, and technologies that protect data, apps, and infrastructure in the cloud computing environment.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-cloud-security
+
+### Title: What Is Cloud Workload Security? | Zscaler
+### Description: Cloud workload security protects databases, containers like Kubernetes, virtual machines (VMs), and physical servers as they move through cloud environments.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-cloud-workload-security
+
+### Title: What Is Cybersecurity? | Zscaler
+### Description: A cybersecurity policy, a process, or a technology protects computer systems from un-authorized access or attacks. Let's dig deep into this!
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-cybersecurity
+
+### Title: What Is Cyberthreat Protection? | Definition & Concepts
+### Description: Cyberthreat protection comprises security solutions designed to defend computers and networks against ransomware, APTs, bots, and other malicious attacks.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-cyberthreat-protection
+
+### Title: What Is Data Protection? | Zpedia | Zscaler
+### Description: Data protection is a set of security measures designed to protect data stored in and moved in and out of a cloud environment. Get more information!
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-data-protection
+
+### Title: What Is Deception Technology? Importance & Benefits| Zscaler
+### Description: The Deception Technology category of cybersecurity solutions detect threats early and reliably. The technology deploys realistic decoys alongside real assets.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-deception-technology
+
+### Title: What Is DevSecOps? | Zscaler
+### Description: DevSecOps is a software development strategy based on the integration of security throughout the software development life cycle (SDLC). Learn more!
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-devsecops
+
+### Title: What Is Digital Experience Monitoring (DEM)? | Zscaler
+### Description: Digital experience monitoring is an IT management technique that measures performance, helps IT teams resolve issues, & monitors health of apps and end users.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-digital-experience-monitoring
+
+### Title: What Is Double Extortion Ransomware? | Zscaler
+### Description: Cybercriminals are increasingly turning to double extortion ransomware to attack companies. Learn to defend against this threat with zero trust security.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-double-extortion-ransomware
+
+### Title: What Is End User Experience Monitoring (EUEM)? | Zscaler
+### Description: EUEM analyzes the performance of a user’s end-to-end workflow across multiple devices, networks, clouds, and apps to improve business productivity.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-end-user-experience-monitoring
+
+### Title: What Is Endpoint Security? | Functions & Importance |Zscaler
+### Description: Endpoint security refers to security tools designed for individuals' devices. A VPN, endpoint management tools, and threat hunters provide endpoint security.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-endpoint-security
+
+### Title: What Is Exact Data Match? | Meaning & Benefits - Zscaler
+### Description: EDM is a data loss prevention (DLP) technique that finds and protects specific data values for the organization, not just general patterns. Read more.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-exact-data-match
+
+### Title: What Is Firewall as a Service (FWaaS)? | Zscaler
+### Description: Firewall as a service (FWaaS) refers to a cloud firewall that delivers advanced Layer 7/next-generation firewall (NGFW) capabilities.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-firewall-as-a-service
+
+### Title: What Is Hybrid Cloud Security? | Definition and Key Concepts
+### Description: Hybrid cloud security specifies the method of providing protection for enterprise data, applications, and resources in a hybrid cloud environment.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-hybrid-cloud-security
+
+### Title: What Is Infrastructure as Code (IaC)? | Zscaler
+### Description: Infrastructure as code security embeds consistent, scalable cloud security coverage into code to help detect errors early in the development life cycle.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-infrastructure-as-code-security
+
+### Title: What is the Principle of Least Privilege? | Zscaler
+### Description: The principle of least privilege is a security strategy that ensures users have only the minimal level of access required to perform their tasks.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-least-privilege-access
+
+### Title: What Is Malware? | Detection, Removal, & Protection -Zscaler
+### Description: Malware is malicious software designed to steal sensitive data, encrypt it, take over system functions, or spread it to other devices, mostly to make a profit.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-malware
+
+### Title: What is Multicloud? | Zscaler
+### Description: A multicloud strategy involves using two or more cloud services for various purposes such as storage, computing, security, and application support. Read more.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-multicloud
+
+### Title: What is MPLS? (Multiprotocol Label Switching) | Zscaler
+### Description: A multiprotocol label switching (MPLS) network determines the shortest path for packet forwarding by using labels rather than network addresses. Read more.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-multiprotocol-label-switching
+
+### Title: What Is Network Security? | Types & Functionality | Zscaler
+### Description: Network security refers to the combination of hardware and software designed to protect corporate data centers. Find out more!
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-network-security
+
+### Title: What Is Network Segmentation? - Define & Use Cases | Zscaler
+### Description: Network segmentation is the division of a network into multiple subnetworks to proactively manage cybersecurity and compliance.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-network-segmentation
+
+### Title: What Is Operational Technology (OT) Security? | Zscaler
+### Description: As more OT systems are integrated with IT systems to drive automation, OT security becomes an important part of an overall cybersecurity strategy.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-operational-technology-ot-security
+
+### Title: What Is Phishing? How It Works, Types of Attacks | Zscaler
+### Description: Cyberattacks called phishing use deceptive "social engineering" techniques to trick people into divulging sensitive data, transferring money, and more.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-phishing
+
+### Title: What Is Ransomware? Types, Prevention Strategies in 2026
+### Description: Discover what ransomware is, how it works, its impact on businesses, and top prevention strategies. Learn about types, examples, & solutions to protect your data in 2025.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-ransomware
+
+### Title: What Is Remote Browser Isolation? Need & Benefits | Zscaler
+### Description: Remote browser isolation is an advanced cybersecurity technique that provides an additional layer of protection for users and organizations. Read more.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-remote-browser-isolation
+
+### Title: What Is SD-WAN? — Software-Defined WAN | Zscaler
+### Description: Learn about SD-WAN, its benefits, and how Zscaler simplifies networking with secure and fast connectivity solutions. Explore this ultimate resource now.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-sd-wan
+
+### Title: SASE: What is Secure Access Service Edge? | Zscaler
+### Description: SASE, pronounced like “sassy,” is a framework that Gartner describes as a way to securely connect users, systems, endpoints to apps & services located globally.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-sase
+
+### Title: What Is Secure Digital Transformation? | Zscaler
+### Description: Secure digital transformation leverages cloud, mobility, IoT, and machine learning to drive greater agility and efficiency while securing every connection.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-secure-digital-transformation
+
+### Title: What Is Secure Remote Access? | Zscaler
+### Description: Secure remote access is referring to accessing network resources, apps, and devices from locations other than the corporate office with high levels of security.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-secure-remote-access
+
+### Title: Security as a Service Explained | What is SECaaS? - Zscaler
+### Description: Security as a service (SECaaS) is a way to deliver security technologies—which are traditionally found in enterprise data centers or regional gateways.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-security-as-a-service
+
+### Title: What Is Security Service Edge (SSE)? | Zscaler
+### Description: Elevate Security with SSE: Web, Cloud, and App Access Control, Threat Protection, & Data Security. Discover Cloud-Based SSE Solutions for Advanced Protection.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-security-service-edge-sse
+
+### Title: What Is Shadow IT? - Benefits & Drawbacks | Zscaler
+### Description: The term "shadow IT" refers to SaaS applications that employees access and use without permission from their IT departments. Learn more!
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-shadow-it
+
+### Title: What Is Spear Phishing? | Definition & Protection | Zscaler
+### Description: Spear phishing is an email cyberattack that uses social engineering to trick a specific individual into sharing sensitive information or downloading malware.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-spear-phishing
+
+### Title: What Is SSL Decryption? | Define & Core Concepts | Zscaler
+### Description: SSL decryption allows organizations to inspect encrypted traffic to confirm that it contains no malicious content or malware.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-ssl-decryption
+
+### Title: What Is SSL Inspection? | Benefits & Need | Zscaler
+### Description: SSL inspection is the process of intercepting and reviewing SSL-encrypted internet communication between the client and the server. Learn more about it!
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-ssl-inspection
+
+### Title: What Is the Purdue Model for ICS Security? | Zscaler
+### Description: Industrial control system (ICS) security is based on the Purdue model, which segments physical processes, sensors, supervisory controls, operations & logistics.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-purdue-model-ics-security
+
+### Title: What Is the SolarWinds Cyberattack? | Zscaler
+### Description: The SolarWinds cyberattack involved adversaries placing trojanized updates of Orion software on SolarWinds systems so they could attack SolarWinds customers.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-the-solarwinds-cyberattack
+
+### Title: What Is the Zero Trust Exchange? | Zscaler
+### Description: The Zero Trust Exchange is a scalable, multitenant cloud native platform that securely connects users, apps, and devices over any network, in any location.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-zero-trust-exchange
+
+### Title: Web Security - Definition, Benefits, Technologies | Zscaler
+### Description: Web Security is not just about protecting your website, it's about protecting your entire network. Learn how to make your network safe from cybercriminals.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-web-security
+
+### Title: What Is Workload Protection?  Benefits & Importance - Zscaler
+### Description: Cloud workload protection consists of cloud security protocols and controls that protect workload communication between environments. Read more!
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-workload-protection
+
+### Title: What Is a Zero Trust Architecture? | Zscaler
+### Description: A zero trust architecture addresses the unique challenges of cloud and mobility, providing immediate gains in risk reduction and security controls.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-zero-trust-architecture
+
+### Title: Zero Trust Network Access (ZTNA) – Benefits & Overview | Zscaler
+### Description: Discover the essentials of Zero Trust Network Access (ZTNA), its role in cybersecurity, and key advantages in securing remote work environments.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-zero-trust-network-access
+
+### Title: What Is Zero Trust? | Benefits & Core Principles - Zscaler
+### Description: Zero trust is a security strategy, no person is trusted by default, Trust is based on what is happening & how safe the connection is. Reassessed for every new connection.
+### URL: https://www.zscaler.com/resources/security-terms-glossary/what-is-zero-trust
+
+
+
+# Products and Solutions
+
+Discover Zscaler’s innovative solutions for securing your enterprise across users, devices, applications, and workloads. Explore cutting-edge SASE-based platforms that enable resilient and scalable security.
+
+### Title: Zscaler Identity Protection for Zero Trust Security
+### Description: Protect your organization from identity based attacks with Zscaler Identity Protection. Gain continuous visibility, risk monitoring and real threat detection.
+### URL: https://www.zscaler.com/products-and-solutions/zscaler-itdr
+
+### Title: Zero Trust 5G Architecture for Private 5G | Zscaler
+### Description: Secure and simplify your private 5G network architecture with Zscaler’s zero-trust exchange. Zero trust secures all internet, device, & communication workloads.
+### URL: https://www.zscaler.com/products-and-solutions/private-5G
+
+### Title: Advanced Threat Protection Solutions | Zscaler
+### Description: Zscaler advanced threat protection solutions deliver always-on, airtight protection against ransomware, zero-day threats, and unknown malware.
+### URL: https://www.zscaler.com/products-and-solutions/advanced-threat-protection
+
+### Title: Secure AI Access and Data with Zscaler AI Security Solutions
+### Description: Empower employees to use AI safely with Zscaler. Discover shadow AI, prevent data loss, and secure your AI ecosystem to boost productivity and protect data.
+### URL: https://www.zscaler.com/products-and-solutions/ai-access-security
+
+### Title: Secure AI Adoption with Zscaler AI-SPM for Data Protection
+### Description: Protect your AI models, data, and LLMs with Zscaler AI-SPM. Gain visibility into AI risks, monitor data flows, and ensure compliance for secure AI adoption.
+### URL: https://www.zscaler.com/products-and-solutions/ai-asset-management
+
+### Title: AI-Powered DSPM: Secure Data Across Hybrid & Multi-Cloud |Zscaler
+### Description: Protect sensitive data with AI-powered DSPM from Zscaler. Discover, secure, and control data across SaaS, IaaS, on-prem, and endpoints with an integrated platform.
+### URL: https://www.zscaler.com/products-and-solutions/data-security-posture-management-dspm
+
+### Title: AI-Powered Zero Trust Platform | Zscaler Zero Trust Exchange
+### Description: Embrace a new era of security with Zscaler Zero Trust Exchange - the leading AI platform designed to revolutionize network and firewall-centric architectures.
+### URL: https://www.zscaler.com/products-and-solutions/zero-trust-exchange-zte
+
+### Title: Zero Trust Automation | Streamlining Security via OneAPI
+### Description: A unified API platform offers a consistent, reliable API experience. API automation streamlines processes, reduces human error, and speeds zero trust adoption.
+### URL: https://www.zscaler.com/products-and-solutions/zero-trust-automation
+
+### Title: Secure Enterprise AI with Automated AI Red Teaming | Zscaler
+### Description: Test and secure AI systems with Zscaler. Run automated AI red teaming to identify vulnerabilities, simulate attacks, and ensure enterprise AI safety and compliance.
+### URL: https://www.zscaler.com/products-and-solutions/continuous-automated-red-teaming
+
+### Title: Zscaler Business Analytics | Zscaler
+### Description: Supercharge your business with powerful analytics. Keep digital experiences and cyber risk on track with Zscaler Business Analytics.
+### URL: https://www.zscaler.com/products-and-solutions/business-analytics
+
+### Title: Zscaler Business Continuity Cloud | Secure Access in Outages
+### Description: Maintain secure, compliant access during outages with Zscaler Business Continuity Cloud. Zero Trust continuity for critical apps during network, power, or infra failures.
+### URL: https://www.zscaler.com/products-and-solutions/business-continuity-cloud
+
+### Title: Cloud Access Security Broker (CASB) Solutions | Zscaler
+### Description: Discover Zscaler's next-gen CASB solutions. Protect data, enforce compliance, and secure SaaS apps with real-time visibility and zero trust architecture.
+### URL: https://www.zscaler.com/products-and-solutions/cloud-access-security-broker-casb
+
+### Title: Continuous Threat Exposure Management (CTEM) | Zscaler
+### Description: Reduce cyber risk with Continuous Threat Exposure Management (CTEM). Identify, prioritize, and remediate threats before attackers exploit them.
+### URL: https://www.zscaler.com/products-and-solutions/ctem
+
+### Title: Cyber Asset Attack Surface Management (CAASM) | Zscaler
+### Description: Discover CAASM—Continuous Attack Surface Management. Identify, monitor, and secure assets in real-time to reduce cyber risk and strengthen security.
+### URL: https://www.zscaler.com/products-and-solutions/caasm
+
+### Title: Cyberthreat Protection | Zscaler
+### Description: Zscaler Zero Trust Exchange platform, provides cyberthreat protection to minimize attack surface, prevent compromise, eliminate lateral movement, and stop data loss.
+### URL: https://www.zscaler.com/products-and-solutions/cyberthreat-protection
+
+### Title: Data Fabric for Security | Zscaler
+### Description: Data fabric for security that aggregates and unifies data across all your security tools and business systems to gain risk insights from all of your security data
+### URL: https://www.zscaler.com/products-and-solutions/data-fabric
+
+### Title: DLP (Data Loss Prevention) | Zscaler
+### Description: Zscaler Data Loss Prevention (DLP) protects data and intellectual property for global enterprises. Get real-time reports and ensure regulatory compliance.
+### URL: https://www.zscaler.com/products-and-solutions/data-loss-prevention
+
+### Title: Data Security Videos
+### Description: Discover the power of the Zscaler Data Security platform in action.
+### URL: https://www.zscaler.com/products-and-solutions/data-security/resources
+
+### Title: Divestitures | Solutions | Zscaler | Zscaler
+### Description: When you’re ready to secure your deal value, Zscaler M&A and divestiture experts can help.
+### URL: https://www.zscaler.com/products-and-solutions/divestitures
+
+### Title: Drive Digital Transformation with Zscaler Business Insights
+### Description: Unlock the power of Zscaler Business Insights to make informed decisions about technology, offices, and people during your digital transformation journey.
+### URL: https://www.zscaler.com/products-and-solutions/business-insights
+
+### Title: Endpoint Monitoring | Zscaler Digital Experience
+### Description: ZDX endpoint monitoring empowers your IT and service desk teams to quickly diagnose and resolve endpoint issues.
+### URL: https://www.zscaler.com/products-and-solutions/endpoint-monitoring
+
+### Title: Extend Microsoft Copilot Security with Zscaler Guardrails
+### Description: Enhance Copilot security with Zscaler. Control data access, prevent oversharing, and secure OneDrive, Purview, and Microsoft 365 to maintain a strong security posture.
+### URL: https://www.zscaler.com/products-and-solutions/microsoft-copilot-security
+
+### Title: Extend Zero Trust to Your OT and IoT Security | Zscaler
+### Description: Deploy zero trust security and segmentation for IoT devices and OT systems to protect your operations, improve safety, and stop the spread of ransomware
+### URL: https://www.zscaler.com/products-and-solutions/secure-your-ot-and-iot
+
+### Title: Products & Solutions | Zscaler
+### Description: Browse our comprehensive portfolio of 100% cloud-delivered products, services, and solutions to accelerate your secure transformation.
+### URL: https://www.zscaler.com/products-and-solutions
+
+### Title: Zscaler GDPR | Guidelines and Compliance
+### Description: The General Data Protection Regulation (GDPR) imposed rules that significantly changed the data privacy landscape in the European Union (EU). Read more.
+### URL: https://www.zscaler.com/products-and-solutions/gdpr-compliance
+
+### Title: Guest Wi-Fi Protection - Secure Your Network with Zscaler
+### Description: Discover the Zscaler Guest Wi-Fi Protection solution. Enhance your network security with our advanced technology. Request a demo today!
+### URL: https://www.zscaler.com/products-and-solutions/guest-wifi-protection
+
+### Title: IoT Security Solutions | Protect Connected Devices with Zscaler
+### Description: Discover Zscaler's advanced IoT security solutions to protect your connected devices from cyber threats.Ensure secure connections, block attacks & simplify IoT management
+### URL: https://www.zscaler.com/products-and-solutions/iot-security
+
+### Title: Simplify IT M&A with Zscaler’s Zero Trust Approach
+### Description: Streamline M&A projects securely and efficiently with Zscaler's cloud-native Zero Trust Exchange. Achieve success with zero IT footprint.
+### URL: https://www.zscaler.com/products-and-solutions/mergers-and-acquisitions
+
+### Title: Mergers, Acquisitions, & Divestitures | Solutions  | Zscaler
+### Description: Zscaler has helped more than 350 organizations streamline IT integrations or divestitures confidently, securely, and quickly.
+### URL: https://www.zscaler.com/products-and-solutions/mergers-acquisitions-and-divestitures
+
+### Title: Mergers, Acquisitions & Divestitures | Resources | Zscaler
+### Description: The Zscaler Zero Trust Exchange delivers seamless, secure zero trust access to apps and assets in the midst of business transitions
+### URL: https://www.zscaler.com/products-and-solutions/mergers-acquisitions-divestitures/resources
+
+### Title: Microsoft 365 Connectivity with Zscaler One-click Configuration
+### Description: Best Office 365 Connectivity with Zscaler’s One-click Configuration. It has been designed from the ground up to work flawlessly with Microsoft Office 365.
+### URL: https://www.zscaler.com/products-and-solutions/zscaler-and-microsoft-365
+
+### Title: Privileged Access Management | Zscaler
+### Description: Protect critical OT environments from cyberthreats with zero trust and enable smarter, safer industrial operations using Zscaler Privileged Remote Access.
+### URL: https://www.zscaler.com/products-and-solutions/privileged-remote-access
+
+### Title: OT/IoT Segmentation: Eliminate Lateral Movement with Zero Trust
+### Description: With Zscaler, achieve zero trust OT/IoT segmentation to eliminate lateral movement, secure factories, and reduce attack surfaces—no agents, outages, or VLAN readdressing.
+### URL: https://www.zscaler.com/products-and-solutions/zero-trust-device-segmentation
+
+### Title: Protect AI with Real-Time Guardrails | Zscaler AI Security
+### Description: Secure AI with real-time guardrails by Zscaler. Mitigate threats, prevent data loss, and moderate content with high-performance AI inspection.
+### URL: https://www.zscaler.com/products-and-solutions/ai-guardrails
+
+### Title: Ransomware Protection | Zscaler
+### Description: Stop ransomware attacks with a Zero Trust Architecture to protect your organization and reduce risk with advanced, proactive defense.
+### URL: https://www.zscaler.com/products-and-solutions/ransomware-protection
+
+### Title: Reduce IT Cost and Complexity with Zero Trust | Zscaler
+### Description: Learn how to leverage the Zscaler Zero Trust Exchange™ to reduce IT costs and boost economic value.
+### URL: https://www.zscaler.com/products-and-solutions/economic-value
+
+### Title: SaaS Security Posture Management (SSPM) | Zscaler
+### Description: Secure all your SaaS platforms and data in one integrated solution with CASB and SSPM. Ensure optimal security posture management for your enterprise SaaS security.
+### URL: https://www.zscaler.com/products-and-solutions/saas-security
+
+### Title: Fast, Secure B2B Customer Experiences | Zscaler B2B
+### Description: Unlock seamless and secure B2B customer experiences with Zscaler's advanced connectivity solutions
+### URL: https://www.zscaler.com/products-and-solutions/zscaler-b2b
+
+### Title: Secure Remote Access | Zscaler
+### Description: Secure remote access to business applications with zero trust to enable a hybrid workforce so users can safely work from anywhere.
+### URL: https://www.zscaler.com/products-and-solutions/secure-remote-access
+
+### Title: Secure Remote Access for Users Anywhere | Zscaler
+### Description: Enable secure, fast, and reliable access to apps and internet from anywhere with the Zscaler zero trust platform. Boost productivity and protect data.
+### URL: https://www.zscaler.com/products-and-solutions/secure-your-users
+
+### Title: Secure Remote Access with a VPN Alternative | ZPA
+### Description: Zscaler Private Access™ is the world's most deployed secure remote access solution. A cloud native ZTNA, it's easy to deploy in just hours as a seamless VPN replacement.
+### URL: https://www.zscaler.com/products-and-solutions/vpn-alternative
+
+### Title: Secure AI Initiatives with Zscaler Zero Trust | AI Security
+### Description: Accelerate AI initiatives with Zscaler. Protect builds, secure your AI stack, and stay ahead of risks with comprehensive Zero Trust security and governance.
+### URL: https://www.zscaler.com/products-and-solutions/ai-security
+
+### Title: Secure Private Equity with Zscaler's Zero Trust Architecture
+### Description: Achieve cyber resilience for private equity with Zscaler. Leverage zero trust architecture, advanced threat protection, and risk management. Learn more now.
+### URL: https://www.zscaler.com/products-and-solutions/private-equity
+
+### Title: Securely Use Generative AI with Zscaler Zero Trust Exchange
+### Description: Create and enforce policies around the generative AI sites your users can interact to protect your sensitive data and enable productivity.
+### URL: https://www.zscaler.com/products-and-solutions/securing-generative-ai
+
+### Title: Zscaler Security Operations | SecOps & Threat Detection
+### Description: Unify SecOps with Zscaler to detect threats faster, reduce risk, and gain full visibility using AI-driven insights, exposure management, and automation.
+### URL: https://www.zscaler.com/products-and-solutions/security-operations
+
+### Title: Security Service Edge (SSE) | Zscaler
+### Description: Explore the power of security service edge (SSE), integrated, always-on security powered by the Zscaler Zero Trust Exchange platform.
+### URL: https://www.zscaler.com/products-and-solutions/security-service-edge-sse
+
+### Title: Software Supply Chain Security | SaaS Security | Zscaler
+### Description: Zscaler SaaS Supply Chain Security can prevent unknown third party apps from connecting and exfiltrating data from platforms like Google Cloud or Microsoft 365.
+### URL: https://www.zscaler.com/products-and-solutions/supply-chain-security
+
+### Title: SSL Inspection - Stop SSL-Encrypted Threats
+### Description: Zscaler provides SSL inspection to effectively stop TLS/SSL-encrypted threats and ensure compliance with regulations for all users and devices.
+### URL: https://www.zscaler.com/products-and-solutions/ssl-inspection
+
+### Title: Third-Party Access and BYOD Security with ZTNA | Zscaler
+### Description: Give partners and other third parties secure, seamless access to your apps—not your network—with zero trust network access (ZTNA).
+### URL: https://www.zscaler.com/products-and-solutions/byod-with-ztna
+
+### Title: Unified Data Security | Total Visibility, Control - Zscaler
+### Description: Zscaler Data Security offers a unified platform with DSPM, classification, and inline DLP. Gain total visibility, control, and protection across all your data.
+### URL: https://www.zscaler.com/products-and-solutions/data-security
+
+### Title: Unified Vulnerability Management (UVM) | Zscaler
+### Description: UVM is powered by our Data Fabric for Security to prioritize risks, automate remediation workflows and security posture improvements.
+### URL: https://www.zscaler.com/products-and-solutions/vulnerability-management
+
+### Title: Transform Your Workflow with AnySource™️ Integrations
+### Description: Discover seamless data integration with our AnySource™️ Connector, supporting 150+ out-of-the-box integrations for enhanced security and custom data sources.
+### URL: https://www.zscaler.com/products-and-solutions/data-fabric/integrations
+
+### Title: Virtual Desktop Infrastructure (VDI) Alternatives | Zscaler
+### Description: Discover top VDI alternatives that enhance user experience, scalability, & cost-efficiency. Explore secure, cloud-native desktop virtualization solutions for businesses.
+### URL: https://www.zscaler.com/products-and-solutions/vdi-alternative
+
+### Title: Comprehensive Web Security Solutions | Zscaler
+### Description: Protect your organization from internet-based threats with Zscaler’s AI-powered web security solutions. Ensure secure, seamless access to web and SaaS apps for users.
+### URL: https://www.zscaler.com/products-and-solutions/web-security
+
+### Title: Zero Trust Branch: Secure, Simplify, and Connect with Zscaler
+### Description: Protect branch, campus, and factory environments with Zscaler Zero Trust Branch. Streamline secure access, segment OT/IoT devices, and eliminate networking complexities.
+### URL: https://www.zscaler.com/products-and-solutions/zero-trust-branch
+
+### Title: Enhance Web Experiences with Zscaler Cloud Browser
+### Description: Enhance your web experience with Zscaler Cloud Browser. Improve security and productivity with zero trust architecture, ensuring secure access to data and apps.
+### URL: https://www.zscaler.com/products-and-solutions/browser-isolation
+
+### Title: Zero Trust Cloud Workload Protection
+### Description: Secure workload-to-internet and workload-to-workload connectivity across hybrid cloud environments with a cloud native zero trust platform.
+### URL: https://www.zscaler.com/products-and-solutions/zero-trust-cloud
+
+### Title: Zero Trust Cloud Workload Security: Secure East-West Traffic
+### Description: Secure workload-to-workload traffic with Zscaler Zero Trust Cloud. Prevent ransomware, block lateral threats, and ensure secure communication across clouds.
+### URL: https://www.zscaler.com/products-and-solutions/secure-east-west-traffic
+
+### Title: Secure Ingress and Egress Traffic with Zero Trust | Zscaler
+### Description: Secure ingress and egress cloud workloads with zero trust. Inline traffic inspection prevents cyberattacks, eliminates firewalls, and protects hybrid/multi-cloud.
+### URL: https://www.zscaler.com/products-and-solutions/secure-ingress-and-egress-traffic
+
+### Title: Zero Trust Cloud Firewall | Zscaler
+### Description: Zscaler Zero Trust Firewall delivers adaptive zero trust protection for users, data, and devices paired with IPS and DNS security to secure ports and protocols.
+### URL: https://www.zscaler.com/products-and-solutions/cloud-firewall
+
+### Title: Zero Trust Gateway: Managed Workload Security for Multi-Cloud Environments | Zscaler
+### Description: Secure all workload traffic with Zscaler’s Zero Trust Gateway-simplify multi-cloud security, cut costs, and deploy in under 10 minutes.
+### URL: https://www.zscaler.com/products-and-solutions/zero-trust-gateway
+
+### Title: Cloud Workload Microsegmentation with Zero Trust | Zscaler
+### Description: Secure cloud workloads with Zero Trust Microsegmentation. Gain visibility, reduce attack surfaces, and prevent lateral movement across multi-cloud environments.
+### URL: https://www.zscaler.com/products-and-solutions/microsegmentation
+
+### Title: Zero Trust Network Access (ZTNA) for On-Premises Users
+### Description: Extend zero trust access to private applications for users in your headquarters and branch offices, with resilient connectivity even during internet outages.
+### URL: https://www.zscaler.com/products-and-solutions/ztna-on-premises
+
+### Title: Zero Trust SD-WAN Solutions for Fast, Secure Connections -Zscaler
+### Description: Discover how Zscaler's Zero Trust SD-WAN solutions revolutionize your network's performance with secure, zero-trust capabilities.
+### URL: https://www.zscaler.com/products-and-solutions/zero-trust-sd-wan
+
+### Title: Zscaler AI Security | Secure GenAI, Data & AI Applications
+### Description: Secure AI adoption with Zscaler AI. Gain visibility, prevent data loss, and protect GenAI apps, models, and users with zero trust and AI-powered security.
+### URL: https://www.zscaler.com/products-and-solutions/zscaler-ai
+
+### Title: Zscaler AppProtection
+### Description: Zscaler AppProtection protects private apps from web- and identity-based attacks, and streamlines private access management as a key part ZPA
+### URL: https://www.zscaler.com/products-and-solutions/zscaler-appprotection
+
+### Title: Zscaler Bandwidth Control | Achieve Superior Network Management
+### Description: Discover how Zscaler Bandwidth Control improves network efficiency and security. Improve your bandwidth management with Zscaler advanced solutions.
+### URL: https://www.zscaler.com/products-and-solutions/bandwidth-control
+
+### Title: Zscaler Breach Predictor | Threat Detection and Response
+### Description: Stay ahead of cyber threats with Zscaler Breach Predictor. Visualize current attacks and predict future breaches for a robust threat detection strategy.
+### URL: https://www.zscaler.com/products-and-solutions/breach-predictor
+
+### Title: Simplify IoT & Mobile Security with Zscaler Cellular
+### Description: Zscaler Cellular secures IoT and mobile device traffic with seamless global connectivity, visibility, and control, built for scalable and efficient operations.
+### URL: https://www.zscaler.com/products-and-solutions/zscaler-cellular
+
+### Title: Zscaler Client Connector | Platform
+### Description: Deliver secure remote access solutions with Zscaler Client Connector and simplify the enforcement of security from the Zscaler Cloud.
+### URL: https://www.zscaler.com/products-and-solutions/zscaler-client-connector
+
+### Title: Intrusion Prevention Service | Zscaler Cloud IPS
+### Description: Take intrusion prevention to the next level with Zscaler IPS. Zscaler IPS enables you to have all threat and alert data in one place.
+### URL: https://www.zscaler.com/products-and-solutions/cloud-ips
+
+### Title: Zscaler Cloud Sandbox - AI-Powered Malware Defense
+### Description: The Zscaler cloud sandbox provides advanced malware and ransomware protection, with AI-powered threat detection. Seamless malware detection prevents zero-day attacks.
+### URL: https://www.zscaler.com/products-and-solutions/cloud-sandbox
+
+### Title: Advanced Deception Technology Solutions | Zscaler Cybersecurity
+### Description: Protect your organization with Zscaler’s advanced deception technology, designed to detect and neutralize cyber threats before they impact your systems.
+### URL: https://www.zscaler.com/products-and-solutions/deception-technology
+
+### Title: Digital Experience Monitoring (DEM) | Zscaler ZDX
+### Description: Improve your digital performance with Zscaler Digital Experience Monitoring. Discover how our advanced DEM solution optimizes your digital experience. Learn more.
+### URL: https://www.zscaler.com/products-and-solutions/zscaler-digital-experience-zdx
+
+### Title: DNS Security | Zscaler
+### Description: Zscaler DNS Security, provides full coverage across all ports and filters risky domains and stops the use of DNS tunneling to distribute malware and steal data.
+### URL: https://www.zscaler.com/products-and-solutions/dns-security
+
+### Title: Endpoint Data Loss Prevention (DLP) Solutions | Zscaler
+### Description: Protect sensitive data with Zscaler Endpoint DLP. Prevent data leaks, ensure compliance, and secure endpoints with real-time monitoring and controls.
+### URL: https://www.zscaler.com/products-and-solutions/endpoint-dlp
+
+### Title: Experience Center:Unified Zscaler Console for Security & Insights
+### Description: Zscaler Experience Center aims to simplify Zero Trust adoption and operations by providing an intuitive interface for all administrative users.
+### URL: https://www.zscaler.com/products-and-solutions/experience-center
+
+### Title: AI-Powered SSE Platform | Zero Trust Exchange
+### Description: Introducing new innovations for the world’s first and only AI-powered SSE platform.
+### URL: https://www.zscaler.com/products-and-solutions/zscaler-for-users/resources
+
+### Title: Zscaler Internet Access for Secure Internet & SaaS Access
+### Description: Experience Zscaler Internet Access (ZIA) - the ultimate solution for secure internet and SaaS access with AI-powered protection for all users and devices.
+### URL: https://www.zscaler.com/products-and-solutions/zscaler-internet-access
+
+### Title: Transforming secure access with Zscaler Private Access (ZPA)
+### Description: Zscaler Private Access (ZPA) offers a modern approach by providing secure access to private applications without exposing networks to the public Internet.
+### URL: https://www.zscaler.com/products-and-solutions/zscaler-private-access
+
+### Title: Zscaler Resilience | Zscaler Cloud Resiliency
+### Description: Get uninterrupted business continuity for customers with the industry’s most resilient security cloud, Zscaler Resilience
+### URL: https://www.zscaler.com/products-and-solutions/zscaler-resilience
+
+### Title: Cyber Risk Management | Cyber Risk Quantification | Zscaler
+### Description: Zscaler Risk360 is a comprehensive framework designed to help quantify and visualize cyber risk across the workforce, third-parties, applications and assets.
+### URL: https://www.zscaler.com/products-and-solutions/zscaler-risk-360
+
+### Title: Zscaler Zero Trust SASE: Architecture for a Cloud and Mobile
+### Description: Zscaler Zero Trust SASE provides least-privileged access for workforces, devices, workloads, and business partners across managed offices.
+### URL: https://www.zscaler.com/products-and-solutions/secure-access-service-edge-sase
+
+### Title: Stop Advanced Threats with Managed Threat Hunting
+### Description: Engage a team of expert threat hunters who work 24/7 to reduce your risk of a breach by uncovering sophisticated threats, signs of malicious activity, and more.
+### URL: https://www.zscaler.com/products-and-solutions/managed-threat-hunting
+
+### Title: Zscaler Traffic Capture: Seamless Access to Traffic Content
+### Description: Take advantage of Zscaler Traffic Capture's seamless cloud-based packet capture solution to investigate, forensically review, and detect security threats.
+### URL: https://www.zscaler.com/products-and-solutions/traffic-capture
+
+
+
+# Technology Partners
+
+Learn about Zscaler’s trusted technology partnerships that drive seamless integrations across leading enterprise tools. Optimize your security ecosystem with collaborative solutions tailored for your business needs.
+
+### Title: Arista VeloCloud SD-WAN (VeloCloud) and Zscaler | Solutions
+### Description: Zscaler, together with VeloCloud (now part of VMware), combine cloud security and SD-WAN to enable secure local internet breakouts.
+### URL: https://www.zscaler.com/partners/arista-sd-wan
+
+### Title: Aruba SD-WAN and Zscaler | Partner Solutions
+### Description: Together, Zscaler and Aruba deliver secure SD-WAN that can be provisioned in minutes for hassle-free deployment and achieve optimal application performance.
+### URL: https://www.zscaler.com/partners/aruba
+
+### Title: Complete Zero Trust Security for AWS Deployment | Zscaler
+### Description: Zscaler provides the complete zero trust architecture and integrated purpose-built solutions you need to completely secure your AWS deployments.
+### URL: https://www.zscaler.com/partners/aws
+
+### Title: Cisco SD-WAN and Zscaler | Partner Solutions
+### Description: Zscaler and Cisco SD-WAN simplify traffic routing from the branch and make it easy to establish secure local internet breakouts.
+### URL: https://www.zscaler.com/partners/cisco
+
+### Title: Distribution Partners | Zscaler
+### Description: The Zscaler Zero Trust Exchange platform and teams, along with your capacity and expertise, accelerate partners' profitability. Zscaler simplifies sales.
+### URL: https://www.zscaler.com/partners/distributors
+
+### Title: HashiCorp + Zscaler Accelerate Digital Transformation
+### Description: HashiCorp and Zscaler have partnered to deliver a secure, consistent DevOps workflow on any cloud native platform.
+### URL: https://www.zscaler.com/partners/hashicorp
+
+### Title: Seamless Microsoft Integration with Zero Trust | Zscaler
+### Description: Zscaler and Microsoft partnership enables exceptional digital experience and improved productivity through integrated secure app access including Microsoft 365.
+### URL: https://www.zscaler.com/partners/microsoft
+
+### Title: Join the Partner Ecosystem | Zscaler Partners
+### Description: Become a Zscaler Partner and accelerate your long term growth as you guide your customers through secure cloud transformation.
+### URL: https://www.zscaler.com/partners/technology
+
+### Title: Zscaler and Salesforce for Enterprise Security
+### Description: The Zscaler and Salesforce partnership provides the best customer experience and a dynamic perimeter designed to protect sensitive data in transit and at rest.
+### URL: https://www.zscaler.com/partners/salesforce
+
+### Title: Secure Modern Enterprises with Zscaler & Okta Partnership
+### Description: Leverage Zscaler & Okta for seamless zero trust security. Enhance user productivity, minimize attack surfaces, and streamline secure M&A divestitures.
+### URL: https://www.zscaler.com/partners/okta
+
+### Title: Service Provider Partners - Zscaler
+### Description: Zscaler partners with leading global and regional service providers to deliver value-added security services for our customer base. Read more.
+### URL: https://www.zscaler.com/partners/service-providers
+
+### Title: Protect More, Work Smarter with Zscaler and ServiceNow
+### Description: With Zscaler and ServiceNow integrations, organizations can extend zero trust to their NOW platforms.
+### URL: https://www.zscaler.com/partners/servicenow
+
+### Title: Zscaler and Splunk | Partner Solutions
+### Description: Splunk and Zscaler deliver a powerful, simplified, cloud native approach to zero trust. The best in cloud security meets the best in security analytics.
+### URL: https://www.zscaler.com/partners/splunk
+
+### Title: System Integrator Partners | Drive Success with Zscaler
+### Description: Discover how Zscaler collaborates with top system integrators and advisory firms to empower digital transformation. Unlock success and innovation for your business.
+### URL: https://www.zscaler.com/partners/system-integrators
+
+### Title: Reseller Partners - Zscaler
+### Description: Zscaler's Summit Partner Program rewards partners who learn and sell the Zeroa Trust Exchange. Learn about Zscaler's partner programs, incentives, and benefits.
+### URL: https://www.zscaler.com/partners/resellers
+
+### Title: Zero Trust Security for AWS Environments: Zscaler Immersion Day | Zscaler
+### Description: Discover how Zscaler empowers your AWS environments with comprehensive zero trust security during a Zscaler Immersion Day.
+### URL: https://www.zscaler.com/partners/aws/immersiondays
+
+### Title: The Future of Security: Zero Trust with Zscaler and Google
+### Description: Enhanced cloud security insights with Zscaler and Google Security Operations integration provide a stronger security posture, fast deployment, and increased productivity.
+### URL: https://www.zscaler.com/partners/google
+
+### Title: Zoom + Zscaler: Optimized Digital Experience Everywhere
+### Description: With Zscaler Digital Experience (ZDX), Zoom calls can be monitored and troubleshooted in real time in order to ensure high-quality experiences.
+### URL: https://www.zscaler.com/partners/zoom
+
+### Title: Zscaler and CrowdStrike | Zscaler
+### Description: Learn how Zscaler and CrowdStrike are redefining security with zero trust principles, evolving from endpoint protection to a modernized Security Operations Center.
+### URL: https://www.zscaler.com/partners/crowdstrike
+
+### Title: Zscaler + Deloitte: Zero Trust Security for Modern Cyber Protection | Zscaler
+### Description: Deloitte and Zscaler partner to deliver Zero Trust security solutions, safeguarding users, devices, workloads, and locations from cyber threats and ransomware attacks.
+### URL: https://www.zscaler.com/partners/system-integrators/deloitte
+
+### Title: Zscaler + EY: Secure Digital Transformation with Zero Trust
+### Description: Zscaler-EY alliance helps orgs modernize networks with cloud-delivered Zero Trust security—simplifying architecture, improving resilience, and enhancing use experience.
+### URL: https://www.zscaler.com/partners/system-integrators/ey
+
+### Title: Zscaler + Imprivata: Secure Authentication for Shared Devices
+### Description: Explore how Zscaler and Imprivata ensure seamless, secure authentication for clinicians. Protect shared devices, trace user actions, and meet compliance needs.
+### URL: https://www.zscaler.com/partners/imprivata
+
+### Title: Zscaler + KPMG Partnership | Zscaler
+### Description: KPMG and Zscaler deliver zero trust architecture, DLP, and IoT/OT security to modernize defenses, reduce risk, and enable confident digital transformation.
+### URL: https://www.zscaler.com/partners/system-integrators/kpmg
+
+### Title: Zero Trust Security with Zscaler, Okta, and CrowdStrike
+### Description: Maximize security with Zscaler, Okta, and CrowdStrike integration. Achieve zero trust transformation and reduce risk for seamless response.
+### URL: https://www.zscaler.com/partners/okta-and-crowdstrike
+
+### Title: Rubrik Integration helps with data loss prevention | Zscaler
+### Description: Rubrik’s integration with Zscaler helps discover and classify sensitive data. It also stops data exfiltration across the enterprise.
+### URL: https://www.zscaler.com/partners/rubrik
+
+### Title: Celebrating Excellence: Zscaler Aces Partner Program
+### Description: Discover the Zscaler Aces Partner Program, an exclusive community of top technical experts driving secure, scalable IT innovation through pre-sales and post-sales excelle
+### URL: https://www.zscaler.com/partners/aces
+
+### Title: Zscaler Cloud Security Solution for ISPs
+### Description: With Zscaler, ISPs can deliver advanced security, enabling their enterprise clients for the challenges of mobile security, cloud applications and social media.
+### URL: https://www.zscaler.com/partners/zscaler-for-isps
+
+### Title: Zscaler for RISE with SAP | Partner Solutions
+### Description: Streamline user access during migration to SAP S/4HANA and RISE with SAP with Zscaler Private Access.
+### URL: https://www.zscaler.com/partners/sap
+
+### Title: Endpoint Technology Partners | Zscaler
+### Description: Zscaler integrates with endpoint and mobility solution partners to enable end-to-end zero trust access control, threat detection, and response. Learn more.
+### URL: https://www.zscaler.com/partners/technology/endpoint
+
+### Title: Identity Technology Partners | Zscaler
+### Description: Zero trust starts with authenticating identity to enable secure application access
+### URL: https://www.zscaler.com/partners/technology/identity
+
+### Title: Network and UCaaS Partners | Zscaler
+### Description: Zscaler integrates with leading network and communications providers to offer you secure, fast, and reliable access to apps from any device, anywhere
+### URL: https://www.zscaler.com/partners/technology/network
+
+### Title: Zscaler and SaaS Security Partners
+### Description: Zscaler integrates with industry-leading SaaS apps to protect data through visibility and consistent threat perspective with a robust, flexible policy framework
+### URL: https://www.zscaler.com/partners/technology/data
+
+### Title: Cloud Partners | Zscaler
+### Description: Zscaler zero trust solutions work with cloud infrastructure providers like AWS, Microsoft Azure, and Google Cloud to help you safely shift to cloud solutions.
+### URL: https://www.zscaler.com/partners/technology/cloud
+
+### Title: Operations Technology Partners | Zscaler
+### Description: Zscaler integrates with leading operations tools that provide visibility, automation, intelligence, and service management.
+### URL: https://www.zscaler.com/partners/technology/operations
+
+
+
+# Pillar Pages
+
+Dive deep into Zscaler’s foundational cybersecurity concepts and solutions, offering in-depth insights into Zero Trust, SASE Architecture, and digital transformation strategies designed for the modern enterprise.
+
+### Title: ThreatLabz 2025 Phishing Report: AI-Powered Threats & Zero Trust
+### Description: Explore key findings from the Zscaler ThreatLabz 2025 Phishing Report: AI-powered phishing trends, industry impact, and zero trust defense strategies.
+### URL: https://www.zscaler.com/learn/2025-phishing-report
+
+### Title: 2025 VPN Risk Report: Why Businesses Are Embracing Zero Trust Now
+### Description: Explore why 81% of organizations are replacing VPNs with zero trust in the coming year. Discover top VPN vulnerabilities, ransomware risks, and best practices.
+### URL: https://www.zscaler.com/learn/2025-vpn-risk-report
+
+### Title: AI Security: Strategy, Risks, Frameworks & Enterprise Protection
+### Description: Learn what AI security is, key risks of generative AI, and how enterprises secure AI applications, data, and users with zero trust AI security.
+### URL: https://www.zscaler.com/learn/ai-security
+
+### Title: Business Continuity Planning: Strategy, Tools and Insights
+### Description: A comprehensive guide to business continuity, including strategy planning, risk management, disaster recovery, essential tools and trends shaping business resilience.
+### URL: https://www.zscaler.com/learn/business-continuity
+
+### Title: DSPM Explained: Features, Use Cases & Top DSPM tools
+### Description: Learn what Data Security Posture Management (DSPM) is, why it matters for cloud and SaaS environments, and how it helps protect sensitive data and ensure compliance.
+### URL: https://www.zscaler.com/learn/dspm
+
+### Title: Malware Explained: Types, Threats & Prevention Tips
+### Description: Learn what malware is, its types, threats like ransomware and spyware, and expert prevention strategies to protect against advanced cyberattacks in the digital age.
+### URL: https://www.zscaler.com/learn/malware
+
+### Title: Phishing Explained: Types, Tactics & How to Prevent Cyberattacks
+### Description: Discover the latest phishing tactics, how they work, and proven strategies to protect your business from cyberthreats. Learn effective prevention with Zscaler.
+### URL: https://www.zscaler.com/learn/phishing
+
+### Title: Ransomware Resource Hub: Trends, Prevention Strategies and Tools
+### Description: The ultimate guide to to Ransomware. Stay updated on trends, variants, protection best practices, and the best tools to keep you safe.
+### URL: https://www.zscaler.com/learn/ransomware
+
+### Title: SASE Solutions: Benefits, Use Cases & Architecture Essentials
+### Description: Explore the essential elements of Secure Access Service Edge (SASE)—its benefits, top use cases, and architecture. Unlock powerful resources to modernize your security.
+### URL: https://www.zscaler.com/learn/sase
+
+### Title: Your Go-To Secure Remote Access Resource Hub - Zscaler
+### Description: Explore Zscaler's resource hub dedicated to secure remote access. Access valuable information and tools to strengthen your organization's remote security measures.
+### URL: https://www.zscaler.com/learn/secure-remote-access
+
+### Title: Your Go-To Threats & Vulnerabilities Resource Hub
+### Description: Ultimate guide to to Threats and Vulnerabilities. Get the latest reports, data, tools and more from Zscaler and the cybersecurity industry.
+### URL: https://www.zscaler.com/learn/threats-and-vulnerabilities
+
+### Title: Cyber Resilience in Manufacturing: Securing IT/OT Systems
+### Description: Discover how manufacturers can strengthen cyber resilience, secure IT/OT environments, reduce risk, and adopt zero trust strategies that prevent costly downtime.
+### URL: https://www.zscaler.com/learn/cyber-resilience-manufacturing-it-ot-security
+
+### Title: Cybersecurity Predictions and Trends in 2025
+### Description: Learn what 2025 holds for cybersecurity. Discover trends in Zero Trust, SASE, phishing, data security, and IoT security to future-proof your enterprise.
+### URL: https://www.zscaler.com/learn/cybersecurity-predictions-2025
+
+### Title: Data@Risk Report 2025: Why Enterprise Data Is Under Threat
+### Description: Insights from the Zscaler ThreatLabz 2025 Data@Risk Report: 1.2B blocked data-loss events, SaaS leaks, AI risks — why zero trust matters.
+### URL: https://www.zscaler.com/learn/data-risk-report-2025-enterprise-data-security
+
+### Title: New SEC Cybersecurity Rules for Public Companies | Zscaler
+### Description: Learn details on the new SEC cybersecurity disclosure rules for public companies. Discover the key items and the way these rules affect investor choices.
+### URL: https://www.zscaler.com/learn/sec-cybersecurity-rules
+
+### Title: Understanding Cloud Security– Best Practices & Strategies
+### Description: Learn what cloud security is, how it works, and the best strategies to protect data, prevent breaches, and ensure compliance.
+### URL: https://www.zscaler.com/learn/cloud-security
+
+### Title: Understanding Cybersecurity: Fundamentals, Top Threats & More
+### Description: Learn about Cybersecurity and how to stay updated on trends, identify vulnerabilities, implement best practices, ensure compliance, and enhance your strategy.
+### URL: https://www.zscaler.com/learn/cybersecurity
+
+### Title: Understanding Data Security: Trends and Resources
+### Description: Navigate the evolving landscape of data security. Access valuable resources to understand trends, implement best practices, and ensure compliance for your organization.
+### URL: https://www.zscaler.com/learn/data-security
+
+### Title: Understanding Network Security: Fundamentals, Strategies, Threats
+### Description: Network Security is needed to secure sensitive data within a computer network. Learn about the fundamentals, common challenges, type of threats and more.
+### URL: https://www.zscaler.com/learn/network-security
+
+### Title: Understanding SecOps: Benefits, Challenges & More
+### Description: SecOps is an organizational strategy based on the integration of security. Learn why this is important, the benefits to implementation, and the challenges it helps solve.
+### URL: https://www.zscaler.com/learn/secops
+
+### Title: Understanding ZTNA: Basics, Benefits & Use Cases
+### Description: Learn about zero trust network access (ZTNA) and how it can benefit your organization, the main use cases it addresses, implementation best practices, and more.
+### URL: https://www.zscaler.com/learn/zero-trust-network-access-ztna
+
+### Title: Zero Trust Security: Ultimate Guide to Modern Threat Prevention
+### Description: Explore Zero Trust, the top security model for digital transformation. Learn its principles, benefits, and how it protects users, apps, and data in today’s enterprise.
+### URL: https://www.zscaler.com/learn/zero-trust
+
+### Title: Zscaler Zero Trust SD-WAN vs Legacy SD-WAN: A Secure Evolution
+### Description: Discover how Zscaler Zero Trust SD-WAN outperforms legacy SD-WAN with advanced security, optimized routing, and improved cloud and remote work connectivity.
+### URL: https://www.zscaler.com/learn/zero-trust-sd-wan-vs-legacy-sd-wan
+
+
+
+# Navigate Essential Zscaler Core Pages
+
+Explore key pages that highlight Zscaler’s customers, leadership, FAQs, and analyst recognition. These core pages provide foundational insights into Zscaler’s mission, solutions, and industry expertise to guide your cybersecurity journey.
+
+## Customer Journeys
+
+### Title: Digital Transformation Success Stories | Zscaler Customers
+### Description: Zscaler's customers are leading organizations from around the globe that depend upon our cloud security platform to enable their business for mobility and cloud.
+### URL: https://www.zscaler.com/customers
+
+## Home Page
+
+### Title: Leading Cloud Enterprise Security Provider for Zero Trust
+### Description: Zscaler is a leading cloud enterprise security provider helping global businesses adopt zero trust for secure digital transformation.
+### URL: https://www.zscaler.com
+
+## Leadership
+
+### Title: Meet Zscaler's Leadership | Visionaries in Cybersecurity & Cloud
+### Description: Explore Zscaler's leadership team driving innovation in cybersecurity and cloud solutions. Learn how their expertise secures digital transformation globally.
+### URL: https://www.zscaler.com/company/leadership
+
+## Company FAQ
+
+### Title: Zscaler FAQs | Answers About Our Company, Solutions, and Services
+### Description: Have questions about Zscaler? Discover all you need to know about our company, cloud security solutions, services, and how we transform digital experiences.
+### URL: https://www.zscaler.com/learn/company-faq
+
+## Product and Solution FAQ
+
+### Title: Zscaler Products & Solutions FAQ | Cybersecurity Insights
+### Description: Explore Zscaler's FAQs on cybersecurity products and solutions. Learn how we help secure your organization with cutting-edge technology.
+### URL: https://www.zscaler.com/learn/products-and-solution-faq
+
+## Tech Partners FAQ
+
+### Title: Zscaler Technology Integrations FAQ | Seamless Security Solutions
+### Description: Get answers to FAQs about Zscaler technology integrations. Learn how Zscaler works seamlessly with leading platforms for enhanced security and connectivity.
+### URL: https://www.zscaler.com/learn/partner-integrations-faq
+
+## Analyst Reports and Recognition
+
+### Title: Analyst Reports and Recognition | Zscaler
+### Description: Discover why Zscaler is a recognized Leader in cloud transformation by top analysts like Gartner, Forrester, and IDC. Explore our reports and accolades.
+### URL: https://www.zscaler.com/company/analyst-reports
+
+
+
+# Explore Zscaler’s Popular Resources
+
+Access a curated collection of blogs, resources, and press updates from Zscaler. Stay informed with expert insights, in-depth cybersecurity guides, and the latest news and announcements.
+
+## Zscaler Blogs
+
+### Title: Blogs | Zscaler
+### Description: Get the latest news and views from the leading voices in cloud security and secure digital transformation. Subscribe to the Zscaler blog and stay in the know.
+### URL: https://www.zscaler.com/blogs
+
+## Zscaler Resources
+
+### Title: Learning Resource Center | Zscaler
+### Description: Want to learn more about zero trust and cloud security? Our Resource Center offers eBooks, Brochures, Data Sheets, Industry Reports, White Papers, Infographics.
+### URL: https://www.zscaler.com/resources
+
+## Press Center
+
+### Title: Media Center | Zscaler
+### Description: Our media center provides all news to stay up to date on Zscaler current events and gain access to brand assets.
+### URL: https://www.zscaler.com/company/media-center

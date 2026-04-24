@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.jupiterone.com/sitemap.xml
+
+Sitemap: https://www.jupiterone.com/sitemap.xml

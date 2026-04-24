@@ -1,0 +1,17 @@
+# PSIRT Contact
+Contact: psirt@ciena.com
+
+# Canonical URI 
+Canonical: https://www.ciena.com/.well-known/security.txt
+
+# PGP Key
+
+# Vulnerability Disclosure Policy
+Policy: https://www.ciena.com/__data/assets/pdf_file/0026/128933/Notice-of-Vulnerability-Disclosure-Policy-VDP.pdf
+
+# CNA
+https://www.cve.org/PartnerInformation/ListofPartners/partner/Ciena
+
+Preferred-Languages: en 
+
+Expires: 2026-10-01T03:59:00.000Z

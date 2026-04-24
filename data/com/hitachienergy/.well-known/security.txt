@@ -1,0 +1,26 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Contact: mailto:cybersecurity@hitachienergy.com
+Expires: 2027-09-03T21:59:00.000Z
+Encryption: https://publisher.hitachienergy.com/preview?DocumentID=9AKK107991A8160&LanguageCode=en&DocumentPartId=&Action=Launch
+Preferred-Languages: en
+Canonical: https://hitachienergy.com/.well-known/security.txt
+Policy: https://publisher.hitachienergy.com/preview?DocumentID=9AKK107991A7713&LanguageCode=en&DocumentPartId=&Action=Launch
+Hiring: https://www.hitachienergy.com/career/career-overview/open-jobs?filter-page=1
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEQUa+go1dFHa3iR2kelxbSjVGK50FAmbgMYgACgkQelxbSjVG
+K51/PQ//SvRvK5oK3TF9HdxgIwlrnIArdd8ibOZVbzI6A9TgbNYVy75MVB4ziDFc
+RmukPJRTFVpadPokF3++/tk5CRMS73EyQ7qD7lyBtAWR3b/S8WyU3CggRr21WP1C
+19m24Z0tYz72K6HUKiDUbjLHRnTjXnm/fO8ypoIH8URfMAUThjjfNi3uq88N3xDX
+76NKuGHUBmwU98c4YzNEj8jqMJNl7xbZUVI0KRY2z2y+fJ+xALCpiCL/KW9UT0pa
+/N9M6HZUVvGoP47pmX7gi4v66M/ZhOFf7o9+W2SPmsMcR9un2K+FZOpldsca0jLH
+QkVoZeI1dR2KciTJy/M2N08lIiXxNrJclDbBdcF5uetNrnElIoWNkDaX6z8K/BpA
+G4U948RtYkkFAe1ywnSVOOJahdYY0M02/eJ+JQmjOrkcxkb5Sl0doiif2FaNom84
+RFtbO918CKnp5/PIgtI2YAxdAGjNFaK76Tgud7pXplghReD24qQQphipYF4UypYC
+ukIYRZuFQl0hFCozOGeQ69X2uRlwO4Pi/P+TdJ3AN3xOZD9gBk5e0a9/1h02K+F8
+I6vKz8lbN14igOUYx367KW0u66391j85tj0DQfgfGqsDyIx29irXUDW1mGkhlWM3
+gofgshxyo4y0A8ve54efjjU5GGBwiw5z/rKmFpBGnDa02bQ6ph4=
+=6RPV
+-----END PGP SIGNATURE-----

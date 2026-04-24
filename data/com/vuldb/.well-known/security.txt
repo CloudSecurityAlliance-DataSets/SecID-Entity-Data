@@ -1,0 +1,6 @@
+Contact: mailto:support@vuldb.com
+Contact: https://vuldb.com/?contact
+Expires: 2026-05-31T23:59:59.000Z
+Acknowledgments: https://vuldb.com/?kb.bugbounty
+Policy: https://vuldb.com/?kb.bugbounty
+Preferred-Languages: en, de

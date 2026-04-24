@@ -1,0 +1,7 @@
+User-agent: *
+Sitemap: https://www.tibco.com/sitemap.xml
+Disallow: /downloads/
+Allow: /downloads$
+Allow: /downloads/faq
+Disallow: /cgi-bin/
+Disallow: /accounts/

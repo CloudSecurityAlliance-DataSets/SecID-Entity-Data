@@ -1,0 +1,17 @@
+# *
+User-agent: *
+Disallow: /api/
+Disallow: /catalog/product-compare/
+
+# ClaudeBot
+User-agent: ClaudeBot
+Disallow: /
+
+# Host
+Host: https://www.onlogic.com
+
+# Sitemaps
+Sitemap: https://www.onlogic.com/sitemap.xml
+Sitemap: https://www.onlogic.com/sitemap-0.xml/
+Sitemap: https://www.onlogic.com/blog-sitemap/
+Sitemap: https://www.onlogic.com/page-sitemap/

@@ -1,0 +1,51 @@
+User-agent: *
+
+Disallow: /content/SCIEX/language/masters/en/
+
+Disallow: /content/SCIEX/language/masters/es/
+
+Disallow: /content/SCIEX/language/masters/zh_tw/
+
+Disallow: /content/SCIEX/language/masters/pt_br/
+
+Disallow: /content/SCIEX/language/masters/ko_kr/
+
+Disallow: /content/SCIEX/language/masters/zh_cn/
+
+Disallow: /content/SCIEX/language/masters/jp/
+
+Disallow: /content/SCIEX/language/masters/tr/
+
+Allow: /search-results
+
+Disallow: /support/customer-documents
+
+Disallow: /resource-library
+
+Disallow: /search-results-legacy
+
+Disallow: /bin/sciex/coursecatalog/sitemap.xml*
+
+Disallow: /bin/sciex/page/sitemap.xml*
+
+Disallow: /bin/sciex/pdf/sitemap.xml*
+
+User-agent: Neevabot
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: ICC-Crawler
+Disallow: /
+
+User-agent: PetalBot
+Disallow: /
+
+User-agent: MJ12Bot
+Disallow: /
+
+Sitemap: https://www.sciex.com/sitemap.xml

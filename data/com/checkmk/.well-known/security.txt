@@ -1,0 +1,24 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: mailto:security@checkmk.com
+Expires: 2026-10-01T00:00:00.000Z
+Encryption: https://checkmk.com/.well-known/pgp-key.txt
+Canonical: https://checkmk.com/.well-known/security.txt
+Policy: https://checkmk.com/vulnerability-disclosure-policy
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEvSBwDs3SSiTMBtVfJuhK6NUeAQ0FAmciAjsACgkQJuhK6NUe
+AQ2deQ//QVY6jIHs61Qcs8j/Bve6zqYS+TrO4Q6ROotca3cnq6jJuEujPptps+Ka
+C6hAQdDi8bITtIDv1yI6RZ40EtcIrseXoriMQC+Kk/rgO4S/ae8u5MRCjUBRGldv
+TzUtny4Osl54WsWhk+QLvdymxROEpQzzmRR9qSM/VmnKt4RAdISWHPaVq6Y1Rn3M
+gyg1Mp1LOor9cCvKThTDbUnk7tlMUTFJCzuSjXhW1eqvKB/YgBmcnxXQLlVv2HI9
+WhCV02vbqZfmt40PUf/croV4L4aVWQBhiepP05XTOylsCMSwu0IYP4aAR1DEF39E
+QPZcq4W0zaS66dAt/naUOjK45QOx3ZIKgLLPtudFrCXg/zttt/YDJFfDQqdiqr/2
+pV7SLm9+075oLKRpx3roUwQRkqUbPB85/LOZmR80TIyPqLzCDyuAjz0dPP89JHj9
+hAW8YU7CIw0VNlHyTBmT3crt4FHI76cPYXqWiqVyF4CHAKZJfB/iOy8vJWpYgCJp
+tnXW45B7ly6VsEhafWjC685fDKMgwIDsBNXmmFyb+OwPg85EK01rVD5Q3uL2Pz7V
+AFZuoebB4UJFgS2Ia9QZWdX1BlRdxdYkZKKNT5fFhA1sIQvWiL004pzzEsgfNYFm
+r9XUxA8fijQpryt8WLetHSKUBPCv1cMVD0AnC/SKu48PLZqw8jw=
+=WmDC
+-----END PGP SIGNATURE-----

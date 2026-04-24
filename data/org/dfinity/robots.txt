@@ -1,0 +1,16 @@
+# Robots.txt for https://dfinity.org
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://dfinity.org/sitemap.xml
+
+# Crawl-delay (optional - helps prevent server overload)
+Crawl-delay: 1
+
+# Disallow certain paths if needed
+Disallow: /api/
+Disallow: /_app/
+Disallow: /sw.js

@@ -1,0 +1,15 @@
+User-agent: *
+Sitemap: https://www.yokogawa.com/sitemap_index.xml
+Disallow: /ydk/*
+Disallow: /jp-ydk/*
+Disallow: /jp/
+Disallow: /gl/
+Disallow: /pr/
+Disallow: /success/
+Disallow: /ioc/
+Disallow: /*/technical-library/
+Disallow: /*/solutions/products-platforms/
+Disallow: /*/solutions/solutions/oprex/
+Disallow: /*/solutions/products-and-services/oprex/
+Disallow: /*/solutions/services/oprex/
+Disallow: /*?nid=*

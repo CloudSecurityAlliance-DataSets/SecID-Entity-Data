@@ -1,0 +1,60 @@
+User-agent: AI2Bot
+User-agent: AmazonBot
+User-agent: Applebot
+User-agent: Applebot-Extended
+User-agent: Bytespider
+User-agent: CCBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: cohere-training-data-crawler
+User-agent: Diffbot
+User-agent: DuckAssistBot
+User-agent: FacebookBot
+User-agent: Google-Extended
+User-agent: GPTBot
+User-agent: Kangaroo Bot
+User-agent: Meta-ExternalAgent
+User-agent: Meta-ExternalFetcher
+User-agent: NovaAct
+User-agent: omgili
+User-agent: Operator
+User-agent: OAI-SearchBot
+User-agent: PanguBot
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Timpibot
+User-agent: Webzio-Extended
+User-agent: YouBot
+Disallow: /
+
+User-agent: *
+# The content is temporary and should not be indexed.
+Disallow: /beta/
+# The content is out of date and should not be indexed.
+Disallow: /manpages/libpcap-1.5.3/
+Disallow: /manpages/libpcap-1.6.2/
+Disallow: /manpages/libpcap-1.7.4/
+Disallow: /manpages/libpcap-1.8.1/
+Disallow: /manpages/tcpdump.1-4.4.0.html
+Disallow: /manpages/tcpdump.1-4.4.0.txt
+Disallow: /manpages/tcpdump.1-4.5.1.html
+Disallow: /manpages/tcpdump.1-4.5.1.txt
+Disallow: /manpages/tcpdump.1-4.6.2.html
+Disallow: /manpages/tcpdump.1-4.6.2.txt
+Disallow: /manpages/tcpdump.1-4.7.4.html
+Disallow: /manpages/tcpdump.1-4.7.4.txt
+Disallow: /manpages/tcpdump.1-4.8.1.html
+Disallow: /manpages/tcpdump.1-4.8.1.txt
+# The content does not exist anymore.
+Disallow: /cve/
+Disallow: /cvs-log/
+Disallow: /daily/
+Disallow: /lists/
+Disallow: /weekly/
+Disallow: /manpages/libpcap-1.9.0/
+# The content never existed.
+Disallow: /feed
+Disallow: /feeds
+Disallow: /rss
+Crawl-delay: 1
+Sitemap: https://www.tcpdump.org/sitemap.xml

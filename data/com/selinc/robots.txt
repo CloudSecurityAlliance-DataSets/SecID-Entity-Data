@@ -1,0 +1,28 @@
+User-agent: *
+Disallow: /src/
+Disallow: /sfc/
+Disallow: /products/lookup/
+Disallow: /products/my-projects/
+Disallow: /myaccount/
+Disallow: /app/invitation-tracker/
+Disallow: /app/quote/
+Disallow: /es/products/lookup/
+Disallow: /es/products/my-projects/
+Disallow: /es/myaccount/
+Disallow: /fr/products/lookup/
+Disallow: /fr/products/my-projects/
+Disallow: /fr/myaccount/
+Disallow: /pt/products/lookup/
+Disallow: /pt/products/my-projects/
+Disallow: /pt/myaccount/
+Disallow: /ru/products/lookup/
+Disallow: /ru/products/my-projects/
+Disallow: /ru/myaccount/
+Disallow: /zh/products/lookup/
+Disallow: /zh/products/my-projects/
+Disallow: /zh/myaccount/
+
+User-agent: ChatGPT-User
+Disallow: /
+
+Sitemap: https://selinc.com/sitemap.xml

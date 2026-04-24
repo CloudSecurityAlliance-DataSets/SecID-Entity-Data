@@ -1,0 +1,109 @@
+Sitemap: https://www.knime.com/sitemap.xml
+
+#
+# robots.txt
+#
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+# CSS, JS, Images
+Allow: /core/*.css$
+Allow: /core/*.css?
+Allow: /core/*.js$
+Allow: /core/*.js?
+Allow: /core/*.gif
+Allow: /core/*.jpg
+Allow: /core/*.jpeg
+Allow: /core/*.png
+Allow: /core/*.svg
+Allow: /profiles/*.css$
+Allow: /profiles/*.css?
+Allow: /profiles/*.js$
+Allow: /profiles/*.js?
+Allow: /profiles/*.gif
+Allow: /profiles/*.jpg
+Allow: /profiles/*.jpeg
+Allow: /profiles/*.png
+Allow: /profiles/*.svg
+# Directories
+Disallow: /core/
+Disallow: /profiles/
+# Files
+Disallow: /README.txt
+Disallow: /web.config
+# Paths (clean URLs)
+Disallow: /admin/
+Disallow: /comment/reply/
+Disallow: /filter/tips
+Disallow: /node/add/
+Disallow: /search/
+Disallow: /user/register
+Disallow: /user/password
+Disallow: /user/login
+Disallow: /user/logout
+Disallow: /media/oembed
+Disallow: /*/media/oembed
+# Paths (no clean URLs)
+Disallow: /index.php/admin/
+Disallow: /index.php/comment/reply/
+Disallow: /index.php/filter/tips
+Disallow: /index.php/node/add/
+Disallow: /index.php/search/
+Disallow: /index.php/user/password
+Disallow: /index.php/user/register
+Disallow: /index.php/user/login
+Disallow: /index.php/user/logout
+Disallow: /index.php/media/oembed
+Disallow: /index.php/*/media/oembed
+# Paths to downloads
+Disallow: /downloads-old
+Disallow: /downloads/new
+Disallow: /downloads/previous-versions
+Disallow: /downloads/nightly-build-downloads
+Disallow: /downloads/download-knime
+Disallow: /knime-download-thank-you
+Disallow: /partners/finder-wip
+# Legacy paths
+Disallow: /sites/default/files/2021-06/rabobank-anomaly-detection-unknown-patterns-anti-money-laundering-knime-success-story.pdf
+Disallow: /sites/default/files/2021-09/rabobank-anomaly-detection-unknown-patterns-anti-money-laundering-knime-success-story.pdf
+Disallow: /sites/default/files/2024-07/KNIME_Basics_-_Consolidated_2024-07.zip
+Disallow: /sites/default/files/2024-11/genai-with-knime-analytics-platform.pdf
+Disallow: /sites/default/files/2025-08/Agentic_AI_Learnathon_2025-08.pptx
+Disallow: /sites/default/files/2025-12/L2-DA_Data_Analytics_with_KNIME_Analytics_Platform_-_Advanced_2025-08.pptx
+Disallow: /sites/default/files/2025-12/L2-DA_Data_Analytics_with_KNIME_Analytics_Platform_-_Advanced_2025-08.knar
+Disallow: /sites/default/files/2026-01/L1-AP_-_Data_Literacy_with_KNIME_Analytics_Platform_-_Basics_2026-01.pptx
+Disallow: /sites/default/files/2026-01/L1-AP_-_Data_Literacy_with_KNIME_Analytics_Platform_-_Basics_2026-01.knar
+Disallow: /sites/default/files/2026-01/L2-DA_-_Data_Analytics_with_KNIME_Analytics_Platform_-_Advanced_2026-01.pptx
+Disallow: /sites/default/files/2026-01/L2-DA_-_Data_Analytics_with_KNIME_Analytics_Platform_-_Advanced_2026-01.knar
+Disallow: /sites/default/files/2026-01/L2-DE_-_Data_Engineering_with_KNIME_Analytics_Platform_-_Advanced_2026-01.knar
+Disallow: /sites/default/files/2026-01/L2-DE_-_Data_Engineering_with_KNIME_Analytics_Platform_-_Advanced_2026-01.pptx
+Disallow: /sites/default/files/2026-01/L2-DS_-_Data_Science_with_KNIME_Analytics_Platform_-_Advanced_2026-01.pptx
+Disallow: /sites/default/files/2026-01/L2-DS_-_Data_Science_with_KNIME_Analytics_Platform_-_Advanced_2026-01.knar
+Disallow: /sites/default/files/2026-01/Advanced_KNIME_-_Consolidated_2026-01.zip
+Disallow: /sites/default/files/2026-01/KNIME_Basics_-_Consolidated_2026-01.zip
+Disallow: /sites/default/files/2026-01/L4-TS_Time_Series_Analysis_Specialization_2025-07.pptx
+Disallow: /sites/default/files/2026-01/L4-TS_Time_Series_Analysis_Specialization_2025-07.knar
+Disallow: /sites/default/files/2026-01/L4-TS_Time_Series_Analysis_Specialization_2025-07.docx
+Disallow: /sites/default/files/2026-01/Time_Series_Analysis_-_Consolidated_2025-07.zip
+Disallow: /sites/default/files/2026-01/Introduction_to_Statistics_2026-01.knar
+Disallow: /sites/default/files/2026-01/Introduction_to_Statistics_2026-01.pptx
+Disallow: /sites/default/files/2026-03/L2-DE_-_Data_Engineering_with_KNIME_Analytics_Platform_-_Advanced_2026-02.knar
+Disallow: /sites/default/files/2026-03/L2-DA_-_Data_Analytics_with_KNIME_Analytics_Platform_-_Advanced_2026-02.knar
+Disallow: /sites/default/files/2026-03/L2-DS_-_Data_Science_with_KNIME_Analytics_Platform_-_Advanced_2026-02.knar
+Disallow: /sites/default/files/2026-03/Advanced_KNIME_-_Consolidated_2026-02.zip
+Disallow: /sites/default/files/2026-04/L3-CD_Continuous_Deployment_and_MLOps_2025-12.pptx
+Disallow: /sites/default/files/2026-04/L3-CD_Continuous_Deployment_and_MLOps_2025-12.knar
+Disallow: /sites/default/files/2026-04/L3-DA_Productionizing_Data_Apps_2025-12.knar
+Disallow: /sites/default/files/2026-04/L3-DA_Productionizing_Data_Apps_2025-12.pptx
+Disallow: /sites/default/files/2026-04/L3-DE_Productionizing_Data_Pipelines_2026-01.knar
+Disallow: /sites/default/files/2026-04/L3-DE_Productionizing_Data_Pipelines_2026-01.pptx

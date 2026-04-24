@@ -1,0 +1,7 @@
+Contact: mailto:zdi@trendmicro.com
+Expires: 2037-03-07T23:00:00.000Z
+Encryption: https://www.zerodayinitiative.com/documents/zdi-pgp-key.asc
+Acknowledgments: https://www.zerodayinitiative.com/advisories/
+Canonical: https://www.zerodayinitiative.com/.well-known/security.txt
+Canonical: https://www.zerodayinitiative.com/security.txt
+Policy: https://www.zerodayinitiative.com/advisories/disclosure_policy/

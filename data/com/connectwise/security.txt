@@ -1,0 +1,4 @@
+Contact: mailto:Disclosure@ConnectWise.com
+Policy: https://www.connectwise.com/company/trust/security/vulnerability-disclosure-policy
+Preferred-Languages: en
+Canonical: https://www.connectwise.com/.well-known/security.txt

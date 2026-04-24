@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+# Canonical URI
+Canonical: https://www.bosch.com/.well-known/security.txt
+
+# Contact
+Contact: https://psirt.bosch.com/report-a-vulnerability/
+
+# Our OpenPGP key
+Encryption: https://psirt.bosch.com/media/pgp/psirt-at-bosch-dot-com.asc
+
+# Encryption
+Encryption: https://certsrv.bosch.com/
+
+# Our security acknowledgments page
+Acknowledgments: https://psirt.bosch.com/hall-of-fame/
+
+# Our Preferred-Languages
+Preferred-Languages: en, de
+
+# Our security policy
+Policy: https://psirt.bosch.com/bosch-responsible-disclosure-policy/
+
+# Jobs at Bosch
+Hiring: https://jobs.bosch.com/
+
+# Expiry date
+Expires: 2027-01-31T00:00:00.000Z
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAEBCAAuFiEEDBl9420QZjfP2t/Jaaj6otu+SB8FAmegcj4QHHBzaXJ0QGJv
+c2NoLmNvbQAKCRBpqPqi275IHwjVEACPp3XJ6cN9hvenRk+2+48xiXZI/tH1b+35
+t7JYHhel1ftUN+tq6denI2yG8fa0zYTPHCbqcTi7UU7ePLfR5gRLMxNAYcvAQnbH
+6MjifMO+0yBY2eW0kOcyxonxiWTtJOLttkYU2Cc4nLTFE8vPCfjtAWMUf/NnShXR
+ilnNLFaOP+KP9Ri2181YLCkR3h/MIBl1scB79UfTFtQzetRSPQQBs3F68ZJEM2lX
+iufK7sRjlyrgxkdTohKGexe8UdEOszpTnk6VKddP8mwwoYfbVT1CGs53eradTDS8
+zuVXZbS2/Z+zKt+KAtXm1lQyUwiptbY52iKZ0lADmXGazRuave+6IbqhlR0gWDGc
+A5ZZl60M5mkWfqlhLQ/TNHYG5Ga5SlEwnN3S8FjaXjG13VE9FQg3Hwvu2NoRXlba
+vJQCOOCVsfpRIdYh6kCKgnvEJ/GBnHhvjhZreVTwZx5Dl/W7hooGfUExp6TVx1Yt
+VD8cNDrEW5QfCMzqt5YduygXQl78T9d2PwDsvIRGA/z3DwObBEwpGNVUjQrTAQsx
+voXKVhpdLFvqAtX/Nc108DzC93E+qPjEMLykxbh24clJEkJTOBbDuIQP+LdCfkit
+LUCfUeJKDlOBAVopzBI3OsKpgv19fbZw+EoRzAvEW1VJ7kk9ES0XyrQgduDS2v3D
+v+d/JwDFGQ==
+=6Aux
+-----END PGP SIGNATURE-----

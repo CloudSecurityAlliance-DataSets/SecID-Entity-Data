@@ -1,0 +1,5 @@
+Contact: mailto:disclosure@toreon.com
+Expires: 2025-12-30T23:00:00.000Z
+Canonical: https://www.toreon.com/.well-known/security.txt
+Policy: https://www.toreon.com/responsible-disclosure-policy/
+Hiring: https://www.toreon.com/jobs/

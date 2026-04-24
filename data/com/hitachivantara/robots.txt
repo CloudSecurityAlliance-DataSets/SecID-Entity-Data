@@ -1,0 +1,27 @@
+# /robots.txt for www.hitachivantara.com
+
+Sitemap: https://www.hitachivantara.com/sitemap-index.xml
+
+User-agent: *
+Disallow: /content/hdscorp/
+Disallow: /content/hitachi-insight/
+Disallow: */pdfd/
+Disallow: CommunityKey
+Disallow: DocumentFileKey
+Disallow: createDraftFromOnlineArticle
+Disallow: hlmlt
+Disallow: VolunteerOpportunityKey
+Disallow: BlogKey
+Disallow: ListKey
+Disallow: help.hitachivantara.com
+Disallow: /s/article/
+Disallow: executesearch
+Disallow: UserKey
+Disallow: /community/
+Disallow: go.aspx
+Disallow: ReturnUrl
+Disallow: DocumentKey
+Disallow: page=
+Disallow: cloud-www
+Disallow: returnto
+Disallow: generatedContent

@@ -1,0 +1,5 @@
+version: STSv1
+mode: enforce
+mx: mxa-00311301.gslb.pphosted.com
+mx: mxb-00311301.gslb.pphosted.com
+max_age: 777600

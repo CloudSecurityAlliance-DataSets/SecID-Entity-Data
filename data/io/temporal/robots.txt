@@ -1,0 +1,2 @@
+Sitemap: http://temporal.io/sitemap.xml
+User-agent: *

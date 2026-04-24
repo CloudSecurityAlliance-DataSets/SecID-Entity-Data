@@ -1,0 +1,5 @@
+Contact: mailto:cirt@palantir.com
+Encryption: https://www.palantir.com/gpg-key.txt
+Signature: https://www.palantir.com/security.txt.sig
+Bug Bounty: https://www.palantir.com/responsible-disclosure
+Hiring: https://www.palantir.com/careers/

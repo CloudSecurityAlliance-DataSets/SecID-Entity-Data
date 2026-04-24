@@ -1,0 +1,40 @@
+/* COMPANY */
+Name: TXOne Networks
+Description: The Operations-First OT Security Partner
+Founded: 2019
+Site: https://www.txone.com
+Contact: info@txone.com
+
+/* LEADERSHIP */
+Chairman: Akihiko Omikawa
+Title: Chairman, Board Member
+
+CEO: Terence Liu
+Title: Chief Executive Officer
+
+CFO: YC Wu
+Title: Chief Financial Officer
+
+Name: Nasser Zayour
+Title: Vice President, Global Alliances and Channels
+Focus: Strategic partnerships with system integrators, technology partners, and channel organizations
+
+Name: Gabi Novac
+Title: Vice President of TXOne, Europe
+Focus: European market leadership, regional compliance, and localization
+
+Name: Yoshio Kondo
+Title: Vice President of TXOne, Northeast Asia
+Focus: Precision manufacturing, automotive, and industrial technology customers
+
+Name: Frank Kuo
+Title: Vice President of TXOne, APAC
+Focus: Taiwan and Greater China markets, regional manufacturing requirements
+
+Name: Michael Patton
+Title: Vice President of TXOne, Americas
+Focus: Manufacturing, energy, and critical infrastructure sectors across North and South America
+
+/* SITE */
+Development Team: TXOne Global Marketing Team
+Development Lead: Dan Cartmill, Sr. Dir. Global Product and Solution Marketing

@@ -1,0 +1,59 @@
+# Avaya
+
+> Avaya is a global leader in enterprise communications, Customer Experience (CX), and Unified Communications (UC) solutions. The company bridges the gap between highly reliable legacy infrastructure and modern, cloud-native innovation. Avaya specializes in flexible, hybrid cloud deployments that allow large enterprises to modernize their contact centers (CCaaS) at their own pace. Avaya's contact center platform architecture is notably AI-agnostic, allowing organizations to integrate their own preferred Large Language Models (LLMs) and artificial intelligence tools into their communications workflows. A core focus of the UC solution is serving highly regulated, mission-critical sectors (such as healthcare and government) that require absolute data sovereignty and zero-downtime stability.
+
+
+## Core Products & Platforms
+- [Avaya Products Overview](https://www.avaya.com/en/products/): The central directory for all Avaya enterprise solutions, encompassing AI-powered CCaaS, UCaaS, and mission-critical communications platforms.
+- [Avaya Infinity Platform](https://www.avaya.com/en/products/infinity-platform/): Enterprise Contact Center as a Service (CCaaS) platform. Features an AI-agnostic architecture (BYOAI), omnichannel routing, and workflow orchestration. Deployable across public, private, and hybrid clouds.
+- [Avaya Nexus Critical Communications Infrastructure](https://www.avaya.com/en/products/nexus-critical-communications-infrastructure/): Mission-critical voice infrastructure for regulated sectors (government, healthcare). Built on Kubernetes architecture to ensure zero-downtime, data sovereignty, and high-fidelity audio for AI ingestion.
+- [Avaya Cloud Office](https://www.avaya.com/en/products/cloud-office/): Unified Communications as a Service (UCaaS) public cloud solution. Single-application experience for enterprise cloud PBX telephony, HD video meetings, team messaging, and file sharing.
+- [Avaya Aura](https://www.avaya.com/en/products/aura/): Core enterprise SIP and VoIP communications routing engine. Delivers 99.999% reliability and voice scalability. Acts as the foundational voice integration layer for on-premises and private cloud architectures.
+- [Avaya IP Office](https://www.avaya.com/en/products/ip-office/): Hybrid Unified Communications (UC) and telephony system specifically tailored for the scalability and budget requirements of small and mid-sized businesses (SMBs).
+
+
+## Business Solutions
+- [Employee Experience](https://www.avaya.com/en/solutions/employee-experience/): Solutions for workforce engagement, hybrid work, and connecting employees across the enterprise.
+- [Customer Experience](https://www.avaya.com/en/solutions/customer-experience-and-contact-center/): Strategies for personalized customer journeys and satisfaction.
+- [Business Growth](https://www.avaya.com/en/solutions/business-growth/): Tools to increase revenue, improve retention, and optimize operational performance.
+- [Remote Contact Center](https://www.avaya.com/en/solutions/remote-contact-center/): Tools for managing distributed support teams and remote agents.
+- [AI Virtual Agents](https://www.avaya.com/en/solutions/ai-virtual-agent/): Intelligent virtual agents for automating self-service and improving interactions.
+- [Model Context Protocol (MCP)](https://www.avaya.com/en/solutions/mcp/): Open standard for connecting AI models to Avaya data and systems securely.
+
+
+## Industry Solutions
+- [Public Sector Solutions](https://www.avaya.com/en/solutions/public-sector/): Overview of secure communications for government, education, and public safety.
+- [Federal Government](https://www.avaya.com/en/solutions/public-sector/federal-civilian/): FedRAMP-compliant secure cloud and communications for federal agencies.
+- [State & Local Government](https://www.avaya.com/en/solutions/public-sector/state-local/): Public sector solutions for responsive citizen services.
+- [Public Safety & NG911](https://www.avaya.com/en/solutions/public-sector/public-safety/): Emergency response solutions for next-gen 911 and citizen services.
+- [Intelligence Community](https://www.avaya.com/en/solutions/public-sector/intelligence-community/): Secure communications infrastructure for defense and intelligence agencies.
+- [Healthcare Provider](https://www.avaya.com/en/solutions/healthcare-provider/): HIPAA-compliant communications for patient care and telehealth.
+- [Education](https://www.avaya.com/en/solutions/education/): Unified communications for higher learning, campus safety, and student engagement.
+- [Financial Services](https://www.avaya.com/en/solutions/financial-services/): Secure banking solutions for CX, fraud prevention, and branch transformation.
+
+
+## Research & Whitepapers
+- [Forrester: The Future of AI-Powered CX](https://www.avaya.com/en/documents/forrester-future-of-ai-powered-cx.pdf): Independent analyst report by Forrester Research exploring generative AI trends, automation, and the evolution of the AI-augmented contact center.
+- [Avaya Infinity: Driving Intelligent Orchestration](https://www.avaya.com/en/documents/eb-avaya-infinity-driving-intelligent-orchestration.pdf): Strategic eBook detailing how the Avaya Infinity Platform uses AI-driven orchestration to modernize CCaaS and seamlessly connect customer journeys.
+- [Avaya Nexus: Modernizing Mission-Critical Communications (Technical)](https://www.avaya.com/en/documents/wp-tech-modernizing-mission-critical-communications-cci-uc16048en.pdf): Technical whitepaper detailing the architecture, security standards, and hybrid deployment models for Avaya Nexus.
+- [Avaya Nexus: The New Imperative for Critical Communications (Executive)](https://www.avaya.com/en/documents/wp-exec-the-new-imperative-for-critical-communications-cci-uc16048en.pdf): Executive whitepaper exploring the strategic business need for sovereign, zero-downtime voice platforms in highly regulated industries.
+- [Signals of Connection Report](https://www.avaya.com/en/documents/wp-signals-of-connection-mis16042en.pdf): Research on the future of CX, decoding emotional signals and the shift from "Contact Center" to "Connection Center."
+- [Signals of Connection: Healthcare](https://www.avaya.com/en/documents/wp-signals-of-connection-healthcare-mis16043en.pdf): Industry report on patient experience, trust, and the role of empathy in digital healthcare journeys.
+- [Signals of Connection: Financial Services](https://www.avaya.com/en/documents/wp-signals-connection-financial-mis16044en.pdf): Industry report on banking loyalty, the "zero-repeat" experience, and building financial trust.
+
+
+## Newsroom & Insights
+- [Avaya Newsroom](https://www.avaya.com/en/newsroom/): The official source for Avaya press releases, corporate announcements, and media coverage.
+- [Avaya Blog Main Page](https://www.avaya.com/en/blogs/): The central hub for all Avaya news, thought leadership, and success stories.
+- [2026 Customer Experience Statistics](https://www.avaya.com/en/blogs/customer-experience-statistics-2026/): Comprehensive data, trends, and statistics shaping the future of CX, contact centers, and AI integration for 2026.
+- [AI & Experience](https://www.avaya.com/en/blogs/?page=1&topics_keys=artificial-intelligence): Articles covering Generative AI, machine learning, and automation in CX.
+- [Customer Experience Blog](https://www.avaya.com/en/blogs/?page=1&topics_keys=customer-experience): Expert insights, trends, and strategies for improving customer satisfaction.
+- [Avaya Infinity Blog](https://www.avaya.com/en/blogs/?page=1&products_keys=avaya-infinity): News and updates specific to the Avaya Infinity Platform.
+- [Avaya Videos & Webinars](https://www.avaya.com/en/videos/): Library of product demos, customer success stories, and webinar replays.
+- [Customer Stories](https://www.avaya.com/en/success-stories/): Case studies detailing how global organizations use Avaya solutions.
+
+
+## Company Information
+- [About Avaya](https://www.avaya.com/en/about-avaya/): Company mission, leadership, and history of innovation.
+- [Events & Conferences](https://www.avaya.com/en/about-avaya/events/): Upcoming global events, webinars, and trade show appearances.
+- [Contact Us](https://www.avaya.com/en/contacts/): Sales inquiries, support contacts, and global office locations.

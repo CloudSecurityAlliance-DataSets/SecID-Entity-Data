@@ -1,0 +1,48 @@
+User-Agent: *
+Allow: /
+
+# Allow all current docs
+Allow: /docs/*/current
+
+# Allow docs that do not use /current
+Allow: /docs/aura
+Allow: /docs/browser
+Allow: /docs/genai
+Allow: /docs/getting-started
+Allow: /docs/kafka-streams
+
+# Index all versions of the Cypher manual and the Cypher cheat sheet
+Allow: /docs/cypher-manual
+Allow: /docs/cypher-cheat-sheet
+
+# Allow docs home and related pages
+Allow: /docs/index.html
+Allow: /docs/sitemap_index.xml
+Allow: /docs/create-applications
+Allow: /docs/connectors
+Allow: /docs/cypher
+Allow: /docs/developer-tools
+Allow: /docs/resources
+Allow: /docs/security-docs
+Allow: /docs/visualize
+
+# Allow docs/reference but don't index license or usage-data
+Allow: /docs/reference/
+Disallow: /docs/reference/license
+Disallow: /docs/reference/usage-data
+
+Allow: /videos/$
+Allow: /docs/llms.txt
+
+Disallow: /docs/labs
+Disallow: /components
+Disallow: /docs/*/*
+Disallow: /docs/*.*
+Disallow: /docs/java-reference/current/javadocs
+Disallow: /docs/api/java-driver/current/index.html?*
+Disallow: /docs/*/toc.html
+Disallow: /training_content/*
+Disallow: /tag/
+
+Sitemap: https://neo4j.com/sitemap_index.xml
+Sitemap: https://neo4j.com/docs/sitemap_index.xml

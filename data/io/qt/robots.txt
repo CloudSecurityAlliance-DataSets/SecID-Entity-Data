@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /qt-microncontrollers-mcu
+Disallow: /faq/tag/quality-assurance-tools
+Disallow: /_hcms/preview/
+Disallow: /hs/manage-preferences/
+Disallow: /hs/preferences-center/
+Disallow: /*?*hs_preview=*
+Disallow: /*?*hsCacheBuster=*

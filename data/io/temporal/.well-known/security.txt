@@ -1,0 +1,9 @@
+# security.txt file for Temporal.io
+
+Acknowledgments: Jacob LeGrone at DataDog, Mav Levin at DepthFirst.com
+Canonical: https://temporal.io/.well-known/security.txt
+Contact: mailto:security@temporal.io
+Expires: 2026-06-01T00:00:00Z
+Hiring: https://temporal.io/careers
+Policy: https://temporal.io/security/
+Preferred-Languages: en, en-au, en-gb

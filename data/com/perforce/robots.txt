@@ -1,0 +1,186 @@
+User-agent: *
+Disallow: /manuals/v14.1/*
+Disallow: /manuals/v14.2/*
+Disallow: /manuals/v15.1/*
+Disallow: /manuals/v15.2/*
+Disallow: /manuals/v16.1/*
+Disallow: /manuals/v16.2/*
+Disallow: /manuals/v17.1/*
+Disallow: /manuals/v17.2/*
+Disallow: /manuals/v18.1/*
+Disallow: /manuals/v18.2/*
+Disallow: /manuals/v19.1/*
+Disallow: /manuals/v19.2/*
+Disallow: /manuals/v19.3/swarm/*
+Disallow: /manuals/v20.1/swarm/*
+Disallow: /manuals/v20.2/swarm/*
+Disallow: /manuals/v21.1/swarm/*
+Disallow: /manuals/v21.2/swarm/*
+Disallow: /manuals/v19.2/*
+Disallow: /manuals/v20.1/*
+Disallow: /manuals/v20.2/*
+Disallow: /manuals/v21.1/*
+Disallow: /manuals/v21.2/*
+Disallow: /manuals/v22.1/*
+Disallow: /manuals/v22.2/swarm/*
+Disallow: /manuals/v22.3/swarm/*
+Disallow: /manuals/v23.1/swarm/*
+Disallow: /manuals/v23.2/swarm/*
+Disallow: /manuals/v23.3/swarm/*
+
+#Files
+Disallow: /system/files/2025-03/report-sca-automotive-report-2025.pdf
+Disallow: /sites/default/files/pdfs/AngularJS-Long-Term-Support-Terms-923.pdf
+Disallow: /sites/default/files/2025-01/eb-sap-000320.pdf
+Disallow: /sites/default/files/2025-01/delphix-ebook-multi-cloud-strategy-page-000189_v4.pdf
+Disallow: /sites/default/files/2025-01/eb-tdm-checklists-securing-and-managing-data-381.pdf
+Disallow: /sites/default/files/2025-01/eb-financial-services-377.pdf
+Disallow: /sites/default/files/2025-01/eb-guidewire-455.pdf
+Disallow: /sites/default/files/2025-01/devops-tdm-for-healthcare-1.pdf
+Disallow: /sites/default/files/2025-01/delphix-easy-guide-to-data-virtualization-v3.pdf
+Disallow: /sites/default/files/2025-01/msft_pdc_delphix_ebook_030719.pdf
+Disallow: /sites/default/files/2025-01/delphix_guide-to-data-masking_2023.pdf
+Disallow: /sites/default/files/2025-01/delphix_gge_choosing-the-right-data-masking-solution-for-devops-data_ebook_v3.pdf
+Disallow: /sites/default/files/2025-01/comparison-guide-devops-tdm-and-test-data-subsetting-405.pdf
+Disallow: /sites/default/files/2025-01/eb-reducing-compliance-risk-376.pdf
+Disallow: /sites/default/files/2025-01/wp-data-masking-361.pdf
+Disallow: /sites/default/files/2025-01/delphix_gge_selecting-the-right-devops-tdm-solution_ebook_final.pdf
+Disallow: /sites/default/files/2025-01/delphix-customer-booklet-consumer-goods-000224.pdf
+Disallow: /sites/default/files/2025-01/cb-fiserv-banking-384.pdf
+Disallow: /sites/default/files/2025-01/delphix-customer-booklet-virtualization-000230.pdf
+Disallow: /sites/default/files/2025-01/cb-accelerate-your-cloud-journey-408.pdf
+Disallow: /sites/default/files/2025-01/delphix-customer-booklet-healthcare-000228.pdf
+Disallow: /sites/default/files/2025-01/delphix-customer-booklet-cx-transformation-000225.pdf
+Disallow: /sites/default/files/2025-01/ebook-guide-to-application-411.pdf
+Disallow: /sites/default/files/2025-01/delphix-ebook-oracle-ebs-000326.pdf
+Disallow: /sites/default/files/2025-01/cb-protect-sensitive-data-358.pdf
+
+#Sitemap
+Sitemap: https://www.perforce.com/index/sitemap.xml
+#
+# robots.txt
+#
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+# CSS, JS, Images
+Allow: /core/*.css$
+Allow: /core/*.css?
+Allow: /core/*.js$
+Allow: /core/*.js?
+Allow: /core/*.gif
+Allow: /core/*.jpg
+Allow: /core/*.jpeg
+Allow: /core/*.png
+Allow: /core/*.svg
+Allow: /profiles/*.css$
+Allow: /profiles/*.css?
+Allow: /profiles/*.js$
+Allow: /profiles/*.js?
+Allow: /profiles/*.gif
+Allow: /profiles/*.jpg
+Allow: /profiles/*.jpeg
+Allow: /profiles/*.png
+Allow: /profiles/*.svg
+# Directories
+Disallow: /core/
+Disallow: /profiles/
+# Files
+Disallow: /README.md
+Disallow: /composer/Metapackage/README.txt
+Disallow: /composer/Plugin/ProjectMessage/README.md
+Disallow: /composer/Plugin/Scaffold/README.md
+Disallow: /composer/Plugin/VendorHardening/README.txt
+Disallow: /composer/Template/README.txt
+Disallow: /modules/README.txt
+Disallow: /sites/README.txt
+Disallow: /themes/README.txt
+Disallow: /web.config
+# Paths (clean URLs)
+Disallow: /admin/
+Disallow: /comment/reply/
+Disallow: /filter/tips
+Disallow: /node/add/
+Disallow: /search/
+Disallow: /user/register
+Disallow: /user/password
+Disallow: /user/login
+Disallow: /user/logout
+Disallow: /media/oembed
+Disallow: /*/media/oembed
+# Paths (no clean URLs)
+Disallow: /index.php/admin/
+Disallow: /index.php/comment/reply/
+Disallow: /index.php/filter/tips
+Disallow: /index.php/node/add/
+Disallow: /index.php/search/
+Disallow: /index.php/user/password
+Disallow: /index.php/user/register
+Disallow: /index.php/user/login
+Disallow: /index.php/user/logout
+Disallow: /index.php/media/oembed
+Disallow: /index.php/*/media/oembed
+
+# Disallow Specific Query String Parameters
+Disallow: /*&utm_source*
+Disallow: /*&utm_medium*
+Disallow: /*&utm_campaign*
+Disallow: /*&utm_content*
+Disallow: /*&utm_leadersource*
+Disallow: /*&field=*
+Disallow: /*?utm_source*
+Disallow: /*?utm_medium*
+Disallow: /*?utm_campaign*
+Disallow: /*?utm_content*
+Disallow: /*?utm_leadersource*
+Disallow: /*?field=*
+Disallow: /*?field_*
+Disallow: /*?replytocom=*
+Disallow: /*?hsFormKey=*
+Disallow: /*?wvideo=*
+Disallow: /*?wtime=*
+Disallow: /*?goback=*
+Disallow: /*??*
+Disallow: /*?gni=*
+Disallow: /*?fromStream=*
+Disallow: /*?gnk=*
+Disallow: /*?hsCtaTracking=*
+Disallow: /*?(RoW2)=*
+Disallow: /*?mkt_tok=*
+Disallow: /*?r=*
+Disallow: /*?__hstc=*
+Disallow: /*?trk=*
+Disallow: /*?nonamp=*
+Disallow: /*?NA=*
+Disallow: /*?(NA)=*
+Disallow: /*?ref=*
+Disallow: /*?hss_channel=*
+Disallow: /*?PRID=*
+Disallow: /*?sc=*
+Disallow: /*?paper=*
+Disallow: /*?platform=*
+Disallow: /*?path=*
+Disallow: /*?Gen-MD=*
+Disallow: /*?source=*
+Disallow: /*?v=*
+Disallow: /*?en-=*
+Disallow: /*?mgs1=*
+Disallow: /*?examples=*
+Disallow: /*?turl=*
+Disallow: /*?EntryId=*
+Disallow: /search/results?*
+Disallow: /success/*
+Disallow: /user/*
+
+# Marketo Forms
+Disallow: /marketo/form/perforce_marketo_form/*

@@ -1,0 +1,34 @@
+User-agent: *
+Allow: /kr/
+Allow: /uk/
+Allow: /ca/
+Allow: /au/
+Allow: /es/
+Allow: /it/
+Allow: /fr/
+Allow: /nl/
+Allow: /pl/
+Allow: /de/
+Allow: /jp/
+Allow: /een/
+Allow: /meta/
+Allow: /latam/
+
+User-agent: * 
+Disallow:
+
+Sitemap: https://www.extremenetworks.com/sitemap.xml
+Sitemap: https://www.extremenetworks.com/au/sitemap.xml
+Sitemap: https://www.extremenetworks.com/es/sitemap.xml
+Sitemap: https://www.extremenetworks.com/fr/sitemap.xml
+Sitemap: https://www.extremenetworks.com/de/sitemap.xml
+Sitemap: https://www.extremenetworks.com/jp/sitemap.xml
+Sitemap: https://www.extremenetworks.com/kr/sitemap.xml
+Sitemap: https://www.extremenetworks.com/uk/sitemap.xml
+Sitemap: https://www.extremenetworks.com/ca/sitemap.xml
+Sitemap: https://www.extremenetworks.com/it/sitemap.xml
+Sitemap: https://www.extremenetworks.com/nl/sitemap.xml
+Sitemap: https://www.extremenetworks.com/pl/sitemap.xml
+Sitemap: https://www.extremenetworks.com/een/sitemap.xml
+Sitemap: https://www.extremenetworks.com/meta/sitemap.xml
+Sitemap: https://www.extremenetworks.com/latam/sitemap.xml

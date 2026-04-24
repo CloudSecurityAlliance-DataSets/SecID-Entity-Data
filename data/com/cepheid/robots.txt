@@ -1,0 +1,7 @@
+User-agent: * 
+
+Allow: / 
+
+Disallow: /content/dam/www-cepheid-com/documents/
+
+Sitemap: https://www.cepheid.com/sitemap.xml

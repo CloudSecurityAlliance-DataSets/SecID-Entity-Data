@@ -1,0 +1,46 @@
+# Software.com
+
+> Software.com automates data to measure and benchmark critical areas of investment in software development and R\&D. Get actionable, quantitative insights to unlock developer productivity and accelerate innovation.
+
+Key Benefits:
+
+- Accelerate AI adoption by identifying which GenAI tools and initiatives are driving the biggest productivity improvements  
+- Remove engineering bottlenecks with actionable data to help teams identify and unblock their top constraints  
+- Improve developer experience by surfacing insights on hidden productivity drains, like high rework and failing deployments
+
+Features: 
+
+- Fully automated KPIs that work across teams without requiring extra configuration or changes to your development process  
+- Bottleneck analysis that uncovers high-impact areas, making it easy for every team to take action without being buried in dashboards or data  
+- Metrics engine that monitors and detects new opportunities, helping you continuously improve productivity  
+- Fast, easy setup (just connect a Git provider) and a two-week free trial  
+- Support for major Git providers, including GitHub, GitLab, Bitbucket, and Azure DevOps
+
+## Platform
+
+- [Overview](https://www.software.com/product): Overview of the Software.com platform, detailing its capabilities in automating data for software development and R\&D  
+- [Integrations](https://www.software.com/integrations): Catalog of supported integrations for automating engineering metrics  
+- [Security](https://www.software.com/security): Hub for security-related information, including SOC 2 compliance and protocols in place to protect user data
+
+## How to Get Started
+
+- [Sign up](https://app.software.com/signup): Sign up to try out the product today  
+- [Get a demo](https://www.software.com/demo): Contact the team for a demo  
+- [Pricing](https://www.software.com/pricing): Overview of pricing plans, from self-serve to custom enterprise plans
+
+## Research and Insights
+
+- [Software Development KPIs](https://www.software.com/guides/how-to-measure-software-development-performance): Guide to the metrics that every engineering leader should measure  
+- [Future of Work\](https://www.software.com/reports/future-of-work): Data on the impact of remote work on software development  
+- [Code Time Report\](https://www.software.com/reports/code-time-report): Data on engineering friction, productivity, and flow from 250K+ developers  
+- [Blog](https://www.software.com/src): Content on developer productivity, engineering data, and product announcements
+
+## Code Time
+
+- [Overview](https://www.software.com/product/code-time): Learn how to stay in flow and decrease interrupts with Code Time  
+- [Supported code editors and IDEs](https://www.software.com/code-editors): Choose from 20+ integrations and install Code Time everywhere you code
+
+## Company
+
+- [About](https://www.software.com/about): Information about Software.com, our mission, and the team behind the platform  
+- [News](https://www.software.com/news): Updates and announcements about Software.com

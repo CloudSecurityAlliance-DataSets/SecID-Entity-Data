@@ -1,0 +1,24 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Contact: mailto:security@octopus.com
+Contact: https://bugcrowd.com/octopus-og
+Expires: 2026-02-03T01:05:00.000Z
+Encryption: https://g.octopushq.com/publickey
+Preferred-Languages: en
+Policy: https://g.octopushq.com/disclosure
+Canonical: https://octopus.com/.well-known/security.txt
+Hiring: https://g.octopushq.com/jobs
+-----END PGP SIGNED MESSAGE-----
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEvKQyVkSIckQvOwP3lphS92OVTmwFAmegUhAACgkQlphS92OV
+TmyjoAf/dNnr93AKlEGU7/RVQJKo7Z03x7/SL4X2DqBg5zxXXbnkuBEvzo6Nne2k
+jdd3pY8j4reEPQMlP5iqgOKXtL+lpo+bOIPvKJ3IKywLTfO9uZMNNpFoVBsMoZfx
+uhdjJErW9YQM2Ki//m3qZWe7I/qJ7/U9cNqLI4/NTtOUgn06Bg9vh7tVKhnd+8JS
+WpOTM5dIItDlLdgmKk+2J2YBhpMfffv9tOzC9s9LPKZXQUkvU84YW62mdP1nmY7G
+L+4rRsrYkA4KmurLYQ+7sY8MnswZYt827F/QYNvSPitp7x9RLGFatqzji6bWbOTl
+B8SScmifXIIGx9UxzMbHi4KxfBhftQ==
+=ME2O
+-----END PGP SIGNATURE-----

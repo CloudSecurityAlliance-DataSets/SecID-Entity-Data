@@ -1,0 +1,213 @@
+# YugabyteDB
+
+> The open source distributed PostgreSQL database. PostgreSQL-compatible (v15 wire protocol), horizontally scalable, built-in resilience and automatic failover. Apache 2.0 licensed. Built by ex-Facebook engineers. Inspired by Google Spanner architecture.
+
+YugabyteDB is a cloud-native distributed SQL database that combines strong consistency with horizontal scalability, built-in resilience, and geo-distribution. It reuses the PostgreSQL query layer for full SQL compatibility while replacing the storage layer with DocDB, a custom fork of RocksDB with Raft consensus replication. This means your existing PostgreSQL applications, drivers, ORMs, and extensions work with YugabyteDB — but your data is automatically sharded, replicated, and distributed across nodes.
+
+## Quick Reference
+
+```
+Product:                  YugabyteDB
+Type:                     Distributed SQL database
+PostgreSQL compatibility: v15 wire protocol, SQL syntax, extensions
+Default YSQL port:        5433 (NOT 5432 — this is the most common mistake)
+Default YCQL port:        9042 (Cassandra-compatible API)
+Default user:             yugabyte
+Default password:         yugabyte
+Default database:         yugabyte
+Connection string:        postgresql://yugabyte@localhost:5433/yugabyte
+Docker quickstart:        docker run -d -p 5433:5433 -p 7000:7000 yugabytedb/yugabyte:latest bin/yugabyted start --background=false
+Admin UI:                 http://localhost:7000 (YB-Master), http://localhost:9000 (YB-TServer)
+License:                  Apache 2.0
+Current stable release:   v2025.2 (LTS)
+Current preview release:  v2.25
+Storage engine:           DocDB (custom RocksDB fork)
+Consensus protocol:       Raft (per-shard)
+Architecture:             Google Spanner-inspired
+GitHub:                   https://github.com/yugabyte/yugabyte-db
+GitHub stars:             10,000+
+```
+
+## Connection Examples
+
+### Python (psycopg2)
+```python
+import psycopg2
+conn = psycopg2.connect(
+    host="localhost",
+    port=5433,
+    dbname="yugabyte",
+    user="yugabyte",
+    password="yugabyte"
+)
+```
+
+### Node.js (pg)
+```javascript
+const { Pool } = require('pg');
+const pool = new Pool({
+    host: 'localhost',
+    port: 5433,
+    database: 'yugabyte',
+    user: 'yugabyte',
+    password: 'yugabyte'
+});
+```
+
+### Java (JDBC)
+```java
+String url = "jdbc:postgresql://localhost:5433/yugabyte";
+Connection conn = DriverManager.getConnection(url, "yugabyte", "yugabyte");
+```
+
+### Go (pgx)
+```go
+connStr := "postgres://yugabyte:yugabyte@localhost:5433/yugabyte"
+conn, err := pgx.Connect(context.Background(), connStr)
+```
+
+### Connection String for YugabyteDB Aeon (managed cloud)
+```
+postgresql://<user>:<password>@<host>:5433/yugabyte?ssl=true&sslmode=verify-full&sslrootcert=<path-to-ca-cert>
+```
+
+## Getting Started
+
+- [Quick Start (macOS)](https://docs.yugabyte.com/stable/quick-start/macos/): Install and run locally
+- [Quick Start (Linux)](https://docs.yugabyte.com/stable/quick-start/linux/): Install and run locally
+- [Quick Start (Docker)](https://docs.yugabyte.com/stable/quick-start/docker/): Run in Docker
+- [Quick Start (Kubernetes)](https://docs.yugabyte.com/stable/quick-start/kubernetes/): Deploy on K8s
+- [Quick Start (Aeon / Cloud)](https://docs.yugabyte.com/stable/quick-start-yugabytedb-managed/): Free managed cluster
+- [Download](https://download.yugabyte.com/): All platforms and versions
+- [Build Your First App](https://docs.yugabyte.com/stable/tutorials/build-apps/): Tutorials in 10+ languages
+
+## Deployment Options
+
+- [YugabyteDB Aeon](https://cloud.yugabyte.com/signup): Fully managed cloud database-as-a-service. Free tier. AWS, Azure, GCP. No credit card required.
+- [YugabyteDB Anywhere](https://www.yugabyte.com/anywhere/): Self-managed database-as-a-service on your infrastructure (public cloud, private cloud, on-prem, Kubernetes).
+- [Open Source](https://github.com/yugabyte/yugabyte-db): Self-hosted. Apache 2.0 license. Full enterprise features.
+- [Compare Options](https://www.yugabyte.com/compare-products/): Feature comparison across all deployment options.
+- [Pricing](https://www.yugabyte.com/pricing/): Plans and pricing for managed offerings.
+
+## Supported Extensions
+
+YugabyteDB supports many PostgreSQL extensions. Key extensions include:
+
+- **pgvector** — Vector similarity search (HNSW indexing, distributed across nodes, benchmarked to 1 billion vectors)
+- **PostGIS** — Geospatial data types and functions
+- **pg_stat_statements** — Query performance statistics
+- **pg_trgm** — Trigram matching for text search
+- **uuid-ossp** — UUID generation
+- **hstore** — Key-value store within a single value
+- **pgcrypto** — Cryptographic functions
+- **pg_hint_plan** — Query plan hinting
+- **orafce** — Oracle compatibility functions
+
+Full list: https://docs.yugabyte.com/stable/explore/ysql-language-features/pg-extensions/
+
+## AI & Vector Search
+
+YugabyteDB provides distributed vector search via the pgvector extension, with vectors automatically distributed across cluster nodes. This enables vector search at scales that single-node PostgreSQL cannot handle.
+
+Key capabilities:
+- HNSW and IVFFlat index types
+- Distributed vector indexes across cluster (not single-node)
+- Benchmarked to 1 billion vectors (Deep1B dataset)
+- Vector + SQL queries in a single statement (filter, join, aggregate)
+- Cosine similarity, L2 distance, inner product distance functions
+
+### AI Integrations
+
+- **MCP Server**: [YugabyteDB MCP Server](https://docs.yugabyte.com/stable/develop/tutorials/ai/mcp-server/) — Connect AI agents (Claude, Cursor, VS Code, Windsurf) to your database via natural language. Python-based, uses `uv`.
+- **Docs MCP Server**: yugabyte.mcp.kapa.ai — Query YugabyteDB documentation from your IDE via MCP.
+- **LangChain**: [Tutorial](https://docs.yugabyte.com/stable/develop/ai/ai-langchain-openai/) — RAG pipeline with YugabyteDB as vector store
+- **LlamaIndex**: [Tutorial](https://docs.yugabyte.com/stable/develop/ai/ai-llamaindex-openai/) — RAG pipeline with LlamaIndex
+- **LocalAI**: [Tutorial](https://docs.yugabyte.com/stable/develop/ai/ai-localai/) — Run LLMs locally with YugabyteDB
+- **AWS Bedrock**: Integration supported
+- **Google Vertex AI**: Integration supported
+- **Ollama**: Supported for local LLM inference
+- **n8n**: [AI workflow tutorial](https://www.yugabyte.com/blog/ai-workflows-using-n8n-and-yugabytedb/)
+
+### MCP Server Configuration (Claude Desktop)
+
+```json
+{
+  "mcpServers": {
+    "yugabytedb-mcp": {
+      "command": "uv",
+      "args": [
+        "--directory", "/path/to/cloned/yugabytedb-mcp-server/",
+        "run", "src/server.py"
+      ],
+      "env": {
+        "YUGABYTEDB_URL": "dbname=yugabyte host=localhost port=5433 user=yugabyte password=yugabyte"
+      }
+    }
+  }
+}
+```
+
+## APIs
+
+- [YSQL Reference](https://docs.yugabyte.com/stable/api/ysql/): PostgreSQL-compatible SQL API. Supports datatypes, functions, operators, stored procedures, triggers, extensions, roles, row-level security.
+- [YCQL Reference](https://docs.yugabyte.com/stable/api/ycql/): Cassandra-compatible API (CQL). Semi-relational with document/JSON support.
+- [ysqlsh](https://docs.yugabyte.com/stable/api/ysqlsh/): PostgreSQL-compatible command-line shell (like psql)
+- [ycqlsh](https://docs.yugabyte.com/stable/api/ycqlsh/): Cassandra-compatible command-line shell
+
+## Drivers & ORMs
+
+YugabyteDB provides "Smart Drivers" with built-in cluster awareness, load balancing, and topology-aware routing. Standard PostgreSQL drivers also work.
+
+- [Java (YugabyteDB JDBC)](https://docs.yugabyte.com/stable/drivers-orms/java/): Smart driver + Hibernate, Spring Data
+- [Python (psycopg2, asyncpg)](https://docs.yugabyte.com/stable/drivers-orms/python/): Smart driver + Django, SQLAlchemy
+- [Go (pgx, YugabyteDB Go)](https://docs.yugabyte.com/stable/drivers-orms/go/): Smart driver + GORM
+- [Node.js (node-postgres)](https://docs.yugabyte.com/stable/drivers-orms/nodejs/): Smart driver + Sequelize, Prisma
+- [C# (.NET)](https://docs.yugabyte.com/stable/drivers-orms/csharp/): Npgsql smart driver + Entity Framework
+- [Ruby (pg gem)](https://docs.yugabyte.com/stable/drivers-orms/ruby/): ActiveRecord
+- [Rust (rust-postgres)](https://docs.yugabyte.com/stable/drivers-orms/rust/): Diesel
+- [C / C++](https://docs.yugabyte.com/stable/drivers-orms/c/): libpq compatible
+- [PHP](https://docs.yugabyte.com/stable/drivers-orms/php/): Laravel
+
+Full list: https://docs.yugabyte.com/stable/drivers-orms/
+
+## Architecture
+
+- **Storage Engine**: DocDB — custom RocksDB fork optimized for distributed workloads. LSM-tree based.
+- **Consensus**: Raft protocol per shard for both data replication and leader election.
+- **Sharding**: Automatic hash and range sharding. Auto-rebalancing on node add/remove.
+- **Transactions**: Distributed ACID transactions using hybrid logical clocks. Snapshot, serializable, and read committed isolation levels.
+- **Replication Factor**: Configurable (default RF=3). Tolerates floor((RF-1)/2) node failures.
+- **Multi-region**: Synchronous replication across regions. Geo-partitioning. Active-active with xCluster.
+- **Scaling**: Add nodes online. Automatic shard rebalancing. Linear write scalability.
+
+Documentation: https://docs.yugabyte.com/stable/architecture/
+
+## Comparisons
+
+- [vs PostgreSQL](https://docs.yugabyte.com/stable/faq/comparisons/postgresql/): Same SQL, distributed storage and replication
+- [vs CockroachDB](https://docs.yugabyte.com/stable/faq/comparisons/cockroachdb/): Both Spanner-inspired; YugabyteDB has broader PG extension support
+- [vs Amazon Aurora](https://docs.yugabyte.com/stable/faq/comparisons/amazon-aurora/): Aurora is single-region primary; YugabyteDB is multi-region distributed
+- [vs Google Spanner](https://docs.yugabyte.com/stable/faq/comparisons/google-spanner/): Spanner is proprietary; YugabyteDB is open source with PG compatibility
+- [vs MongoDB](https://docs.yugabyte.com/stable/faq/comparisons/mongodb/): Document vs relational; YugabyteDB offers stronger consistency
+- [vs TiDB](https://docs.yugabyte.com/stable/faq/comparisons/tidb/): TiDB is MySQL-compatible; YugabyteDB is PostgreSQL-compatible
+- [All Comparisons](https://docs.yugabyte.com/stable/faq/comparisons/): Full list
+
+## Documentation
+
+- [Docs Home](https://docs.yugabyte.com/): Main documentation site
+- [FAQ](https://docs.yugabyte.com/stable/faq/general/): Common questions
+- [Configuration Reference](https://docs.yugabyte.com/stable/reference/configuration/): yb-tserver, yb-master, yugabyted flags
+- [Default Ports](https://docs.yugabyte.com/stable/reference/configuration/default-ports/): All port assignments
+- [Troubleshooting](https://docs.yugabyte.com/stable/troubleshoot/): Common issues and solutions
+- [Release Notes](https://docs.yugabyte.com/stable/releases/ybdb-releases/): Current and past releases
+- [Migration (Voyager)](https://docs.yugabyte.com/stable/yugabyte-voyager/): Migrate from Oracle, MySQL, PostgreSQL
+
+## Community
+
+- [Slack](https://inviter.co/yugabytedb): 10,000+ members
+- [Discord](https://discord.gg/GWcSST7GqZ): AI and agent development community
+- [GitHub](https://github.com/yugabyte/yugabyte-db): Source code, issues, contributions. See AGENTS.md for AI coding agent guidance.
+- [Forum](https://forum.yugabyte.com/): Technical discussions
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/yugabyte-db): Q&A
+- [YouTube](https://www.youtube.com/@YugabyteDB): Tutorials, demos, tech talks
+- [Yugabyte University](https://university.yugabyte.com/): Free courses and certifications

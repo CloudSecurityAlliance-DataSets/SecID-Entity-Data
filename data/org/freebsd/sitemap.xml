@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://www.freebsd.org/en/sitemap.xml</loc>
+    
+      <lastmod>2026-04-23T17:20:05+02:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://www.freebsd.org/ru/sitemap.xml</loc>
+    
+      <lastmod>2026-04-22T23:45:56+07:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://www.freebsd.org/zh-tw/sitemap.xml</loc>
+    
+      <lastmod>2025-12-21T13:29:19-05:00</lastmod>
+    
+  </sitemap>
+  
+</sitemapindex>

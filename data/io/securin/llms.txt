@@ -1,0 +1,55 @@
+# Securin
+
+> Securin is a cybersecurity company specializing in continuous attack surface reduction, vulnerability intelligence, and penetration testing. It helps organizations identify, prioritize, and remediate vulnerabilities before attackers can exploit them.
+
+Securin serves enterprise security teams with AI-powered vulnerability management, real-time CVE research, zero-day disclosures, ransomware intelligence, and hands-on penetration testing services. All research and advisories are published openly and indexed for public access.
+
+## Products & Services
+
+- [Attack Surface Management](https://www.securin.io/attack-surface-management): Continuous visibility into known and unknown assets and exposures across your attack surface.
+- [Vulnerability Intelligence](https://www.securin.io/vulnerability-intelligence): Timely, contextual, and predictive vulnerability insights powered by AI research.
+- [Vulnerability Management](https://www.securin.io/vulnerability-management): Continuous threat analysis and remediation prioritization for enterprise environments.
+- [Penetration Testing](https://www.securin.io/penetration-testing): Expert-led offensive security testing to validate defenses before attackers exploit them.
+- [Network & Infrastructure Penetration Testing](https://www.securin.io/network-infrastructure-penetration-testing): Targeted pen testing for network infrastructure and internal systems.
+- [Network & Application Vulnerability Management](https://www.securin.io/network-application-vulnerability-management): Unified vulnerability management across networks and web applications.
+- [AI Research & Development](https://www.securin.io/ai-research-and-development): Securin's AI-driven research into vulnerability prediction and threat intelligence.
+
+## Use Cases
+
+- [Continuous Attack Surface Reduction](https://www.securin.io/continous-attack-surface-reduction): Reduce exposure continuously with automated discovery and risk prioritization.
+- [Vulnerability Prioritization](https://www.securin.io/vulnerability-prioritization): Focus remediation effort on the vulnerabilities that matter most using predictive scoring.
+- [Ransomware & Exploitable Vulnerability Management](https://www.securin.io/assets-with-known-ransomware-exploitable-vulnerabilities): Identify and manage assets with known ransomware-exploitable vulnerabilities.
+- [Meet Compliance Requirements](https://www.securin.io/meet-your-compliance-requirements): Align vulnerability management practices with regulatory and compliance frameworks.
+
+## Security Research & Intelligence
+
+- [Zero-Day Advisories](https://www.securin.io/zero-days): Original zero-day vulnerability disclosures researched and published by Securin.
+- [Vulnerability Notices](https://www.securin.io/vulnerability-notices): Detailed CVE-level advisories covering severity, exploitability, and remediation guidance.
+- [Articles](https://www.securin.io/articles): In-depth security research articles covering threat actors, CVEs, ransomware, and attack trends.
+- [Glossary](https://www.securin.io/glossary): Definitions of cybersecurity terms, vulnerability types, and industry concepts.
+- [Search](https://www.securin.io/search): Search across all Securin content — articles, zero-days, CVE advisories, and reports.
+
+## Reports & Downloads
+
+- [Ransomware Report 2025](https://www.securin.io/ransomware-report-2025): Annual analysis of ransomware trends, top CVEs exploited, and threat actor activity.
+- [Ransomware Report 2024](https://www.securin.io/ransomware-index-report-2024-download): Mid-year ransomware index covering exploitability and active exploitation data.
+- [State of Cybersecurity in America](https://www.securin.io/the-state-of-cybersecurity-in-america): National-level analysis of vulnerability exposure and remediation gaps.
+- [CISA Critical Infrastructure Report 2024](https://www.securin.io/cisa-sectors-critical-infrastructure-2024-website): Vulnerability landscape across CISA-designated critical infrastructure sectors.
+- [Medical Devices & Healthcare Cybersecurity](https://www.securin.io/2023-state-of-cybersecurity-for-medical-devices-and-healthcare-systems): Research into cybersecurity risks in healthcare systems and connected medical devices.
+- [All Reports](https://www.securin.io/reports): Full library of Securin research reports and threat intelligence publications.
+
+## Company
+
+- [About Securin](https://www.securin.io/about-us): Company background, mission, certifications (ISO 27001, SOC 2, OSCP, CREST), and team.
+- [Partners](https://www.securin.io/partners): Technology and channel partner ecosystem.
+- [Careers](https://www.securin.io/careers): Open roles at Securin.
+- [Patents](https://www.securin.io/patents): Securin's intellectual property and patented technologies.
+- [Contact](https://www.securin.io/contact-us): Get in touch with the Securin team.
+
+## Optional
+
+- [Press Releases](https://www.securin.io/press-releases): Company news and announcements.
+- [Media Coverage](https://www.securin.io/media-coverage): Securin features and mentions in the press.
+- [Privacy Policy](https://www.securin.io/privacy-policy): Data handling and privacy practices.
+- [Customer Agreements](https://www.securin.io/customer-agreements): Terms and service agreements.
+- [Disclosure Policy](https://www.securin.io/disclosure-policy): Securin's responsible vulnerability disclosure policy.
